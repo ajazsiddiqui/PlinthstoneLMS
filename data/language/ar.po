@@ -1,0 +1,2550 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-01-08 23:29+0530\n"
+"PO-Revision-Date: 2018-01-08 23:56+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ../../module/\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Poedit-KeywordsList: translate\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Application/src/Service/NavManager - Copy.php:48
+#: Application/src/Service/NavManager.php:50
+#: Application/view/application/index/index.phtml:2
+#: Application/view/application/index/index.phtml:6
+#, fuzzy
+msgid "Dashboard"
+msgstr "لوحة التحكم"
+
+#: Application/src/Service/NavManager - Copy.php:57
+#: Application/src/Service/NavManager.php:59 User/view/user/auth/login.phtml:2
+#: User/view/user/auth/login.phtml:68
+#, fuzzy
+msgid "Sign in"
+msgstr "تسجيل الدخول"
+
+#: Application/src/Service/NavManager - Copy.php:70
+#: Application/src/Service/NavManager.php:72
+#, fuzzy
+msgid "Manage Folders"
+msgstr "إدارة المجلدات"
+
+#: Application/src/Service/NavManager - Copy.php:78
+#: Application/src/Service/NavManager.php:80
+#, fuzzy
+msgid "Manage Attachments"
+msgstr "إدارة المرفقات"
+
+#: Application/src/Service/NavManager - Copy.php:86
+#: Application/src/Service/NavManager.php:88
+#, fuzzy
+msgid "Manage Brochures"
+msgstr "إدارة"
+
+#: Application/src/Service/NavManager - Copy.php:94
+#: Application/src/Service/NavManager.php:96
+#, fuzzy
+msgid "Manage Layouts"
+msgstr "إدارة تخطيطات"
+
+#: Application/src/Service/NavManager - Copy.php:102
+#: Application/src/Service/NavManager.php:104
+#, fuzzy
+msgid "Folder Manager"
+msgstr "إدارة المجلدات"
+
+#: Application/src/Service/NavManager - Copy.php:116
+#: Application/src/Service/NavManager.php:118
+#: Projects/view/projects/inventory/index.phtml:2
+#: Projects/view/projects/inventory/index.phtml:5
+#, fuzzy
+msgid "Inventory"
+msgstr "المخزون"
+
+#: Application/src/Service/NavManager - Copy.php:124
+#: Application/src/Service/NavManager.php:126
+#, fuzzy
+msgid "Projects Setup"
+msgstr "إعداد"
+
+#: Application/src/Service/NavManager - Copy.php:132
+#: Application/src/Service/NavManager.php:134
+#, fuzzy
+msgid "Building Setup"
+msgstr "إعداد"
+
+#: Application/src/Service/NavManager - Copy.php:140
+#: Application/src/Service/NavManager.php:142
+#, fuzzy
+msgid "Flats Setup"
+msgstr "إعداد"
+
+#: Application/src/Service/NavManager - Copy.php:148
+#: Application/src/Service/NavManager.php:150
+#: Projects/view/projects/projects/add.phtml:5
+#: Projects/view/projects/projects/details.phtml:5
+#: Projects/view/projects/projects/edit.phtml:5
+#: Projects/view/projects/projects/index.phtml:2
+#: Projects/view/projects/projects/index.phtml:5
+#: Reports/view/reports/reports/index.phtml:20
+#: Reports/view/reports/reports/index.phtml:62
+#: Reports/view/reports/reports/index.phtml:99
+#: Reports/view/reports/reports/index.phtml:131
+#: Reports/view/reports/reports/index.phtml:165
+#: Reports/view/reports/reports/index.phtml:204
+#, fuzzy
+msgid "Projects"
+msgstr "المشاريع"
+
+#: Application/src/Service/NavManager - Copy.php:159 Copy.php:191
+#: Application/src/Service/NavManager.php:161
+#: Application/src/Service/NavManager.php:193
+#: Campaigns/view/campaigns/campaign/index.phtml:36
+#: Leads/view/leads/leads/add.phtml:5 Leads/view/leads/leads/details.phtml:5
+#: Leads/view/leads/leads/edit.phtml:5 Leads/view/leads/leads/index.phtml:2
+#: Leads/view/leads/leads/index.phtml:5
+#: Leads/view/leads/leads/quicklead.phtml:5
+#, fuzzy
+msgid "Leads"
+msgstr "زبائن محتملين"
+
+#: Application/src/Service/NavManager - Copy.php:167
+#: Application/src/Service/NavManager.php:169
+#, fuzzy
+msgid "FollowUps"
+msgstr "له جديد:"
+
+#: Application/src/Service/NavManager - Copy.php:175
+#: Application/src/Service/NavManager.php:177
+#: Application/view/application/index/index.phtml:368
+#: Bookings/view/bookings/bookings/edit.phtml:5
+#: Bookings/view/bookings/bookings/index.phtml:2
+#: Bookings/view/bookings/bookings/index.phtml:5
+#: Campaigns/view/campaigns/campaign/index.phtml:38
+#, fuzzy
+msgid "Bookings"
+msgstr "الحجوزات"
+
+#: Application/src/Service/NavManager - Copy.php:183
+#: Application/src/Service/NavManager.php:185
+#: Walkins/view/walkins/walkins/index.phtml:2
+#: Walkins/view/walkins/walkins/index.phtml:5
+#, fuzzy
+msgid "Walkins"
+msgstr "أنا العميل (والكينز)ـ"
+
+#: Application/src/Service/NavManager - Copy.php:198
+#: Application/src/Service/NavManager.php:200
+#: Campaigns/view/campaigns/campaign/index.phtml:2
+#: Campaigns/view/campaigns/campaign/index.phtml:5
+#, fuzzy
+msgid "Campaigns"
+msgstr "حملات"
+
+#: Application/src/Service/NavManager - Copy.php:207 Copy.php:223
+#: Application/src/Service/NavManager.php:209
+#: Application/src/Service/NavManager.php:225
+#: Customers/view/customers/customers/add.phtml:5
+#: Customers/view/customers/customers/edit.phtml:5
+#: Customers/view/customers/customers/index.phtml:2
+#: Customers/view/customers/customers/index.phtml:5
+#, fuzzy
+msgid "Customers"
+msgstr "الزبائن"
+
+#: Application/src/Service/NavManager - Copy.php:215
+#: Application/src/Service/NavManager.php:217
+#: Customers/view/customers/partner-meeting/index.phtml:2
+#, fuzzy
+msgid "Partners Meeting"
+msgstr "الشركاء في اجتماع"
+
+#: Application/src/Service/NavManager - Copy.php:235
+#: Application/src/Service/NavManager.php:237
+#, fuzzy
+msgid "Manage Amenities"
+msgstr "إدارة"
+
+#: Application/src/Service/NavManager - Copy.php:243
+#: Application/src/Service/NavManager.php:245
+#: Masters/view/masters/building-status/add.phtml:5
+#: Masters/view/masters/building-status/edit.phtml:5
+#: Masters/view/masters/building-status/index.phtml:2
+#: Masters/view/masters/building-status/index.phtml:5
+#, fuzzy
+msgid "Building Status"
+msgstr "حالة بناء المدرسة:"
+
+#: Application/src/Service/NavManager - Copy.php:251
+#: Application/src/Service/NavManager.php:253
+#: Masters/view/masters/customer-budget/add.phtml:5
+#: Masters/view/masters/customer-budget/edit.phtml:5
+#: Masters/view/masters/customer-budget/index.phtml:2
+#: Masters/view/masters/customer-budget/index.phtml:5
+#, fuzzy
+msgid "Customer Budget"
+msgstr "اسم العميل"
+
+#: Application/src/Service/NavManager - Copy.php:258
+#: Application/src/Service/NavManager.php:260
+#: Masters/view/masters/feedback-parameter/add.phtml:5
+#: Masters/view/masters/feedback-parameter/edit.phtml:5
+#: Masters/view/masters/feedback-parameter/index.phtml:2
+#: Masters/view/masters/feedback-parameter/index.phtml:5
+#, fuzzy
+msgid "Feedback Parameter"
+msgstr "معلمة التغذية المرتدة"
+
+#: Application/src/Service/NavManager - Copy.php:266
+#: Application/src/Service/NavManager.php:268
+#: Masters/view/masters/flat-status/add.phtml:5
+#: Masters/view/masters/flat-status/edit.phtml:5
+#: Masters/view/masters/flat-status/index.phtml:2
+#: Masters/view/masters/flat-status/index.phtml:5
+#, fuzzy
+msgid "Flat Status"
+msgstr "الحالة"
+
+#: Application/src/Service/NavManager - Copy.php:274
+#: Application/src/Service/NavManager.php:276
+#: Masters/view/masters/flat-types/add.phtml:5
+#: Masters/view/masters/flat-types/edit.phtml:5
+#: Masters/view/masters/flat-types/index.phtml:2
+#: Masters/view/masters/flat-types/index.phtml:5
+#, fuzzy
+msgid "Flat Types"
+msgstr "الأنواع"
+
+#: Application/src/Service/NavManager - Copy.php:281
+#: Application/src/Service/NavManager.php:283
+#: Masters/view/masters/lead-source/add.phtml:5
+#: Masters/view/masters/lead-source/edit.phtml:5
+#: Masters/view/masters/lead-source/index.phtml:2
+#: Masters/view/masters/lead-source/index.phtml:5
+#, fuzzy
+msgid "Lead Source"
+msgstr "يؤدي معرف"
+
+#: Application/src/Service/NavManager - Copy.php:289
+#: Application/src/Service/NavManager.php:291
+#, fuzzy
+msgid "Lead Status Setup"
+msgstr "يؤدي معرف"
+
+#: Application/src/Service/NavManager - Copy.php:297
+#: Application/src/Service/NavManager.php:299
+#: Masters/view/masters/parking-status/add.phtml:5
+#: Masters/view/masters/parking-status/edit.phtml:5
+#: Masters/view/masters/parking-status/index.phtml:2
+#: Masters/view/masters/parking-status/index.phtml:5
+#, fuzzy
+msgid "Parking Status"
+msgstr "مركز مواقف للسيارات"
+
+#: Application/src/Service/NavManager - Copy.php:304
+#: Application/src/Service/NavManager.php:306
+#: Masters/view/masters/preferred-location/add.phtml:5
+#: Masters/view/masters/preferred-location/edit.phtml:5
+#: Masters/view/masters/preferred-location/index.phtml:2
+#: Masters/view/masters/preferred-location/index.phtml:5
+#, fuzzy
+msgid "Preferred Location"
+msgstr "مفضل"
+
+#: Application/src/Service/NavManager - Copy.php:312
+#: Application/src/Service/NavManager.php:314
+#, fuzzy
+msgid "System Usertype"
+msgstr "نظام Usertype"
+
+#: Application/src/Service/NavManager - Copy.php:320
+#: Application/src/Service/NavManager.php:322
+#: Masters/view/masters/transaction-interest/add.phtml:5
+#: Masters/view/masters/transaction-interest/edit.phtml:5
+#: Masters/view/masters/transaction-interest/index.phtml:2
+#: Masters/view/masters/transaction-interest/index.phtml:5
+#, fuzzy
+msgid "Transaction Interest"
+msgstr "العمليات"
+
+#: Application/src/Service/NavManager - Copy.php:327
+#: Application/src/Service/NavManager.php:329
+#: Campaigns/view/campaigns/campaign/edit.phtml:160
+#: Masters/view/masters/virtual-number/add.phtml:5
+#: Masters/view/masters/virtual-number/edit.phtml:5
+#: Masters/view/masters/virtual-number/index.phtml:2
+#: Masters/view/masters/virtual-number/index.phtml:5
+#, fuzzy
+msgid "Virtual Number"
+msgstr "رقم الشبكة الداخلية"
+
+#: Application/src/Service/NavManager - Copy.php:334
+#: Application/src/Service/NavManager.php:336
+#: Masters/view/masters/touch-points/index.phtml:2
+#: Masters/view/masters/touch-points/index.phtml:5
+#, fuzzy
+msgid "Touch Points"
+msgstr "النقـاط"
+
+#: Application/src/Service/NavManager - Copy.php:341
+#: Application/src/Service/NavManager.php:343
+#: Masters/view/masters/documents/add.phtml:5
+#: Masters/view/masters/documents/edit.phtml:5
+#: Masters/view/masters/documents/index.phtml:2
+#: Masters/view/masters/documents/index.phtml:5
+#, fuzzy
+msgid "Documents"
+msgstr "المستندات"
+
+#: Application/src/Service/NavManager - Copy.php:348
+#: Application/src/Service/NavManager.php:350
+#, fuzzy
+msgid "Masters"
+msgstr "ماجستير"
+
+#: Application/src/Service/NavManager - Copy.php:360
+#: Application/src/Service/NavManager.php:362 User/view/user/user/add.phtml:9
+#: User/view/user/user/change-password.phtml:9
+#: User/view/user/user/edit.phtml:10 User/view/user/user/index.phtml:7
+#: User/view/user/user/view.phtml:10
+#, fuzzy
+msgid "Manage Users"
+msgstr "ادارة المستخدمين"
+
+#: Application/src/Service/NavManager - Copy.php:368
+#: Application/src/Service/NavManager.php:370
+#: User/view/user/permission/add.phtml:9
+#: User/view/user/permission/edit.phtml:9
+#: User/view/user/permission/index.phtml:9
+#: User/view/user/permission/view.phtml:10
+#, fuzzy
+msgid "Manage Permissions"
+msgstr "إدارة الصلاحيات"
+
+#: Application/src/Service/NavManager - Copy.php:376
+#: Application/src/Service/NavManager.php:378 User/view/user/role/add.phtml:9
+#: User/view/user/role/edit-permissions.phtml:9
+#: User/view/user/role/edit.phtml:9 User/view/user/role/index.phtml:8
+#: User/view/user/role/view.phtml:10
+#, fuzzy
+msgid "Manage Roles"
+msgstr "إدارة الأدوار"
+
+#: Application/src/Service/NavManager - Copy.php:384
+#: Application/src/Service/NavManager.php:386
+#: Notifications/view/notifications/email-template/index.phtml:2
+#, fuzzy
+msgid "Email Templates"
+msgstr "قوالب البريد الإلكتروني"
+
+#: Application/src/Service/NavManager - Copy.php:392
+#: Application/src/Service/NavManager.php:394
+#: Notifications/view/notifications/sms-template/index.phtml:2
+#, fuzzy
+msgid "SMS Templates"
+msgstr "القوالب"
+
+#: Application/src/Service/NavManager - Copy.php:400
+#: Application/src/Service/NavManager.php:402
+#: Settings/view/settings/settings/index.phtml:6
+#, fuzzy
+msgid "Manage Settings"
+msgstr "إدارة الإعدادات"
+
+#: Application/src/Service/NavManager - Copy.php:408
+#: Application/src/Service/NavManager.php:410
+#, fuzzy
+msgid "System Logs"
+msgstr "سجلات النظام"
+
+#: Application/src/Service/NavManager - Copy.php:416 Copy.php:451
+#: Application/src/Service/NavManager.php:418
+#: Application/src/Service/NavManager.php:453
+#: Application/view/application/index/settings.phtml:2
+#: Application/view/application/index/settings.phtml:7
+#: Settings/view/settings/settings/index.phtml:2
+#, fuzzy
+msgid "Settings"
+msgstr "إعدادات"
+
+#: Application/src/Service/NavManager - Copy.php:424
+#: Application/src/Service/NavManager.php:426
+#: Tasks/view/tasks/tasks/add.phtml:5 Tasks/view/tasks/tasks/edit.phtml:5
+#: Tasks/view/tasks/tasks/index.phtml:2 Tasks/view/tasks/tasks/index.phtml:5
+#, fuzzy
+msgid "Tasks"
+msgstr "المهام"
+
+#: Application/src/Service/NavManager - Copy.php:432
+#: Application/src/Service/NavManager.php:434
+#: Reports/view/reports/reports/index.phtml:2
+#: Reports/view/reports/reports/index.phtml:5
+#, fuzzy
+msgid "Reports"
+msgstr "تقارير"
+
+#: Application/src/Service/NavManager - Copy.php:440
+#: Application/src/Service/NavManager.php:442
+#: Application/view/application/index/about.phtml:2
+#: Application/view/application/index/about.phtml:7
+#, fuzzy
+msgid "About"
+msgstr "عني"
+
+#: Application/src/Service/NavManager - Copy.php:456
+#: Application/src/Service/NavManager.php:458
+#, fuzzy
+msgid "Sign out"
+msgstr "خروج"
+
+#: Application/view/application/index/about.phtml:6
+#: Application/view/application/index/settings.phtml:6
+#: Notifications/view/notifications/email-template/add.phtml:6
+#: Notifications/view/notifications/email-template/edit.phtml:6
+#: Notifications/view/notifications/email-template/index.phtml:6
+#: Notifications/view/notifications/sms-template/add.phtml:5
+#: Notifications/view/notifications/sms-template/edit.phtml:5
+#: Notifications/view/notifications/sms-template/index.phtml:5
+#: Settings/view/settings/settings/index.phtml:5
+#: User/view/user/permission/add.phtml:8
+#: User/view/user/permission/edit.phtml:8
+#: User/view/user/permission/index.phtml:8
+#: User/view/user/permission/view.phtml:9 User/view/user/role/add.phtml:8
+#: User/view/user/role/edit-permissions.phtml:8
+#: User/view/user/role/edit.phtml:8 User/view/user/role/index.phtml:7
+#: User/view/user/role/view.phtml:9 User/view/user/user/add.phtml:8
+#: User/view/user/user/change-password.phtml:8
+#: User/view/user/user/edit.phtml:9 User/view/user/user/index.phtml:6
+#: User/view/user/user/view.phtml:9
+#, fuzzy
+msgid "Home"
+msgstr "الصفحة الرئيسية"
+
+#: Application/view/application/index/delete.phtml:7
+#, fuzzy
+msgid "Delete Permanently"
+msgstr "الحذف نهائيا"
+
+#: Application/view/application/index/delete.phtml:10
+#, fuzzy
+msgid "Are you sure about this?"
+msgstr "هل أنت متأكد ؟"
+
+#: Application/view/application/index/delete.phtml:13
+#: Customers/view/customers/customers/index.phtml:30
+#: FileManager/view/file-manager/brochures/index.phtml:34
+#: FileManager/view/file-manager/folders/explore.phtml:74
+#: FileManager/view/file-manager/folders/index.phtml:45
+#: FileManager/view/file-manager/layouts/index.phtml:36
+#: Leads/view/leads/leads/details.phtml:31
+#: Leads/view/leads/leads/details.phtml:142
+#: Masters/view/masters/amenities/index.phtml:37
+#: Masters/view/masters/building-status/index.phtml:36
+#: Masters/view/masters/customer-budget/index.phtml:36
+#: Masters/view/masters/documents/index.phtml:35
+#: Masters/view/masters/feedback-parameter/index.phtml:36
+#: Masters/view/masters/flat-status/index.phtml:36
+#: Masters/view/masters/flat-types/index.phtml:37
+#: Masters/view/masters/lead-source/index.phtml:38
+#: Masters/view/masters/lead-status/index.phtml:39
+#: Masters/view/masters/parking-status/index.phtml:35
+#: Masters/view/masters/preferred-location/index.phtml:35
+#: Masters/view/masters/system-usertype/index.phtml:40
+#: Masters/view/masters/touch-points/index.phtml:35
+#: Masters/view/masters/transaction-interest/index.phtml:36
+#: Masters/view/masters/virtual-number/index.phtml:37
+#: Projects/view/projects/projects/details.phtml:23
+#: Projects/view/projects/projects/index.phtml:28
+#: User/view/user/permission/index.phtml:35
+#: User/view/user/permission/view.phtml:38
+#: User/view/user/role/edit-permissions.phtml:40
+#: User/view/user/role/index.phtml:36 User/view/user/role/view.phtml:39
+#: User/view/user/role/view.phtml:77
+#, fuzzy
+msgid "Name"
+msgstr "اسم الإجراء"
+
+#: Application/view/application/index/delete.phtml:14
+#, fuzzy
+msgid "Delete"
+msgstr "حذف"
+
+#: Application/view/application/index/index.phtml:18
+#, fuzzy
+msgid "News"
+msgstr "الاخبار"
+
+#: Application/view/application/index/index.phtml:42
+#: Application/view/application/index/index.phtml:282
+#, fuzzy
+msgid "Total Leads"
+msgstr "مجموع العملاء المتوقعين"
+
+#: Application/view/application/index/index.phtml:58
+#: Application/view/application/index/index.phtml:98
+#, fuzzy
+msgid "this week"
+msgstr "هذا الاسبوع"
+
+#: Application/view/application/index/index.phtml:59
+#: Application/view/application/index/index.phtml:99
+#, fuzzy
+msgid "this month"
+msgstr "هذا الشهر"
+
+#: Application/view/application/index/index.phtml:82
+#, fuzzy
+msgid "Total Converts"
+msgstr "تحويل المجموع"
+
+#: Application/view/application/index/index.phtml:120
+#, fuzzy
+msgid "Quick Followup"
+msgstr "متابعة سريعة"
+
+#: Application/view/application/index/index.phtml:134
+#: Application/view/layout/footer.phtml:5
+#, fuzzy
+msgid "by"
+msgstr "بواسطة"
+
+#: Application/view/application/index/index.phtml:146
+#, fuzzy
+msgid "Inventory Management"
+msgstr "إدارة المخزون"
+
+#: Application/view/application/index/index.phtml:160
+#: Application/view/application/index/index.phtml:333
+#: Projects/view/projects/flats/select-building.phtml:2
+#: Projects/view/projects/flats/select-building.phtml:40
+#, fuzzy
+msgid "Select Building"
+msgstr "حدد بناء"
+
+#: Application/view/application/index/index.phtml:216
+#, fuzzy
+msgid "Lead Sources"
+msgstr "يؤدي معرف"
+
+#: Application/view/application/index/index.phtml:217
+#, fuzzy
+msgid "Leads, Site Visit &amp; Bookings"
+msgstr "ويؤدي، زيارة موقع &amp; حجوزات"
+
+#: Application/view/application/index/index.phtml:281
+#, fuzzy
+msgid "Pipeline Reports"
+msgstr "خط أنابيب"
+
+#: Application/view/application/index/index.phtml:347
+#, fuzzy
+msgid "Leader Board"
+msgstr "قائمة المتصدرين"
+
+#: Application/view/application/index/index.phtml:348
+#, fuzzy
+msgid "Users Performance"
+msgstr "أداء المستخدمين"
+
+#: Application/view/application/index/index.phtml:362
+#, fuzzy
+msgid "Enquiry"
+msgstr "استفسار"
+
+#: Application/view/application/index/index.phtml:365
+#, fuzzy
+msgid "Sitevisits"
+msgstr "سيتيفيسيتس"
+
+#: Application/view/application/index/index.phtml:393
+#, fuzzy
+msgid "Show more details of FollowUps"
+msgstr "إظهار المزيد من التفاصيل من المتابعات"
+
+#: Application/view/application/index/index.phtml:416
+#, fuzzy
+msgid "Projects Prospect Chart"
+msgstr "مشاريع آفاق التخطيط"
+
+#: Application/view/application/index/index.phtml:417
+#, fuzzy
+msgid "Leads, Site Visit & Bookings"
+msgstr "ويؤدي، زيارة موقع & حجوزات"
+
+#: Application/view/application/index/settings.phtml:22
+#: Projects/view/projects/buildings/payment-slabs.phtml:28
+#: User/view/user/permission/index.phtml:34
+#: User/view/user/permission/view.phtml:34 User/view/user/role/index.phtml:35
+#: User/view/user/role/view.phtml:38 User/view/user/user/index.phtml:30
+#: User/view/user/user/view.phtml:42
+#, fuzzy
+msgid "ID"
+msgstr "يؤدي معرف"
+
+#: Application/view/application/index/settings.phtml:26
+#: User/view/user/user/index.phtml:31
+#, fuzzy
+msgid "E-mail"
+msgstr "البريد الإلكتروني"
+
+#: Application/view/application/index/settings.phtml:30
+#: User/view/user/user/index.phtml:32 User/view/user/user/view.phtml:50
+#, fuzzy
+msgid "Full Name"
+msgstr "اسم الإجراء"
+
+#: Application/view/application/index/settings.phtml:34
+#: Application/view/application/logs/index.phtml:45
+#: Customers/view/customers/customers/index.phtml:35
+#: Customers/view/customers/partner-meeting/index.phtml:38
+#: FileManager/view/file-manager/attachments/index.phtml:37
+#: FileManager/view/file-manager/brochures/index.phtml:38
+#: FileManager/view/file-manager/folders/index.phtml:46
+#: FileManager/view/file-manager/layouts/index.phtml:41
+#: Leads/view/leads/leads/details.phtml:106
+#: Masters/view/masters/amenities/index.phtml:40
+#: Masters/view/masters/building-status/index.phtml:38
+#: Masters/view/masters/customer-budget/index.phtml:38
+#: Masters/view/masters/documents/index.phtml:36
+#: Masters/view/masters/feedback-parameter/index.phtml:38
+#: Masters/view/masters/flat-status/index.phtml:38
+#: Masters/view/masters/flat-types/index.phtml:39
+#: Masters/view/masters/lead-source/index.phtml:41
+#: Masters/view/masters/lead-status/index.phtml:42
+#: Masters/view/masters/parking-status/index.phtml:37
+#: Masters/view/masters/preferred-location/index.phtml:37
+#: Masters/view/masters/system-usertype/index.phtml:46
+#: Masters/view/masters/touch-points/index.phtml:37
+#: Masters/view/masters/transaction-interest/index.phtml:38
+#: Masters/view/masters/virtual-number/index.phtml:40
+#: Notifications/view/notifications/email-template/index.phtml:56
+#: Notifications/view/notifications/sms-template/index.phtml:47
+#: Projects/view/projects/buildings/index.phtml:34
+#: Projects/view/projects/projects/index.phtml:34
+#: Tasks/view/tasks/tasks/index.phtml:55
+#: Tasks/view/tasks/tasks/index.phtml:104
+#: User/view/user/permission/index.phtml:37
+#: User/view/user/permission/view.phtml:46 User/view/user/role/index.phtml:38
+#: User/view/user/role/view.phtml:41 User/view/user/user/index.phtml:34
+#: User/view/user/user/view.phtml:62
+#, fuzzy
+msgid "Date Created"
+msgstr "تاريخ الإنشاء"
+
+#: Application/view/application/logs/index.phtml:2
+#: Application/view/application/logs/index.phtml:5
+#, fuzzy
+msgid "Logs"
+msgstr "السجل"
+
+#: Application/view/application/logs/index.phtml:6
+#: Bookings/view/bookings/bookings/index.phtml:6
+#: Campaigns/view/campaigns/campaign/index.phtml:6
+#: Customers/view/customers/customers/index.phtml:6
+#: Customers/view/customers/partner-meeting/index.phtml:6
+#: FileManager/view/file-manager/brochures/index.phtml:6
+#: FileManager/view/file-manager/folders/index.phtml:6
+#: FileManager/view/file-manager/layouts/index.phtml:6
+#: Followups/view/followups/followups/index.phtml:6
+#: Leads/view/leads/leads/index.phtml:6
+#: Masters/view/masters/amenities/index.phtml:6
+#: Masters/view/masters/building-status/add.phtml:6
+#: Masters/view/masters/building-status/index.phtml:6
+#: Masters/view/masters/customer-budget/add.phtml:6
+#: Masters/view/masters/customer-budget/index.phtml:6
+#: Masters/view/masters/documents/add.phtml:6
+#: Masters/view/masters/documents/index.phtml:6
+#: Masters/view/masters/feedback-parameter/add.phtml:6
+#: Masters/view/masters/feedback-parameter/index.phtml:6
+#: Masters/view/masters/flat-status/add.phtml:6
+#: Masters/view/masters/flat-status/index.phtml:6
+#: Masters/view/masters/flat-types/add.phtml:6
+#: Masters/view/masters/flat-types/index.phtml:6
+#: Masters/view/masters/lead-source/add.phtml:6
+#: Masters/view/masters/lead-source/index.phtml:6
+#: Masters/view/masters/lead-status/add.phtml:6
+#: Masters/view/masters/lead-status/index.phtml:6
+#: Masters/view/masters/parking-status/add.phtml:6
+#: Masters/view/masters/parking-status/index.phtml:6
+#: Masters/view/masters/preferred-location/add.phtml:6
+#: Masters/view/masters/preferred-location/index.phtml:6
+#: Masters/view/masters/system-usertype/add.phtml:6
+#: Masters/view/masters/system-usertype/index.phtml:6
+#: Masters/view/masters/touch-points/add.phtml:6
+#: Masters/view/masters/touch-points/index.phtml:6
+#: Masters/view/masters/transaction-interest/add.phtml:6
+#: Masters/view/masters/transaction-interest/index.phtml:6
+#: Masters/view/masters/virtual-number/add.phtml:6
+#: Masters/view/masters/virtual-number/index.phtml:6
+#: Projects/view/projects/buildings/index.phtml:6
+#: Projects/view/projects/flats/index.phtml:6
+#: Projects/view/projects/inventory/index.phtml:6
+#: Projects/view/projects/projects/index.phtml:6
+#: Reports/view/reports/reports/index.phtml:6
+#: Tasks/view/tasks/tasks/index.phtml:6
+#: Walkins/view/walkins/walkins/index.phtml:6
+#, fuzzy
+msgid "Listings"
+msgstr "قوائم"
+
+#: Application/view/application/logs/index.phtml:31
+#: Bookings/view/bookings/bookings/index.phtml:111
+#: Followups/view/followups/followups/index.phtml:111
+#: Leads/view/leads/leads/index.phtml:118
+#, fuzzy
+msgid "Filter"
+msgstr "تصفية"
+
+#: Application/view/application/logs/index.phtml:42
+#: Leads/view/leads/leads/details.phtml:103
+#, fuzzy
+msgid "Action"
+msgstr "الفعل"
+
+#: Application/view/application/logs/index.phtml:43
+#, fuzzy
+msgid "Action Name"
+msgstr "اسم الإجراء"
+
+#: Application/view/application/logs/index.phtml:44
+#, fuzzy
+msgid "User"
+msgstr "عضو"
+
+#: Application/view/error/404.phtml:1
+#, fuzzy
+msgid "A 404 error occurred"
+msgstr "حدث خطأ 404"
+
+#: Application/view/error/404.phtml:34
+#, fuzzy
+msgid "Controller"
+msgstr "مراقبون"
+
+#: Application/view/error/404.phtml:53 Application/view/error/index.phtml:8
+#, fuzzy
+msgid "Additional information"
+msgstr "معلومات اضافية"
+
+#: Application/view/error/404.phtml:56 Application/view/error/404.phtml:81
+#: Application/view/error/index.phtml:11 Application/view/error/index.phtml:36
+#: FileManager/view/file-manager/brochures/index.phtml:35
+#: FileManager/view/file-manager/layouts/index.phtml:37
+#, fuzzy
+msgid "File"
+msgstr "ملف"
+
+#: Application/view/error/404.phtml:60 Application/view/error/404.phtml:85
+#: Application/view/error/index.phtml:15 Application/view/error/index.phtml:40
+#, fuzzy
+msgid "Message"
+msgstr "لرسالة"
+
+#: Application/view/error/404.phtml:64 Application/view/error/404.phtml:89
+#: Application/view/error/index.phtml:19 Application/view/error/index.phtml:44
+#, fuzzy
+msgid "Stack trace"
+msgstr "الكومة:"
+
+#: Application/view/error/404.phtml:75 Application/view/error/index.phtml:30
+#, fuzzy
+msgid "Previous exceptions"
+msgstr "الإستثناءات السابقة"
+
+#: Application/view/error/404.phtml:109 Application/view/error/index.phtml:64
+#, fuzzy
+msgid "No Exception available"
+msgstr "الإستثناءات غير متاحة"
+
+#: Application/view/error/index.phtml:1
+#, fuzzy
+msgid "An error occurred"
+msgstr "حدث خطأ"
+
+#: Application/view/layout/footer.phtml:5
+#, fuzzy
+msgid "crafted with"
+msgstr "وضعت مع"
+
+#: Application/view/layout/footer.phtml:5
+#, fuzzy
+msgid "ajazsiddiqui"
+msgstr "أجازسيديقوي"
+
+#: Application/view/layout/footer.phtml:8
+#, fuzzy
+msgid "All rights reserved."
+msgstr "جميع الحقوق محفوظة."
+
+#: Application/view/layout/footer.phtml:11
+#, fuzzy
+msgid "Supports best on Google Chrome, Safari and Firefox."
+msgstr "وتؤيد أفضل في جوجل كروم، سفاري وفايرفوكس."
+
+#: Application/view/layout/login-layout.phtml:14
+#, fuzzy
+msgid "Welcome to ConnectCRM"
+msgstr "مرحبا بكم في كونيكتكرم"
+
+#: Application/view/layout/login-layout.phtml:15
+msgid ""
+"We, introduce you to our Lead Management System. Now you can customize, "
+"extend and evaluate your campaigns like never before. ConnectCRM with its "
+"CMS enables you to cater to your target audience in a niche, defined and a "
+"profitable maneuver."
+msgstr ""
+
+#: Bookings/view/bookings/bookings/edit.phtml:2
+#: Leads/view/leads/leads/details.phtml:130
+#, fuzzy
+msgid "Booking Details"
+msgstr "تفاصيل الحجز"
+
+#: Bookings/view/bookings/bookings/edit.phtml:6
+#: Campaigns/view/campaigns/campaign/edit.phtml:6
+#: Customers/view/customers/customers/edit.phtml:6
+#: Customers/view/customers/partner-meeting/edit.phtml:6
+#: Leads/view/leads/leads/edit.phtml:6
+#: Masters/view/masters/amenities/edit.phtml:6
+#: Masters/view/masters/building-status/edit.phtml:6
+#: Masters/view/masters/customer-budget/edit.phtml:6
+#: Masters/view/masters/documents/edit.phtml:6
+#: Masters/view/masters/feedback-parameter/edit.phtml:6
+#: Masters/view/masters/flat-status/edit.phtml:6
+#: Masters/view/masters/flat-types/edit.phtml:6
+#: Masters/view/masters/lead-source/edit.phtml:6
+#: Masters/view/masters/lead-status/edit.phtml:6
+#: Masters/view/masters/parking-status/edit.phtml:6
+#: Masters/view/masters/preferred-location/edit.phtml:6
+#: Masters/view/masters/system-usertype/edit.phtml:6
+#: Masters/view/masters/touch-points/edit.phtml:6
+#: Masters/view/masters/transaction-interest/edit.phtml:6
+#: Masters/view/masters/virtual-number/edit.phtml:6
+#: Projects/view/projects/buildings/edit.phtml:6
+#: Projects/view/projects/flats/edit.phtml:6
+#: Projects/view/projects/projects/edit.phtml:6
+#: Tasks/view/tasks/tasks/edit.phtml:6
+#, fuzzy
+msgid "Edit"
+msgstr "تحرير"
+
+#: Bookings/view/bookings/bookings/edit.phtml:67
+#: Campaigns/view/campaigns/campaign/add.phtml:24
+#: Campaigns/view/campaigns/campaign/edit.phtml:17
+#: Campaigns/view/campaigns/campaign/edit.phtml:43
+#: Customers/view/customers/customers/add.phtml:31
+#: Customers/view/customers/customers/edit.phtml:31
+#: Customers/view/customers/partner-meeting/add.phtml:22
+#: Customers/view/customers/partner-meeting/edit.phtml:22
+#: FileManager/view/file-manager/brochures/add.phtml:12
+#: FileManager/view/file-manager/brochures/index.phtml:10
+#: Leads/view/leads/leads/add.phtml:66 Leads/view/leads/leads/edit.phtml:66
+#: Leads/view/leads/leads/quicklead.phtml:37
+#: Masters/view/masters/amenities/add.phtml:14
+#: Masters/view/masters/amenities/edit.phtml:14
+#: Masters/view/masters/amenities/index.phtml:13
+#: Masters/view/masters/building-status/add.phtml:13
+#: Masters/view/masters/building-status/edit.phtml:22
+#: Masters/view/masters/building-status/index.phtml:12
+#: Masters/view/masters/customer-budget/add.phtml:13
+#: Masters/view/masters/customer-budget/edit.phtml:13
+#: Masters/view/masters/customer-budget/index.phtml:11
+#: Masters/view/masters/documents/add.phtml:12
+#: Masters/view/masters/documents/edit.phtml:12
+#: Masters/view/masters/documents/index.phtml:10
+#: Masters/view/masters/feedback-parameter/add.phtml:13
+#: Masters/view/masters/feedback-parameter/edit.phtml:13
+#: Masters/view/masters/feedback-parameter/index.phtml:11
+#: Masters/view/masters/flat-status/add.phtml:13
+#: Masters/view/masters/flat-status/edit.phtml:13
+#: Masters/view/masters/flat-status/index.phtml:11
+#: Masters/view/masters/flat-types/add.phtml:13
+#: Masters/view/masters/flat-types/edit.phtml:13
+#: Masters/view/masters/flat-types/index.phtml:11
+#: Masters/view/masters/lead-source/add.phtml:15
+#: Masters/view/masters/lead-source/edit.phtml:15
+#: Masters/view/masters/lead-source/index.phtml:13
+#: Masters/view/masters/lead-status/add.phtml:16
+#: Masters/view/masters/lead-status/edit.phtml:16
+#: Masters/view/masters/lead-status/index.phtml:14
+#: Masters/view/masters/parking-status/add.phtml:13
+#: Masters/view/masters/parking-status/edit.phtml:13
+#: Masters/view/masters/parking-status/index.phtml:11
+#: Masters/view/masters/preferred-location/add.phtml:13
+#: Masters/view/masters/preferred-location/edit.phtml:13
+#: Masters/view/masters/preferred-location/index.phtml:11
+#: Masters/view/masters/system-usertype/add.phtml:17
+#: Masters/view/masters/system-usertype/edit.phtml:17
+#: Masters/view/masters/system-usertype/index.phtml:15
+#: Masters/view/masters/touch-points/add.phtml:13
+#: Masters/view/masters/touch-points/edit.phtml:13
+#: Masters/view/masters/touch-points/index.phtml:11
+#: Masters/view/masters/transaction-interest/add.phtml:13
+#: Masters/view/masters/transaction-interest/edit.phtml:13
+#: Masters/view/masters/transaction-interest/index.phtml:11
+#: Masters/view/masters/virtual-number/add.phtml:14
+#: Masters/view/masters/virtual-number/edit.phtml:14
+#: Masters/view/masters/virtual-number/index.phtml:12
+#: Notifications/view/notifications/email-template/add.phtml:29
+#: Notifications/view/notifications/email-template/edit.phtml:29
+#: Notifications/view/notifications/email-template/index.phtml:29
+#: Notifications/view/notifications/sms-template/add.phtml:22
+#: Notifications/view/notifications/sms-template/edit.phtml:22
+#: Notifications/view/notifications/sms-template/index.phtml:21
+#: Projects/view/projects/buildings/add.phtml:32
+#: Projects/view/projects/buildings/edit.phtml:32
+#: Projects/view/projects/flats/add.phtml:18
+#: Projects/view/projects/flats/edit.phtml:16
+#: Projects/view/projects/projects/add.phtml:23
+#: Projects/view/projects/projects/edit.phtml:23
+#: Settings/view/settings/settings/index.phtml:28
+#: Tasks/view/tasks/tasks/add.phtml:23 Tasks/view/tasks/tasks/edit.phtml:23
+#: User/view/user/permission/edit.phtml:25
+#: User/view/user/role/edit-permissions.phtml:15
+#: User/view/user/role/edit.phtml:27 User/view/user/user/edit.phtml:44
+#, fuzzy
+msgid "Save"
+msgstr "حفظ (Save)"
+
+#: Bookings/view/bookings/bookings/edit.phtml:94
+#: Leads/view/leads/leads/add.phtml:90 Leads/view/leads/leads/edit.phtml:90
+#: Leads/view/leads/leads/quicklead.phtml:61
+#, fuzzy
+msgid "CUSTOMER DETAILS"
+msgstr "اسم العميل"
+
+#: Bookings/view/bookings/bookings/edit.phtml:97
+#, fuzzy
+msgid "BOOKING DETAILS"
+msgstr "تفاصيل الحجز"
+
+#: Bookings/view/bookings/bookings/edit.phtml:100
+#, fuzzy
+msgid "REGISTRATION DETAILS"
+msgstr "تفاصيل التسجيل: s%"
+
+#: Bookings/view/bookings/bookings/edit.phtml:103
+#, fuzzy
+msgid "PAYMENT INFORMATION"
+msgstr "معلومات الدفع"
+
+#: Bookings/view/bookings/bookings/edit.phtml:106
+#, fuzzy
+msgid "OPERATOR REMARKS"
+msgstr "تصريحات المشغل"
+
+#: Bookings/view/bookings/bookings/index.phtml:122
+#, fuzzy
+msgid "Lead Id"
+msgstr "يؤدي معرف"
+
+#: Bookings/view/bookings/bookings/index.phtml:123
+#: Followups/view/followups/followups/index.phtml:123
+#: Leads/view/leads/leads/index.phtml:130
+#: Walkins/view/walkins/walkins/index.phtml:48
+#, fuzzy
+msgid "Customer Name"
+msgstr "اسم العميل"
+
+#: Bookings/view/bookings/bookings/index.phtml:124
+#: Followups/view/followups/followups/index.phtml:124
+#: Leads/view/leads/leads/index.phtml:131 User/view/user/user/view.phtml:54
+#: Walkins/view/walkins/walkins/index.phtml:49
+#, fuzzy
+msgid "Contact No"
+msgstr "رقم جهة الاتصال"
+
+#: Bookings/view/bookings/bookings/index.phtml:125
+#: Campaigns/view/campaigns/campaign/index.phtml:35
+#: Customers/view/customers/partner-meeting/index.phtml:34
+#: Leads/view/leads/leads/details.phtml:59
+#: Projects/view/projects/flats/edit.phtml:39
+#: Projects/view/projects/flats/index.phtml:67
+#, fuzzy
+msgid "Project"
+msgstr "المشروع"
+
+#: Bookings/view/bookings/bookings/index.phtml:126
+#: Leads/view/leads/leads/details.phtml:63
+#: Projects/view/projects/flats/edit.phtml:43
+#: Projects/view/projects/flats/index.phtml:68
+#: Projects/view/projects/flats/select-building.phtml:5
+#, fuzzy
+msgid "Building"
+msgstr "بناء"
+
+#: Bookings/view/bookings/bookings/index.phtml:127
+#, fuzzy
+msgid "Flat no."
+msgstr "لا مسطحة."
+
+#: Bookings/view/bookings/bookings/index.phtml:128
+#, fuzzy
+msgid "Booking Date"
+msgstr "تاريخ الإنشاء"
+
+#: Bookings/view/bookings/bookings/index.phtml:129
+#, fuzzy
+msgid "Booking User"
+msgstr "عضو"
+
+#: Bookings/view/bookings/bookings/index.phtml:183
+#: Leads/view/leads/leads/index.phtml:216
+#: Walkins/view/walkins/walkins/index.phtml:107
+#, fuzzy
+msgid "Send SMS"
+msgstr "إرسال رسالة SMS"
+
+#: Bookings/view/bookings/bookings/index.phtml:205
+#: Bookings/view/bookings/bookings/index.phtml:243
+#: Followups/view/followups/followups/index.phtml:205
+#: Followups/view/followups/followups/index.phtml:243
+#: Leads/view/leads/leads/index.phtml:201
+#: Leads/view/leads/leads/index.phtml:238
+#: Leads/view/leads/leads/index.phtml:276
+#: Projects/view/projects/flats/index.phtml:56
+#: Projects/view/projects/flats/index.phtml:183
+#: Walkins/view/walkins/walkins/index.phtml:129
+#: Walkins/view/walkins/walkins/index.phtml:167
+#, fuzzy
+msgid "Submit"
+msgstr "اضافة"
+
+#: Bookings/view/bookings/bookings/index.phtml:221
+#: Followups/view/followups/followups/index.phtml:221
+#: Leads/view/leads/leads/index.phtml:254
+#: Walkins/view/walkins/walkins/index.phtml:145
+#, fuzzy
+msgid "Send Email"
+msgstr "إرسال"
+
+#: Campaigns/view/campaigns/campaign/add.phtml:2
+#, fuzzy
+msgid "Add Campaign"
+msgstr "إضافة حملة"
+
+#: Campaigns/view/campaigns/campaign/add.phtml:5
+#: Campaigns/view/campaigns/campaign/edit.phtml:5
+#: Reports/view/reports/reports/index.phtml:181
+#, fuzzy
+msgid "Campaign"
+msgstr "حملة"
+
+#: Campaigns/view/campaigns/campaign/add.phtml:6
+#: Customers/view/customers/customers/add.phtml:6
+#: Customers/view/customers/partner-meeting/add.phtml:6
+#: FileManager/view/file-manager/brochures/add.phtml:6
+#: FileManager/view/file-manager/layouts/add.phtml:6
+#: Leads/view/leads/leads/add.phtml:6
+#: Masters/view/masters/amenities/add.phtml:6
+#: Projects/view/projects/buildings/add.phtml:6
+#: Projects/view/projects/flats/add.phtml:6
+#: Projects/view/projects/projects/add.phtml:6
+#: Tasks/view/tasks/tasks/add.phtml:6
+#, fuzzy
+msgid "Add"
+msgstr "اضف"
+
+#: Campaigns/view/campaigns/campaign/edit.phtml:2
+#, fuzzy
+msgid "Edit Campaign"
+msgstr "تعديل الحملة"
+
+#: Campaigns/view/campaigns/campaign/edit.phtml:55
+#, fuzzy
+msgid "Add Campaign Medium"
+msgstr "إضافة حملة المتوسطة"
+
+#: Campaigns/view/campaigns/campaign/edit.phtml:71
+#, fuzzy
+msgid "Campaign Details"
+msgstr "تفاصيل الحملة"
+
+#: Campaigns/view/campaigns/campaign/edit.phtml:74
+#, fuzzy
+msgid "Campaign Mediums"
+msgstr "وسائل الحملة"
+
+#: Campaigns/view/campaigns/campaign/edit.phtml:158
+#: Followups/view/followups/followups/index.phtml:79
+#: Leads/view/leads/leads/details.phtml:67
+#: Leads/view/leads/leads/details.phtml:178
+#, fuzzy
+msgid "Primary Source"
+msgstr "المصدر الأساسي"
+
+#: Campaigns/view/campaigns/campaign/edit.phtml:159
+#: Leads/view/leads/leads/details.phtml:71
+#: Leads/view/leads/leads/details.phtml:182
+#: Leads/view/leads/leads/index.phtml:133
+#, fuzzy
+msgid "Secondary Source"
+msgstr "المصدر الثانوي"
+
+#: Campaigns/view/campaigns/campaign/edit.phtml:161
+#: Campaigns/view/campaigns/campaign/index.phtml:32
+#, fuzzy
+msgid "Budget"
+msgstr "الميزانية"
+
+#: Campaigns/view/campaigns/campaign/edit.phtml:162
+#: Campaigns/view/campaigns/campaign/index.phtml:33
+#, fuzzy
+msgid "Spent"
+msgstr "spent"
+
+#: Campaigns/view/campaigns/campaign/edit.phtml:208
+#, fuzzy
+msgid "Campaign Medium Form"
+msgstr "نموذج الحملة المتوسطة"
+
+#: Campaigns/view/campaigns/campaign/index.phtml:30
+#, fuzzy
+msgid "Campaign Name"
+msgstr "اسم العميل"
+
+#: Campaigns/view/campaigns/campaign/index.phtml:31
+#: Masters/view/masters/amenities/index.phtml:39
+#: Masters/view/masters/building-status/index.phtml:37
+#: Masters/view/masters/customer-budget/index.phtml:37
+#: Masters/view/masters/feedback-parameter/index.phtml:37
+#: Masters/view/masters/flat-status/index.phtml:37
+#: Masters/view/masters/flat-types/index.phtml:38
+#: Masters/view/masters/lead-source/index.phtml:40
+#: Masters/view/masters/lead-status/index.phtml:41
+#: Masters/view/masters/parking-status/index.phtml:36
+#: Masters/view/masters/preferred-location/index.phtml:36
+#: Masters/view/masters/system-usertype/index.phtml:45
+#: Masters/view/masters/touch-points/index.phtml:36
+#: Masters/view/masters/transaction-interest/index.phtml:37
+#: Masters/view/masters/virtual-number/index.phtml:39
+#: Notifications/view/notifications/email-template/index.phtml:55
+#: Notifications/view/notifications/sms-template/index.phtml:46
+#: Projects/view/projects/buildings/payment-slabs.phtml:33
+#: Projects/view/projects/flats/index.phtml:71
+#: Projects/view/projects/projects/index.phtml:33
+#: Reports/view/reports/reports/index.phtml:174
+#: Tasks/view/tasks/tasks/index.phtml:59
+#: Tasks/view/tasks/tasks/index.phtml:108 User/view/user/user/index.phtml:35
+#: User/view/user/user/view.phtml:66
+#, fuzzy
+msgid "Status"
+msgstr "الحالة"
+
+#: Campaigns/view/campaigns/campaign/index.phtml:34
+#, fuzzy
+msgid "Duration"
+msgstr "المدة الزمنية"
+
+#: Campaigns/view/campaigns/campaign/index.phtml:37
+#, fuzzy
+msgid "Site Visits"
+msgstr "زيارات ميدانية"
+
+#: Customers/view/customers/customers/add.phtml:2
+#, fuzzy
+msgid "Add Customers"
+msgstr "الزبائن"
+
+#: Customers/view/customers/customers/edit.phtml:2
+#, fuzzy
+msgid "Edit Customers"
+msgstr "تحرير العملاء"
+
+#: Customers/view/customers/customers/index.phtml:31
+#: Leads/view/leads/leads/details.phtml:39
+#: Leads/view/leads/leads/details.phtml:150 User/view/user/user/view.phtml:46
+#, fuzzy
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: Customers/view/customers/customers/index.phtml:32
+#, fuzzy
+msgid "Contact No."
+msgstr "رقم جهة الاتصال"
+
+#: Customers/view/customers/customers/index.phtml:33
+#: Leads/view/leads/leads/index.phtml:138
+#, fuzzy
+msgid "Customer Type"
+msgstr "اسم العميل"
+
+#: Customers/view/customers/customers/index.phtml:34
+#: Customers/view/customers/partner-meeting/index.phtml:37
+#: Masters/view/masters/virtual-number/index.phtml:38
+#, fuzzy
+msgid "Remark"
+msgstr "تعليق"
+
+#: Customers/view/customers/partner-meeting/add.phtml:2
+#: Customers/view/customers/partner-meeting/edit.phtml:2
+#, fuzzy
+msgid "Add Meeting"
+msgstr "إضافة الاجتماع"
+
+#: Customers/view/customers/partner-meeting/add.phtml:5
+#: Customers/view/customers/partner-meeting/edit.phtml:5
+#: Customers/view/customers/partner-meeting/index.phtml:5
+#, fuzzy
+msgid "Meetings"
+msgstr "الاجتماعات"
+
+#: Customers/view/customers/partner-meeting/index.phtml:30
+#, fuzzy
+msgid "Meeting Date"
+msgstr "تاريخ الإنشاء"
+
+#: Customers/view/customers/partner-meeting/index.phtml:31
+#, fuzzy
+msgid "CP ID"
+msgstr "يؤدي معرف"
+
+#: Customers/view/customers/partner-meeting/index.phtml:32
+#, fuzzy
+msgid "Company Name"
+msgstr "اسم العميل"
+
+#: Customers/view/customers/partner-meeting/index.phtml:33
+#, fuzzy
+msgid "Concerned Person"
+msgstr "الشخص المعني"
+
+#: Customers/view/customers/partner-meeting/index.phtml:35
+#: FileManager/view/file-manager/attachments/index.phtml:36
+#: FileManager/view/file-manager/brochures/index.phtml:37
+#: FileManager/view/file-manager/folders/explore.phtml:76
+#: FileManager/view/file-manager/layouts/index.phtml:40
+#: Masters/view/masters/amenities/index.phtml:38
+#, fuzzy
+msgid "Type"
+msgstr "نوع"
+
+#: Customers/view/customers/partner-meeting/index.phtml:36
+#: Projects/view/projects/projects/index.phtml:30
+#, fuzzy
+msgid "Location"
+msgstr "الموقع"
+
+#: FileManager/view/file-manager/attachments/index.phtml:2
+#: FileManager/view/file-manager/attachments/index.phtml:6
+#, fuzzy
+msgid "Attachments"
+msgstr "المرفقات"
+
+#: FileManager/view/file-manager/attachments/index.phtml:5
+#: FileManager/view/file-manager/folders/explore.phtml:5
+#: FileManager/view/file-manager/folders/index.phtml:5
+#, fuzzy
+msgid "Folders"
+msgstr "المجلدات"
+
+#: FileManager/view/file-manager/attachments/index.phtml:33
+#, fuzzy
+msgid "Attachment"
+msgstr "المرفقات:"
+
+#: FileManager/view/file-manager/attachments/index.phtml:34
+#, fuzzy
+msgid "Folder"
+msgstr "مجلد"
+
+#: FileManager/view/file-manager/attachments/index.phtml:35
+#: FileManager/view/file-manager/brochures/index.phtml:36
+#: FileManager/view/file-manager/folders/explore.phtml:75
+#: FileManager/view/file-manager/layouts/index.phtml:39
+#, fuzzy
+msgid "Size"
+msgstr "الحجم"
+
+#: FileManager/view/file-manager/brochures/add.phtml:2
+#, fuzzy
+msgid "Add Brochure"
+msgstr "نشرة الكتيبات"
+
+#: FileManager/view/file-manager/brochures/add.phtml:5
+#: FileManager/view/file-manager/brochures/index.phtml:5
+#, fuzzy
+msgid "Brochures"
+msgstr "النشرات الدعائية"
+
+#: FileManager/view/file-manager/brochures/index.phtml:2
+#, fuzzy
+msgid "All"
+msgstr "الكل"
+
+#: FileManager/view/file-manager/brochures/index.phtml:2
+#, fuzzy
+msgid " Brochures"
+msgstr "النشرات الدعائية"
+
+#: FileManager/view/file-manager/brochures/index.phtml:80
+#, fuzzy
+msgid "Upload Brochure"
+msgstr "تحميل الكتيب"
+
+#: FileManager/view/file-manager/folders/explore.phtml:6
+#, fuzzy
+msgid "Explorer"
+msgstr "مستكشف"
+
+#: FileManager/view/file-manager/folders/explore.phtml:21
+#, fuzzy
+msgid "Drag n drop uploader"
+msgstr "اسحب الإسقاط رافع"
+
+#: FileManager/view/file-manager/folders/explore.phtml:38
+#, fuzzy
+msgid "Refresh"
+msgstr "تحديث"
+
+#: FileManager/view/file-manager/folders/index.phtml:2
+#, fuzzy
+msgid "Project Folders"
+msgstr "المشروع"
+
+#: FileManager/view/file-manager/folders/index.phtml:32
+#, fuzzy
+msgid "Create"
+msgstr "إنشاء"
+
+#: FileManager/view/file-manager/folders/index.phtml:47
+#, fuzzy
+msgid "Files"
+msgstr "الملفات"
+
+#: FileManager/view/file-manager/layouts/add.phtml:2
+#, fuzzy
+msgid "Add Layout"
+msgstr "Layout"
+
+#: FileManager/view/file-manager/layouts/add.phtml:5
+#: FileManager/view/file-manager/layouts/index.phtml:2
+#: FileManager/view/file-manager/layouts/index.phtml:5
+#, fuzzy
+msgid "Layouts"
+msgstr "تخطيطات"
+
+#: FileManager/view/file-manager/layouts/add.phtml:13
+#, fuzzy
+msgid "Upload"
+msgstr "رفع"
+
+#: FileManager/view/file-manager/layouts/index.phtml:38
+#, fuzzy
+msgid "Layout Type"
+msgstr "نسق التخطيط"
+
+#: FileManager/view/file-manager/layouts/index.phtml:87
+#, fuzzy
+msgid "Upload Layout"
+msgstr "تحميل تخطيط"
+
+#: Followups/view/followups/followups/index.phtml:2
+#: Followups/view/followups/followups/index.phtml:5
+#, fuzzy
+msgid "Followups"
+msgstr "المتابعات"
+
+#: Followups/view/followups/followups/index.phtml:34
+#, fuzzy
+msgid "Select Customer"
+msgstr "اسم العميل"
+
+#: Followups/view/followups/followups/index.phtml:43
+#, fuzzy
+msgid "Select Mode"
+msgstr "تحديد"
+
+#: Followups/view/followups/followups/index.phtml:52
+#: Projects/view/projects/flats/select-building.phtml:30
+#, fuzzy
+msgid "Select Project"
+msgstr "المشروع"
+
+#: Followups/view/followups/followups/index.phtml:61
+#, fuzzy
+msgid "Select Campaign"
+msgstr "حدد الحملة"
+
+#: Followups/view/followups/followups/index.phtml:70
+#: Followups/view/followups/followups/index.phtml:125
+#: Leads/view/leads/leads/details.phtml:75
+#: Leads/view/leads/leads/details.phtml:186
+#: Leads/view/leads/leads/index.phtml:134
+#: Walkins/view/walkins/walkins/index.phtml:50
+#, fuzzy
+msgid "Primary Status"
+msgstr "المركز الرئيسي"
+
+#: Followups/view/followups/followups/index.phtml:88
+#, fuzzy
+msgid "Select Customer Type"
+msgstr "اسم العميل"
+
+#: Followups/view/followups/followups/index.phtml:97
+#, fuzzy
+msgid "Select Lead Owner"
+msgstr "يؤدي معرف"
+
+#: Followups/view/followups/followups/index.phtml:122
+#: Leads/view/leads/leads/index.phtml:129
+#: Walkins/view/walkins/walkins/index.phtml:47
+#, fuzzy
+msgid "Legacy Id"
+msgstr "يؤدي معرف"
+
+#: Followups/view/followups/followups/index.phtml:126
+#: Leads/view/leads/leads/details.phtml:79
+#: Leads/view/leads/leads/index.phtml:135
+#: Walkins/view/walkins/walkins/index.phtml:51
+#, fuzzy
+msgid "Secondary Status"
+msgstr "حالة ثانوية"
+
+#: Followups/view/followups/followups/index.phtml:127
+#: Leads/view/leads/leads/index.phtml:136
+#: Walkins/view/walkins/walkins/index.phtml:52
+#, fuzzy
+msgid "Project/Phase"
+msgstr "المشروع"
+
+#: Followups/view/followups/followups/index.phtml:128
+#: Walkins/view/walkins/walkins/index.phtml:53
+#, fuzzy
+msgid "Followup Type"
+msgstr "نوع المتابعة"
+
+#: Followups/view/followups/followups/index.phtml:129
+#: Walkins/view/walkins/walkins/index.phtml:54
+#, fuzzy
+msgid "Followup Date"
+msgstr "تاريخ الإنشاء"
+
+#: Followups/view/followups/followups/index.phtml:130
+#: Leads/view/leads/leads/index.phtml:137
+#: Walkins/view/walkins/walkins/index.phtml:55
+#, fuzzy
+msgid "Lead Owner(s)"
+msgstr "يؤدي معرف"
+
+#: Leads/view/leads/leads/add.phtml:2
+#, fuzzy
+msgid "Add Lead"
+msgstr "يؤدي معرف"
+
+#: Leads/view/leads/leads/add.phtml:93 Leads/view/leads/leads/edit.phtml:93
+#: Leads/view/leads/leads/quicklead.phtml:64
+#, fuzzy
+msgid "CUSTOMER INTEREST"
+msgstr "اسم العميل"
+
+#: Leads/view/leads/leads/add.phtml:96 Leads/view/leads/leads/edit.phtml:96
+#: Leads/view/leads/leads/quicklead.phtml:67
+#, fuzzy
+msgid "SPECIFIC PROJECT REQUIREMENTS"
+msgstr "المشروع"
+
+#: Leads/view/leads/leads/add.phtml:99 Leads/view/leads/leads/edit.phtml:99
+#: Leads/view/leads/leads/quicklead.phtml:70
+#, fuzzy
+msgid "TOUCHPOINTS"
+msgstr "بوينت"
+
+#: Leads/view/leads/leads/add.phtml:102 Leads/view/leads/leads/edit.phtml:102
+#: Leads/view/leads/leads/quicklead.phtml:73
+#, fuzzy
+msgid "REMARKS"
+msgstr "الملاحظات:"
+
+#: Leads/view/leads/leads/details.phtml:2
+#, fuzzy
+msgid "Leads Details"
+msgstr "تفاصيل العملاء المتوقعين"
+
+#: Leads/view/leads/leads/details.phtml:6
+#: Projects/view/projects/projects/details.phtml:6
+#, fuzzy
+msgid "Details"
+msgstr "تفاصيل"
+
+#: Leads/view/leads/leads/details.phtml:15
+#, fuzzy
+msgid "Lead Details"
+msgstr "يؤدي معرف"
+
+#: Leads/view/leads/leads/details.phtml:27
+#: Leads/view/leads/leads/details.phtml:138
+#, fuzzy
+msgid "Id"
+msgstr "يؤدي معرف"
+
+#: Leads/view/leads/leads/details.phtml:35
+#: Leads/view/leads/leads/details.phtml:146
+#, fuzzy
+msgid "Mobile"
+msgstr "رقم الهاتف"
+
+#: Leads/view/leads/leads/details.phtml:43
+#, fuzzy
+msgid "Lead Owner"
+msgstr "يؤدي معرف"
+
+#: Leads/view/leads/leads/details.phtml:47
+#: Leads/view/leads/leads/details.phtml:158
+#, fuzzy
+msgid "Created at"
+msgstr "تاريخ الإنشاء"
+
+#: Leads/view/leads/leads/details.phtml:95
+#, fuzzy
+msgid "Followup Details"
+msgstr "متابعة التفاصيل"
+
+#: Leads/view/leads/leads/details.phtml:102
+#, fuzzy
+msgid "Touchpoint"
+msgstr "Touchpoint"
+
+#: Leads/view/leads/leads/details.phtml:104
+#, fuzzy
+msgid "Action Date"
+msgstr "اسم الإجراء"
+
+#: Leads/view/leads/leads/details.phtml:105
+#, fuzzy
+msgid "Remarks"
+msgstr "ملاحظات"
+
+#: Leads/view/leads/leads/details.phtml:154
+#, fuzzy
+msgid "Broker"
+msgstr "وسيط التأمين"
+
+#: Leads/view/leads/leads/details.phtml:170
+#, fuzzy
+msgid "Booking Status"
+msgstr "حالة الحجز"
+
+#: Leads/view/leads/leads/details.phtml:174
+#, fuzzy
+msgid "Flat"
+msgstr "فلات"
+
+#: Leads/view/leads/leads/details.phtml:190
+#, fuzzy
+msgid "Total Amount"
+msgstr "المبلغ الإجمالي"
+
+#: Leads/view/leads/leads/edit.phtml:2
+#, fuzzy
+msgid "Edit Lead"
+msgstr "يؤدي معرف"
+
+#: Leads/view/leads/leads/index.phtml:18
+#: Leads/view/leads/leads/quicklead.phtml:2
+#, fuzzy
+msgid "Quick Lead"
+msgstr "يؤدي معرف"
+
+#: Leads/view/leads/leads/index.phtml:132
+#, fuzzy
+msgid "Mode"
+msgstr "الوضع"
+
+#: Leads/view/leads/leads/index.phtml:191
+#, fuzzy
+msgid "Upload Leads"
+msgstr "تحميل العملاء المتوقعين"
+
+#: Leads/view/leads/leads/quicklead.phtml:6
+#, fuzzy
+msgid "Quicklead"
+msgstr "كويكلياد"
+
+#: Masters/view/masters/amenities/add.phtml:2
+#: Masters/view/masters/amenities/edit.phtml:2
+#: Masters/view/masters/amenities/index.phtml:75
+#: Masters/view/masters/building-status/index.phtml:71
+#, fuzzy
+msgid "Add Amenities"
+msgstr "اضف مميزات خاصة"
+
+#: Masters/view/masters/amenities/add.phtml:5
+#: Masters/view/masters/amenities/edit.phtml:5
+#: Masters/view/masters/amenities/index.phtml:2
+#: Masters/view/masters/amenities/index.phtml:5
+#, fuzzy
+msgid "Amenities"
+msgstr "المرافق"
+
+#: Masters/view/masters/amenities/index.phtml:100
+#: Masters/view/masters/building-status/index.phtml:92
+#: Masters/view/masters/customer-budget/index.phtml:93
+#: Masters/view/masters/documents/index.phtml:83
+#: Masters/view/masters/feedback-parameter/index.phtml:91
+#: Masters/view/masters/flat-status/index.phtml:92
+#: Masters/view/masters/flat-types/index.phtml:92
+#: Masters/view/masters/lead-source/index.phtml:108
+#: Masters/view/masters/lead-status/index.phtml:115
+#: Masters/view/masters/parking-status/index.phtml:91
+#: Masters/view/masters/preferred-location/index.phtml:91
+#: Masters/view/masters/system-usertype/index.phtml:127
+#: Masters/view/masters/touch-points/index.phtml:91
+#: Masters/view/masters/transaction-interest/index.phtml:92
+#: Masters/view/masters/virtual-number/index.phtml:101
+#: Notifications/view/notifications/email-template/index.phtml:124
+#: Notifications/view/notifications/sms-template/index.phtml:107
+#: Projects/view/projects/flats/index.phtml:228
+#: Projects/view/projects/inventory/index.phtml:152
+#: Projects/view/projects/projects/index.phtml:81
+#, fuzzy
+msgid "Close"
+msgstr "إغلاق"
+
+#: Masters/view/masters/building-status/add.phtml:2
+#, fuzzy
+msgid "Add Building Status"
+msgstr "إضافة حالة المبنى"
+
+#: Masters/view/masters/building-status/edit.phtml:2
+#, fuzzy
+msgid "Edit Building Status"
+msgstr "حالة بناء تحرير"
+
+#: Masters/view/masters/customer-budget/add.phtml:2
+#: Masters/view/masters/customer-budget/index.phtml:72
+#, fuzzy
+msgid "Add Customer Budget"
+msgstr "اسم العميل"
+
+#: Masters/view/masters/customer-budget/edit.phtml:2
+#, fuzzy
+msgid "Edit Customer Budget"
+msgstr "اسم العميل"
+
+#: Masters/view/masters/documents/add.phtml:2
+#, fuzzy
+msgid "Add Document"
+msgstr "إضافة الوثيقة"
+
+#: Masters/view/masters/documents/edit.phtml:2
+#, fuzzy
+msgid "Edit Documents"
+msgstr "تحرير المستندات"
+
+#: Masters/view/masters/documents/index.phtml:68
+#, fuzzy
+msgid "Add Documents"
+msgstr "إضافة مستندات"
+
+#: Masters/view/masters/feedback-parameter/add.phtml:2
+#: Masters/view/masters/feedback-parameter/index.phtml:70
+#, fuzzy
+msgid "Add Feedback Parameter"
+msgstr "إضافة معلمة التغذية المرتدة"
+
+#: Masters/view/masters/feedback-parameter/edit.phtml:2
+#, fuzzy
+msgid "Edit Feedback Parameter"
+msgstr "تحرير ملاحظات المعلمة"
+
+#: Masters/view/masters/flat-status/add.phtml:2
+#: Masters/view/masters/flat-status/index.phtml:71
+#, fuzzy
+msgid "Add Flat Status"
+msgstr "إضافة حالة شقة"
+
+#: Masters/view/masters/flat-status/edit.phtml:2
+#, fuzzy
+msgid "Edit Flat Status"
+msgstr "تحرير حالة شقة"
+
+#: Masters/view/masters/flat-types/add.phtml:2
+#: Masters/view/masters/flat-types/index.phtml:71
+#, fuzzy
+msgid "Add Flat Types"
+msgstr "إضافة أنواع مسطح"
+
+#: Masters/view/masters/flat-types/edit.phtml:2
+#, fuzzy
+msgid "Edit Flat Types"
+msgstr "تحرير أنواع مسطح"
+
+#: Masters/view/masters/lead-source/add.phtml:2
+#: Masters/view/masters/lead-source/index.phtml:75
+#, fuzzy
+msgid "Add Lead Source"
+msgstr "يؤدي معرف"
+
+#: Masters/view/masters/lead-source/edit.phtml:2
+#, fuzzy
+msgid "Edit Lead Source"
+msgstr "يؤدي معرف"
+
+#: Masters/view/masters/lead-source/index.phtml:39
+#, fuzzy
+msgid "Parent"
+msgstr "الأبوين"
+
+#: Masters/view/masters/lead-status/add.phtml:2
+#: Masters/view/masters/lead-status/index.phtml:76
+#, fuzzy
+msgid "Add Lead Status"
+msgstr "يؤدي معرف"
+
+#: Masters/view/masters/lead-status/add.phtml:5
+#: Masters/view/masters/lead-status/edit.phtml:5
+#: Masters/view/masters/lead-status/index.phtml:2
+#: Masters/view/masters/lead-status/index.phtml:5
+#, fuzzy
+msgid "Lead Status"
+msgstr "يؤدي معرف"
+
+#: Masters/view/masters/lead-status/edit.phtml:2
+#, fuzzy
+msgid "Edit Lead Status"
+msgstr "يؤدي معرف"
+
+#: Masters/view/masters/lead-status/index.phtml:40
+#, fuzzy
+msgid "Parents"
+msgstr "الوالدان"
+
+#: Masters/view/masters/parking-status/add.phtml:2
+#: Masters/view/masters/parking-status/index.phtml:70
+#, fuzzy
+msgid "Add Parking Status"
+msgstr "إضافة مواقف المركز"
+
+#: Masters/view/masters/parking-status/edit.phtml:2
+#, fuzzy
+msgid "Edit Parking Status"
+msgstr "تحرير مرآب مركز"
+
+#: Masters/view/masters/preferred-location/add.phtml:2
+#: Masters/view/masters/preferred-location/index.phtml:70
+#, fuzzy
+msgid "Add Preferred Location"
+msgstr "إضافة الموقع المفضل"
+
+#: Masters/view/masters/preferred-location/edit.phtml:2
+#, fuzzy
+msgid "Edit Preferred Location"
+msgstr "تحرير الموقع المفضل"
+
+#: Masters/view/masters/system-usertype/add.phtml:2
+#: Masters/view/masters/system-usertype/index.phtml:82
+#, fuzzy
+msgid "Add System UserType"
+msgstr "إضافة نظام UserType"
+
+#: Masters/view/masters/system-usertype/add.phtml:5
+#: Masters/view/masters/system-usertype/edit.phtml:5
+#: Masters/view/masters/system-usertype/index.phtml:2
+#: Masters/view/masters/system-usertype/index.phtml:5
+#, fuzzy
+msgid "System UserType"
+msgstr "نظام UserType"
+
+#: Masters/view/masters/system-usertype/edit.phtml:2
+#, fuzzy
+msgid "Edit System UserType"
+msgstr "تحرير نظام UserType"
+
+#: Masters/view/masters/system-usertype/index.phtml:41
+#, fuzzy
+msgid "Negotiation Percent"
+msgstr "التفاوض في المائة"
+
+#: Masters/view/masters/system-usertype/index.phtml:42
+#, fuzzy
+msgid "Mask Numbers"
+msgstr "إعداد قناع"
+
+#: Masters/view/masters/system-usertype/index.phtml:43
+#, fuzzy
+msgid "EOD Status"
+msgstr "الحالة"
+
+#: Masters/view/masters/system-usertype/index.phtml:44
+#, fuzzy
+msgid "Confidential Data"
+msgstr "سري"
+
+#: Masters/view/masters/touch-points/add.phtml:2
+#, fuzzy
+msgid "Add TouchPoints"
+msgstr "إضافة بوينت"
+
+#: Masters/view/masters/touch-points/add.phtml:5
+#: Masters/view/masters/touch-points/edit.phtml:5
+#, fuzzy
+msgid "TouchPoints"
+msgstr "بوينت"
+
+#: Masters/view/masters/touch-points/edit.phtml:2
+#, fuzzy
+msgid "Edit TouchPoints"
+msgstr "تحرير بوينت"
+
+#: Masters/view/masters/touch-points/index.phtml:70
+#, fuzzy
+msgid "Add Touchpoints"
+msgstr "إضافة بوينت"
+
+#: Masters/view/masters/transaction-interest/add.phtml:2
+#: Masters/view/masters/transaction-interest/index.phtml:71
+#, fuzzy
+msgid "Add Transaction Interest"
+msgstr "إضافة اهتمام الحركة"
+
+#: Masters/view/masters/transaction-interest/edit.phtml:2
+#, fuzzy
+msgid "Edit Transaction Interest"
+msgstr "تحرير المعاملات الفائدة"
+
+#: Masters/view/masters/virtual-number/add.phtml:2
+#: Masters/view/masters/virtual-number/index.phtml:74
+#, fuzzy
+msgid "Add Virtual Number"
+msgstr "إضافة عدد الظاهري"
+
+#: Masters/view/masters/virtual-number/edit.phtml:2
+#, fuzzy
+msgid "Edit Virtual Number"
+msgstr "تحرير رقم الظاهري"
+
+#: Notifications/view/notifications/email-template/add.phtml:3
+#: Notifications/view/notifications/email-template/index.phtml:91
+#, fuzzy
+msgid "Add Email Template"
+msgstr "قالب البريد الإلكتروني"
+
+#: Notifications/view/notifications/email-template/add.phtml:7
+#: Notifications/view/notifications/email-template/edit.phtml:7
+#, fuzzy
+msgid "Add Email Templates"
+msgstr "قوالب البريد الإلكتروني"
+
+#: Notifications/view/notifications/email-template/add.phtml:80
+#: Notifications/view/notifications/email-template/edit.phtml:80
+#: Notifications/view/notifications/sms-template/add.phtml:66
+#: Notifications/view/notifications/sms-template/edit.phtml:66
+msgid ""
+"Note: You can use system generated fields like First Name, Last Name as "
+"{first_name}. Do not forget to include { } around them. Fields that can be "
+"used are: {first_name}, {last_name}, {project_name}, {building_name}, "
+"{system_user_name}."
+msgstr ""
+
+#: Notifications/view/notifications/email-template/edit.phtml:3
+#, fuzzy
+msgid "Edit Email Template"
+msgstr "تحرير قالب البريد الإلكتروني"
+
+#: Notifications/view/notifications/email-template/index.phtml:7
+#: Notifications/view/notifications/sms-template/index.phtml:6
+#, fuzzy
+msgid "Manage Email Templates"
+msgstr "إدارة قوالب البريد الإلكتروني"
+
+#: Notifications/view/notifications/email-template/index.phtml:53
+#: Notifications/view/notifications/sms-template/index.phtml:45
+#: Tasks/view/tasks/tasks/index.phtml:51
+#: Tasks/view/tasks/tasks/index.phtml:100
+#, fuzzy
+msgid "Title"
+msgstr "العنوان"
+
+#: Notifications/view/notifications/email-template/index.phtml:54
+#, fuzzy
+msgid "Subject"
+msgstr "موضوع"
+
+#: Notifications/view/notifications/notifications/sendemail.phtml:2
+#, fuzzy
+msgid "Select Email Templates"
+msgstr "حدد قوالب البريد الإلكتروني"
+
+#: Notifications/view/notifications/notifications/sendsms.phtml:2
+#, fuzzy
+msgid "Select SMS Templates"
+msgstr "حدد قوالب الرسائل القصيرة"
+
+#: Notifications/view/notifications/sms-template/add.phtml:2
+#: Notifications/view/notifications/sms-template/index.phtml:80
+#, fuzzy
+msgid "Add SMS Template"
+msgstr "إضافة قالب SMS"
+
+#: Notifications/view/notifications/sms-template/add.phtml:6
+#, fuzzy
+msgid "Add SMS Templates"
+msgstr "إضافة قوالب الرسائل القصيرة"
+
+#: Notifications/view/notifications/sms-template/edit.phtml:2
+#, fuzzy
+msgid "Edit SMS Template"
+msgstr "تحرير قالب SMS"
+
+#: Notifications/view/notifications/sms-template/edit.phtml:6
+#, fuzzy
+msgid "Edit SMS Templates"
+msgstr "تحرير قوالب الرسائل القصيرة"
+
+#: Projects/view/projects/buildings/add.phtml:2
+#, fuzzy
+msgid "Add Building"
+msgstr "إضافة بناء"
+
+#: Projects/view/projects/buildings/add.phtml:5
+#: Projects/view/projects/buildings/edit.phtml:5
+#: Projects/view/projects/buildings/index.phtml:2
+#: Projects/view/projects/buildings/index.phtml:5
+#: Projects/view/projects/buildings/payment-slabs.phtml:5
+#, fuzzy
+msgid "Buildings"
+msgstr "المباني"
+
+#: Projects/view/projects/buildings/edit.phtml:2
+#, fuzzy
+msgid "Edit Building"
+msgstr "بناء تحرير"
+
+#: Projects/view/projects/buildings/edit.phtml:55
+#, fuzzy
+msgid "CURRENT ELEVATION"
+msgstr "الارتفاع الحالي"
+
+#: Projects/view/projects/buildings/index.phtml:29
+#, fuzzy
+msgid "Project Name"
+msgstr "اسم الإجراء"
+
+#: Projects/view/projects/buildings/index.phtml:30
+#, fuzzy
+msgid "Building Name"
+msgstr "اسم العميل"
+
+#: Projects/view/projects/buildings/index.phtml:31
+#, fuzzy
+msgid "Total Flats"
+msgstr "مجموع الشقق"
+
+#: Projects/view/projects/buildings/index.phtml:32
+#, fuzzy
+msgid "Manage Flats"
+msgstr "إدارة الشقق"
+
+#: Projects/view/projects/buildings/index.phtml:33
+#, fuzzy
+msgid "Manage Payment"
+msgstr "إدارة الدفع"
+
+#: Projects/view/projects/buildings/payment-slabs.phtml:2
+#: Projects/view/projects/buildings/payment-slabs.phtml:6
+#, fuzzy
+msgid "Payment Slabs"
+msgstr "ألواح الدفع"
+
+#: Projects/view/projects/buildings/payment-slabs.phtml:29
+#, fuzzy
+msgid "Slab Title"
+msgstr "العنوان"
+
+#: Projects/view/projects/buildings/payment-slabs.phtml:30
+#, fuzzy
+msgid "Expected Completion Date"
+msgstr "تاريخ الإنشاء"
+
+#: Projects/view/projects/buildings/payment-slabs.phtml:31
+#, fuzzy
+msgid "Actual Completion Date"
+msgstr "تاريخ الإنشاء"
+
+#: Projects/view/projects/buildings/payment-slabs.phtml:32
+#, fuzzy
+msgid "Completion %"
+msgstr "إكمال  %"
+
+#: Projects/view/projects/buildings/payment-slabs.phtml:99
+#, fuzzy
+msgid "Total Completion"
+msgstr "الإنجاز الكلي"
+
+#: Projects/view/projects/flats/add.phtml:2
+#, fuzzy
+msgid "Add Flat"
+msgstr "إضافة مسطحة"
+
+#: Projects/view/projects/flats/add.phtml:5
+#: Projects/view/projects/flats/edit.phtml:5
+#: Projects/view/projects/flats/index.phtml:2
+#: Projects/view/projects/flats/index.phtml:5
+#, fuzzy
+msgid "Flats"
+msgstr "مسطح"
+
+#: Projects/view/projects/flats/edit.phtml:2
+#, fuzzy
+msgid "Edit Flat"
+msgstr "تحرير مسطحة"
+
+#: Projects/view/projects/flats/index.phtml:70
+#, fuzzy
+msgid "Flat No."
+msgstr "شقة رقم"
+
+#: Projects/view/projects/flats/index.phtml:72
+#, fuzzy
+msgid "Flat Type"
+msgstr "نوع مسطح"
+
+#: Projects/view/projects/flats/index.phtml:73
+#, fuzzy
+msgid "Flat Area"
+msgstr "مساحة الشقة"
+
+#: Projects/view/projects/flats/index.phtml:74
+#, fuzzy
+msgid "Current Rate"
+msgstr "التقييم الحالي"
+
+#: Projects/view/projects/flats/index.phtml:75
+#, fuzzy
+msgid "Floor Rise"
+msgstr "ارتفاع الطابق"
+
+#: Projects/view/projects/flats/index.phtml:76
+#, fuzzy
+msgid "Dev Charges"
+msgstr "الرسوم"
+
+#: Projects/view/projects/flats/index.phtml:77
+#, fuzzy
+msgid "Club Mem. Charges"
+msgstr "نادي Mem. رسوم"
+
+#: Projects/view/projects/flats/index.phtml:78
+#, fuzzy
+msgid "Adv Maintanace"
+msgstr "مينتانيس Adv"
+
+#: Projects/view/projects/flats/index.phtml:79
+#, fuzzy
+msgid "PLC"
+msgstr "أجهزة التحكم بمستوى الطاقة"
+
+#: Projects/view/projects/flats/index.phtml:80
+#, fuzzy
+msgid "Total"
+msgstr "إجمالي"
+
+#: Projects/view/projects/flats/index.phtml:159
+msgid "Note: charges and rates are per square feet basis."
+msgstr ""
+
+#: Projects/view/projects/flats/index.phtml:173
+#, fuzzy
+msgid "Upload Flats"
+msgstr "تحميل الشقق"
+
+#: Projects/view/projects/flats/index.phtml:197
+#: Projects/view/projects/inventory/index.phtml:121
+#, fuzzy
+msgid "Mail Flat Detail"
+msgstr "تفاصيل شقة البريد"
+
+#: Projects/view/projects/flats/index.phtml:202
+#: Projects/view/projects/inventory/index.phtml:126
+#, fuzzy
+msgid "Email ID"
+msgstr "يؤدي معرف"
+
+#: Projects/view/projects/flats/index.phtml:208
+#: Projects/view/projects/inventory/index.phtml:132
+#, fuzzy
+msgid "Send"
+msgstr "ارسل"
+
+#: Projects/view/projects/flats/index.phtml:220
+#: Projects/view/projects/inventory/index.phtml:144
+#, fuzzy
+msgid "Flat Detail"
+msgstr "التفاصيل"
+
+#: Projects/view/projects/flats/index.phtml:227
+#: Projects/view/projects/inventory/index.phtml:151
+#, fuzzy
+msgid "Mail"
+msgstr "البريد الإلكتروني"
+
+#: Projects/view/projects/flats/select-building.phtml:6
+#, fuzzy
+msgid "Select"
+msgstr "اختَر واحدة"
+
+#: Projects/view/projects/flats/select-building.phtml:47
+#, fuzzy
+msgid "Manage"
+msgstr "إدارة"
+
+#: Projects/view/projects/inventory/index.phtml:31
+#, fuzzy
+msgid "Project name"
+msgstr "اسم الإجراء"
+
+#: Projects/view/projects/inventory/index.phtml:41
+#, fuzzy
+msgid "Building name"
+msgstr "اسم العميل"
+
+#: Projects/view/projects/inventory/index.phtml:46
+#, fuzzy
+msgid "View Inventory"
+msgstr "المخزون"
+
+#: Projects/view/projects/inventory/index.phtml:150
+#, fuzzy
+msgid "Print"
+msgstr "طباعة"
+
+#: Projects/view/projects/projects/add.phtml:2
+#, fuzzy
+msgid "Add Project"
+msgstr "المشروع"
+
+#: Projects/view/projects/projects/details.phtml:2
+#, fuzzy
+msgid "Projects Details"
+msgstr "تفاصيل المشاريع"
+
+#: Projects/view/projects/projects/details.phtml:27
+#, fuzzy
+msgid "Progress"
+msgstr "مؤشر التقدم"
+
+#: Projects/view/projects/projects/details.phtml:31
+#, fuzzy
+msgid "Internal Amenities"
+msgstr "المرافق الداخلية"
+
+#: Projects/view/projects/projects/details.phtml:39
+#, fuzzy
+msgid "External Amenities"
+msgstr "المرافق الخارجية"
+
+#: Projects/view/projects/projects/details.phtml:49
+#, fuzzy
+msgid "Start Date"
+msgstr "تاريخ الإنشاء"
+
+#: Projects/view/projects/projects/details.phtml:53
+#, fuzzy
+msgid "Completion Date"
+msgstr "تاريخ الإنشاء"
+
+#: Projects/view/projects/projects/details.phtml:57
+#, fuzzy
+msgid "Project Location"
+msgstr "المشروع"
+
+#: Projects/view/projects/projects/details.phtml:61
+#, fuzzy
+msgid "Project Address"
+msgstr "المشروع"
+
+#: Projects/view/projects/projects/edit.phtml:2
+#, fuzzy
+msgid "Edit Project"
+msgstr "المشروع"
+
+#: Projects/view/projects/projects/index.phtml:29
+#, fuzzy
+msgid "Project Status"
+msgstr "المشروع"
+
+#: Projects/view/projects/projects/index.phtml:31
+#, fuzzy
+msgid "Brochure"
+msgstr "نشرة الكتيبات"
+
+#: Projects/view/projects/projects/index.phtml:32
+#, fuzzy
+msgid "Contact Form"
+msgstr "رقم جهة الاتصال"
+
+#: Projects/view/projects/projects/index.phtml:46
+#, fuzzy
+msgid "Get Form"
+msgstr "الحصول على النموذج"
+
+#: Projects/view/projects/projects/index.phtml:73
+#, fuzzy
+msgid "Copy Script"
+msgstr "السيناريو"
+
+#: Projects/view/projects/projects/index.phtml:76
+#, fuzzy
+msgid ""
+"Just paste below mentioned script onto either header or footer of your Micro "
+"site. Subsequently all Enquiries sent from the website page will be auto-"
+"created in the CRM! Its a plain bootstrap form, you can change the look-n-"
+"feel of it as per your Company standards."
+msgstr ""
+"فقط قم بلصق أدناه البرنامج النصي المذكورة على أما من رأس أو تذييل الصفحة من "
+"موقع الويب الخاص بك الصغير. بعد ذلك سوف تكون جميع الاستفسارات المرسلة من "
+"صفحة موقع تم إنشاؤه تلقائياً في إدارة علاقات العملاء! في نموذج bootstrap "
+"عادي، يمكنك تغيير المظهر-n-يشعر به وفقا لمعايير الشركة الخاصة بك."
+
+#: Projects/view/projects/projects/index.phtml:80
+#, fuzzy
+msgid "Copy to clipboard"
+msgstr "نسخ إلى حافظة"
+
+#: Reports/view/reports/reports/index.phtml:15
+#, fuzzy
+msgid "DETAILED LEAD REPORT"
+msgstr "يؤدي معرف"
+
+#: Reports/view/reports/reports/index.phtml:29
+#: User/view/user/user/index.phtml:2
+#, fuzzy
+msgid "Users"
+msgstr "المستخدمين"
+
+#: Reports/view/reports/reports/index.phtml:38
+#: Reports/view/reports/reports/index.phtml:71
+#: Reports/view/reports/reports/index.phtml:108
+#: Reports/view/reports/reports/index.phtml:140
+#: Reports/view/reports/reports/index.phtml:213
+#, fuzzy
+msgid "Date Range"
+msgstr "تاريخ الإنشاء"
+
+#: Reports/view/reports/reports/index.phtml:57
+#, fuzzy
+msgid "FOLLOWUP REPORT"
+msgstr "تقرير المتابعة"
+
+#: Reports/view/reports/reports/index.phtml:94
+#, fuzzy
+msgid "PROJECT WISE REPORT"
+msgstr "المشروع"
+
+#: Reports/view/reports/reports/index.phtml:126
+#, fuzzy
+msgid "SOURCE WISE REPORT"
+msgstr "تقرير مصدر الحكمة"
+
+#: Reports/view/reports/reports/index.phtml:160
+#, fuzzy
+msgid "CAMPAIGN REPORT"
+msgstr "تقرير الحملة"
+
+#: Reports/view/reports/reports/index.phtml:199
+#, fuzzy
+msgid "BOOKING REPORT"
+msgstr "تقرير الحجز"
+
+#: Settings/view/settings/settings/index.phtml:149
+#, fuzzy
+msgid "Current Logo"
+msgstr "الشعار الحالي"
+
+#: Settings/view/settings/settings/index.phtml:166
+#, fuzzy
+msgid "Current Favicon"
+msgstr "فيكن الحالية"
+
+#: Tasks/view/tasks/tasks/add.phtml:2
+#, fuzzy
+msgid "Add Task"
+msgstr "إضافة مهمَّة"
+
+#: Tasks/view/tasks/tasks/edit.phtml:2
+#, fuzzy
+msgid "Edit Task"
+msgstr "تعديل المهمة"
+
+#: Tasks/view/tasks/tasks/index.phtml:33
+#, fuzzy
+msgid "Tasks Assigned by me"
+msgstr "تعيين المهام من قبلي"
+
+#: Tasks/view/tasks/tasks/index.phtml:36
+#, fuzzy
+msgid "Tasks Assigned to me"
+msgstr "تعيين المهام إلى لي"
+
+#: Tasks/view/tasks/tasks/index.phtml:52
+#: Tasks/view/tasks/tasks/index.phtml:101
+#, fuzzy
+msgid "Expected Date"
+msgstr "تاريخ الإنشاء"
+
+#: Tasks/view/tasks/tasks/index.phtml:53
+#: Tasks/view/tasks/tasks/index.phtml:102
+#, fuzzy
+msgid "Priority"
+msgstr "الأولوية"
+
+#: Tasks/view/tasks/tasks/index.phtml:54
+#: Tasks/view/tasks/tasks/index.phtml:103
+#, fuzzy
+msgid "Created By"
+msgstr "تاريخ الإنشاء"
+
+#: Tasks/view/tasks/tasks/index.phtml:56
+#: Tasks/view/tasks/tasks/index.phtml:105
+#, fuzzy
+msgid "Completed By"
+msgstr "تم الإكمال بواسطة"
+
+#: Tasks/view/tasks/tasks/index.phtml:57
+#: Tasks/view/tasks/tasks/index.phtml:106
+#, fuzzy
+msgid "Date Completed"
+msgstr "تاريخ الإنشاء"
+
+#: Tasks/view/tasks/tasks/index.phtml:58
+#: Tasks/view/tasks/tasks/index.phtml:107
+#, fuzzy
+msgid "Assigned to"
+msgstr "أوكل إلى"
+
+#: User/view/user/auth/login.phtml:26
+#: User/view/user/user/reset-password.phtml:23
+#, fuzzy
+msgid "Sign into your connectCRM account"
+msgstr "تسجيل الدخول إلى حسابك كونيكتكرم"
+
+#: User/view/user/auth/login.phtml:49
+#, fuzzy
+msgid "Incorrect login and/or password. "
+msgstr "اسم تسجيل الدخول أو كلمة المرور غير صحيحة."
+
+#: User/view/user/auth/login.phtml:50
+#, fuzzy
+msgid "Forgot password?"
+msgstr "هل نسيت كلمة المرور؟"
+
+#: User/view/user/auth/login.phtml:60
+#, fuzzy
+msgid "Keep Me Signed in"
+msgstr "ابقني مسجل"
+
+#: User/view/user/auth/login.phtml:79
+#, fuzzy
+msgid "2017 All Rights Reserved. ConnectCRM v1.0. Privacy and Terms"
+msgstr "جميع حقوق النشر محفوظة © 2017"
+
+#: User/view/user/auth/not-authorized.phtml:2
+#, fuzzy
+msgid "Not Authorized"
+msgstr "غير مصرح به."
+
+#: User/view/user/auth/not-authorized.phtml:10
+#, fuzzy
+msgid "Sorry but we couldnt find this page"
+msgstr "آسف ولكن نحن لا يمكن العثور على هذه الصفحة"
+
+#: User/view/user/auth/not-authorized.phtml:11
+#, fuzzy
+msgid ""
+"We track these errors automatically, but if the problem persists feel free "
+"to contact us. In the meantime, try refreshing."
+msgstr ""
+"نحن تتبع هذه الأخطاء تلقائياً، ولكن إذا استمرت المشكلة، لا تتردد في الاتصال "
+"بنا. وفي الوقت نفسه، حاول تحديث."
+
+#: User/view/user/auth/not-authorized.phtml:11
+#, fuzzy
+msgid "Report this"
+msgstr "أخبر عن هذا"
+
+#: User/view/user/auth/not-authorized.phtml:18
+#, fuzzy
+msgid "Search"
+msgstr "بحث"
+
+#: User/view/user/permission/add.phtml:2
+#: User/view/user/permission/add.phtml:10
+#: User/view/user/permission/edit.phtml:10
+#, fuzzy
+msgid "Add Permission"
+msgstr "الإذن"
+
+#: User/view/user/permission/edit.phtml:2
+#, fuzzy
+msgid "Edit Permission"
+msgstr "تعديل الإذن"
+
+#: User/view/user/permission/index.phtml:2 User/view/user/role/view.phtml:65
+#, fuzzy
+msgid "Permissions"
+msgstr "أذونات"
+
+#: User/view/user/permission/index.phtml:36
+#: User/view/user/permission/view.phtml:42
+#: User/view/user/role/edit-permissions.phtml:41
+#: User/view/user/role/index.phtml:37 User/view/user/role/view.phtml:40
+#: User/view/user/role/view.phtml:78
+#, fuzzy
+msgid "Description"
+msgstr "وصف"
+
+#: User/view/user/permission/index.phtml:38 User/view/user/role/index.phtml:39
+#: User/view/user/user/index.phtml:36
+#, fuzzy
+msgid "Actions"
+msgstr "الاجراءات"
+
+#: User/view/user/permission/view.phtml:2 User/view/user/user/add.phtml:2
+#: User/view/user/user/add.phtml:10 User/view/user/user/edit.phtml:2
+#: User/view/user/user/edit.phtml:11
+#, fuzzy
+msgid "Add User"
+msgstr "عضو"
+
+#: User/view/user/permission/view.phtml:11
+#, fuzzy
+msgid "View Permission"
+msgstr "الإذن"
+
+#: User/view/user/role/add.phtml:2 User/view/user/role/add.phtml:10
+#, fuzzy
+msgid "Add Role"
+msgstr "أضافة وظيفة جديدة"
+
+#: User/view/user/role/edit-permissions.phtml:2
+#, fuzzy
+msgid "Edit Role Permissions"
+msgstr "تحرير أذونات دور"
+
+#: User/view/user/role/edit-permissions.phtml:10
+#: User/view/user/role/edit.phtml:2 User/view/user/role/edit.phtml:10
+#, fuzzy
+msgid "Edit Role"
+msgstr "إدارة الأدوار"
+
+#: User/view/user/role/index.phtml:2 User/view/user/user/view.phtml:70
+#, fuzzy
+msgid "Roles"
+msgstr "الأدوار"
+
+#: User/view/user/role/view.phtml:2 User/view/user/role/view.phtml:11
+#, fuzzy
+msgid "View Role"
+msgstr "عرض الدور"
+
+#: User/view/user/user/change-password.phtml:2
+#: User/view/user/user/change-password.phtml:10
+#, fuzzy
+msgid "Change Password"
+msgstr "تغير كلمة المرور"
+
+#: User/view/user/user/change-password.phtml:50
+#, fuzzy
+msgid "Change Password for "
+msgstr "تغيير كلمة المرور لاجل"
+
+#: User/view/user/user/index.phtml:33
+#, fuzzy
+msgid "Role(s)"
+msgstr "المu7jc75mkiumi57gtu7mu7mنumuymصبthytnhynjuym"
+
+#: User/view/user/user/message.phtml:2
+#, fuzzy
+msgid "Thank You"
+msgstr "شكرا"
+
+#: User/view/user/user/message.phtml:22
+#: User/view/user/user/reset-password.phtml:2
+#: User/view/user/user/reset-password.phtml:27
+#, fuzzy
+msgid "Reset Password"
+msgstr "استرجاع كلمة المرور"
+
+#: User/view/user/user/message.phtml:26
+#, fuzzy
+msgid "A password reset link has been sent to your email address"
+msgstr "تم ارسال رابط إعادة تعيين كلمة المرور إلى بريدك الإلكتروني."
+
+#: User/view/user/user/message.phtml:30
+#, fuzzy
+msgid "There is no user with such an email"
+msgstr "عضو"
+
+#: User/view/user/user/message.phtml:34
+#, fuzzy
+msgid "Your new password has been set successfully"
+msgstr "تم تغيير كلمة المرور بنجاح"
+
+#: User/view/user/user/message.phtml:37
+#, fuzzy
+msgid "Return to"
+msgstr "العودة إلى"
+
+#: User/view/user/user/message.phtml:37
+#, fuzzy
+msgid "login page"
+msgstr "صفحة تسجيل الدخول"
+
+#: User/view/user/user/message.phtml:41
+#, fuzzy
+msgid "Invalid reset key or it may have expired. Please return"
+msgstr "-أو قد يكون فيروس (أيبولا )"
+
+#: User/view/user/user/message.phtml:42
+#, fuzzy
+msgid "here"
+msgstr "هنا"
+
+#: User/view/user/user/message.phtml:42
+#, fuzzy
+msgid "and try reset your password again"
+msgstr "ومحاولة إعادة تعيين كلمة المرور الخاصة بك مرة أخرى"
+
+#: User/view/user/user/reset-password.phtml:29
+#, fuzzy
+msgid "Enter your e-mail address below to reset your password"
+msgstr "أدخل عنوان بريدك الإلكتروني أدناه لإعادة تعيين كلمة المرور."
+
+#: User/view/user/user/reset-password.phtml:36
+#, fuzzy
+msgid "Enter the letters above as you see them."
+msgstr "أدخل الأحرف أعلاه كما تراها."
+
+#: User/view/user/user/reset-password.phtml:51
+msgid "All Rights Reserved. ConnectCRM v1.0. Privacy and Terms"
+msgstr ""
+
+#: User/view/user/user/set-password.phtml:2
+#: User/view/user/user/set-password.phtml:23
+#, fuzzy
+msgid "Set New Password"
+msgstr "ضبط كلمة مرور جديدة"
+
+#: User/view/user/user/set-password.phtml:25
+#, fuzzy
+msgid "Enter your new password in the form below"
+msgstr "أدخل كلمة المرور الجديدة أدناه."
+
+#: User/view/user/user/view.phtml:2 User/view/user/user/view.phtml:11
+#, fuzzy
+msgid "View User"
+msgstr "عضو"
+
+#: User/view/user/user/view.phtml:58
+#, fuzzy
+msgid "User Type"
+msgstr "عضو"

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<?php echo $this->render('layout/head') ?>
+
+<style>
+.print_box{
+width: 100%;
+max-width: 600px;
+padding: 40px;
+border: 10px solid #eee;
+margin-top: 20px;
+}
+</style>
+</head>
+  <body style="background:#fff;">
+    <div class="container">
+	<div class="col-md-12">
+	<div class="print_box">
+	<?php 
+
+echo '<table class="table"> 
+            <tbody><tr>
+                <td>Flat No: </td>
+                <td>'.$flat->getFlatNo().'</td>
+                </tr><tr>
+                <td>Project/Phase:</td>
+                <td>'.$flat->getProject()->getName().'</td>
+            </tr>
+            <tr>
+                <td>Building Name:</td>
+                <td>'.$flat->getBuilding()->getName().'</td>
+                </tr><tr>
+                <td>Flat Status: </td>
+                <td>'.$flat->getStatus().'</td>
+
+            </tr>
+            <tr>
+                <td>Flat Type: </td>
+                <td>'.$flat->getFlatArea().'</td>
+                </tr><tr>
+                <td>Area:</td>
+                <td>'.$flat->getFlatType().' Sqft</td>
+            </tr>
+            <tr>
+                <td>Current Sq Feet Rate: </td>
+                <td>'.$flat->getCurrentSqFeetRate().'</td>
+                </tr><tr>
+                <td>Floor Rise:</td>
+                <td>'.$flat->getFloorRise().'</td>
+            </tr>
+            <tr>
+                <td>Development Charges: </td>
+                <td>'.$flat->getDevCharges().'</td>
+                </tr><tr>
+                <td>Club Membership Charges:</td>
+                <td>'.$flat->getClubMembershipCharges().'</td>
+            </tr>
+            <tr>
+                <td>PLC: </td>
+                <td>'.$flat->getParkingCharges().'</td>
+                </tr><tr>
+                <td>Advance Maintenance:</td>
+                <td>'.$flat->getAdvanceMaintanance().'</td>
+            </tr>
+            <tr>
+                <td>Total Cost: </td>
+                <td>'.$flat->getTotalCost().'</td>
+				<td>
+				</td>
+            </tr>
+        </tbody></table>';
+		
+		?>
+		<input type="button" onclick="window.print();" value="Print" class="btn btn-info pull-right">
+		</div>
+	</div>
+	</div>
+
+	</body>

@@ -1,0 +1,192 @@
+<?php
+$title = $this->translate('Walkins');
+$this->headTitle($title);
+$this->pageBreadcrumbs()->setItems([
+            $this->translate('Walkins')=>$this->url('walkins')
+            ]);
+$this->pageBreadcrumbs()->setIcon('fa fa-street-view');
+$this->mainMenu()->setActiveItemId('leads');
+?>
+
+<div class="row">
+  <div class="col-xl-12 col-lg-12 ">
+    <div class="clearfix"></div>
+<?= $this->flashMessenger()->render('error', ['alert', 'alert-danger']); ?>
+<?= $this->flashMessenger()->render('success', ['alert', 'alert-success']); ?>
+<?= $this->flashMessenger()->render('info', ['alert', 'alert-info']); ?>
+<div class="clearfix"></div>
+
+<form class="form-inline" name="walkins_filter_form" method="post" action="<?php echo $this->url('walkins', array('controller' => 'walkins', 'action'=>'index')); ?>">
+<div class="row">
+  <div class="form-group">
+  <select class="form-control" name="s_customer" data-init-plugin="select2">
+  <option value="">Select Customer</option>
+    <?php foreach ($this->customers  as $customer){ ?>
+    <option <?= empty($search_array)?'':($search_array['s_customer']==$customer->getId()?'selected':''); ?> value="<?php echo $customer->getId(); ?>"><?php echo $customer->getFirstName().' '.$customer->getLastName(); ?></option>
+    <?php } ?>
+    </select>
+  </div>
+
+		<div class=" form-group">
+		<button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+		</div>
+	 </div>
+</form>
+
+<div class="table-responsive">
+<table class="table table-hover  table-responsive-block">
+<thead>
+<tr>
+<th></th>
+<th><?php echo $this->translate('Customer Name') ?></th>
+<th><?php echo $this->translate('Contact No') ?></th>
+<th><?php echo $this->translate('Project/Phase') ?></th>
+<th><?php echo $this->translate('Source') ?></th>
+<th><?php echo $this->translate('Status') ?></th>
+<th width="100"></th>
+</tr>
+</thead>
+<tbody>
+
+<?php if(!empty($leads)): foreach ($leads as $lead) : ?>
+<tr>
+<td><?php echo $lead->getId();?></td>
+<td><a href="<?php echo $this->url('leads', ['action'=>'details','id' => $lead->getId()]); ?>"><?php echo $lead->getFirstName().' '.$lead->getLastName();?></a></td>
+<td><?php echo $lead->getContact();?></td>
+<td><?php echo $this->ProjectDetails()->getName($lead->getProject());?></td>
+<td><i class="<?php echo $this->LeadSourceDetail()->getIcon($lead->getSource()); ?>"></i></td>
+<td>closed</td>
+<td>
+	<div class="btn-group pull-right">
+	<a href="#"  data-toggle="modal" data-target="#confirmCall" class="btn btn-success btn-xs"><i class="fal fa-phone"></i></a>
+		<a onclick="setcontactno(<?php echo $lead->getContact();?>)" href="<?php echo $this->url('notifications', array('controller' => 'notifications', 'action'=>'sendsms','id' => $lead->getId())); ?>" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#smsmodal"><i class="fal fa-comment-alt"></i></a>
+		<a onclick="setemailadd('<?php echo $lead->getEmail();?>', <?php echo $lead->getId();?>)" href="<?php echo $this->url('notifications', array('controller' => 'notifications', 'action'=>'sendemail','id' => $lead->getId())); ?>" class="btn btn-success btn-xs"  data-toggle="modal" data-target="#emailmodal"><i class="fal fa-envelope-open"></i></a>
+</div>
+ </td>
+</tr>
+<?php endforeach;  endif;?>
+
+<?php
+function empty_filter($var){
+if (!empty($var)){
+	return $var->getName();
+}
+}
+?>
+</tbody>
+</table>
+</div>
+    
+    </div>
+</div>
+
+<?php echo $this->partial('application/partial/paginator', ['paginator'=>$this->paginator]); ?>
+
+
+<!-- Modal Dialog -->
+<div class="modal fade" id="confirmCall" role="dialog" aria-labelledby="confirmCallLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+      <h4 class="modal-title"><?php echo $this->translate('Call Customer') ?></h4>
+    </div>
+    <div class="modal-body">
+      <p><?php echo $this->translate('Are you sure you want to make this call?') ?></p>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $this->translate('Close') ?></button>
+      <button type="button" class="btn btn-success" id="confirm"><?php echo $this->translate('Call') ?></button>
+    </div>
+  </div>
+</div>
+</div>
+
+<!--SMS Modal-->
+<div class="modal fade" id="smsmodal" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+  <div class="modal-content">
+	<form name="sendsms_form" method="post" action="<?php echo $this->url('notifications', array('controller' => 'notifications', 'action'=>'sendsms')); ?>">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+				<h4 class="modal-title" id="myModalLabel"><?php echo $this->translate('Send SMS') ?></h4>
+			</div>
+			<div class="modal-body">
+			<div class="form-group">
+			<input type="text" id="smscontactno" name="contact" class="form-control" value="" readonly></input>
+			</div>
+			<div class="form-group">
+				<select id="smstemplate" name="smstemplate" class="form-control">
+				<option value="">Select</option>
+				<?php foreach ($smstemplates as $smstemplate) : ?>
+				<option value="<?php echo $smstemplate->getID();?>"><?php echo $smstemplate->getTitle();?></option>
+				<?php endforeach; ?>
+				</select>
+			</div>
+
+			<div class="form-group">
+				<textarea id="message" readonly name="message" class="form-control">
+
+				</textarea>
+			</div>
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn-primary" type="submit"><?php echo $this->translate('Submit') ?></button>
+			</div>
+		</form>
+  </div>
+</div>
+</div>
+
+
+
+<!--Email Modal-->
+<div class="modal fade" id="emailmodal" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+  <div class="modal-content">
+	<form name="sendemail_form" method="post" action="<?php echo $this->url('notifications', array('controller' => 'notifications', 'action'=>'sendemail')); ?>">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+				<h4 class="modal-title" id="myModalLabel"><?php echo $this->translate('Send Email') ?></h4>
+			</div>
+			<div class="modal-body">
+			<div class="form-group">
+			<input id="modalemailadd" type="text" name="email" class="form-control" value="" readonly></input>
+			</div>
+			<div class="form-group">
+				<select id="emailtemplate" name="emailtemplate" class="form-control">
+				<option value="">Select</option>
+				<?php foreach ($emailtemplates as $emailtemplate) : ?>
+				<option value="<?php echo $emailtemplate->getID();?>"><?php echo $emailtemplate->getTitle();?></option>
+				<?php endforeach; ?>
+				</select>
+			</div>
+			<input id="modalleadid" type="hidden" name="lead_id" class="form-control" value="<?php echo $this->lead_id; ?>" readonly></input>
+			<div class="form-group">
+				<textarea id="message2" readonly name="message" class="form-control">
+
+				</textarea>
+			</div>
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn-primary" type="submit"><?php echo $this->translate('Submit') ?></button>
+			</div>
+		</form>
+  </div>
+</div>
+</div>
+
+<style>
+.fa-mobile-phone::before, .fa-mobile::before {
+    content: "\f10b";
+    font-size: 18px;
+}
+</style>
+<script src="<?php echo $this->basePath(); ?>/plugins/ckeditor.js"></script>
+<script>
+ClassicEditor
+	.create( document.querySelector( '#message2' ) )
+	.then( editor => {
+		window.myEditor = editor
+	});
+</script>

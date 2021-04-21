@@ -1,0 +1,94 @@
+
+<?php
+$title = $this->translate('Leads Details');
+$this->headTitle($title);
+$this->pageBreadcrumbs()->setItems([
+            $this->translate('Leads')=>$this->url('leads'),
+            $this->translate('Details')=>$this->url('leads', ['action'=>'details']),
+            ]);
+$this->pageBreadcrumbs()->setIcon('fas fa-user-friends');
+$this->actionButtons()->setItems([
+            $this->translate('Back to Leads')=>$this->url('leads'),$this->translate('Edit Lead')=>$this->url('leads',['action'=>'edit','id'=>$this->lead->getId()])
+            ]);
+$this->mainMenu()->setActiveItemId('leads');
+?>
+
+<div class="row">
+  <div class="col-xl-12 col-lg-12 no-padding">
+    <div class="col-md-6 pull-left">
+        <div class="table-responsive">
+        <table class="table table-hover  table-responsive-block">
+          <tbody>
+          <tr>
+            <td style="width:50%"><?php echo $this->translate('Id') ?>:</td>
+            <td><?php echo $this->lead->getId(); ?></td>
+          </tr>
+          <tr>
+            <td><?php echo $this->translate('Name') ?>:</td>
+            <td><?php echo $lead->getFirstName().' '.$lead->getLastName(); ?></td>
+          </tr>
+          <tr>
+            <td style="width:50%"><?php echo $this->translate('Contact') ?>:</td>
+            <td><?php echo $lead->getContact(); ?></td>
+          </tr>
+          <tr>
+            <td><?php echo $this->translate('Email') ?>:</td>
+            <td><?php echo $lead->getEmail(); ?></td>
+          </tr>
+          <tr>
+            <td><?php echo $this->translate('Created at') ?>:</td>
+            <td><?php echo $this->lead->getDateCreated(); ?></td>
+          </tr>
+          </tbody>
+        </table>
+        </div>
+        </div>
+        <div class="col-md-6 pull-right">
+        <div class="table-responsive">
+        <table class="table table-hover  table-responsive-block">
+            <tbody>
+              <tr>
+                <td><?php echo $this->translate('Project') ?>:</td>
+                <td><?php echo $this->ProjectDetails()->getName($lead->getProject());?></td>
+              </tr>
+
+              <tr>
+                <td><?php echo $this->translate('Source') ?>:</td>
+                <td><i class="<?php echo $this->LeadSourceDetail()->getIcon($lead->getSource()); ?>"></i></td>
+              </tr>
+              <tr>
+                <td><?php echo $this->translate('Status') ?>:</td>
+                <td><i class="status fa fa-circle" style="color:<?php echo $this->LeadStatusDetail()->getColor($lead->getStatus()); ?>"></i></td>
+              </tr>
+            </tbody>
+        </table>
+        </div>
+        </div>
+        
+<br/><br/>
+
+
+<div class="table-responsive">
+      <table class="table table-hover  table-responsive-block">
+        <thead>
+<th><?php echo $this->translate('Followup Type') ?></th>
+<th><?php echo $this->translate('Follow Date') ?></th>
+<th><?php echo $this->translate('Remarks') ?></th>
+<th><?php echo $this->translate('Date Created') ?></th>
+      </thead>
+          <tbody>
+<?php foreach ($this->followups as $followup) { ?>
+            <tr>
+              <td><?php echo $this->FollowupDetail()->getFollowupType($followup->getFollowupType()); ?></td>
+              <td><?php echo $followup->getFollowDate(); ?></td>
+              <td><?php echo $followup->getRemarks(); ?></td>
+              <td><?php echo $followup->getDateCreated(); ?></td>
+            </tr>
+<?php } ?>
+          </tbody>
+      </table>
+      </div>
+
+
+</div>
+</div>

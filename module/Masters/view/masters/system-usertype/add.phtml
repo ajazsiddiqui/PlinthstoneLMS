@@ -1,0 +1,80 @@
+<?php
+$title = $this->translate('Add System UserType');
+$this->headTitle($title);
+$this->pageBreadcrumbs()->setItems([
+            $this->translate('System UserType')=>$this->url('system-usertype'),
+            $this->translate('Add')=>$this->url('system-usertype',['action'=>'add']),
+            ]);
+$this->pageBreadcrumbs()->setIcon('fa fa-users ');
+$this->actionButtons()->setItems([
+            $this->translate('Back to System UserType')=>$this->url('system-usertype'),
+            ]);
+
+$this->mainMenu()->setActiveItemId('masters');
+
+$form->get('name')->setAttributes(['class'=>'form-control','placeholder'=>'Name']);
+$form->get('status')->setAttributes(['class'=>'form-control','data-init-plugin' => 'switchery']);
+$form->get('negotiation_percent')->setAttributes(['class'=>'form-control']);
+$form->get('number_mask')->setAttributes(['class'=>'form-control','data-init-plugin' => 'select2']);
+$form->get('eod_status')->setAttributes(['class'=>'form-control','data-init-plugin' => 'select2']);
+$form->get('confidential')->setAttributes(['class'=>'form-control','data-init-plugin' => 'select2']);
+$form->get('submit')->setAttributes(['class'=>'btn btn-primary'])->setValue($this->translate('Create'));
+$form->prepare();
+?>
+
+<div class="row">
+  <div class="col-xl-12 col-lg-12 no-padding">
+
+<div class="clearfix"></div><br/>
+<?= $this->flashMessenger()->render('error', ['alert', 'alert-danger']); ?>
+<?= $this->flashMessenger()->render('success', ['alert', 'alert-success']); ?>
+<?= $this->flashMessenger()->render('info', ['alert', 'alert-info']); ?>
+<div class="clearfix"></div>
+
+
+    <div class="col-md-6">
+        <?= $this->form()->openTag($form); ?>
+
+        <div class="form-group form-group-default">
+            <?= $this->formLabel($form->get('name')); ?>
+            <?= $this->formElement($form->get('name')); ?>
+            <?= $this->formElementErrors($form->get('name')); ?>
+        </div>
+
+        <div class="form-group form-group-default">
+            <?= $this->formLabel($form->get('negotiation_percent')); ?>
+            <?= $this->formElement($form->get('negotiation_percent')); ?>
+            <?= $this->formElementErrors($form->get('negotiation_percent')); ?>
+        </div>
+
+        <div class="form-group form-group-default form-group-default-select2">
+            <?= $this->formLabel($form->get('number_mask')); ?>
+            <?= $this->formElement($form->get('number_mask')); ?>
+            <?= $this->formElementErrors($form->get('number_mask')); ?>
+        </div>
+
+        <div class="form-group form-group-default form-group-default-select2">
+            <?= $this->formLabel($form->get('eod_status')); ?>
+            <?= $this->formElement($form->get('eod_status')); ?>
+            <?= $this->formElementErrors($form->get('eod_status')); ?>
+        </div>
+
+        <div class="form-group form-group-default form-group-default-select2">
+            <?= $this->formLabel($form->get('confidential')); ?>
+            <?= $this->formElement($form->get('confidential')); ?>
+            <?= $this->formElementErrors($form->get('confidential')); ?>
+        </div>
+
+        <div class="form-group form-group-default switchery_holder">
+            <?= $this->formLabel($form->get('status')); ?>
+            <?= $this->formElement($form->get('status')); ?>
+            <?= $this->formElementErrors($form->get('status')); ?>
+        </div>
+
+        <?= $this->formElement($form->get('submit')); ?>
+
+        <?= $this->form()->closeTag(); ?>
+    </div>
+
+</div>
+</div>

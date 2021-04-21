@@ -1,0 +1,72 @@
+<?php
+$title = $this->translate('Users');
+$this->headTitle($title);
+$this->mainMenu()->setActiveItemId('settings');
+$this->pageBreadcrumbs()->setItems([
+           $this->translate('Users')=>$this->url('users'),
+            ]);
+$this->pageBreadcrumbs()->setIcon('fa fa-user ');
+$this->actionButtons()->setItems([
+           $this->translate('Add Users')=>$this->url('users',['action'=>'add'])
+            ]);
+?>
+
+<div class="row">
+  <div class="col-xl-12 col-lg-12 no-padding">
+
+<div class="clearfix"></div><br/>
+<?= $this->flashMessenger()->render('error', ['alert', 'alert-danger']); ?>
+<?= $this->flashMessenger()->render('success', ['alert', 'alert-success']); ?>
+<?= $this->flashMessenger()->render('info', ['alert', 'alert-info']); ?>
+<div class="clearfix"></div>
+
+<div class="table-responsive">
+<table class="table table-hover  table-responsive-block">
+<thead>
+   <tr>
+        <th><?php echo $this->translate('ID') ?></th>
+        <th><?php echo $this->translate('E-mail') ?></th>
+        <th><?php echo $this->translate('Full Name') ?></th>
+        <th><?php echo $this->translate('Role(s)') ?></th>
+        <th><?php echo $this->translate('Date Created') ?></th>
+        <th><?php echo $this->translate('Status') ?></th>
+        <th><?php echo $this->translate('Actions') ?></th>
+    </tr>
+</thead>
+    <?php foreach ($users as $user): ?>
+
+    <tr>
+        <td><?= $this->escapeHtml($user->getId()); ?></td>
+        <td>
+            <a href="<?= $this->url('users', ['action'=>'view', 'id'=>$user->getId()]); ?>">
+                <?= $this->escapeHtml($user->getEmail()); ?>
+            </a>
+        </td>
+        <td>
+            <?= $this->escapeHtml($user->getFullName()); ?></a>
+        </td>
+        <td>
+            <?= $this->escapeHtml($user->getRolesAsString()); ?></a>
+        </td>
+        <td><nobr><?= $this->escapeHtml($user->getDateCreated()); ?></nobr></td>
+        <td><?= $this->escapeHtml($user->getStatusAsString()); ?></td>
+        <td>
+          <div class="btn-group pull-right">
+            <a class="btn btn-info btn-xs" href="<?= $this->url('users',
+                    ['action'=>'edit', 'id'=>$user->getId()]); ?>">
+                <i class="fal fa-edit" ></i>
+            </a>
+            <a class="btn btn-primary btn-xs" href="<?= $this->url('users',
+                    ['action'=>'change-password', 'id'=>$user->getId()]); ?>">
+               <i class="fa fa-key" ></i>
+            </a>
+          </div>
+        </td>
+    </tr>
+
+    <?php endforeach; ?>
+
+</table>
+</div>
+    </div>
+</div>

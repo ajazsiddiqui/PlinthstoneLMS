@@ -1,0 +1,42 @@
+<?php
+$title = $this->translate('Settings');
+$this->headTitle($title);
+$this->mainMenu()->setActiveItemId('settings');
+$this->pageBreadcrumbs()->setItems([
+            $this->translate('Home')=>$this->url('home'),
+            $this->translate('Settings')=>$this->url('application', ['action'=>'settings']),
+            ]);
+?>
+
+<div class="row">
+  <div class="col-xl-12 col-lg-12 ">
+    <div class="card card-default">
+      <div class="card-block">
+        <div class="card-header ">
+          <div class="card-title"><?php echo $this->escapeHtml('Settings'); ?></div>
+		  </div>
+
+      <div class="table-responsive">
+    <table class="table table-hover  table-responsive-block">
+             <tr>
+                <td><?php echo $this->translate('ID') ?>:</td>
+                <td><?= $this->escapeHtml($user->getId()) ?></td>
+            </tr>
+            <tr>
+                <td><?php echo $this->translate('E-mail') ?>:</td>
+                <td><?= $this->escapeHtml($user->getEmail()) ?></td>
+            </tr>
+            <tr>
+                <td><?php echo $this->translate('Full Name') ?>:</td>
+                <td><?= $this->escapeHtml($user->getFullName()) ?></td>
+            </tr>
+            <tr>
+                <td><?php echo $this->translate('Date Created') ?>:</td>
+                <td><?= $this->escapeHtml($user->getDateCreated()) ?></td>
+            </tr>
+        </table>
+      </div>
+      </div>
+   </div>
+    </div>
+</div>

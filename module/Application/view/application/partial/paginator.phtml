@@ -1,0 +1,22 @@
+<?php if ($this->paginator): ?>
+	<?php 
+	$page = $this->paginator['page'];
+	$per_page = ceil($this->paginator['count'] / $paginator['per_page']);
+	?>
+
+	<?php if ($per_page > 1): ?>
+		<ul class="pagination"> 
+			<?php if ($page >  1){ ?>
+				<li class="page-item"><a class="page-link" href="<?= $this->url($this->route, [], ['query'=>['page'=>$this->paginator['page'] - 1,'search'=>$this->search]]); ?>">Previous</a></li>
+			<?php } ?>
+			   
+			<?php  for ($i = 1; $i <= $per_page; $i++) { ?>  
+				<li class="page-item <?php echo (($this->paginator['page'] == $i)?'active':'') ?>"><a class="page-link" href="<?= $this->url($this->route, [], ['query'=>['page'=>$i,'search'=>$this->search]]); ?>"><?php echo $i ?></a></li>
+			  <?php } ?>
+			  
+			<?php if ($page <= $per_page - 1){ ?>
+				<li class="page-item"><a class="page-link" href="<?= $this->url($this->route, [], ['query'=>['page'=>$this->paginator['page'] + 1,'search'=>$this->search]]); ?>">Next</a></li>
+			<?php } ?>
+		</ul> 
+	<?php endif; ?>
+<?php endif; ?>

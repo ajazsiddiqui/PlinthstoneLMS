@@ -1,0 +1,29 @@
+<?php
+$title = $this->translate('Not Authorized');
+$this->headTitle($title);
+?>
+
+
+<div class="d-flex justify-content-center full-height full-width align-items-center">
+<div class="error-container text-center">
+<h1 class="error-number">404</h1>
+<h2 class="semi-bold"><?php echo $this->translate('Sorry but we couldnt find this page') ?></h2>
+<p class="p-b-10"><?php echo $this->translate('We track these errors automatically, but if the problem persists feel free to contact us. In the meantime, try refreshing.') ?> <a href="#"><?php echo $this->translate('Report this') ?>?</a>
+</p>
+<div class="error-container-innner text-center">
+<form class="error-form">
+<div class=" transparent text-left">
+<div class="form-group form-group-default input-group">
+<div class="form-input-group">
+<label><?php echo $this->translate('Search') ?></label>
+<input class="form-control" placeholder="Try searching the missing page" type="email">
+</div>
+<div class="input-group-addon">
+<span class="pg-search"></span>
+</div>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>

@@ -1,0 +1,72 @@
+<?php
+$title = $this->translate('View User');
+$this->headTitle($title);
+
+
+$this->mainMenu()->setActiveItemId('settings');
+
+$this->pageBreadcrumbs()->setItems([
+           $this->translate('Users') =>$this->url('users'),
+           $this->translate('View')=>$this->url('users', ['action'=>'view', 'id'=>$user->getId()])
+            ]);
+	$this->pageBreadcrumbs()->setIcon('fa fa-user ');
+$this->actionButtons()->setItems([
+           $this->translate('Edit Users')=>$this->url('users', ['action'=>'edit', 'id'=>$user->getId()]),
+           $this->translate('Change Password') =>$this->url('users',['action'=>'change-password','id'=>$user->getId()]),
+            ]);
+?>
+
+<div class="row">
+
+<div class="col-sm-12">
+	<div class="clearfix"></div><br/>
+	<?= $this->flashMessenger()->render('error', ['alert', 'alert-danger']); ?>
+	<?= $this->flashMessenger()->render('success', ['alert', 'alert-success']); ?>
+	<?= $this->flashMessenger()->render('info', ['alert', 'alert-info']); ?>
+	<div class="clearfix"></div>
+</div>
+
+<div class="col-xl-2 col-lg-2 col-sm-12">
+	<?php if(!empty($this->user->getProfilePic())){ ?>
+	 <img style="max-width:100%;" src="<?php echo $this->basePath(); ?>/uploads/profile_pics/<?php echo $this->user->getProfilePic(); ?>" />
+	 <?php } ?>
+</div>
+  <div class="col-xl-6 col-lg-6 col-sm-12 ">
+<div class="table-responsive">
+<table class="table table-hover">
+         <tr>
+          <td><?php echo $this->translate('ID') ?>:</td>
+          <td><?= $this->escapeHtml($user->getId()) ?></td>
+      </tr>
+      <tr>
+          <td><?php echo $this->translate('Email') ?>:</td>
+          <td><?= $this->escapeHtml($user->getEmail()) ?></td>
+      </tr>
+      <tr>
+          <td><?php echo $this->translate('Full Name') ?>:</td>
+          <td><?= $this->escapeHtml($user->getFullName()) ?></td>
+      </tr>
+<tr>
+          <td><?php echo $this->translate('Contact No') ?>:</td>
+          <td><?= $this->escapeHtml($user->getContactNo()) ?></td>
+      </tr>
+<tr>
+          <td><?php echo $this->translate('User Type') ?>:</td>
+          <td><?= $this->escapeHtml($user->getUserType()) ?></td>
+      </tr>
+      <tr>
+          <td><?php echo $this->translate('Date Created') ?>:</td>
+          <td><?= $this->escapeHtml($user->getDateCreated()) ?></td>
+      </tr>
+      <tr>
+          <td><?php echo $this->translate('Status') ?>:</td>
+          <td><?= $this->escapeHtml($user->getStatusAsString()) ?></td>
+      </tr>
+      <tr>
+          <td><?php echo $this->translate('Roles') ?>:</td>
+          <td><?= $this->escapeHtml($user->getRolesAsString()) ?></td>
+      </tr>
+  </table>
+</div>
+    </div>
+</div>

@@ -1,0 +1,114 @@
+<?php
+$title = $this->translate('Add Campaign');
+$this->headTitle($title);
+$this->pageBreadcrumbs()->setItems([
+           $this->translate('Campaign')=>$this->url('campaign'),
+           $this->translate('Editor')=>$this->url('campaign', ['action'=>'edit']),
+            ]);
+$this->pageBreadcrumbs()->setIcon('fab fa-twitter-square');
+$this->actionButtons()->setItems([
+		$this->translate('Back to Campaigns')=>$this->url('campaign'),
+            ]);
+			
+$this->mainMenu()->setActiveItemId('campaigns');
+
+$form->get('campaign_name')->setAttributes(['class'=>'form-control', 'placeholder'=>'Campaign Name', 'required' => 'required']);
+$form->get('total_budget')->setAttributes(['class'=>'form-control', 'placeholder'=>'Total Budget', 'required' => 'required']);
+$form->get('total_spent')->setAttributes(['class'=>'form-control', 'placeholder'=>'Total Spent', 'required' => 'required']);
+$form->get('from_date')->setAttributes(['class'=>'form-control datepicker', 'placeholder'=>'From Date', 'required' => 'required']);
+$form->get('to_date')->setAttributes(['class'=>'form-control datepicker', 'placeholder'=>'To Date', 'required' => 'required']);
+$form->get('campaign_type')->setAttributes(['class'=>'form-control', 'id' => 'campaign_type', 'placeholder'=>'Campaign Type', 'required' => 'required','data-init-plugin' => 'select2']);
+$form->get('virtual_number')->setAttributes(['class'=>'form-control', 'id' => 'virtual_number', 'placeholder'=>'Virtual Number', 'required' => 'required','data-init-plugin' => 'select2']);
+$form->get('projects')->setAttributes(['class'=>'form-control', 'id' => 'projects', 'placeholder'=>'Projects', 'required' => 'required','data-init-plugin' => 'select2']);
+$form->get('status')->setAttributes(['class'=>'form-control', 'placeholder'=>'Status', 'data-init-plugin' => 'switchery']);
+$form->get('campaign_description')->setAttributes(['class'=>'form-control', 'placeholder'=>'Campaign Description']);
+
+
+$form->get('submit')
+        ->setAttributes(['class'=>'btn btn-primary'])
+        ->setValue($this->translate('Save'));
+
+$form->prepare();
+?>
+
+<div class="row">
+<div class="col-xl-12 col-lg-12 no-padding">
+	<div class="clearfix"></div><br/>
+<?= $this->flashMessenger()->render('error', ['alert', 'alert-danger']); ?>
+<?= $this->flashMessenger()->render('success', ['alert', 'alert-success']); ?>
+<?= $this->flashMessenger()->render('info', ['alert', 'alert-info']); ?>
+<div class="clearfix"></div>
+
+
+<div class="col-md-6 pull-left">
+		<?= $this->form()->openTag($form); ?>
+
+		<div class="form-group form-group-default">
+				<?= $this->formLabel($form->get('campaign_name')); ?>
+				<?= $this->formElement($form->get('campaign_name')); ?>
+				<?= $this->formElementErrors($form->get('campaign_name')); ?>
+		</div>
+
+		<div class="form-group form-group-default">
+				<?= $this->formLabel($form->get('total_budget')); ?>
+				<?= $this->formElement($form->get('total_budget')); ?>
+				<?= $this->formElementErrors($form->get('total_budget')); ?>
+		</div>
+
+		<div class="form-group form-group-default">
+				<?= $this->formLabel($form->get('total_spent')); ?>
+				<?= $this->formElement($form->get('total_spent')); ?>
+				<?= $this->formElementErrors($form->get('total_spent')); ?>
+		</div>
+
+<div class="form-group form-group-default">
+				<?= $this->formLabel($form->get('from_date')); ?>
+				<?= $this->formElement($form->get('from_date')); ?>
+				<?= $this->formElementErrors($form->get('from_date')); ?>
+		</div>
+
+<div class="form-group form-group-default">
+		<?= $this->formLabel($form->get('to_date')); ?>
+		<?= $this->formElement($form->get('to_date')); ?>
+		<?= $this->formElementErrors($form->get('to_date')); ?>
+</div>
+
+<div class="form-group form-group-default form-group-default-select2">
+		<?= $this->formLabel($form->get('virtual_number')); ?>
+		<?= $this->formElement($form->get('virtual_number')); ?>
+		<?= $this->formElementErrors($form->get('virtual_number')); ?>
+</div>
+
+ <?= $this->formElement($form->get('submit')); ?>
+</div>
+<div class="col-md-6 pull-right">
+
+<div class="form-group form-group-default form-group-default-select2">
+				<?= $this->formLabel($form->get('campaign_type')); ?>
+				<?= $this->formElement($form->get('campaign_type')); ?>
+				<?= $this->formElementErrors($form->get('campaign_type')); ?>
+		</div>
+
+<div class="form-group form-group-default form-group-default-select2">
+				<?= $this->formLabel($form->get('projects')); ?>
+				<?= $this->formElement($form->get('projects')); ?>
+				<?= $this->formElementErrors($form->get('projects')); ?>
+		</div>
+
+
+	<div class="form-group form-group-default">
+				<?= $this->formLabel($form->get('campaign_description')); ?>
+				<?= $this->formElement($form->get('campaign_description')); ?>
+				<?= $this->formElementErrors($form->get('campaign_description')); ?>
+		</div>
+
+<div class="form-group form-group-default switchery_holder">
+				<?= $this->formLabel($form->get('status')); ?>
+				<?= $this->formElement($form->get('status')); ?>
+				<?= $this->formElementErrors($form->get('status')); ?>
+		</div>
+
+		<?= $this->form()->closeTag(); ?>
+		</div>
+</div>
+</div>

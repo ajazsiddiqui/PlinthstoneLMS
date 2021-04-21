@@ -1,0 +1,5 @@
+https://web.whatsapp.com/send?phone=8108533575&text=I%27m%20interested%20in%20your%20services
+
+whatsapp://send?phone=4915792456835&text=Hit%20Send
+
+C:\Program Files\WindowsApps\5319275A.WhatsAppDesktop_0.3.722.0_x64__cv1g1gvanyjgm\app\WhatsApp.exe

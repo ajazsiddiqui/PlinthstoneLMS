@@ -1,0 +1,85 @@
+<!-- jQuery -->
+<script src="<?php echo $this->basePath(); ?>/plugins/tether/js/tether.min.js" type="text/javascript"></script>
+<!--<script src="<?php echo $this->basePath(); ?>/plugins/feather-icons/feather.min.js" type="text/javascript"></script>-->
+<script src="<?php echo $this->basePath(); ?>/plugins/pace/pace.min.js" type="text/javascript"></script>
+<script src="<?php echo $this->basePath(); ?>/plugins/jquery/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="<?php echo $this->basePath(); ?>/plugins/modernizr.custom.js" type="text/javascript"></script>
+<!--<script src="<?php echo $this->basePath(); ?>/plugins/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>-->
+<script src="<?php echo $this->basePath(); ?>/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<!--<script src="<?php echo $this->basePath(); ?>/plugins/jquery/jquery-easy.js" type="text/javascript"></script>
+<script src="<?php echo $this->basePath(); ?>/plugins/jquery-unveil/jquery.unveil.min.js" type="text/javascript"></script>
+<script src="<?php echo $this->basePath(); ?>/plugins/jquery-ios-list/jquery.ioslist.min.js" type="text/javascript"></script>
+<script src="<?php echo $this->basePath(); ?>/plugins/jquery-actual/jquery.actual.min.js"></script>-->
+<script src="<?php echo $this->basePath(); ?>/plugins/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+<script type="text/javascript" src="<?php echo $this->basePath(); ?>/plugins/select2/js/select2.full.min.js"></script>
+<script src="<?php echo $this->basePath(); ?>/plugins/switchery/js/switchery.min.js" type="text/javascript"></script>
+
+<!--
+<script type="text/javascript" src="<?php echo $this->basePath(); ?>/plugins/classie/classie.js"></script>
+<script src="<?php echo $this->basePath(); ?>/plugins/mapplic/js/hammer.js"></script>
+<script src="<?php echo $this->basePath(); ?>/plugins/mapplic/js/jquery.mousewheel.js"></script>
+
+<script src="<?php echo $this->basePath(); ?>/plugins/mapplic/js/mapplic.js"></script>
+<script src="<?php echo $this->basePath(); ?>/plugins/rickshaw/rickshaw.min.js"></script>
+<script src="<?php echo $this->basePath(); ?>/plugins/jquery-metrojs/MetroJs.min.js" type="text/javascript"></script>
+<script src="<?php echo $this->basePath(); ?>/plugins/jquery-sparkline/jquery.sparkline.min.js" type="text/javascript"></script>
+<script src="<?php echo $this->basePath(); ?>/plugins/skycons/skycons.js" type="text/javascript"></script>
+<script src="<?php echo $this->basePath(); ?>/plugins/jquery-datatable/media/js/jquery.dataTables.min.js" type="text/javascript"></script>
+<script src="<?php echo $this->basePath(); ?>/plugins/jquery-datatable/extensions/TableTools/js/dataTables.tableTools.min.js" type="text/javascript"></script>
+<script src="<?php echo $this->basePath(); ?>/plugins/jquery-datatable/media/js/dataTables.bootstrap.js" type="text/javascript"></script>
+<script src="<?php echo $this->basePath(); ?>/plugins/jquery-datatable/extensions/Bootstrap/jquery-datatable-bootstrap.js" type="text/javascript"></script>
+<script type="text/javascript" src="<?php echo $this->basePath(); ?>/plugins/datatables-responsive/js/datatables.responsive.js"></script>
+<script type="text/javascript" src="<?php echo $this->basePath(); ?>/plugins/datatables-responsive/js/lodash.min.js"></script>
+-->
+
+<script src="<?php echo $this->basePath(); ?>/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js" type="text/javascript"></script>
+<script src="<?php echo $this->basePath(); ?>/plugins/moment/moment.min.js"></script>
+<script src="<?php echo $this->basePath(); ?>/plugins/bootstrap-daterangepicker/daterangepicker.js"></script>
+
+
+<script type="text/javascript" src="<?php echo $this->basePath(); ?>/plugins/dropzone/dropzone.min.js"></script>
+
+<script src="<?php echo $this->basePath(); ?>/plugins/clipboard.min.js"></script>
+<script src="<?php echo $this->basePath(); ?>/js/plinthstonelms.js"></script>
+
+
+<?php if ($this->currentRoute()->getModule() == 'application' && $this->currentRoute()->getAction() == 'index'){ ?>
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+	<script src="https://code.highcharts.com/modules/funnel.js"></script>
+	<script src="https://code.highcharts.com/modules/exporting.js"></script>
+	<script src="<?php echo $this->basePath(); ?>/js/dashboard.js" type="text/javascript"></script>
+<?php } ?>
+
+
+<script src="<?php echo $this->basePath(); ?>/js/scripts.js" type="text/javascript"></script>
+<script type="text/javascript" src="<?php echo $this->basePath(); ?>/js/apicalls.js"></script>
+
+<?php if ($this->currentRoute()->getController() == 'leadsourcecontroller' && $this->currentRoute()->getAction() == 'add' || $this->currentRoute()->getController() == 'leadsourcecontroller' && $this->currentRoute()->getAction() == 'edit'){ ?>
+<script src="<?=$this->basePath();?>/plugins/bootstrap-iconpicker/fontawesome-iconpicker.min.js" type="text/javascript"></script>
+<script>
+    $(function () {
+            $('.icons-select').iconpicker({
+
+            }).on('iconpickerSelected', function(event){
+			  $('#icon').val($('.iconpicker-component i').attr('class'));
+			});
+    });
+</script>
+<?php } ?>
+
+<?php if ($this->currentRoute()->getController() == 'leadscontroller' && $this->currentRoute()->getAction() == 'add' || $this->currentRoute()->getController() == 'leadscontroller' && $this->currentRoute()->getAction() == 'edit'){ ?>
+<script>
+var changeCheckbox = document.querySelector('#interested');
+
+changeCheckbox.onchange = function() {
+  if(changeCheckbox.checked===true){
+	$('#followup_type').prop("disabled", false);
+	$('#follow_date').prop("disabled", false);
+  }else{
+	$('#followup_type').prop("disabled", true);
+	$('#follow_date').prop("disabled", true);
+  };
+};
+$('#interested').trigger("change");
+</script>
+<?php } ?>

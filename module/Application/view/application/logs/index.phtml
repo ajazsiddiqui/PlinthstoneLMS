@@ -1,0 +1,59 @@
+<?php
+$title = $this->translate('Logs');
+$this->headTitle($title);
+$this->pageBreadcrumbs()->setItems([
+            $this->translate('System Logs')=>$this->url('logs')
+            ]);
+$this->mainMenu()->setActiveItemId('settings');
+$this->pageBreadcrumbs()->setIcon('fa  fa-sticky-note');
+?>
+
+<div class="row">
+  <div class="col-xl-12 col-lg-12 ">
+        <form class="form-inline" name="leads_filter_form" method="post" action="<?php echo $this->url('logs', array('controller' => 'logs', 'action'=>'index')); ?>">
+     	<div class="row">
+
+     		<div class="form-group">
+     		  <select class="form-control" name="s_user" data-init-plugin="select2">
+     				<option value="">Select User</option>
+     		  <?php foreach ($this->users  as $user){ ?>
+     		  <option name="s_user_id" value="<?php echo $user->getEmail(); ?>"><?php echo $user->getFullName(); ?></option>
+     		  <?php } ?>
+     		  </select>
+     		</div>
+
+     		<div class="form-group">
+     		<button type="submit" class="btn btn-primary"><?php echo $this->translate('Filter') ?></button>
+     		</div>
+
+     		 </div>
+     </form>
+
+<div class="table-responsive">
+<table class="table table-hover  table-responsive-block">
+<thead>
+<tr>
+<th></th>
+<th><?php echo $this->translate('Action') ?></th>
+	<th><?php echo $this->translate('Action Name') ?></th>
+    <th><?php echo $this->translate('User') ?></th>
+    <th><?php echo $this->translate('Date Created') ?></th>
+</tr>
+</thead>
+<tbody>
+<?php foreach ($logs as $log) : ?>
+<tr>
+<td><?php echo $log->getId();?></td>
+    <td><?php echo $log->getAction();?></a></td>
+	<td><?php echo $log->getActionName();?></a></td>
+    <td><?php echo $log->getUser();?></td>
+	<td><?php echo $log->getDateCreated();?></td>
+</tr>
+<?php endforeach; ?>
+</tbody>
+</table>
+</div>
+    </div>
+</div>
+
+  <?php echo $this->partial('application/partial/paginator', ['paginator'=>$this->paginator]); ?>

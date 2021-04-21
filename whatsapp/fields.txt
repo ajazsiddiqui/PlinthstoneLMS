@@ -1,0 +1,39 @@
+Lead form columns:
+Mr./Ms.
+Name
+Surname
+Mobile No.
+City
+Location/Address:
+Configuration
+Source of Lead
+
+
+Interested
+	Follow up
+	Site Visit date
+Not Interested
+	Budget
+	Area
+	Need more Amenities
+	Other Comments
+
+
+
+
+
+New Assigned
+Closure
+Site Visit Scheduled
+Follow-up
+Rejected
+
+
+EOI / Interested
+Lead Qualification Master
+QualifyID
+QualifyName
+
+Cold
+Warm
+Hot

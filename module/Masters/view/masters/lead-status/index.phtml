@@ -1,0 +1,107 @@
+<?php
+$title = $this->translate('Lead Status');
+$this->headTitle($title);
+$this->pageBreadcrumbs()->setItems([
+            $this->translate('Lead Status')=>$this->url('lead-status'),
+            ]);
+$this->pageBreadcrumbs()->setIcon('fa fa-toggle-on');
+$this->actionButtons()->setItems([
+            $this->translate('Add Lead Status')=>$this->url('lead-status', ['action'=>'add']),
+            ]);
+$this->mainMenu()->setActiveItemId('masters');			
+$form->setAttribute('action', $this->url('lead-status', array('action' => 'add')));
+$form->get('name')->setAttributes(['class'=>'form-control','placeholder'=>'Name']);
+$form->get('status')->setAttributes(['class'=>'form-control','data-init-plugin' => 'switchery']);
+$form->get('color')->setAttributes(['class'=>'form-control']);
+$form->get('submit')->setAttributes(['class'=>'btn btn-primary'])->setValue($this->translate('Save'));
+$form->prepare();
+?>
+
+<div class="row">
+  <div class="col-xl-12 col-lg-12 no-padding">
+<div class="clearfix"></div><br/>
+<?= $this->flashMessenger()->render('error', ['alert', 'alert-danger']); ?>
+<?= $this->flashMessenger()->render('success', ['alert', 'alert-success']); ?>
+<?= $this->flashMessenger()->render('info', ['alert', 'alert-info']); ?>
+<div class="clearfix"></div>
+
+
+<div class="table-responsive">
+<table class="table table-hover  table-responsive-block">
+<thead>
+<tr>
+<th></th>
+<th><?php echo $this->translate('Name') ?></th>
+<th><?php echo $this->translate('Color') ?></th>
+	<th><?php echo $this->translate('Status') ?></th>
+    <th><?php echo $this->translate('Date Created') ?></th>
+	<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<?php foreach ($lead_status as $status) : ?>
+<tr>
+<td><?php echo $status->getID();?></td>
+    <td><?php echo $status->getName();?></a></td>
+    <td><i class="status fa fa-circle" style="color:<?php echo $status->getColor();?>"></i></a></td>
+    <td><?php echo (($status->getStatus() == '0')?'InActive':'Active');?></td>
+	<td><?php echo $status->getDateCreated();?></td>
+	<td>
+		<div class="btn-group pull-right">
+	<a href="<?php echo $this->url('lead-status', array('controller' => 'lead-status', 'action'=>'edit','id' => $status->getId())); ?>" class="btn btn-success btn-xs"><i class="fal fa-edit"></i> </a>
+	<a href="#" data-link="<?php echo $this->url('lead-status', array('controller' => 'lead-status', 'action'=>'delete','id' => $status->getId())); ?>" class="btn btn-danger btn-xs" data-toggle="modal" data-target="#confirmDelete"><i class="far fa-trash-alt"></i> </a>
+</div>
+    </td>
+</tr>
+<?php endforeach; ?>
+</tbody>
+</table>
+
+</div>
+    </div>
+</div>
+
+<div class="modal fade" id="crmmodal" tabindex="-1" role="dialog" aria-labelledby="flat_modalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <?= $this->form()->openTag($form); ?>
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel1"><?php echo $this->translate('Add Lead Status') ?></h4>
+            </div>
+            <div class="modal-body model_content_data">
+                <div class="col-md-12">
+
+                  <div class="form-group form-group-default">
+                      <?= $this->formLabel($form->get('name')); ?>
+                      <?= $this->formElement($form->get('name')); ?>
+                      <?= $this->formElementErrors($form->get('name')); ?>
+                  </div>
+
+                  <div class="form-group form-group-default switchery_holder">
+                      <?= $this->formLabel($form->get('status')); ?>
+                      <?= $this->formElement($form->get('status')); ?>
+                      <?= $this->formElementErrors($form->get('status')); ?>
+                  </div>
+				  
+				<div class="form-group form-group-default ">
+					<?= $this->formLabel($form->get('color')); ?>
+					<?= $this->formElement($form->get('color')); ?>
+					<?= $this->formElementErrors($form->get('color')); ?>
+				</div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <?= $this->formElement($form->get('submit')); ?>
+                <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $this->translate('Close') ?></button>
+            </div>
+            <?= $this->form()->closeTag(); ?>
+        </div>
+    </div>
+</div>
+<style>
+.select2{
+  width:100% !important;
+}
+</style>
+ <?php echo $this->partial('application/index/delete'); ?>

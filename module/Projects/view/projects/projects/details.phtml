@@ -1,0 +1,61 @@
+<?php
+$title = $this->translate('Projects Details');
+$this->headTitle($title);
+$this->pageBreadcrumbs()->setItems([
+$this->translate('Projects') =>$this->url('projects'),
+           $this->translate('Details') =>$this->url('projects', ['action'=>'details']),
+            ]);
+$this->pageBreadcrumbs()->setIcon('fa fa-university');
+$this->actionButtons()->setItems([
+            $this->translate('Back to Projects')=>$this->url('projects'),
+            ]);
+$this->mainMenu()->setActiveItemId('projects');
+?>
+
+<div class="row">
+  <div class="col-xl-12 col-lg-12 ">
+    <div class="table-responsive">
+<table class="table table-hover  table-responsive-block">
+			  <tbody>
+				<tr>
+				  <td style="width:50%"><?php echo $this->translate('Name') ?>:</td>
+				  <td><?php echo $this->project->getname(); ?></td>
+				</tr>
+				<tr>
+				  <td style="width:50%"><?php echo $this->translate('Developer') ?>:</td>
+				  <td><?php echo $this->project->getDeveloper(); ?></td>
+				</tr>
+				<tr>
+				  <td><?php echo $this->translate('Internal Amenities') ?>:</td>
+				  <td><ul class="nopadding">
+				  <?php foreach($this->external_amenities as $amenity){
+					 echo '<li>'.$amenity->getName().'</li>'; 
+				  }?>								  
+				  </ul></td>
+				</tr>
+				<tr>
+				  <td><?php echo $this->translate('External Amenities') ?>:</td>
+				  <td>
+				  <ul class="nopadding">
+				  <?php foreach($this->internal_amenities as $amenity){
+					 echo '<li>'.$amenity->getName().'</li>'; 
+				  }?>								  
+				  </ul>								  
+				  </td>
+				</tr>
+				<tr>
+				  <td><?php echo $this->translate('Project Location') ?>:</td>
+				  <td><?php echo $this->location->getName(); ?></td>
+				</tr>
+				<tr>
+				  <td><?php echo $this->translate('Project Address') ?>:</td>
+				  <td><?php echo $this->project->getAddress(); ?></td>
+				</tr>
+			  </tbody>
+	</table>
+	</div>	
+</div>
+</div>
+
+
+

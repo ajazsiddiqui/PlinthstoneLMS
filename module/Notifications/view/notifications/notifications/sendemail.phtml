@@ -1,0 +1,37 @@
+<?php
+$title = $this->translate('Select Email Templates');
+$this->mainMenu()->setActiveItemId('settings');
+$this->headTitle($title);
+?>
+
+
+<h1><?php echo $this->escapeHtml($title); ?></h1>
+
+<div class="col-md-6">
+<form name="sendemail_form" method="post" action="<?php echo $this->url('notifications', array('controller' => 'notifications', 'action'=>'sendemail')); ?>">
+<input type="text" name="email" class="form-control" value="<?php echo $this->email; ?>" readonly></input>
+<br/>
+<select id="emailtemplate" name="emailtemplate" class="form-control">
+<option value="">Select</option>
+<?php foreach ($templates as $template) : ?>
+<option value="<?php echo $template->getID();?>"><?php echo $template->getTitle();?></option>
+<?php endforeach; ?>
+</select>
+<input type="hidden" name="lead_id" class="form-control" value="<?php echo $this->lead_id; ?>" readonly></input>
+<br/>
+<textarea id="message" readonly name="message" class="form-control">
+
+</textarea>
+<br/>
+<input type="submit" value="Send Email" class="btn btn-sm btn-success"/>
+</form>
+</div>
+
+<script src="<?php echo $this->basePath(); ?>/plugins/ckeditor.js"></script>
+<script>
+ClassicEditor
+	.create( document.querySelector( '#message' ) )
+	.then( editor => {
+		window.myEditor = editor
+	})
+</script>

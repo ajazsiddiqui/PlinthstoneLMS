@@ -1,0 +1,69 @@
+<?php
+$title = $this->translate('Permissions');
+$this->headTitle($title);
+
+$this->mainMenu()->setActiveItemId('settings');
+
+$this->pageBreadcrumbs()->setItems([
+            $this->translate('Permissions')=>$this->url('permissions'),
+            $this->translate('Manage')=>$this->url('permissions',['action'=>'manage']),
+            ]);
+	$this->pageBreadcrumbs()->setIcon('fa fa-lock');		
+$this->actionButtons()->setItems([
+            $this->translate('Add Permission')=>$this->url('permissions',['action'=>'add']),
+            ]);
+?>
+
+<div class="row">
+  <div class="col-xl-12 col-lg-12 ">
+<div class="clearfix"></div><br/>
+<?= $this->flashMessenger()->render('error', ['alert', 'alert-danger']); ?>
+<?= $this->flashMessenger()->render('success', ['alert', 'alert-success']); ?>
+<?= $this->flashMessenger()->render('info', ['alert', 'alert-info']); ?>
+<div class="clearfix"></div>
+
+<div class="table-responsive">
+<table class="table table-hover  table-responsive-block">
+<thead>
+   <tr>
+        <th><?php echo $this->translate('ID') ?></th>
+        <th><?php echo $this->translate('Name') ?></th>
+        <th><?php echo $this->translate('Description') ?></th>
+        <th><?php echo $this->translate('Date Created') ?></th>
+        <th><?php echo $this->translate('Actions') ?></th>
+    </tr>
+</thead>
+    <?php foreach ($permissions as $permission): ?>
+
+    <tr>
+        <td><?= $this->escapeHtml($permission->getId()); ?></td>
+        <td>
+            <a href="<?= $this->url('permissions', ['action'=>'view', 'id'=>$permission->getId()]); ?>">
+                <?= $this->escapeHtml($permission->getName()); ?>
+            </a>
+        </td>
+        <td><?= $this->escapeHtml($permission->getDescription()); ?></a>
+        </td>
+        <td><nobr><?= $this->escapeHtml($permission->getDateCreated()); ?></nobr></td>
+        <td>
+          <div class="btn-group pull-right">
+            <a class="btn btn-info btn-xs" href="<?= $this->url('permissions',
+                    ['action'=>'edit', 'id'=>$permission->getId()]); ?>">
+                <i class="fal fa-edit" ></i>
+            </a>
+            <a class="btn btn-danger btn-xs" href="#" data-link="<?= $this->url('permissions',
+                    ['action'=>'delete', 'id'=>$permission->getId()]); ?>" data-toggle="modal" data-target="#confirmDelete">
+                <i class="far fa-trash-alt"></i>
+            </a>
+          </div>
+        </td>
+    </tr>
+
+    <?php endforeach; ?>
+
+</table>
+</div>
+    </div>
+</div>
+
+<?php echo $this->partial('application/index/delete'); ?>

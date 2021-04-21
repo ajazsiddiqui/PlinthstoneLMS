@@ -1,0 +1,103 @@
+<?php
+$title = $this->translate('Edit Project');
+$this->headTitle($title);
+$this->pageBreadcrumbs()->setItems([
+			$this->translate('Projects') =>$this->url('projects'),
+           $this->translate('Add') =>$this->url('projects', ['action'=>'edit']),
+            ]);
+$this->pageBreadcrumbs()->setIcon('fa fa-university');
+$this->mainMenu()->setActiveItemId('projects');
+$form->get('name')->setAttributes(['class'=>'form-control','placeholder'=>'Name','required' => 'required']);
+$form->get('developer')->setAttributes(['class'=>'form-control','placeholder'=>'Developer','required' => 'required']);
+$form->get('logo')->setAttributes(['class'=>'form-control', 'placeholder'=>'Project Logo']);
+$form->get('internal_amenities')->setAttributes(['class'=>'form-control', "data-init-plugin"=>"select2", 'required' => 'required']);
+$form->get('address')->setAttributes(['class'=>'form-control']);
+$form->get('external_amenities')->setAttributes(['class'=>'form-control', "data-init-plugin"=>"select2", 'required' => 'required']);
+$form->get('city')->setAttributes(['class'=>'form-control', "data-init-plugin"=>"select2"]);
+$form->get('status')->setAttributes(['class'=>'form-control', "data-init-plugin"=>"switchery"]);
+$form->get('submit')->setAttributes(['class'=>'btn btn-primary'])->setValue($this->translate('Create'));
+$form->prepare();
+?>
+
+<div class="row">
+  <div class="col-xl-12 col-lg-12 ">
+  
+	<?= $this->flashMessenger()->render('error', ['alert', 'alert-danger']); ?>
+	<?= $this->flashMessenger()->render('success', ['alert', 'alert-success']); ?>
+	<?= $this->flashMessenger()->render('info', ['alert', 'alert-info']); ?>
+	<?= $this->form()->openTag($form); ?>
+
+	
+    <div class="col-md-6 pull-left">    
+            
+		<div class="form-group form-group-default">
+          <?= $this->formLabel($form->get('logo')); ?>
+          <?= $this->formElement($form->get('logo')); ?>
+          <?= $this->formElementErrors($form->get('logo')); ?>
+      </div>
+	  
+		<div class="form-group form-group-default">
+            <?= $this->formLabel($form->get('name')); ?>
+            <?= $this->formElement($form->get('name')); ?>
+            <?= $this->formElementErrors($form->get('name')); ?>                  
+        </div>
+		
+		<div class="form-group form-group-default">
+            <?= $this->formLabel($form->get('developer')); ?>
+            <?= $this->formElement($form->get('developer')); ?>
+            <?= $this->formElementErrors($form->get('developer')); ?>                  
+        </div>
+        
+		<div class="form-group form-group-default form-group-default-select2">
+            <?= $this->formLabel($form->get('city')); ?>
+            <?= $this->formElement($form->get('city')); ?>
+            <?= $this->formElementErrors($form->get('city')); ?>                  
+        </div>
+		
+        <div class="form-group form-group-default form-group-default-select2">
+            <?= $this->formLabel($form->get('internal_amenities')); ?>
+            <?= $this->formElement($form->get('internal_amenities')); ?>
+            <?= $this->formElementErrors($form->get('internal_amenities')); ?>                  
+        </div>
+
+		
+		
+        
+		<?= $this->formElement($form->get('submit')); ?>
+    </div>   
+
+
+    <div class="col-md-6 pull-right">
+	
+		<div class="form-group form-group-default form-group-default-select2">
+            <?= $this->formLabel($form->get('external_amenities')); ?>
+            <?= $this->formElement($form->get('external_amenities')); ?>
+            <?= $this->formElementErrors($form->get('external_amenities')); ?>                  
+        </div>
+		<div class="form-group form-group-default">
+            <?= $this->formLabel($form->get('address')); ?>
+            <?= $this->formElement($form->get('address')); ?>
+            <?= $this->formElementErrors($form->get('address')); ?>                  
+        </div>
+
+        
+		
+		<div class="row">
+			<div class="col-md-6 pull-right">
+			<div class="form-group form-group-default switchery_holder">
+				<?= $this->formLabel($form->get('status')); ?>
+				<?= $this->formElement($form->get('status')); ?>
+				<?= $this->formElementErrors($form->get('status')); ?>                  
+			</div>
+			</div>
+
+        </div>
+        
+        
+    </div> 
+
+
+ 
+</div> 
+</div>
+

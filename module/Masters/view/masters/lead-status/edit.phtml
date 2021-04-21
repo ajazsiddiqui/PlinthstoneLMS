@@ -1,0 +1,57 @@
+<?php
+$title = $this->translate('Edit Lead Status');
+$this->headTitle($title);
+$this->pageBreadcrumbs()->setItems([
+            $this->translate('Lead Status')=>$this->url('lead-status'),
+           $this->translate('Edit')=>$this->url('lead-status', ['action'=>'edit']),
+            ]);
+$this->pageBreadcrumbs()->setIcon('fa fa-toggle-on');
+$this->actionButtons()->setItems([
+            $this->translate('Back to Lead Status')=>$this->url('lead-status'),
+            ]);
+			
+$this->mainMenu()->setActiveItemId('masters');
+
+$form->get('name')->setAttributes(['class'=>'form-control','placeholder'=>'Name']);
+$form->get('status')->setAttributes(['class'=>'form-control','data-init-plugin' => 'switchery']);
+$form->get('color')->setAttributes(['class'=>'form-control']);
+$form->get('submit')->setAttributes(['class'=>'btn btn-primary'])->setValue($this->translate('Save'));
+$form->prepare();
+?>
+
+<div class="row">
+  <div class="col-xl-12 col-lg-12 no-padding">
+
+<div class="clearfix"></div><br/>
+<?= $this->flashMessenger()->render('error', ['alert', 'alert-danger']); ?>
+<?= $this->flashMessenger()->render('success', ['alert', 'alert-success']); ?>
+<?= $this->flashMessenger()->render('info', ['alert', 'alert-info']); ?>
+<div class="clearfix"></div>
+    <div class="col-md-6">
+        <?= $this->form()->openTag($form); ?>
+
+        <div class="form-group form-group-default">
+            <?= $this->formLabel($form->get('name')); ?>
+            <?= $this->formElement($form->get('name')); ?>
+            <?= $this->formElementErrors($form->get('name')); ?>
+        </div>
+		<div class="form-group form-group-default">
+            <?= $this->formLabel($form->get('color')); ?>
+            <?= $this->formElement($form->get('color')); ?>
+            <?= $this->formElementErrors($form->get('color')); ?>
+        </div>
+
+        <div class="form-group form-group-default switchery_holder">
+            <?= $this->formLabel($form->get('status')); ?>
+            <?= $this->formElement($form->get('status')); ?>
+            <?= $this->formElementErrors($form->get('status')); ?>
+        </div>
+
+		
+        <?= $this->formElement($form->get('submit')); ?>
+
+        <?= $this->form()->closeTag(); ?>
+    </div>
+
+</div>
+</div>

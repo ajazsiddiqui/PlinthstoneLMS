@@ -1,0 +1,102 @@
+<?php
+$title = $this->translate('Lead Source');
+$this->headTitle($title);
+$this->pageBreadcrumbs()->setItems([
+            $this->translate('Lead Source')=>$this->url('lead-source'),
+            ]);
+$this->pageBreadcrumbs()->setIcon('far fa-share-square');
+$this->actionButtons()->setItems([
+            $this->translate('Add Lead Source')=>$this->url('lead-source', ['action'=>'add']),
+            ]);
+$this->mainMenu()->setActiveItemId('masters');			
+$form->setAttribute('action', $this->url('lead-source', array('action' => 'add')));
+$form->get('name')->setAttributes(['class'=>'form-control','placeholder'=>'Name']);
+$form->get('status')->setAttributes(['class'=>'form-control','data-init-plugin' => 'switchery']);
+$form->get('submit')->setAttributes(['class'=>'btn btn-primary'])->setValue($this->translate('Save'));
+$form->prepare();
+?>
+
+<div class="row">
+  <div class="col-xl-12 col-lg-12 ">
+<div class="clearfix"></div><br/>
+<?= $this->flashMessenger()->render('error', ['alert', 'alert-danger']); ?>
+<?= $this->flashMessenger()->render('success', ['alert', 'alert-success']); ?>
+<?= $this->flashMessenger()->render('info', ['alert', 'alert-info']); ?>
+<div class="clearfix"></div>
+
+<div class="table-responsive">
+<table class="table table-hover  table-responsive-block">
+<thead>
+<tr>
+<th></th>
+<th><?php echo $this->translate('Name') ?></th>
+<th><?php echo $this->translate('Icon') ?></th>
+    <th><?php echo $this->translate('Status') ?></th>
+    <th><?php echo $this->translate('Date Created') ?></th>
+	<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<?php foreach ($lead_source as $sources) : ?>
+
+<tr>
+<td><?php echo $sources->getID();?></td>
+    <td><?php echo $sources->getName();?></a></td>
+    <td><i class=" <?php echo $sources->getIcon();?>"></i></a></td>
+    <td><i class="status fa fa-circle" style="color:<?php echo $sources->getStatus()==1?'#4cbf9c':'#e22866';?>"></i></td>
+	<td><?php echo $sources->getDateCreated();?></td>
+	<td>
+		<div class="btn-group pull-right">
+	<a href="<?php echo $this->url('lead-source', array('controller' => 'lead-source', 'action'=>'edit','id' => $sources->getId())); ?>" class="btn btn-success btn-xs"><i class="fal fa-edit"></i>  </a>
+	<a href="#" data-link="<?php echo $this->url('lead-source', array('controller' => 'lead-source', 'action'=>'delete','id' => $sources->getId())); ?>" class="btn btn-danger btn-xs" data-toggle="modal" data-target="#confirmDelete"><i class="far fa-trash-alt"></i>  </a>
+</div>
+    </td>
+</tr>
+
+<?php endforeach; ?>
+</tbody>
+</table>
+   </div>
+
+    </div>
+</div>
+
+<div class="modal fade" id="crmmodal" tabindex="-1" role="dialog" aria-labelledby="flat_modalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <?= $this->form()->openTag($form); ?>
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel1"><?php echo $this->translate('Add Lead Source') ?></h4>
+            </div>
+            <div class="modal-body model_content_data">
+                <div class="col-md-12">
+
+                  <div class="form-group form-group-default">
+                      <?= $this->formLabel($form->get('name')); ?>
+                      <?= $this->formElement($form->get('name')); ?>
+                      <?= $this->formElementErrors($form->get('name')); ?>
+                  </div>
+
+                  <div class="form-group form-group-default">
+                      <?= $this->formLabel($form->get('status')); ?>
+                      <?= $this->formElement($form->get('status')); ?>
+                      <?= $this->formElementErrors($form->get('status')); ?>
+                  </div>
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <?= $this->formElement($form->get('submit')); ?>
+                <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $this->translate('Close') ?></button>
+            </div>
+            <?= $this->form()->closeTag(); ?>
+        </div>
+    </div>
+</div>
+<style>
+.select2{
+  width:100% !important;
+}
+</style>
+ <?php echo $this->partial('application/index/delete'); ?>

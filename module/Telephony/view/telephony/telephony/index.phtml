@@ -1,0 +1,151 @@
+<?php
+$title = $this->translate('Telephony');
+$this->headTitle($title);
+$this->pageBreadcrumbs()->setItems([
+           $this->translate('Telephony') =>$this->url('telephony')
+            ]);
+$this->pageBreadcrumbs()->setIcon('fal fa-phone-square');
+$this->mainMenu()->setActiveItemId('leads');
+?>
+
+<div class="row">
+  <div class="col-xl-12 col-lg-12 ">
+	<div class="clearfix"></div><br/>
+	<?= $this->flashMessenger()->render('error', ['alert', 'alert-danger']); ?>
+	<?= $this->flashMessenger()->render('success', ['alert', 'alert-success']); ?>
+	<?= $this->flashMessenger()->render('info', ['alert', 'alert-info']); ?>
+	<div class="clearfix"></div>
+
+	<form class="form-inline"  id="filter_form" name="leads_filter_form" method="post" action="<?php echo $this->url('telephony', array('controller' => 'telephony', 'action'=>'index')); ?>">
+
+		<div class="col-md-3 col-sm-6">
+			<div class="form-group">
+			  <select class="form-control" name="s_project" data-init-plugin="select2">
+					<option value="">Select Project</option>
+			  <?php foreach ($this->projects  as $project){ ?>
+			  <option <?= empty($search_array)?'':($search_array['s_project']==$project->getId()?'selected':''); ?> value="<?php echo $project->getId(); ?>"><?php echo $project->getName(); ?></option>
+			  <?php } ?>
+			  </select>
+			 </div>
+		 </div>
+		 
+		 <div class="col-md-3 col-sm-6">
+			 <div class="form-group">
+			  <select class="form-control" name="s_status" data-init-plugin="select2">
+					<option value="">Select Status</option>
+					<option value="missed">Missed</option>
+					<option value="received">Received</option>
+					<option value="">Dialled</option>
+			  </select>
+			 </div>
+		 </div>
+
+
+		<div class="col-md-3 col-sm-4">
+		<div class="form-group">
+			<div class="input-prepend input-group" style="max-width:200px">
+				<input type="text" style="width: 100%" name="daterange" id="daterangepicker" class="form-control" value="01/01/2018 - <?php echo date("d/m/Y"); ?>" />
+			</div>
+		</div>
+		</div>
+		
+
+		<div class="col-md-1 col-sm-4">
+			<div class="form-group">
+			<button type="submit" class="btn btn-primary"><?php echo $this->translate('Filter') ?></button>
+			</div>
+		</div>
+	</form>
+
+<div class="table-responsive">
+<table class="table table-hover table-responsive-block table-striped">
+<thead>
+<tr>
+<th></th>
+<th><?php echo $this->translate('Date Created') ?></th>
+<th><?php echo $this->translate('Customer Name') ?></th>
+<th><?php echo $this->translate('Contact No') ?></th>
+<th><?php echo $this->translate('Duration') ?></th>
+<th><?php echo $this->translate('Reciever') ?></th>
+<th><?php echo $this->translate('Project') ?></th>
+
+<th width="120"></th>
+</tr>
+</thead>
+<tbody>
+
+<?php 
+
+
+
+foreach ($telephony as $tele) : ?>
+<tr>
+	<td class="<?php echo $tele['t_action']; ?>">
+		<?php if($tele['t_action'] == 'missed') { ?>
+			<i class="sl-call-end"></i>
+		<?php }elseif ($tele['t_action'] == 'received') { ?>
+			<i class="sl-call-in"></i>
+		<?php }else{ ?>
+			<i class="sl-call-out"></i>
+		<?php } ?>
+	</td>
+<td><?php echo $tele['t_dateCreated']->format('d-m-Y H:i:s'); ?></td>
+<td><a href="<?php echo $this->url('leads',[ 'action'=>'details','id' => $tele['t_leadId']]); ?>"><?php echo $tele['l_firstName'].' ' .$tele['l_lastName'];?></a></td>
+<td><a href="#" data-toggle="modal" data-target="#confirmCall"><?php echo $tele['l_contact'];?></a></td>
+<td><?php echo $tele['t_duration']; ?></td>
+<td><?php echo $tele['t_reciever']; ?></td>
+<td><?php echo $this->ProjectDetails()->getName($tele['l_project']); ?></td>
+<td>
+	<div class="btn-group pull-right">
+    <a href="#"  data-toggle="modal" data-target="#confirmCall" class="btn btn-success btn-xs"><i class="fal fa-phone"></i></a>
+	<a href="https://developers.myoperator.co/recordings?token=<?php echo $this->token; ?>&file=<?php echo $tele['t_filename']; ?>"  class="btn btn-primary btn-xs <?php echo (($tele['t_action']=='received')?'':'disabled'); ?>"><i class="fa fa-play"></i></a>
+	<a href="<?php echo $this->url('leads', array('controller' => 'leads', 'action'=>'details','id' => $tele['t_leadId'])); ?>" class="btn btn-info btn-xs"><i class="fa fa-bars"></i></a>
+	<a href="<?php echo $this->url('leads', array('controller' => 'leads', 'action'=>'edit','id' => $tele['t_leadId'])); ?>" class="btn btn-complete btn-xs"><i class="fal fa-edit"></i> </a>
+</div>
+ </td>
+</tr>
+<?php endforeach; ?>
+
+</tbody>
+</table>
+</div>
+
+    </div>
+</div>
+
+<?php echo $this->partial('application/partial/paginator', ['paginator'=>$this->paginator]); ?>
+
+<!-- Modal Dialog -->
+<div class="modal fade" id="confirmCall" role="dialog" aria-labelledby="confirmCallLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+      <h4 class="modal-title"><?php echo $this->translate('Call Customer') ?></h4>
+    </div>
+    <div class="modal-body">
+      <p><?php echo $this->translate('Are you sure you want to make this call?') ?></p>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $this->translate('Close') ?></button>
+      <button type="button" class="btn btn-success" id="confirm"><?php echo $this->translate('Call') ?></button>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<style>
+.fa-mobile-phone::before, .fa-mobile::before {
+    content: "\f10b";
+    font-size: 18px;
+}
+.form-inline .form-group {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#daterangepicker10{
+	width: 280px !important;
+}
+</style>
+

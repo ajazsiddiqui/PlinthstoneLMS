@@ -1,0 +1,179 @@
+<?php
+$title = $this->translate('Settings');
+$this->headTitle($title);
+$this->pageBreadcrumbs()->setItems([
+           $this->translate('Settings')=>$this->url('settings')
+            ]);
+$this->pageBreadcrumbs()->setIcon('fa fa-wrench');
+$this->mainMenu()->setActiveItemId('settings');
+
+$form->get('company_name')->setAttributes(['class'=>'form-control', 'placeholder'=>'Company Name']);
+$form->get('company_brief')->setAttributes(['class'=>'form-control', 'placeholder'=>'Company Brief']);
+$form->get('company_logo')->setAttributes(['class'=>'form-control', 'placeholder'=>'Company Logo']);
+$form->get('favicon')->setAttributes(['class'=>'form-control', 'placeholder'=>'Favicon']);
+$form->get('brand_color')->setAttributes(['class'=>'form-control', 'placeholder'=>'Brand Color']);
+$form->get('cp_approval')->setAttributes(['class'=>'form-control', 'placeholder'=>'CP Approval' ,'data-init-plugin' => 'select2']);
+$form->get('page_title')->setAttributes(['class'=>'form-control', 'placeholder'=>'Page Title']);
+$form->get('name_emailer')->setAttributes(['class'=>'form-control', 'placeholder'=>'Name of the Emailer']);
+$form->get('email_emailer')->setAttributes(['class'=>'form-control', 'placeholder'=>'Email ID of the Emailer']);
+$form->get('birthday_reminder')->setAttributes(['class'=>'form-control', 'placeholder'=>'Birthday Reminder to ID']);
+$form->get('sms_enabled')->setAttributes(['class'=>'form-control', 'placeholder'=>'SMS enabled' ,'data-init-plugin' => 'select2']);
+$form->get('sms_api')->setAttributes(['class'=>'form-control', 'placeholder'=>'SMS API']);
+$form->get('kookoo_api')->setAttributes(['class'=>'form-control', 'placeholder'=>'MyOperator API']);
+$form->get('call_api')->setAttributes(['class'=>'form-control', 'placeholder'=>'Call API']);
+
+$form->get('submit')
+        ->setAttributes(['class'=>'btn btn-primary'])
+        ->setValue($this->translate('Save'));
+
+$form->prepare();
+
+?>
+
+<div class="row">
+  <div class="col-md-8">
+    
+<div class="clearfix"></div><br/>
+<?= $this->flashMessenger()->render('error', ['alert', 'alert-danger']); ?>
+<?= $this->flashMessenger()->render('success', ['alert', 'alert-success']); ?>
+<?= $this->flashMessenger()->render('info', ['alert', 'alert-info']); ?>
+<div class="clearfix"></div>
+
+
+<?= $this->form()->openTag($form); ?>
+
+      <div class="form-group form-group-default">
+          <?= $this->formLabel($form->get('company_name')); ?>
+          <?= $this->formElement($form->get('company_name')); ?>
+          <?= $this->formElementErrors($form->get('company_name')); ?>
+      </div>
+
+
+      <div class="form-group form-group-default">
+          <?= $this->formLabel($form->get('company_brief')); ?>
+          <?= $this->formElement($form->get('company_brief')); ?>
+          <?= $this->formElementErrors($form->get('company_brief')); ?>
+      </div>
+
+      <div class="form-group form-group-default">
+          <?= $this->formLabel($form->get('company_logo')); ?>
+          <?= $this->formElement($form->get('company_logo')); ?>
+          <?= $this->formElementErrors($form->get('company_logo')); ?>
+      </div>
+
+
+  <div class="form-group form-group-default">
+          <?= $this->formLabel($form->get('favicon')); ?>
+          <?= $this->formElement($form->get('favicon')); ?>
+          <?= $this->formElementErrors($form->get('favicon')); ?>
+      </div>
+
+
+<div class="clearfix"></div>
+      <div class="form-group form-group-default">
+          <?= $this->formLabel($form->get('brand_color')); ?>
+          <?= $this->formElement($form->get('brand_color')); ?>
+          <?= $this->formElementErrors($form->get('brand_color')); ?>
+      </div>
+
+      <div class="form-group form-group-default form-group-default-select2">
+          <?= $this->formLabel($form->get('cp_approval')); ?>
+          <?= $this->formElement($form->get('cp_approval')); ?>
+          <?= $this->formElementErrors($form->get('cp_approval')); ?>
+      </div>
+
+  <div class="form-group form-group-default">
+          <?= $this->formLabel($form->get('page_title')); ?>
+          <?= $this->formElement($form->get('page_title')); ?>
+          <?= $this->formElementErrors($form->get('page_title')); ?>
+      </div>
+
+  <div class="form-group form-group-default">
+          <?= $this->formLabel($form->get('name_emailer')); ?>
+          <?= $this->formElement($form->get('name_emailer')); ?>
+          <?= $this->formElementErrors($form->get('name_emailer')); ?>
+      </div>
+
+  <div class="form-group form-group-default">
+          <?= $this->formLabel($form->get('email_emailer')); ?>
+          <?= $this->formElement($form->get('email_emailer')); ?>
+          <?= $this->formElementErrors($form->get('email_emailer')); ?>
+      </div>
+
+  <div class="form-group form-group-default">
+          <?= $this->formLabel($form->get('birthday_reminder')); ?>
+          <?= $this->formElement($form->get('birthday_reminder')); ?>
+          <?= $this->formElementErrors($form->get('birthday_reminder')); ?>
+      </div>
+
+  <div class="form-group form-group-default form-group-default-select2">
+          <?= $this->formLabel($form->get('sms_enabled')); ?>
+          <?= $this->formElement($form->get('sms_enabled')); ?>
+          <?= $this->formElementErrors($form->get('sms_enabled')); ?>
+      </div>
+
+    <div class="form-group form-group-default">
+          <?= $this->formLabel($form->get('sms_api')); ?>
+          <?= $this->formElement($form->get('sms_api')); ?>
+          <?= $this->formElementErrors($form->get('sms_api')); ?>
+      </div>
+
+  <div class="form-group form-group-default">
+          <?= $this->formLabel($form->get('kookoo_api')); ?>
+          <?= $this->formElement($form->get('kookoo_api')); ?>
+          <?= $this->formElementErrors($form->get('kookoo_api')); ?>
+      </div>
+
+  <div class="form-group form-group-default">
+          <?= $this->formLabel($form->get('call_api')); ?>
+          <?= $this->formElement($form->get('call_api')); ?>
+          <?= $this->formElementErrors($form->get('call_api')); ?>
+      </div>
+<?= $this->formElement($form->get('submit')); ?>
+
+  </div>
+  <div class="col-md-4 pull-right">
+    <div class="col-md-12">
+      <div class="card card-default">
+        <div class="card-block">
+          <div class="card-header ">
+            <div class="card-title"><?php echo $this->translate('Current Logo') ?></div>
+  		  </div>
+
+    <div class="col-md-12">
+    <?php if(!empty($this->settings->getCompanyLogo())){
+      echo '<img src="'.$this->basePath().'/uploads/'.$this->settings->getCompanyLogo().'"/>';
+    }
+    ?>
+    </div>
+  </div>
+  </div>
+  </div>
+
+    <div class="col-md-12">
+      <div class="card card-default">
+        <div class="card-block">
+          <div class="card-header ">
+            <div class="card-title"><?php echo $this->translate('Current Favicon') ?></div>
+  		  </div>
+    <div class="clearfix"></div>
+    <div class="col-md-12">
+    <?php if(!empty($this->settings->getFavicon())){
+      echo '<img src="'.$this->basePath().'/uploads/'.$this->settings->getFavicon().'"/>';
+    }
+    ?>
+    </div>
+
+      </div>
+   </div>
+    </div>
+    </div>
+</div>
+
+<?= $this->form()->closeTag(); ?>
+
+<style>
+img{
+  max-width:100% !important;
+}
+</style>

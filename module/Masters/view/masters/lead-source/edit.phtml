@@ -1,0 +1,95 @@
+
+<?php
+$title = $this->translate('Edit Lead Source');
+$this->headTitle($title);
+$this->pageBreadcrumbs()->setItems([
+           $this->translate('Lead Source')=>$this->url('lead-source'),
+            $this->translate('Edit')=>$this->url('lead-source', ['action'=>'edit']),
+            ]);
+$this->pageBreadcrumbs()->setIcon('far fa-share-square');
+$this->actionButtons()->setItems([
+            $this->translate('Back to Lead Source')=>$this->url('lead-source'),
+            ]);
+			
+$this->mainMenu()->setActiveItemId('masters');
+
+$form->get('name')->setAttributes(['class'=>'form-control','placeholder'=>'Name', 'required'=>true]);
+$form->get('status')->setAttributes(['class'=>'form-control','data-init-plugin' => 'switchery']);
+$form->get('submit')->setAttributes(['class'=>'btn btn-primary'])->setValue($this->translate('Create'));
+$form->prepare();
+?>
+
+<div class="row">
+  <div class="col-xl-12 col-lg-12 no-padding">
+
+<div class="clearfix"></div><br/>
+<?= $this->flashMessenger()->render('error', ['alert', 'alert-danger']); ?>
+<?= $this->flashMessenger()->render('success', ['alert', 'alert-success']); ?>
+<?= $this->flashMessenger()->render('info', ['alert', 'alert-info']); ?>
+<div class="clearfix"></div>
+
+    <div class="col-md-6">
+        <?= $this->form()->openTag($form); ?>
+
+        <div class="form-group form-group-default">
+            <?= $this->formLabel($form->get('name')); ?>
+            <?= $this->formElement($form->get('name')); ?>
+            <?= $this->formElementErrors($form->get('name')); ?>
+        </div>
+
+        <div class="form-group form-group-default switchery_holder">
+            <?= $this->formLabel($form->get('status')); ?>
+            <?= $this->formElement($form->get('status')); ?>
+            <?= $this->formElementErrors($form->get('status')); ?>
+        </div>
+
+		<?= $this->formElement($form->get('icon')); ?>
+		<div class="form-group" style="padding-top: 7px;padding-left: 12px;padding-right: 12px;">
+		<label for="icon">Icon</label><br/>
+			<div class="btn-group">
+				<button type="button" class="btn iconpicker-component"><i
+						class="<?= $icon ?>"></i></button>
+				<button type="button" class="icp icons-select btn dropdown-toggle"
+						data-selected="<?= $icon ?>" data-toggle="dropdown">
+					<span class="caret"></span>
+					<span class="sr-only">Toggle Dropdown</span>
+				</button>
+				<div class="dropdown-menu"></div>
+			</div>
+		</div>
+					
+        <?= $this->formElement($form->get('submit')); ?>
+
+        <?= $this->form()->closeTag(); ?>
+    </div>
+
+</div>
+</div>
+<style>
+.iconpicker-items{
+	width:400px;
+}
+.iconpicker-item {
+    width: 20px !important;
+    height: 20px;
+    display: inline-block;
+    float: left;
+	color:#626262;
+}
+.iconpicker-item.iconpicker-selected.bg-primary{
+	background:#fff;
+}
+.iconpicker-popover.fade{
+	opacity:1;
+	max-width:600px !important;
+	max-height:400px;
+	color: #626262;
+}
+.dropdown-menu.iconpicker-container{
+	border:0;
+	border-radius:none;
+	box-shadow:none;
+	-webkit-box-shadow: none;
+}
+
+</style>

@@ -1,0 +1,2364 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-01-08 22:44+0530\n"
+"PO-Revision-Date: 2018-01-08 23:55+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ../../module/\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: translate\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Application/src/Service/NavManager - Copy.php:48
+#: Application/src/Service/NavManager.php:50
+#: Application/view/application/index/index.phtml:2
+#: Application/view/application/index/index.phtml:6
+#, fuzzy
+msgid "Dashboard"
+msgstr "डैशबोर्ड"
+
+#: Application/src/Service/NavManager - Copy.php:57
+#: Application/src/Service/NavManager.php:59 User/view/user/auth/login.phtml:2
+#: User/view/user/auth/login.phtml:68
+#, fuzzy
+msgid "Sign in"
+msgstr "साइन इन करें"
+
+#: Application/src/Service/NavManager - Copy.php:70
+#: Application/src/Service/NavManager.php:72
+msgid "Manage Folders"
+msgstr "फोल्डर मैनेज करें "
+
+#: Application/src/Service/NavManager - Copy.php:78
+#: Application/src/Service/NavManager.php:80
+msgid "Manage Attachments"
+msgstr "अटॅचमेंट  मैनेज करें "
+
+#: Application/src/Service/NavManager - Copy.php:86
+#: Application/src/Service/NavManager.php:88
+msgid "Manage Brochures"
+msgstr "ब्रोचर मैनेज करें "
+
+#: Application/src/Service/NavManager - Copy.php:94
+#: Application/src/Service/NavManager.php:96
+msgid "Manage Layouts"
+msgstr "लेआउट मैनेज करें "
+
+#: Application/src/Service/NavManager - Copy.php:102
+#: Application/src/Service/NavManager.php:104
+msgid "Folder Manager"
+msgstr "फोल्डर मैनेजर "
+
+#: Application/src/Service/NavManager - Copy.php:116
+#: Application/src/Service/NavManager.php:118 Projects/view/projects/inventory/index.phtml:2
+#: Projects/view/projects/inventory/index.phtml:5
+#, fuzzy
+msgid "Inventory"
+msgstr "माल-सूची"
+
+#: Application/src/Service/NavManager - Copy.php:124
+#: Application/src/Service/NavManager.php:126
+#, fuzzy
+msgid "Projects Setup"
+msgstr "परियोजना"
+
+#: Application/src/Service/NavManager - Copy.php:132
+#: Application/src/Service/NavManager.php:134
+#, fuzzy
+msgid "Building Setup"
+msgstr "सेटअप"
+
+#: Application/src/Service/NavManager - Copy.php:140
+#: Application/src/Service/NavManager.php:142
+#, fuzzy
+msgid "Flats Setup"
+msgstr "सेटअप"
+
+#: Application/src/Service/NavManager - Copy.php:148
+#: Application/src/Service/NavManager.php:150 Projects/view/projects/projects/add.phtml:5
+#: Projects/view/projects/projects/details.phtml:5
+#: Projects/view/projects/projects/edit.phtml:5
+#: Projects/view/projects/projects/index.phtml:2
+#: Projects/view/projects/projects/index.phtml:5 Reports/view/reports/reports/index.phtml:20
+#: Reports/view/reports/reports/index.phtml:62 Reports/view/reports/reports/index.phtml:99
+#: Reports/view/reports/reports/index.phtml:131 Reports/view/reports/reports/index.phtml:165
+#: Reports/view/reports/reports/index.phtml:204
+#, fuzzy
+msgid "Projects"
+msgstr "परियोजना"
+
+#: Application/src/Service/NavManager - Copy.php:159 Copy.php:191
+#: Application/src/Service/NavManager.php:161 Application/src/Service/NavManager.php:193
+#: Campaigns/view/campaigns/campaign/index.phtml:36 Leads/view/leads/leads/add.phtml:5
+#: Leads/view/leads/leads/details.phtml:5 Leads/view/leads/leads/edit.phtml:5
+#: Leads/view/leads/leads/index.phtml:2 Leads/view/leads/leads/index.phtml:5
+#: Leads/view/leads/leads/quicklead.phtml:5
+msgid "Leads"
+msgstr "लीडस् "
+
+#: Application/src/Service/NavManager - Copy.php:167
+#: Application/src/Service/NavManager.php:169
+msgid "FollowUps"
+msgstr "फॉलोअप्स "
+
+#: Application/src/Service/NavManager - Copy.php:175
+#: Application/src/Service/NavManager.php:177
+#: Application/view/application/index/index.phtml:368
+#: Bookings/view/bookings/bookings/edit.phtml:5
+#: Bookings/view/bookings/bookings/index.phtml:2
+#: Bookings/view/bookings/bookings/index.phtml:5
+#: Campaigns/view/campaigns/campaign/index.phtml:38
+#, fuzzy
+msgid "Bookings"
+msgstr "बुकिंग"
+
+#: Application/src/Service/NavManager - Copy.php:183
+#: Application/src/Service/NavManager.php:185 Walkins/view/walkins/walkins/index.phtml:2
+#: Walkins/view/walkins/walkins/index.phtml:5
+msgid "Walkins"
+msgstr "वलकिन्स "
+
+#: Application/src/Service/NavManager - Copy.php:198
+#: Application/src/Service/NavManager.php:200
+#: Campaigns/view/campaigns/campaign/index.phtml:2
+#: Campaigns/view/campaigns/campaign/index.phtml:5
+msgid "Campaigns"
+msgstr "कैंपेन "
+
+#: Application/src/Service/NavManager - Copy.php:207 Copy.php:223
+#: Application/src/Service/NavManager.php:209 Application/src/Service/NavManager.php:225
+#: Customers/view/customers/customers/add.phtml:5
+#: Customers/view/customers/customers/edit.phtml:5
+#: Customers/view/customers/customers/index.phtml:2
+#: Customers/view/customers/customers/index.phtml:5
+msgid "Customers"
+msgstr "ग्राहक"
+
+#: Application/src/Service/NavManager - Copy.php:215
+#: Application/src/Service/NavManager.php:217
+#: Customers/view/customers/partner-meeting/index.phtml:2
+#, fuzzy
+msgid "Partners Meeting"
+msgstr "भागीदारों की बैठक"
+
+#: Application/src/Service/NavManager - Copy.php:235
+#: Application/src/Service/NavManager.php:237
+#, fuzzy
+msgid "Manage Amenities"
+msgstr "प्रबंध करो"
+
+#: Application/src/Service/NavManager - Copy.php:243
+#: Application/src/Service/NavManager.php:245
+#: Masters/view/masters/building-status/add.phtml:5
+#: Masters/view/masters/building-status/edit.phtml:5
+#: Masters/view/masters/building-status/index.phtml:2
+#: Masters/view/masters/building-status/index.phtml:5
+#, fuzzy
+msgid "Building Status"
+msgstr "भवन की स्थिति"
+
+#: Application/src/Service/NavManager - Copy.php:251
+#: Application/src/Service/NavManager.php:253
+#: Masters/view/masters/customer-budget/add.phtml:5
+#: Masters/view/masters/customer-budget/edit.phtml:5
+#: Masters/view/masters/customer-budget/index.phtml:2
+#: Masters/view/masters/customer-budget/index.phtml:5
+#, fuzzy
+msgid "Customer Budget"
+msgstr "बजट"
+
+#: Application/src/Service/NavManager - Copy.php:258
+#: Application/src/Service/NavManager.php:260
+#: Masters/view/masters/feedback-parameter/add.phtml:5
+#: Masters/view/masters/feedback-parameter/edit.phtml:5
+#: Masters/view/masters/feedback-parameter/index.phtml:2
+#: Masters/view/masters/feedback-parameter/index.phtml:5
+#, fuzzy
+msgid "Feedback Parameter"
+msgstr "प्रतिक्रिया पैरामीटर"
+
+#: Application/src/Service/NavManager - Copy.php:266
+#: Application/src/Service/NavManager.php:268 Masters/view/masters/flat-status/add.phtml:5
+#: Masters/view/masters/flat-status/edit.phtml:5
+#: Masters/view/masters/flat-status/index.phtml:2
+#: Masters/view/masters/flat-status/index.phtml:5
+#, fuzzy
+msgid "Flat Status"
+msgstr "स्थिति"
+
+#: Application/src/Service/NavManager - Copy.php:274
+#: Application/src/Service/NavManager.php:276 Masters/view/masters/flat-types/add.phtml:5
+#: Masters/view/masters/flat-types/edit.phtml:5
+#: Masters/view/masters/flat-types/index.phtml:2
+#: Masters/view/masters/flat-types/index.phtml:5
+msgid "Flat Types"
+msgstr "फ्लैट के प्रकार "
+
+#: Application/src/Service/NavManager - Copy.php:281
+#: Application/src/Service/NavManager.php:283 Masters/view/masters/lead-source/add.phtml:5
+#: Masters/view/masters/lead-source/edit.phtml:5
+#: Masters/view/masters/lead-source/index.phtml:2
+#: Masters/view/masters/lead-source/index.phtml:5
+msgid "Lead Source"
+msgstr "लीड स्रोत"
+
+#: Application/src/Service/NavManager - Copy.php:289
+#: Application/src/Service/NavManager.php:291
+#, fuzzy
+msgid "Lead Status Setup"
+msgstr "लीड स्थिति सेटअप"
+
+#: Application/src/Service/NavManager - Copy.php:297
+#: Application/src/Service/NavManager.php:299
+#: Masters/view/masters/parking-status/add.phtml:5
+#: Masters/view/masters/parking-status/edit.phtml:5
+#: Masters/view/masters/parking-status/index.phtml:2
+#: Masters/view/masters/parking-status/index.phtml:5
+msgid "Parking Status"
+msgstr "पार्किंग  स्थिति"
+
+#: Application/src/Service/NavManager - Copy.php:304
+#: Application/src/Service/NavManager.php:306
+#: Masters/view/masters/preferred-location/add.phtml:5
+#: Masters/view/masters/preferred-location/edit.phtml:5
+#: Masters/view/masters/preferred-location/index.phtml:2
+#: Masters/view/masters/preferred-location/index.phtml:5
+#, fuzzy
+msgid "Preferred Location"
+msgstr "पसंदीदा स्थान"
+
+#: Application/src/Service/NavManager - Copy.php:312
+#: Application/src/Service/NavManager.php:314
+#, fuzzy
+msgid "System Usertype"
+msgstr "प्रणाली"
+
+#: Application/src/Service/NavManager - Copy.php:320
+#: Application/src/Service/NavManager.php:322
+#: Masters/view/masters/transaction-interest/add.phtml:5
+#: Masters/view/masters/transaction-interest/edit.phtml:5
+#: Masters/view/masters/transaction-interest/index.phtml:2
+#: Masters/view/masters/transaction-interest/index.phtml:5
+msgid "Transaction Interest"
+msgstr "ब्याज दर"
+
+#: Application/src/Service/NavManager - Copy.php:327
+#: Application/src/Service/NavManager.php:329
+#: Campaigns/view/campaigns/campaign/edit.phtml:160
+#: Masters/view/masters/virtual-number/add.phtml:5
+#: Masters/view/masters/virtual-number/edit.phtml:5
+#: Masters/view/masters/virtual-number/index.phtml:2
+#: Masters/view/masters/virtual-number/index.phtml:5
+#, fuzzy
+msgid "Virtual Number"
+msgstr "वर्चुअल नंबर"
+
+#: Application/src/Service/NavManager - Copy.php:334
+#: Application/src/Service/NavManager.php:336
+#: Masters/view/masters/touch-points/index.phtml:2
+#: Masters/view/masters/touch-points/index.phtml:5
+#, fuzzy
+msgid "Touch Points"
+msgstr "टच अंक"
+
+#: Application/src/Service/NavManager - Copy.php:341
+#: Application/src/Service/NavManager.php:343 Masters/view/masters/documents/add.phtml:5
+#: Masters/view/masters/documents/edit.phtml:5 Masters/view/masters/documents/index.phtml:2
+#: Masters/view/masters/documents/index.phtml:5
+#, fuzzy
+msgid "Documents"
+msgstr "दस्तावेज"
+
+#: Application/src/Service/NavManager - Copy.php:348
+#: Application/src/Service/NavManager.php:350
+#, fuzzy
+msgid "Masters"
+msgstr "मास्टर्स"
+
+#: Application/src/Service/NavManager - Copy.php:360
+#: Application/src/Service/NavManager.php:362 User/view/user/user/add.phtml:9
+#: User/view/user/user/change-password.phtml:9 User/view/user/user/edit.phtml:10
+#: User/view/user/user/index.phtml:7 User/view/user/user/view.phtml:10
+#, fuzzy
+msgid "Manage Users"
+msgstr "उपयोगकर्ता"
+
+#: Application/src/Service/NavManager - Copy.php:368
+#: Application/src/Service/NavManager.php:370 User/view/user/permission/add.phtml:9
+#: User/view/user/permission/edit.phtml:9 User/view/user/permission/index.phtml:9
+#: User/view/user/permission/view.phtml:10
+#, fuzzy
+msgid "Manage Permissions"
+msgstr "अनुमतियाँ प्रबंधित करें"
+
+#: Application/src/Service/NavManager - Copy.php:376
+#: Application/src/Service/NavManager.php:378 User/view/user/role/add.phtml:9
+#: User/view/user/role/edit-permissions.phtml:9 User/view/user/role/edit.phtml:9
+#: User/view/user/role/index.phtml:8 User/view/user/role/view.phtml:10
+msgid "Manage Roles"
+msgstr "रोले मैनेज करें "
+
+#: Application/src/Service/NavManager - Copy.php:384
+#: Application/src/Service/NavManager.php:386
+#: Notifications/view/notifications/email-template/index.phtml:2
+#, fuzzy
+msgid "Email Templates"
+msgstr "ईमेल टेम्पलेट्स"
+
+#: Application/src/Service/NavManager - Copy.php:392
+#: Application/src/Service/NavManager.php:394
+#: Notifications/view/notifications/sms-template/index.phtml:2
+#, fuzzy
+msgid "SMS Templates"
+msgstr "टेम्पलेट्स"
+
+#: Application/src/Service/NavManager - Copy.php:400
+#: Application/src/Service/NavManager.php:402 Settings/view/settings/settings/index.phtml:6
+#, fuzzy
+msgid "Manage Settings"
+msgstr "सेटिंग्स"
+
+#: Application/src/Service/NavManager - Copy.php:408
+#: Application/src/Service/NavManager.php:410
+#, fuzzy
+msgid "System Logs"
+msgstr "प्रणाली"
+
+#: Application/src/Service/NavManager - Copy.php:416 Copy.php:451
+#: Application/src/Service/NavManager.php:418 Application/src/Service/NavManager.php:453
+#: Application/view/application/index/settings.phtml:2
+#: Application/view/application/index/settings.phtml:7
+#: Settings/view/settings/settings/index.phtml:2
+#, fuzzy
+msgid "Settings"
+msgstr "सेटिंग्स"
+
+#: Application/src/Service/NavManager - Copy.php:424
+#: Application/src/Service/NavManager.php:426 Tasks/view/tasks/tasks/add.phtml:5
+#: Tasks/view/tasks/tasks/edit.phtml:5 Tasks/view/tasks/tasks/index.phtml:2
+#: Tasks/view/tasks/tasks/index.phtml:5
+#, fuzzy
+msgid "Tasks"
+msgstr "कार्य"
+
+#: Application/src/Service/NavManager - Copy.php:432
+#: Application/src/Service/NavManager.php:434 Reports/view/reports/reports/index.phtml:2
+#: Reports/view/reports/reports/index.phtml:5
+msgid "Reports"
+msgstr "रिपोर्ट्स "
+
+#: Application/src/Service/NavManager - Copy.php:440
+#: Application/src/Service/NavManager.php:442
+#: Application/view/application/index/about.phtml:2
+#: Application/view/application/index/about.phtml:7
+#, fuzzy
+msgid "About"
+msgstr "इसके बारे में"
+
+#: Application/src/Service/NavManager - Copy.php:456
+#: Application/src/Service/NavManager.php:458
+#, fuzzy
+msgid "Sign out"
+msgstr "साइन आउट करें"
+
+#: Application/view/application/index/about.phtml:6
+#: Application/view/application/index/settings.phtml:6
+#: Notifications/view/notifications/email-template/add.phtml:6
+#: Notifications/view/notifications/email-template/edit.phtml:6
+#: Notifications/view/notifications/email-template/index.phtml:6
+#: Notifications/view/notifications/sms-template/add.phtml:5
+#: Notifications/view/notifications/sms-template/edit.phtml:5
+#: Notifications/view/notifications/sms-template/index.phtml:5
+#: Settings/view/settings/settings/index.phtml:5 User/view/user/permission/add.phtml:8
+#: User/view/user/permission/edit.phtml:8 User/view/user/permission/index.phtml:8
+#: User/view/user/permission/view.phtml:9 User/view/user/role/add.phtml:8
+#: User/view/user/role/edit-permissions.phtml:8 User/view/user/role/edit.phtml:8
+#: User/view/user/role/index.phtml:7 User/view/user/role/view.phtml:9
+#: User/view/user/user/add.phtml:8 User/view/user/user/change-password.phtml:8
+#: User/view/user/user/edit.phtml:9 User/view/user/user/index.phtml:6
+#: User/view/user/user/view.phtml:9
+#, fuzzy
+msgid "Home"
+msgstr "होम"
+
+#: Application/view/application/index/delete.phtml:7
+#, fuzzy
+msgid "Delete Permanently"
+msgstr "हमेशा के लिए मिटाएँ"
+
+#: Application/view/application/index/delete.phtml:10
+msgid "Are you sure about this?"
+msgstr "क्या आप निश्चित हैं?"
+
+#: Application/view/application/index/delete.phtml:13
+#: Customers/view/customers/customers/index.phtml:30
+#: FileManager/view/file-manager/brochures/index.phtml:34
+#: FileManager/view/file-manager/folders/explore.phtml:74
+#: FileManager/view/file-manager/folders/index.phtml:45
+#: FileManager/view/file-manager/layouts/index.phtml:36
+#: Leads/view/leads/leads/details.phtml:31 Leads/view/leads/leads/details.phtml:142
+#: Masters/view/masters/amenities/index.phtml:37
+#: Masters/view/masters/building-status/index.phtml:36
+#: Masters/view/masters/customer-budget/index.phtml:36
+#: Masters/view/masters/documents/index.phtml:35
+#: Masters/view/masters/feedback-parameter/index.phtml:36
+#: Masters/view/masters/flat-status/index.phtml:36
+#: Masters/view/masters/flat-types/index.phtml:37
+#: Masters/view/masters/lead-source/index.phtml:38
+#: Masters/view/masters/lead-status/index.phtml:39
+#: Masters/view/masters/parking-status/index.phtml:35
+#: Masters/view/masters/preferred-location/index.phtml:35
+#: Masters/view/masters/system-usertype/index.phtml:40
+#: Masters/view/masters/touch-points/index.phtml:35
+#: Masters/view/masters/transaction-interest/index.phtml:36
+#: Masters/view/masters/virtual-number/index.phtml:37
+#: Projects/view/projects/projects/details.phtml:23
+#: Projects/view/projects/projects/index.phtml:28 User/view/user/permission/index.phtml:35
+#: User/view/user/permission/view.phtml:38 User/view/user/role/edit-permissions.phtml:40
+#: User/view/user/role/index.phtml:36 User/view/user/role/view.phtml:39
+#: User/view/user/role/view.phtml:77
+#, fuzzy
+msgid "Name"
+msgstr "क्रिया नाम"
+
+#: Application/view/application/index/delete.phtml:14
+#, fuzzy
+msgid "Delete"
+msgstr "हटाएं"
+
+#: Application/view/application/index/index.phtml:18
+#, fuzzy
+msgid "News"
+msgstr "समाचार"
+
+#: Application/view/application/index/index.phtml:42
+#: Application/view/application/index/index.phtml:282
+msgid "Total Leads"
+msgstr "कुल लीडस् "
+
+#: Application/view/application/index/index.phtml:58
+#: Application/view/application/index/index.phtml:98
+#, fuzzy
+msgid "this week"
+msgstr "इस सप्ताह"
+
+#: Application/view/application/index/index.phtml:59
+#: Application/view/application/index/index.phtml:99
+msgid "this month"
+msgstr "इस माह"
+
+#: Application/view/application/index/index.phtml:82
+msgid "Total Converts"
+msgstr "कुल लीडस् "
+
+#: Application/view/application/index/index.phtml:120
+#, fuzzy
+msgid "Quick Followup"
+msgstr "त्वरित फॉलोअप"
+
+#: Application/view/application/index/index.phtml:134 Application/view/layout/footer.phtml:5
+#, fuzzy
+msgid "by"
+msgstr "द्वारा"
+
+#: Application/view/application/index/index.phtml:146
+#, fuzzy
+msgid "Inventory Management"
+msgstr "सूची प्रबंधन"
+
+#: Application/view/application/index/index.phtml:160
+#: Application/view/application/index/index.phtml:333
+#: Projects/view/projects/flats/select-building.phtml:2
+#: Projects/view/projects/flats/select-building.phtml:40
+#, fuzzy
+msgid "Select Building"
+msgstr "भवन का चयन करें"
+
+#: Application/view/application/index/index.phtml:216
+#, fuzzy
+msgid "Lead Sources"
+msgstr "स्रोत"
+
+#: Application/view/application/index/index.phtml:217
+msgid "Leads, Site Visit &amp; Bookings"
+msgstr "लीडस् , साइट विजिट और बुकिंग्स "
+
+#: Application/view/application/index/index.phtml:281
+msgid "Pipeline Reports"
+msgstr "पाइपलाइन रिपोर्ट "
+
+#: Application/view/application/index/index.phtml:347
+#, fuzzy
+msgid "Leader Board"
+msgstr "तख्ता"
+
+#: Application/view/application/index/index.phtml:348
+#, fuzzy
+msgid "Users Performance"
+msgstr "उपयोगकर्ता प्रदर्शन"
+
+#: Application/view/application/index/index.phtml:362
+#, fuzzy
+msgid "Enquiry"
+msgstr "प्रश्न"
+
+#: Application/view/application/index/index.phtml:365
+msgid "Sitevisits"
+msgstr "साइट विजिट "
+
+#: Application/view/application/index/index.phtml:393
+msgid "Show more details of FollowUps"
+msgstr "फॉलोअप्स का और विवरण दिखाएं"
+
+#: Application/view/application/index/index.phtml:416
+#, fuzzy
+msgid "Projects Prospect Chart"
+msgstr "परियोजनाओं संभावना चार्ट"
+
+#: Application/view/application/index/index.phtml:417
+msgid "Leads, Site Visit & Bookings"
+msgstr "लीडस् , साइट विजिट और बुकिंग्स "
+
+#: Application/view/application/index/settings.phtml:22
+#: Projects/view/projects/buildings/payment-slabs.phtml:28
+#: User/view/user/permission/index.phtml:34 User/view/user/permission/view.phtml:34
+#: User/view/user/role/index.phtml:35 User/view/user/role/view.phtml:38
+#: User/view/user/user/index.phtml:30 User/view/user/user/view.phtml:42
+msgid "ID"
+msgstr "आईडी "
+
+#: Application/view/application/index/settings.phtml:26 User/view/user/user/index.phtml:31
+#, fuzzy
+msgid "E-mail"
+msgstr "ई-मेल"
+
+#: Application/view/application/index/settings.phtml:30 User/view/user/user/index.phtml:32
+#: User/view/user/user/view.phtml:50
+#, fuzzy
+msgid "Full Name"
+msgstr "क्रिया नाम"
+
+#: Application/view/application/index/settings.phtml:34
+#: Application/view/application/logs/index.phtml:45
+#: Customers/view/customers/customers/index.phtml:35
+#: Customers/view/customers/partner-meeting/index.phtml:38
+#: FileManager/view/file-manager/attachments/index.phtml:37
+#: FileManager/view/file-manager/brochures/index.phtml:38
+#: FileManager/view/file-manager/folders/index.phtml:46
+#: FileManager/view/file-manager/layouts/index.phtml:41
+#: Leads/view/leads/leads/details.phtml:106 Masters/view/masters/amenities/index.phtml:40
+#: Masters/view/masters/building-status/index.phtml:38
+#: Masters/view/masters/customer-budget/index.phtml:38
+#: Masters/view/masters/documents/index.phtml:36
+#: Masters/view/masters/feedback-parameter/index.phtml:38
+#: Masters/view/masters/flat-status/index.phtml:38
+#: Masters/view/masters/flat-types/index.phtml:39
+#: Masters/view/masters/lead-source/index.phtml:41
+#: Masters/view/masters/lead-status/index.phtml:42
+#: Masters/view/masters/parking-status/index.phtml:37
+#: Masters/view/masters/preferred-location/index.phtml:37
+#: Masters/view/masters/system-usertype/index.phtml:46
+#: Masters/view/masters/touch-points/index.phtml:37
+#: Masters/view/masters/transaction-interest/index.phtml:38
+#: Masters/view/masters/virtual-number/index.phtml:40
+#: Notifications/view/notifications/email-template/index.phtml:56
+#: Notifications/view/notifications/sms-template/index.phtml:47
+#: Projects/view/projects/buildings/index.phtml:34
+#: Projects/view/projects/projects/index.phtml:34 Tasks/view/tasks/tasks/index.phtml:55
+#: Tasks/view/tasks/tasks/index.phtml:104 User/view/user/permission/index.phtml:37
+#: User/view/user/permission/view.phtml:46 User/view/user/role/index.phtml:38
+#: User/view/user/role/view.phtml:41 User/view/user/user/index.phtml:34
+#: User/view/user/user/view.phtml:62
+#, fuzzy
+msgid "Date Created"
+msgstr "सिरजन तरीक"
+
+#: Application/view/application/logs/index.phtml:2
+#: Application/view/application/logs/index.phtml:5
+#, fuzzy
+msgid "Logs"
+msgstr "लॉग्स"
+
+#: Application/view/application/logs/index.phtml:6
+#: Bookings/view/bookings/bookings/index.phtml:6
+#: Campaigns/view/campaigns/campaign/index.phtml:6
+#: Customers/view/customers/customers/index.phtml:6
+#: Customers/view/customers/partner-meeting/index.phtml:6
+#: FileManager/view/file-manager/brochures/index.phtml:6
+#: FileManager/view/file-manager/folders/index.phtml:6
+#: FileManager/view/file-manager/layouts/index.phtml:6
+#: Followups/view/followups/followups/index.phtml:6 Leads/view/leads/leads/index.phtml:6
+#: Masters/view/masters/amenities/index.phtml:6
+#: Masters/view/masters/building-status/add.phtml:6
+#: Masters/view/masters/building-status/index.phtml:6
+#: Masters/view/masters/customer-budget/add.phtml:6
+#: Masters/view/masters/customer-budget/index.phtml:6
+#: Masters/view/masters/documents/add.phtml:6 Masters/view/masters/documents/index.phtml:6
+#: Masters/view/masters/feedback-parameter/add.phtml:6
+#: Masters/view/masters/feedback-parameter/index.phtml:6
+#: Masters/view/masters/flat-status/add.phtml:6
+#: Masters/view/masters/flat-status/index.phtml:6
+#: Masters/view/masters/flat-types/add.phtml:6 Masters/view/masters/flat-types/index.phtml:6
+#: Masters/view/masters/lead-source/add.phtml:6
+#: Masters/view/masters/lead-source/index.phtml:6
+#: Masters/view/masters/lead-status/add.phtml:6
+#: Masters/view/masters/lead-status/index.phtml:6
+#: Masters/view/masters/parking-status/add.phtml:6
+#: Masters/view/masters/parking-status/index.phtml:6
+#: Masters/view/masters/preferred-location/add.phtml:6
+#: Masters/view/masters/preferred-location/index.phtml:6
+#: Masters/view/masters/system-usertype/add.phtml:6
+#: Masters/view/masters/system-usertype/index.phtml:6
+#: Masters/view/masters/touch-points/add.phtml:6
+#: Masters/view/masters/touch-points/index.phtml:6
+#: Masters/view/masters/transaction-interest/add.phtml:6
+#: Masters/view/masters/transaction-interest/index.phtml:6
+#: Masters/view/masters/virtual-number/add.phtml:6
+#: Masters/view/masters/virtual-number/index.phtml:6
+#: Projects/view/projects/buildings/index.phtml:6 Projects/view/projects/flats/index.phtml:6
+#: Projects/view/projects/inventory/index.phtml:6
+#: Projects/view/projects/projects/index.phtml:6 Reports/view/reports/reports/index.phtml:6
+#: Tasks/view/tasks/tasks/index.phtml:6 Walkins/view/walkins/walkins/index.phtml:6
+#, fuzzy
+msgid "Listings"
+msgstr "विज्ञापन"
+
+#: Application/view/application/logs/index.phtml:31
+#: Bookings/view/bookings/bookings/index.phtml:111
+#: Followups/view/followups/followups/index.phtml:111 Leads/view/leads/leads/index.phtml:118
+#, fuzzy
+msgid "Filter"
+msgstr "छलनी"
+
+#: Application/view/application/logs/index.phtml:42 Leads/view/leads/leads/details.phtml:103
+#, fuzzy
+msgid "Action"
+msgstr "सक्रियता"
+
+#: Application/view/application/logs/index.phtml:43
+#, fuzzy
+msgid "Action Name"
+msgstr "क्रिया नाम"
+
+#: Application/view/application/logs/index.phtml:44
+#, fuzzy
+msgid "User"
+msgstr "उपयोगकर्ता"
+
+#: Application/view/error/404.phtml:1
+#, fuzzy
+msgid "A 404 error occurred"
+msgstr "एक ४०४ त्रुटि उत्पन्न हुई"
+
+#: Application/view/error/404.phtml:34
+#, fuzzy
+msgid "Controller"
+msgstr "'नियंत्रक'"
+
+#: Application/view/error/404.phtml:53 Application/view/error/index.phtml:8
+#, fuzzy
+msgid "Additional information"
+msgstr "अतिरिक्त जानकारी"
+
+#: Application/view/error/404.phtml:56 Application/view/error/404.phtml:81
+#: Application/view/error/index.phtml:11 Application/view/error/index.phtml:36
+#: FileManager/view/file-manager/brochures/index.phtml:35
+#: FileManager/view/file-manager/layouts/index.phtml:37
+#, fuzzy
+msgid "File"
+msgstr "फ़ाइल"
+
+#: Application/view/error/404.phtml:60 Application/view/error/404.phtml:85
+#: Application/view/error/index.phtml:15 Application/view/error/index.phtml:40
+#, fuzzy
+msgid "Message"
+msgstr "संदेश"
+
+#: Application/view/error/404.phtml:64 Application/view/error/404.phtml:89
+#: Application/view/error/index.phtml:19 Application/view/error/index.phtml:44
+#, fuzzy
+msgid "Stack trace"
+msgstr "स्टैक ट्रेसः"
+
+#: Application/view/error/404.phtml:75 Application/view/error/index.phtml:30
+#, fuzzy
+msgid "Previous exceptions"
+msgstr "पिछले अपवाद"
+
+#: Application/view/error/404.phtml:109 Application/view/error/index.phtml:64
+#, fuzzy
+msgid "No Exception available"
+msgstr "कोई अपवाद उपलब्ध नहीं"
+
+#: Application/view/error/index.phtml:1
+#, fuzzy
+msgid "An error occurred"
+msgstr "एक त्रुटि हो गई"
+
+#: Application/view/layout/footer.phtml:5
+#, fuzzy
+msgid "crafted with"
+msgstr "से तैयार की जाती"
+
+#: Application/view/layout/footer.phtml:5
+msgid "ajazsiddiqui"
+msgstr "एजाज़ सिद्दीकी "
+
+#: Application/view/layout/footer.phtml:8
+#, fuzzy
+msgid "All rights reserved."
+msgstr "सर्वाधिकार सुरक्षित।"
+
+#: Application/view/layout/footer.phtml:11
+#, fuzzy
+msgid "Supports best on Google Chrome, Safari and Firefox."
+msgstr "गूगल क्रोम, सफारी और फ़ायरफ़ॉक्स पर सबसे अच्छा समर्थन करता है ।"
+
+#: Application/view/layout/login-layout.phtml:14
+msgid "Welcome to ConnectCRM"
+msgstr "कनेक्ट सीआरएम्  में आपका स्वागत है"
+
+#: Application/view/layout/login-layout.phtml:15
+msgid ""
+"We, introduce you to our Lead Management System. Now you can customize, extend and "
+"evaluate your campaigns like never before. ConnectCRM with its CMS enables you to cater to "
+"your target audience in a niche, defined and a profitable maneuver."
+msgstr ""
+"कनेक्ट सीआरएम् में आपका स्वागत है । अब आप पहले कभी नहीं की तरह अपने अभियानों को अनुकूलित, विस्तार और "
+"मूल्यांकन कर सकते हैं । इसके सीएमएस के साथ कनेक्ट सीआरएम्  आप एक आला में अपने लक्षित दर्शकों को पूरा करने के "
+"लिए सक्षम बनाता है, परिभाषित और एक लाभदायक पैंतरेबाज़ी ।"
+
+#: Bookings/view/bookings/bookings/edit.phtml:2 Leads/view/leads/leads/details.phtml:130
+#, fuzzy
+msgid "Booking Details"
+msgstr "अंतिम बुकिंग विवरण"
+
+#: Bookings/view/bookings/bookings/edit.phtml:6
+#: Campaigns/view/campaigns/campaign/edit.phtml:6
+#: Customers/view/customers/customers/edit.phtml:6
+#: Customers/view/customers/partner-meeting/edit.phtml:6 Leads/view/leads/leads/edit.phtml:6
+#: Masters/view/masters/amenities/edit.phtml:6
+#: Masters/view/masters/building-status/edit.phtml:6
+#: Masters/view/masters/customer-budget/edit.phtml:6
+#: Masters/view/masters/documents/edit.phtml:6
+#: Masters/view/masters/feedback-parameter/edit.phtml:6
+#: Masters/view/masters/flat-status/edit.phtml:6
+#: Masters/view/masters/flat-types/edit.phtml:6
+#: Masters/view/masters/lead-source/edit.phtml:6
+#: Masters/view/masters/lead-status/edit.phtml:6
+#: Masters/view/masters/parking-status/edit.phtml:6
+#: Masters/view/masters/preferred-location/edit.phtml:6
+#: Masters/view/masters/system-usertype/edit.phtml:6
+#: Masters/view/masters/touch-points/edit.phtml:6
+#: Masters/view/masters/transaction-interest/edit.phtml:6
+#: Masters/view/masters/virtual-number/edit.phtml:6
+#: Projects/view/projects/buildings/edit.phtml:6 Projects/view/projects/flats/edit.phtml:6
+#: Projects/view/projects/projects/edit.phtml:6 Tasks/view/tasks/tasks/edit.phtml:6
+#, fuzzy
+msgid "Edit"
+msgstr "संपादीत करें"
+
+#: Bookings/view/bookings/bookings/edit.phtml:67
+#: Campaigns/view/campaigns/campaign/add.phtml:24
+#: Campaigns/view/campaigns/campaign/edit.phtml:17
+#: Campaigns/view/campaigns/campaign/edit.phtml:43
+#: Customers/view/customers/customers/add.phtml:31
+#: Customers/view/customers/customers/edit.phtml:31
+#: Customers/view/customers/partner-meeting/add.phtml:22
+#: Customers/view/customers/partner-meeting/edit.phtml:22
+#: FileManager/view/file-manager/brochures/add.phtml:12
+#: FileManager/view/file-manager/brochures/index.phtml:10
+#: Leads/view/leads/leads/add.phtml:66 Leads/view/leads/leads/edit.phtml:66
+#: Leads/view/leads/leads/quicklead.phtml:37 Masters/view/masters/amenities/add.phtml:14
+#: Masters/view/masters/amenities/edit.phtml:14
+#: Masters/view/masters/amenities/index.phtml:13
+#: Masters/view/masters/building-status/add.phtml:13
+#: Masters/view/masters/building-status/edit.phtml:22
+#: Masters/view/masters/building-status/index.phtml:12
+#: Masters/view/masters/customer-budget/add.phtml:13
+#: Masters/view/masters/customer-budget/edit.phtml:13
+#: Masters/view/masters/customer-budget/index.phtml:11
+#: Masters/view/masters/documents/add.phtml:12 Masters/view/masters/documents/edit.phtml:12
+#: Masters/view/masters/documents/index.phtml:10
+#: Masters/view/masters/feedback-parameter/add.phtml:13
+#: Masters/view/masters/feedback-parameter/edit.phtml:13
+#: Masters/view/masters/feedback-parameter/index.phtml:11
+#: Masters/view/masters/flat-status/add.phtml:13
+#: Masters/view/masters/flat-status/edit.phtml:13
+#: Masters/view/masters/flat-status/index.phtml:11
+#: Masters/view/masters/flat-types/add.phtml:13
+#: Masters/view/masters/flat-types/edit.phtml:13
+#: Masters/view/masters/flat-types/index.phtml:11
+#: Masters/view/masters/lead-source/add.phtml:15
+#: Masters/view/masters/lead-source/edit.phtml:15
+#: Masters/view/masters/lead-source/index.phtml:13
+#: Masters/view/masters/lead-status/add.phtml:16
+#: Masters/view/masters/lead-status/edit.phtml:16
+#: Masters/view/masters/lead-status/index.phtml:14
+#: Masters/view/masters/parking-status/add.phtml:13
+#: Masters/view/masters/parking-status/edit.phtml:13
+#: Masters/view/masters/parking-status/index.phtml:11
+#: Masters/view/masters/preferred-location/add.phtml:13
+#: Masters/view/masters/preferred-location/edit.phtml:13
+#: Masters/view/masters/preferred-location/index.phtml:11
+#: Masters/view/masters/system-usertype/add.phtml:17
+#: Masters/view/masters/system-usertype/edit.phtml:17
+#: Masters/view/masters/system-usertype/index.phtml:15
+#: Masters/view/masters/touch-points/add.phtml:13
+#: Masters/view/masters/touch-points/edit.phtml:13
+#: Masters/view/masters/touch-points/index.phtml:11
+#: Masters/view/masters/transaction-interest/add.phtml:13
+#: Masters/view/masters/transaction-interest/edit.phtml:13
+#: Masters/view/masters/transaction-interest/index.phtml:11
+#: Masters/view/masters/virtual-number/add.phtml:14
+#: Masters/view/masters/virtual-number/edit.phtml:14
+#: Masters/view/masters/virtual-number/index.phtml:12
+#: Notifications/view/notifications/email-template/add.phtml:29
+#: Notifications/view/notifications/email-template/edit.phtml:29
+#: Notifications/view/notifications/email-template/index.phtml:29
+#: Notifications/view/notifications/sms-template/add.phtml:22
+#: Notifications/view/notifications/sms-template/edit.phtml:22
+#: Notifications/view/notifications/sms-template/index.phtml:21
+#: Projects/view/projects/buildings/add.phtml:32
+#: Projects/view/projects/buildings/edit.phtml:32 Projects/view/projects/flats/add.phtml:18
+#: Projects/view/projects/flats/edit.phtml:16 Projects/view/projects/projects/add.phtml:23
+#: Projects/view/projects/projects/edit.phtml:23
+#: Settings/view/settings/settings/index.phtml:28 Tasks/view/tasks/tasks/add.phtml:23
+#: Tasks/view/tasks/tasks/edit.phtml:23 User/view/user/permission/edit.phtml:25
+#: User/view/user/role/edit-permissions.phtml:15 User/view/user/role/edit.phtml:27
+#: User/view/user/user/edit.phtml:44
+#, fuzzy
+msgid "Save"
+msgstr "सेव"
+
+#: Bookings/view/bookings/bookings/edit.phtml:94 Leads/view/leads/leads/add.phtml:90
+#: Leads/view/leads/leads/edit.phtml:90 Leads/view/leads/leads/quicklead.phtml:61
+#, fuzzy
+msgid "CUSTOMER DETAILS"
+msgstr "ग्राहक विवरण"
+
+#: Bookings/view/bookings/bookings/edit.phtml:97
+#, fuzzy
+msgid "BOOKING DETAILS"
+msgstr "अंतिम बुकिंग विवरण"
+
+#: Bookings/view/bookings/bookings/edit.phtml:100
+#, fuzzy
+msgid "REGISTRATION DETAILS"
+msgstr "पंजीकरण विवरण"
+
+#: Bookings/view/bookings/bookings/edit.phtml:103
+#, fuzzy
+msgid "PAYMENT INFORMATION"
+msgstr "भुगतान की जानकारी"
+
+#: Bookings/view/bookings/bookings/edit.phtml:106
+#, fuzzy
+msgid "OPERATOR REMARKS"
+msgstr "संचालक सम्बोधन"
+
+#: Bookings/view/bookings/bookings/index.phtml:122
+msgid "Lead Id"
+msgstr "लीड आई डी "
+
+#: Bookings/view/bookings/bookings/index.phtml:123
+#: Followups/view/followups/followups/index.phtml:123 Leads/view/leads/leads/index.phtml:130
+#: Walkins/view/walkins/walkins/index.phtml:48
+#, fuzzy
+msgid "Customer Name"
+msgstr "क्रिया नाम"
+
+#: Bookings/view/bookings/bookings/index.phtml:124
+#: Followups/view/followups/followups/index.phtml:124 Leads/view/leads/leads/index.phtml:131
+#: User/view/user/user/view.phtml:54 Walkins/view/walkins/walkins/index.phtml:49
+#, fuzzy
+msgid "Contact No"
+msgstr "संपर्क नंबर।"
+
+#: Bookings/view/bookings/bookings/index.phtml:125
+#: Campaigns/view/campaigns/campaign/index.phtml:35
+#: Customers/view/customers/partner-meeting/index.phtml:34
+#: Leads/view/leads/leads/details.phtml:59 Projects/view/projects/flats/edit.phtml:39
+#: Projects/view/projects/flats/index.phtml:67
+#, fuzzy
+msgid "Project"
+msgstr "परियोजना"
+
+#: Bookings/view/bookings/bookings/index.phtml:126 Leads/view/leads/leads/details.phtml:63
+#: Projects/view/projects/flats/edit.phtml:43 Projects/view/projects/flats/index.phtml:68
+#: Projects/view/projects/flats/select-building.phtml:5
+msgid "Building"
+msgstr "बिल्डिंग"
+
+#: Bookings/view/bookings/bookings/index.phtml:127
+msgid "Flat no."
+msgstr "फ्लैट न."
+
+#: Bookings/view/bookings/bookings/index.phtml:128
+#, fuzzy
+msgid "Booking Date"
+msgstr "बुकिंग की तारीख"
+
+#: Bookings/view/bookings/bookings/index.phtml:129
+#, fuzzy
+msgid "Booking User"
+msgstr "उपयोगकर्ता"
+
+#: Bookings/view/bookings/bookings/index.phtml:183 Leads/view/leads/leads/index.phtml:216
+#: Walkins/view/walkins/walkins/index.phtml:107
+#, fuzzy
+msgid "Send SMS"
+msgstr "एसएमएस भेजें"
+
+#: Bookings/view/bookings/bookings/index.phtml:205
+#: Bookings/view/bookings/bookings/index.phtml:243
+#: Followups/view/followups/followups/index.phtml:205
+#: Followups/view/followups/followups/index.phtml:243 Leads/view/leads/leads/index.phtml:201
+#: Leads/view/leads/leads/index.phtml:238 Leads/view/leads/leads/index.phtml:276
+#: Projects/view/projects/flats/index.phtml:56 Projects/view/projects/flats/index.phtml:183
+#: Walkins/view/walkins/walkins/index.phtml:129 Walkins/view/walkins/walkins/index.phtml:167
+#, fuzzy
+msgid "Submit"
+msgstr "सबमिट करें"
+
+#: Bookings/view/bookings/bookings/index.phtml:221
+#: Followups/view/followups/followups/index.phtml:221 Leads/view/leads/leads/index.phtml:254
+#: Walkins/view/walkins/walkins/index.phtml:145
+#, fuzzy
+msgid "Send Email"
+msgstr "ईमेल भेजें"
+
+#: Campaigns/view/campaigns/campaign/add.phtml:2
+#, fuzzy
+msgid "Add Campaign"
+msgstr "अभियान जोड़ें"
+
+#: Campaigns/view/campaigns/campaign/add.phtml:5
+#: Campaigns/view/campaigns/campaign/edit.phtml:5
+#: Reports/view/reports/reports/index.phtml:181
+#, fuzzy
+msgid "Campaign"
+msgstr "अभियान"
+
+#: Campaigns/view/campaigns/campaign/add.phtml:6
+#: Customers/view/customers/customers/add.phtml:6
+#: Customers/view/customers/partner-meeting/add.phtml:6
+#: FileManager/view/file-manager/brochures/add.phtml:6
+#: FileManager/view/file-manager/layouts/add.phtml:6 Leads/view/leads/leads/add.phtml:6
+#: Masters/view/masters/amenities/add.phtml:6 Projects/view/projects/buildings/add.phtml:6
+#: Projects/view/projects/flats/add.phtml:6 Projects/view/projects/projects/add.phtml:6
+#: Tasks/view/tasks/tasks/add.phtml:6
+#, fuzzy
+msgid "Add"
+msgstr "जोड़ें"
+
+#: Campaigns/view/campaigns/campaign/edit.phtml:2
+#, fuzzy
+msgid "Edit Campaign"
+msgstr "अभियान संपादित करें"
+
+#: Campaigns/view/campaigns/campaign/edit.phtml:55
+#, fuzzy
+msgid "Add Campaign Medium"
+msgstr "अभियान माध्यम जोड़ें"
+
+#: Campaigns/view/campaigns/campaign/edit.phtml:71
+#, fuzzy
+msgid "Campaign Details"
+msgstr "विवरण"
+
+#: Campaigns/view/campaigns/campaign/edit.phtml:74
+#, fuzzy
+msgid "Campaign Mediums"
+msgstr "अभियान माध्यमों"
+
+#: Campaigns/view/campaigns/campaign/edit.phtml:158
+#: Followups/view/followups/followups/index.phtml:79 Leads/view/leads/leads/details.phtml:67
+#: Leads/view/leads/leads/details.phtml:178
+#, fuzzy
+msgid "Primary Source"
+msgstr "मुख्य स्रोत"
+
+#: Campaigns/view/campaigns/campaign/edit.phtml:159 Leads/view/leads/leads/details.phtml:71
+#: Leads/view/leads/leads/details.phtml:182 Leads/view/leads/leads/index.phtml:133
+#, fuzzy
+msgid "Secondary Source"
+msgstr "द्वितीयक स्रोत"
+
+#: Campaigns/view/campaigns/campaign/edit.phtml:161
+#: Campaigns/view/campaigns/campaign/index.phtml:32
+#, fuzzy
+msgid "Budget"
+msgstr "बजट"
+
+#: Campaigns/view/campaigns/campaign/edit.phtml:162
+#: Campaigns/view/campaigns/campaign/index.phtml:33
+#, fuzzy
+msgid "Spent"
+msgstr "खर्च किया"
+
+#: Campaigns/view/campaigns/campaign/edit.phtml:208
+#, fuzzy
+msgid "Campaign Medium Form"
+msgstr "अभियान मध्यम रूप"
+
+#: Campaigns/view/campaigns/campaign/index.phtml:30
+#, fuzzy
+msgid "Campaign Name"
+msgstr "क्रिया नाम"
+
+#: Campaigns/view/campaigns/campaign/index.phtml:31
+#: Masters/view/masters/amenities/index.phtml:39
+#: Masters/view/masters/building-status/index.phtml:37
+#: Masters/view/masters/customer-budget/index.phtml:37
+#: Masters/view/masters/feedback-parameter/index.phtml:37
+#: Masters/view/masters/flat-status/index.phtml:37
+#: Masters/view/masters/flat-types/index.phtml:38
+#: Masters/view/masters/lead-source/index.phtml:40
+#: Masters/view/masters/lead-status/index.phtml:41
+#: Masters/view/masters/parking-status/index.phtml:36
+#: Masters/view/masters/preferred-location/index.phtml:36
+#: Masters/view/masters/system-usertype/index.phtml:45
+#: Masters/view/masters/touch-points/index.phtml:36
+#: Masters/view/masters/transaction-interest/index.phtml:37
+#: Masters/view/masters/virtual-number/index.phtml:39
+#: Notifications/view/notifications/email-template/index.phtml:55
+#: Notifications/view/notifications/sms-template/index.phtml:46
+#: Projects/view/projects/buildings/payment-slabs.phtml:33
+#: Projects/view/projects/flats/index.phtml:71
+#: Projects/view/projects/projects/index.phtml:33
+#: Reports/view/reports/reports/index.phtml:174 Tasks/view/tasks/tasks/index.phtml:59
+#: Tasks/view/tasks/tasks/index.phtml:108 User/view/user/user/index.phtml:35
+#: User/view/user/user/view.phtml:66
+#, fuzzy
+msgid "Status"
+msgstr "स्थिति"
+
+#: Campaigns/view/campaigns/campaign/index.phtml:34
+#, fuzzy
+msgid "Duration"
+msgstr "अवधि"
+
+#: Campaigns/view/campaigns/campaign/index.phtml:37
+#, fuzzy
+msgid "Site Visits"
+msgstr "साइट का दौरा"
+
+#: Customers/view/customers/customers/add.phtml:2
+#, fuzzy
+msgid "Add Customers"
+msgstr "ग्राहक जोड़ें"
+
+#: Customers/view/customers/customers/edit.phtml:2
+#, fuzzy
+msgid "Edit Customers"
+msgstr "ग्राहक संपादित करें"
+
+#: Customers/view/customers/customers/index.phtml:31 Leads/view/leads/leads/details.phtml:39
+#: Leads/view/leads/leads/details.phtml:150 User/view/user/user/view.phtml:46
+#, fuzzy
+msgid "Email"
+msgstr "ईमेल"
+
+#: Customers/view/customers/customers/index.phtml:32
+#, fuzzy
+msgid "Contact No."
+msgstr "संपर्क नंबर।"
+
+#: Customers/view/customers/customers/index.phtml:33 Leads/view/leads/leads/index.phtml:138
+#, fuzzy
+msgid "Customer Type"
+msgstr "ग्राहक"
+
+#: Customers/view/customers/customers/index.phtml:34
+#: Customers/view/customers/partner-meeting/index.phtml:37
+#: Masters/view/masters/virtual-number/index.phtml:38
+msgid "Remark"
+msgstr "टिप्पणी"
+
+#: Customers/view/customers/partner-meeting/add.phtml:2
+#: Customers/view/customers/partner-meeting/edit.phtml:2
+msgid "Add Meeting"
+msgstr "बैठक बनायें "
+
+#: Customers/view/customers/partner-meeting/add.phtml:5
+#: Customers/view/customers/partner-meeting/edit.phtml:5
+#: Customers/view/customers/partner-meeting/index.phtml:5
+#, fuzzy
+msgid "Meetings"
+msgstr "बैठक"
+
+#: Customers/view/customers/partner-meeting/index.phtml:30
+msgid "Meeting Date"
+msgstr "बैठक की तारीख "
+
+#: Customers/view/customers/partner-meeting/index.phtml:31
+#, fuzzy
+msgid "CP ID"
+msgstr "सीपी आईडी"
+
+#: Customers/view/customers/partner-meeting/index.phtml:32
+#, fuzzy
+msgid "Company Name"
+msgstr "क्रिया नाम"
+
+#: Customers/view/customers/partner-meeting/index.phtml:33
+#, fuzzy
+msgid "Concerned Person"
+msgstr "संबंधित व्यक्ति"
+
+#: Customers/view/customers/partner-meeting/index.phtml:35
+#: FileManager/view/file-manager/attachments/index.phtml:36
+#: FileManager/view/file-manager/brochures/index.phtml:37
+#: FileManager/view/file-manager/folders/explore.phtml:76
+#: FileManager/view/file-manager/layouts/index.phtml:40
+#: Masters/view/masters/amenities/index.phtml:38
+#, fuzzy
+msgid "Type"
+msgstr "प्रकार"
+
+#: Customers/view/customers/partner-meeting/index.phtml:36
+#: Projects/view/projects/projects/index.phtml:30
+#, fuzzy
+msgid "Location"
+msgstr "स्थान"
+
+#: FileManager/view/file-manager/attachments/index.phtml:2
+#: FileManager/view/file-manager/attachments/index.phtml:6
+msgid "Attachments"
+msgstr "अटैचमेंट्स "
+
+#: FileManager/view/file-manager/attachments/index.phtml:5
+#: FileManager/view/file-manager/folders/explore.phtml:5
+#: FileManager/view/file-manager/folders/index.phtml:5
+#, fuzzy
+msgid "Folders"
+msgstr "फ़ोल्डर"
+
+#: FileManager/view/file-manager/attachments/index.phtml:33
+#, fuzzy
+msgid "Attachment"
+msgstr "अटैचमैंट"
+
+#: FileManager/view/file-manager/attachments/index.phtml:34
+#, fuzzy
+msgid "Folder"
+msgstr "फ़ोल्डर"
+
+#: FileManager/view/file-manager/attachments/index.phtml:35
+#: FileManager/view/file-manager/brochures/index.phtml:36
+#: FileManager/view/file-manager/folders/explore.phtml:75
+#: FileManager/view/file-manager/layouts/index.phtml:39
+#, fuzzy
+msgid "Size"
+msgstr "आकार"
+
+#: FileManager/view/file-manager/brochures/add.phtml:2
+#, fuzzy
+msgid "Add Brochure"
+msgstr "विवरणिका"
+
+#: FileManager/view/file-manager/brochures/add.phtml:5
+#: FileManager/view/file-manager/brochures/index.phtml:5
+#, fuzzy
+msgid "Brochures"
+msgstr "ब्रोशर"
+
+#: FileManager/view/file-manager/brochures/index.phtml:2
+#, fuzzy
+msgid "All"
+msgstr "सभी"
+
+#: FileManager/view/file-manager/brochures/index.phtml:2
+#, fuzzy
+msgid " Brochures"
+msgstr "ब्रोशर"
+
+#: FileManager/view/file-manager/brochures/index.phtml:80
+#, fuzzy
+msgid "Upload Brochure"
+msgstr "विवरणिका अपलोड करें"
+
+#: FileManager/view/file-manager/folders/explore.phtml:6
+#, fuzzy
+msgid "Explorer"
+msgstr "खोजी यात्रा"
+
+#: FileManager/view/file-manager/folders/explore.phtml:21
+msgid "Drag n drop uploader"
+msgstr "ड्रैग ड्रॉप अपलोडर"
+
+#: FileManager/view/file-manager/folders/explore.phtml:38
+#, fuzzy
+msgid "Refresh"
+msgstr "रीफ़्रेश करें"
+
+#: FileManager/view/file-manager/folders/index.phtml:2
+#, fuzzy
+msgid "Project Folders"
+msgstr "प्रोजेक्ट फ़ोल्डर"
+
+#: FileManager/view/file-manager/folders/index.phtml:32
+#, fuzzy
+msgid "Create"
+msgstr "बनाएं"
+
+#: FileManager/view/file-manager/folders/index.phtml:47
+msgid "Files"
+msgstr "फाइल"
+
+#: FileManager/view/file-manager/layouts/add.phtml:2
+#, fuzzy
+msgid "Add Layout"
+msgstr "नक्शा"
+
+#: FileManager/view/file-manager/layouts/add.phtml:5
+#: FileManager/view/file-manager/layouts/index.phtml:2
+#: FileManager/view/file-manager/layouts/index.phtml:5
+msgid "Layouts"
+msgstr "खाके "
+
+#: FileManager/view/file-manager/layouts/add.phtml:13
+#, fuzzy
+msgid "Upload"
+msgstr "अपलोड करें"
+
+#: FileManager/view/file-manager/layouts/index.phtml:38
+#, fuzzy
+msgid "Layout Type"
+msgstr "नक्शा"
+
+#: FileManager/view/file-manager/layouts/index.phtml:87
+#, fuzzy
+msgid "Upload Layout"
+msgstr "लेआउट अपलोड करें"
+
+#: Followups/view/followups/followups/index.phtml:2
+#: Followups/view/followups/followups/index.phtml:5
+msgid "Followups"
+msgstr "फॉलोअपस "
+
+#: Followups/view/followups/followups/index.phtml:34
+#, fuzzy
+msgid "Select Customer"
+msgstr "ग्राहक का चयन करें"
+
+#: Followups/view/followups/followups/index.phtml:43
+#, fuzzy
+msgid "Select Mode"
+msgstr "अपना मोड चुनें"
+
+#: Followups/view/followups/followups/index.phtml:52
+#: Projects/view/projects/flats/select-building.phtml:30
+#, fuzzy
+msgid "Select Project"
+msgstr "परियोजना चुनें"
+
+#: Followups/view/followups/followups/index.phtml:61
+#, fuzzy
+msgid "Select Campaign"
+msgstr "अभियान का चयन करें"
+
+#: Followups/view/followups/followups/index.phtml:70
+#: Followups/view/followups/followups/index.phtml:125
+#: Leads/view/leads/leads/details.phtml:75 Leads/view/leads/leads/details.phtml:186
+#: Leads/view/leads/leads/index.phtml:134 Walkins/view/walkins/walkins/index.phtml:50
+#, fuzzy
+msgid "Primary Status"
+msgstr "प्राथमिक स्थिति"
+
+#: Followups/view/followups/followups/index.phtml:88
+#, fuzzy
+msgid "Select Customer Type"
+msgstr "ग्राहक प्रकार का चयन करें"
+
+#: Followups/view/followups/followups/index.phtml:97
+#, fuzzy
+msgid "Select Lead Owner"
+msgstr "लीड स्वामी का चयन करें"
+
+#: Followups/view/followups/followups/index.phtml:122 Leads/view/leads/leads/index.phtml:129
+#: Walkins/view/walkins/walkins/index.phtml:47
+msgid "Legacy Id"
+msgstr "लीगेसी आईडी "
+
+#: Followups/view/followups/followups/index.phtml:126
+#: Leads/view/leads/leads/details.phtml:79 Leads/view/leads/leads/index.phtml:135
+#: Walkins/view/walkins/walkins/index.phtml:51
+#, fuzzy
+msgid "Secondary Status"
+msgstr "सेकेण्डरी स्थिति"
+
+#: Followups/view/followups/followups/index.phtml:127 Leads/view/leads/leads/index.phtml:136
+#: Walkins/view/walkins/walkins/index.phtml:52
+msgid "Project/Phase"
+msgstr "परियोजना चरण"
+
+#: Followups/view/followups/followups/index.phtml:128
+#: Walkins/view/walkins/walkins/index.phtml:53
+#, fuzzy
+msgid "Followup Type"
+msgstr "अग्गें कारवाई करो"
+
+#: Followups/view/followups/followups/index.phtml:129
+#: Walkins/view/walkins/walkins/index.phtml:54
+#, fuzzy
+msgid "Followup Date"
+msgstr "अग्गें कारवाई करो"
+
+#: Followups/view/followups/followups/index.phtml:130 Leads/view/leads/leads/index.phtml:137
+#: Walkins/view/walkins/walkins/index.phtml:55
+msgid "Lead Owner(s)"
+msgstr "लीड स्वामी"
+
+#: Leads/view/leads/leads/add.phtml:2
+#, fuzzy
+msgid "Add Lead"
+msgstr "लीड जोड़ें"
+
+#: Leads/view/leads/leads/add.phtml:93 Leads/view/leads/leads/edit.phtml:93
+#: Leads/view/leads/leads/quicklead.phtml:64
+#, fuzzy
+msgid "CUSTOMER INTEREST"
+msgstr "ग्राहक हित"
+
+#: Leads/view/leads/leads/add.phtml:96 Leads/view/leads/leads/edit.phtml:96
+#: Leads/view/leads/leads/quicklead.phtml:67
+#, fuzzy
+msgid "SPECIFIC PROJECT REQUIREMENTS"
+msgstr "विशिष्ट परियोजना की आवश्यकताएं"
+
+#: Leads/view/leads/leads/add.phtml:99 Leads/view/leads/leads/edit.phtml:99
+#: Leads/view/leads/leads/quicklead.phtml:70
+#, fuzzy
+msgid "TOUCHPOINTS"
+msgstr "टचपॉइंट"
+
+#: Leads/view/leads/leads/add.phtml:102 Leads/view/leads/leads/edit.phtml:102
+#: Leads/view/leads/leads/quicklead.phtml:73
+#, fuzzy
+msgid "REMARKS"
+msgstr "टिप्पणी:"
+
+#: Leads/view/leads/leads/details.phtml:2
+#, fuzzy
+msgid "Leads Details"
+msgstr "लीड्स विवरण"
+
+#: Leads/view/leads/leads/details.phtml:6 Projects/view/projects/projects/details.phtml:6
+#, fuzzy
+msgid "Details"
+msgstr "विवरण"
+
+#: Leads/view/leads/leads/details.phtml:15
+#, fuzzy
+msgid "Lead Details"
+msgstr "विवरण"
+
+#: Leads/view/leads/leads/details.phtml:27 Leads/view/leads/leads/details.phtml:138
+msgid "Id"
+msgstr "आईडी "
+
+#: Leads/view/leads/leads/details.phtml:35 Leads/view/leads/leads/details.phtml:146
+#, fuzzy
+msgid "Mobile"
+msgstr "मोबाइल"
+
+#: Leads/view/leads/leads/details.phtml:43
+#, fuzzy
+msgid "Lead Owner"
+msgstr "स्वामी"
+
+#: Leads/view/leads/leads/details.phtml:47 Leads/view/leads/leads/details.phtml:158
+#, fuzzy
+msgid "Created at"
+msgstr "में बनाया"
+
+#: Leads/view/leads/leads/details.phtml:95
+msgid "Followup Details"
+msgstr "फॉलोअप्स विवरण "
+
+#: Leads/view/leads/leads/details.phtml:102
+#, fuzzy
+msgid "Touchpoint"
+msgstr "सूत्र"
+
+#: Leads/view/leads/leads/details.phtml:104
+#, fuzzy
+msgid "Action Date"
+msgstr "क्रिया नाम"
+
+#: Leads/view/leads/leads/details.phtml:105
+msgid "Remarks"
+msgstr "टिप्पणी"
+
+#: Leads/view/leads/leads/details.phtml:154
+#, fuzzy
+msgid "Broker"
+msgstr "दलाल"
+
+#: Leads/view/leads/leads/details.phtml:170
+#, fuzzy
+msgid "Booking Status"
+msgstr "बुकिंग की स्थिति"
+
+#: Leads/view/leads/leads/details.phtml:174
+#, fuzzy
+msgid "Flat"
+msgstr "फ्लैट"
+
+#: Leads/view/leads/leads/details.phtml:190
+#, fuzzy
+msgid "Total Amount"
+msgstr "कुल रकम"
+
+#: Leads/view/leads/leads/edit.phtml:2
+#, fuzzy
+msgid "Edit Lead"
+msgstr "लीड संपादित करें"
+
+#: Leads/view/leads/leads/index.phtml:18 Leads/view/leads/leads/quicklead.phtml:2
+#, fuzzy
+msgid "Quick Lead"
+msgstr "तेज"
+
+#: Leads/view/leads/leads/index.phtml:132
+#, fuzzy
+msgid "Mode"
+msgstr "मोड"
+
+#: Leads/view/leads/leads/index.phtml:191
+#, fuzzy
+msgid "Upload Leads"
+msgstr "लीड अपलोड करें"
+
+#: Leads/view/leads/leads/quicklead.phtml:6
+msgid "Quicklead"
+msgstr "क्विक लीड "
+
+#: Masters/view/masters/amenities/add.phtml:2 Masters/view/masters/amenities/edit.phtml:2
+#: Masters/view/masters/amenities/index.phtml:75
+#: Masters/view/masters/building-status/index.phtml:71
+#, fuzzy
+msgid "Add Amenities"
+msgstr "सुविधाएं जोड़ें"
+
+#: Masters/view/masters/amenities/add.phtml:5 Masters/view/masters/amenities/edit.phtml:5
+#: Masters/view/masters/amenities/index.phtml:2 Masters/view/masters/amenities/index.phtml:5
+#, fuzzy
+msgid "Amenities"
+msgstr "आराम"
+
+#: Masters/view/masters/amenities/index.phtml:100
+#: Masters/view/masters/building-status/index.phtml:92
+#: Masters/view/masters/customer-budget/index.phtml:93
+#: Masters/view/masters/documents/index.phtml:83
+#: Masters/view/masters/feedback-parameter/index.phtml:91
+#: Masters/view/masters/flat-status/index.phtml:92
+#: Masters/view/masters/flat-types/index.phtml:92
+#: Masters/view/masters/lead-source/index.phtml:108
+#: Masters/view/masters/lead-status/index.phtml:115
+#: Masters/view/masters/parking-status/index.phtml:91
+#: Masters/view/masters/preferred-location/index.phtml:91
+#: Masters/view/masters/system-usertype/index.phtml:127
+#: Masters/view/masters/touch-points/index.phtml:91
+#: Masters/view/masters/transaction-interest/index.phtml:92
+#: Masters/view/masters/virtual-number/index.phtml:101
+#: Notifications/view/notifications/email-template/index.phtml:124
+#: Notifications/view/notifications/sms-template/index.phtml:107
+#: Projects/view/projects/flats/index.phtml:228
+#: Projects/view/projects/inventory/index.phtml:152
+#: Projects/view/projects/projects/index.phtml:81
+#, fuzzy
+msgid "Close"
+msgstr "बंद करें"
+
+#: Masters/view/masters/building-status/add.phtml:2
+#, fuzzy
+msgid "Add Building Status"
+msgstr "भवन स्थिति जोड़ें"
+
+#: Masters/view/masters/building-status/edit.phtml:2
+#, fuzzy
+msgid "Edit Building Status"
+msgstr "बिल्डिंग स्थिति संपादित करें"
+
+#: Masters/view/masters/customer-budget/add.phtml:2
+#: Masters/view/masters/customer-budget/index.phtml:72
+#, fuzzy
+msgid "Add Customer Budget"
+msgstr "ग्राहक बजट जोड़ें"
+
+#: Masters/view/masters/customer-budget/edit.phtml:2
+#, fuzzy
+msgid "Edit Customer Budget"
+msgstr "ग्राहक बजट संपादित करें"
+
+#: Masters/view/masters/documents/add.phtml:2
+#, fuzzy
+msgid "Add Document"
+msgstr "दस्तावेज़ जोड़ें"
+
+#: Masters/view/masters/documents/edit.phtml:2
+#, fuzzy
+msgid "Edit Documents"
+msgstr "दस्तावेज़ संपादित करें"
+
+#: Masters/view/masters/documents/index.phtml:68
+#, fuzzy
+msgid "Add Documents"
+msgstr "दस्तावेज"
+
+#: Masters/view/masters/feedback-parameter/add.phtml:2
+#, fuzzy
+msgid "Add Feedback Parameter"
+msgstr "प्रतिक्रिया पैरामीटर जोड़ें"
+
+#: Masters/view/masters/feedback-parameter/edit.phtml:2
+#, fuzzy
+msgid "Edit Feedback Parameter"
+msgstr "प्रतिक्रिया पैरामीटर संपादित करें"
+
+#: Masters/view/masters/feedback-parameter/index.phtml:70
+msgid ">Add Feedback Parameter"
+msgstr "प्रतिक्रिया पैरामीटर जोड़ें"
+
+#: Masters/view/masters/flat-status/add.phtml:2
+#: Masters/view/masters/flat-status/index.phtml:71
+msgid "Add Flat Status"
+msgstr "फ्लैट स्थिति "
+
+#: Masters/view/masters/flat-status/edit.phtml:2
+msgid "Edit Flat Status"
+msgstr "फ्लैट स्थिति संपादित करें"
+
+#: Masters/view/masters/flat-types/add.phtml:2
+#: Masters/view/masters/flat-types/index.phtml:71
+#, fuzzy
+msgid "Add Flat Types"
+msgstr "फ्लैट प्रकार जोड़ें"
+
+#: Masters/view/masters/flat-types/edit.phtml:2
+#, fuzzy
+msgid "Edit Flat Types"
+msgstr "फ्लैट प्रकार संपादित करें"
+
+#: Masters/view/masters/lead-source/add.phtml:2
+#: Masters/view/masters/lead-source/index.phtml:75
+#, fuzzy
+msgid "Add Lead Source"
+msgstr "लीड स्रोत जोड़ें"
+
+#: Masters/view/masters/lead-source/edit.phtml:2
+#, fuzzy
+msgid "Edit Lead Source"
+msgstr "लीड स्रोत संपादित करें"
+
+#: Masters/view/masters/lead-source/index.phtml:39
+#, fuzzy
+msgid "Parent"
+msgstr "मूल"
+
+#: Masters/view/masters/lead-status/add.phtml:2
+#: Masters/view/masters/lead-status/index.phtml:76
+#, fuzzy
+msgid "Add Lead Status"
+msgstr "लीड स्थिति जोड़ें"
+
+#: Masters/view/masters/lead-status/add.phtml:5
+#: Masters/view/masters/lead-status/edit.phtml:5
+#: Masters/view/masters/lead-status/index.phtml:2
+#: Masters/view/masters/lead-status/index.phtml:5
+#, fuzzy
+msgid "Lead Status"
+msgstr "स्थिति"
+
+#: Masters/view/masters/lead-status/edit.phtml:2
+#, fuzzy
+msgid "Edit Lead Status"
+msgstr "लीड स्थिति संपादित करें"
+
+#: Masters/view/masters/lead-status/index.phtml:40
+#, fuzzy
+msgid "Parents"
+msgstr "पैरेन्ट्स"
+
+#: Masters/view/masters/parking-status/add.phtml:2
+#: Masters/view/masters/parking-status/index.phtml:70
+#, fuzzy
+msgid "Add Parking Status"
+msgstr "पार्किंग स्थिति जोड़ें"
+
+#: Masters/view/masters/parking-status/edit.phtml:2
+#, fuzzy
+msgid "Edit Parking Status"
+msgstr "पार्किंग स्थिति संपादित करें"
+
+#: Masters/view/masters/preferred-location/add.phtml:2
+#: Masters/view/masters/preferred-location/index.phtml:70
+#, fuzzy
+msgid "Add Preferred Location"
+msgstr "पसंदीदा स्थान जोड़ें"
+
+#: Masters/view/masters/preferred-location/edit.phtml:2
+#, fuzzy
+msgid "Edit Preferred Location"
+msgstr "पसंदीदा स्थान संपादित करें"
+
+#: Masters/view/masters/system-usertype/add.phtml:2
+#: Masters/view/masters/system-usertype/index.phtml:82
+msgid "Add System UserType"
+msgstr "सिस्टम यूजर टाइप  जोड़ें"
+
+#: Masters/view/masters/system-usertype/add.phtml:5
+#: Masters/view/masters/system-usertype/edit.phtml:5
+#: Masters/view/masters/system-usertype/index.phtml:2
+#: Masters/view/masters/system-usertype/index.phtml:5
+msgid "System UserType"
+msgstr "सिस्टम यूजर टाइप "
+
+#: Masters/view/masters/system-usertype/edit.phtml:2
+msgid "Edit System UserType"
+msgstr "सिस्टम यूजर टाइप  संपादित करें"
+
+#: Masters/view/masters/system-usertype/index.phtml:41
+#, fuzzy
+msgid "Negotiation Percent"
+msgstr "बातचीत प्रतिशत"
+
+#: Masters/view/masters/system-usertype/index.phtml:42
+#, fuzzy
+msgid "Mask Numbers"
+msgstr "मास्क संख्या"
+
+#: Masters/view/masters/system-usertype/index.phtml:43
+#, fuzzy
+msgid "EOD Status"
+msgstr "स्थिति"
+
+#: Masters/view/masters/system-usertype/index.phtml:44
+#, fuzzy
+msgid "Confidential Data"
+msgstr "गोपनीय"
+
+#: Masters/view/masters/touch-points/add.phtml:2
+#, fuzzy
+msgid "Add TouchPoints"
+msgstr "टचपॉइंट जोड़ें"
+
+#: Masters/view/masters/touch-points/add.phtml:5
+#: Masters/view/masters/touch-points/edit.phtml:5
+#, fuzzy
+msgid "TouchPoints"
+msgstr "टचपॉइंट"
+
+#: Masters/view/masters/touch-points/edit.phtml:2
+msgid "Edit TouchPoints"
+msgstr "टचपॉइंट संपादीत करें"
+
+#: Masters/view/masters/touch-points/index.phtml:70
+#, fuzzy
+msgid "Add Touchpoints"
+msgstr "टचपॉइंट जोड़ें"
+
+#: Masters/view/masters/transaction-interest/add.phtml:2
+#: Masters/view/masters/transaction-interest/index.phtml:71
+#, fuzzy
+msgid "Add Transaction Interest"
+msgstr "लेन-देन ब्याज जोड़ें"
+
+#: Masters/view/masters/transaction-interest/edit.phtml:2
+#, fuzzy
+msgid "Edit Transaction Interest"
+msgstr "लेनदेन रुचि संपादित करें"
+
+#: Masters/view/masters/virtual-number/add.phtml:2
+#: Masters/view/masters/virtual-number/index.phtml:74
+#, fuzzy
+msgid "Add Virtual Number"
+msgstr "वर्चुअल संख्या जोड़ें"
+
+#: Masters/view/masters/virtual-number/edit.phtml:2
+#, fuzzy
+msgid "Edit Virtual Number"
+msgstr "वर्चुअल संख्या संपादित करें"
+
+#: Notifications/view/notifications/email-template/add.phtml:3
+#: Notifications/view/notifications/email-template/index.phtml:91
+#, fuzzy
+msgid "Add Email Template"
+msgstr "ईमेल टेम्पलेट जोड़ें"
+
+#: Notifications/view/notifications/email-template/add.phtml:7
+#: Notifications/view/notifications/email-template/edit.phtml:7
+#, fuzzy
+msgid "Add Email Templates"
+msgstr "ईमेल टेम्पलेट्स"
+
+#: Notifications/view/notifications/email-template/add.phtml:80
+#: Notifications/view/notifications/email-template/edit.phtml:80
+#: Notifications/view/notifications/sms-template/add.phtml:66
+#: Notifications/view/notifications/sms-template/edit.phtml:66
+msgid ""
+"Note: You can use system generated fields like First Name, Last Name as {first_name}. Do "
+"not forget to include { } around them. Fields that can be used are: {first_name}, "
+"{last_name}, {project_name}, {building_name}, {system_user_name}."
+msgstr ""
+"नोट: आप सिस्टम जनरेटेड फ़ील्ड जैसे प्रथम नाम, अंतिम नाम का प्रयोग कर सकते हैं {first_name}। उनके आसपास "
+"{} शामिल करने के लिए मत भूलना जिन फ़ील्ड का उपयोग किया जा सकता है: {first_name}, {last_name}, "
+"{project_name}, {building_name}, {system_user_name}"
+
+#: Notifications/view/notifications/email-template/edit.phtml:3
+#, fuzzy
+msgid "Edit Email Template"
+msgstr "ईमेल टेम्पलेट संपादित करें"
+
+#: Notifications/view/notifications/email-template/index.phtml:7
+#: Notifications/view/notifications/sms-template/index.phtml:6
+#, fuzzy
+msgid "Manage Email Templates"
+msgstr "ईमेल टेंपलेट्स प्रबंधित करें"
+
+#: Notifications/view/notifications/email-template/index.phtml:53
+#: Notifications/view/notifications/sms-template/index.phtml:45
+#: Tasks/view/tasks/tasks/index.phtml:51 Tasks/view/tasks/tasks/index.phtml:100
+#, fuzzy
+msgid "Title"
+msgstr "शीर्षक"
+
+#: Notifications/view/notifications/email-template/index.phtml:54
+#, fuzzy
+msgid "Subject"
+msgstr "विशे"
+
+#: Notifications/view/notifications/notifications/sendemail.phtml:2
+#, fuzzy
+msgid "Select Email Templates"
+msgstr "ईमेल टेम्पलेट्स का चयन करें"
+
+#: Notifications/view/notifications/notifications/sendsms.phtml:2
+msgid "Select SMS Templates"
+msgstr "एसएमएस टेंपलेट्स का चयन करें"
+
+#: Notifications/view/notifications/sms-template/add.phtml:2
+#: Notifications/view/notifications/sms-template/index.phtml:80
+msgid "Add SMS Template"
+msgstr "एसएमएस टेम्पलेट जोड़ें"
+
+#: Notifications/view/notifications/sms-template/add.phtml:6
+msgid "Add SMS Templates"
+msgstr "एसएमएस टेंपलेट्स जोड़ें"
+
+#: Notifications/view/notifications/sms-template/edit.phtml:2
+msgid "Edit SMS Template"
+msgstr "एसएमएस टेम्पलेट संपादित करें"
+
+#: Notifications/view/notifications/sms-template/edit.phtml:6
+msgid "Edit SMS Templates"
+msgstr "एसएमएस टेंपलेट्स संपादित करें"
+
+#: Projects/view/projects/buildings/add.phtml:2
+#, fuzzy
+msgid "Add Building"
+msgstr "इमारत जोड़ें"
+
+#: Projects/view/projects/buildings/add.phtml:5
+#: Projects/view/projects/buildings/edit.phtml:5
+#: Projects/view/projects/buildings/index.phtml:2
+#: Projects/view/projects/buildings/index.phtml:5
+#: Projects/view/projects/buildings/payment-slabs.phtml:5
+msgid "Buildings"
+msgstr "भवन"
+
+#: Projects/view/projects/buildings/edit.phtml:2
+#, fuzzy
+msgid "Edit Building"
+msgstr "भवन संपादित करें"
+
+#: Projects/view/projects/buildings/edit.phtml:55
+#, fuzzy
+msgid "CURRENT ELEVATION"
+msgstr "वर्तमान उंनयन"
+
+#: Projects/view/projects/buildings/index.phtml:29
+msgid "Project Name"
+msgstr "प्रोजैक्ट नाम"
+
+#: Projects/view/projects/buildings/index.phtml:30
+msgid "Building Name"
+msgstr "भवन का नाम"
+
+#: Projects/view/projects/buildings/index.phtml:31
+#, fuzzy
+msgid "Total Flats"
+msgstr "कुल फ्लैट्स"
+
+#: Projects/view/projects/buildings/index.phtml:32
+#, fuzzy
+msgid "Manage Flats"
+msgstr "फ्लैट्स प्रबंधित करें"
+
+#: Projects/view/projects/buildings/index.phtml:33
+#, fuzzy
+msgid "Manage Payment"
+msgstr "भुगतान प्रबंधित करें"
+
+#: Projects/view/projects/buildings/payment-slabs.phtml:2
+#: Projects/view/projects/buildings/payment-slabs.phtml:6
+#, fuzzy
+msgid "Payment Slabs"
+msgstr "भुगतान स्लैब"
+
+#: Projects/view/projects/buildings/payment-slabs.phtml:29
+msgid "Slab Title"
+msgstr "स्लैब शीर्षक"
+
+#: Projects/view/projects/buildings/payment-slabs.phtml:30
+#, fuzzy
+msgid "Expected Completion Date"
+msgstr "अपेक्षित पूर्णता दिनांक"
+
+#: Projects/view/projects/buildings/payment-slabs.phtml:31
+#, fuzzy
+msgid "Actual Completion Date"
+msgstr "समाप्ति की तिथि"
+
+#: Projects/view/projects/buildings/payment-slabs.phtml:32
+#, fuzzy
+msgid "Completion %"
+msgstr "पूर्णता"
+
+#: Projects/view/projects/buildings/payment-slabs.phtml:99
+#, fuzzy
+msgid "Total Completion"
+msgstr "कुल पूर्ण"
+
+#: Projects/view/projects/flats/add.phtml:2
+#, fuzzy
+msgid "Add Flat"
+msgstr "फ्लैट जोड़ें"
+
+#: Projects/view/projects/flats/add.phtml:5 Projects/view/projects/flats/edit.phtml:5
+#: Projects/view/projects/flats/index.phtml:2 Projects/view/projects/flats/index.phtml:5
+#, fuzzy
+msgid "Flats"
+msgstr "फ्लैट्स"
+
+#: Projects/view/projects/flats/edit.phtml:2
+#, fuzzy
+msgid "Edit Flat"
+msgstr "फ्लैट संपादित करें"
+
+#: Projects/view/projects/flats/index.phtml:70
+#, fuzzy
+msgid "Flat No."
+msgstr "फ्लैट नं."
+
+#: Projects/view/projects/flats/index.phtml:72
+#, fuzzy
+msgid "Flat Type"
+msgstr "फ्लैट प्रकार"
+
+#: Projects/view/projects/flats/index.phtml:73
+#, fuzzy
+msgid "Flat Area"
+msgstr "फ्लैट क्षेत्र"
+
+#: Projects/view/projects/flats/index.phtml:74
+#, fuzzy
+msgid "Current Rate"
+msgstr "वर्तमान"
+
+#: Projects/view/projects/flats/index.phtml:75
+#, fuzzy
+msgid "Floor Rise"
+msgstr "फ़र्श"
+
+#: Projects/view/projects/flats/index.phtml:76
+#, fuzzy
+msgid "Dev Charges"
+msgstr "देव शुल्क"
+
+#: Projects/view/projects/flats/index.phtml:77
+msgid "Club Mem. Charges"
+msgstr "क्लब चार्जेज "
+
+#: Projects/view/projects/flats/index.phtml:78
+#, fuzzy
+msgid "Adv Maintanace"
+msgstr "अभिभाषक"
+
+#: Projects/view/projects/flats/index.phtml:79
+#, fuzzy
+msgid "PLC"
+msgstr "पीएलसी"
+
+#: Projects/view/projects/flats/index.phtml:80
+#, fuzzy
+msgid "Total"
+msgstr "कुल"
+
+#: Projects/view/projects/flats/index.phtml:159
+#, fuzzy
+msgid "Note: charges and rates are per square feet basis."
+msgstr "नोट: शुल्क और दरें प्रति वर्ग फुट आधार हैं ।"
+
+#: Projects/view/projects/flats/index.phtml:173
+#, fuzzy
+msgid "Upload Flats"
+msgstr "फ्लैट्स अपलोड करें"
+
+#: Projects/view/projects/flats/index.phtml:197
+#: Projects/view/projects/inventory/index.phtml:121
+msgid "Mail Flat Detail"
+msgstr "मेल फ्लैट विवरण"
+
+#: Projects/view/projects/flats/index.phtml:202
+#: Projects/view/projects/inventory/index.phtml:126
+msgid "Email ID"
+msgstr "ईमेल"
+
+#: Projects/view/projects/flats/index.phtml:208
+#: Projects/view/projects/inventory/index.phtml:132
+#, fuzzy
+msgid "Send"
+msgstr "भेजें"
+
+#: Projects/view/projects/flats/index.phtml:220
+#: Projects/view/projects/inventory/index.phtml:144
+#, fuzzy
+msgid "Flat Detail"
+msgstr "विवरण"
+
+#: Projects/view/projects/flats/index.phtml:227
+#: Projects/view/projects/inventory/index.phtml:151
+#, fuzzy
+msgid "Mail"
+msgstr "मेल"
+
+#: Projects/view/projects/flats/select-building.phtml:6
+#, fuzzy
+msgid "Select"
+msgstr "चयन करें"
+
+#: Projects/view/projects/flats/select-building.phtml:47
+#, fuzzy
+msgid "Manage"
+msgstr "प्रबंध करो"
+
+#: Projects/view/projects/inventory/index.phtml:31
+#, fuzzy
+msgid "Project name"
+msgstr "क्रिया नाम"
+
+#: Projects/view/projects/inventory/index.phtml:41
+#, fuzzy
+msgid "Building name"
+msgstr "क्रिया नाम"
+
+#: Projects/view/projects/inventory/index.phtml:46
+#, fuzzy
+msgid "View Inventory"
+msgstr "सूची देखें"
+
+#: Projects/view/projects/inventory/index.phtml:150
+#, fuzzy
+msgid "Print"
+msgstr "मुद्रित करें"
+
+#: Projects/view/projects/projects/add.phtml:2
+#, fuzzy
+msgid "Add Project"
+msgstr "परियोजना जोड़ें"
+
+#: Projects/view/projects/projects/details.phtml:2
+#, fuzzy
+msgid "Projects Details"
+msgstr "परियोजनाओं का विवरण"
+
+#: Projects/view/projects/projects/details.phtml:27
+#, fuzzy
+msgid "Progress"
+msgstr "प्रगति"
+
+#: Projects/view/projects/projects/details.phtml:31
+msgid "Internal Amenities"
+msgstr "आंतरिक सुविधाएं"
+
+#: Projects/view/projects/projects/details.phtml:39
+#, fuzzy
+msgid "External Amenities"
+msgstr "बाहरी सुविधाएं"
+
+#: Projects/view/projects/projects/details.phtml:49
+#, fuzzy
+msgid "Start Date"
+msgstr "शुरुआत की तारीख:"
+
+#: Projects/view/projects/projects/details.phtml:53
+#, fuzzy
+msgid "Completion Date"
+msgstr "समाप्ति की तिथि"
+
+#: Projects/view/projects/projects/details.phtml:57
+#, fuzzy
+msgid "Project Location"
+msgstr "प्रोजेक्ट स्थान"
+
+#: Projects/view/projects/projects/details.phtml:61
+#, fuzzy
+msgid "Project Address"
+msgstr "प्रोजेक्ट पता"
+
+#: Projects/view/projects/projects/edit.phtml:2
+#, fuzzy
+msgid "Edit Project"
+msgstr "प्रोजेक्ट संपादित करें"
+
+#: Projects/view/projects/projects/index.phtml:29
+msgid "Project Status"
+msgstr "प्रोजैक्ट स्थिति"
+
+#: Projects/view/projects/projects/index.phtml:31
+#, fuzzy
+msgid "Brochure"
+msgstr "विवरणिका"
+
+#: Projects/view/projects/projects/index.phtml:32
+msgid "Contact Form"
+msgstr "संपर्क"
+
+#: Projects/view/projects/projects/index.phtml:46
+#, fuzzy
+msgid "Get Form"
+msgstr "प्रपत्र प्राप्त करें"
+
+#: Projects/view/projects/projects/index.phtml:73
+msgid "Copy Script"
+msgstr "स्क्रिप्ट की प्रतिलिपि बनाएं"
+
+#: Projects/view/projects/projects/index.phtml:76
+msgid ""
+"Just paste below mentioned script onto either header or footer of your Micro site. "
+"Subsequently all Enquiries sent from the website page will be auto-created in the CRM! Its "
+"a plain bootstrap form, you can change the look-n-feel of it as per your Company standards."
+msgstr ""
+"नीचे दी गयी स्क्रिप्ट को कॉपी पेस्ट करें, उसके बाद सारी  लीडस् आटोमेटिक इस सॉफ्टवेयर में आ जाएँगी. आप "
+"डिजाइन भी बूटस्ट्रैप में आसानी से बदल सकते हैं   "
+
+#: Projects/view/projects/projects/index.phtml:80
+#, fuzzy
+msgid "Copy to clipboard"
+msgstr "क्लिपबोर्ड में नकल करें"
+
+#: Reports/view/reports/reports/index.phtml:15
+#, fuzzy
+msgid "DETAILED LEAD REPORT"
+msgstr "विस्तृत लीड रिपोर्ट"
+
+#: Reports/view/reports/reports/index.phtml:29 User/view/user/user/index.phtml:2
+#, fuzzy
+msgid "Users"
+msgstr "उपयोगकर्ता"
+
+#: Reports/view/reports/reports/index.phtml:38 Reports/view/reports/reports/index.phtml:71
+#: Reports/view/reports/reports/index.phtml:108 Reports/view/reports/reports/index.phtml:140
+#: Reports/view/reports/reports/index.phtml:213
+#, fuzzy
+msgid "Date Range"
+msgstr "दिनांक सीमा"
+
+#: Reports/view/reports/reports/index.phtml:57
+msgid "FOLLOWUP REPORT"
+msgstr "फॉलोअप्स रिपोर्ट"
+
+#: Reports/view/reports/reports/index.phtml:94
+msgid "PROJECT WISE REPORT"
+msgstr "प्रोजैक्ट रिपोर्ट"
+
+#: Reports/view/reports/reports/index.phtml:126
+#, fuzzy
+msgid "SOURCE WISE REPORT"
+msgstr "स्रोत वार रिपोर्ट"
+
+#: Reports/view/reports/reports/index.phtml:160
+#, fuzzy
+msgid "CAMPAIGN REPORT"
+msgstr "अभियान रिपोर्ट"
+
+#: Reports/view/reports/reports/index.phtml:199
+#, fuzzy
+msgid "BOOKING REPORT"
+msgstr "बुकिंग रिपोर्ट"
+
+#: Settings/view/settings/settings/index.phtml:149
+msgid "Current Logo"
+msgstr "वर्तमान लोगो "
+
+#: Settings/view/settings/settings/index.phtml:166
+msgid "Current Favicon"
+msgstr "वर्तमान फ़ेविकॉन "
+
+#: Tasks/view/tasks/tasks/add.phtml:2
+#, fuzzy
+msgid "Add Task"
+msgstr "कार्य जोड़ें"
+
+#: Tasks/view/tasks/tasks/edit.phtml:2
+msgid "Edit Task"
+msgstr "कार्य संपादित करें"
+
+#: Tasks/view/tasks/tasks/index.phtml:33
+#, fuzzy
+msgid "Tasks Assigned by me"
+msgstr "मेरे द्वारा असाइन किए गए कार्य"
+
+#: Tasks/view/tasks/tasks/index.phtml:36
+msgid "Tasks Assigned to me"
+msgstr "मुझ को असाइन किया गया"
+
+#: Tasks/view/tasks/tasks/index.phtml:52 Tasks/view/tasks/tasks/index.phtml:101
+#, fuzzy
+msgid "Expected Date"
+msgstr "अपेक्षत"
+
+#: Tasks/view/tasks/tasks/index.phtml:53 Tasks/view/tasks/tasks/index.phtml:102
+#, fuzzy
+msgid "Priority"
+msgstr "प्राथमिकता"
+
+#: Tasks/view/tasks/tasks/index.phtml:54 Tasks/view/tasks/tasks/index.phtml:103
+#, fuzzy
+msgid "Created By"
+msgstr "के द्वारा बनाया गया"
+
+#: Tasks/view/tasks/tasks/index.phtml:56 Tasks/view/tasks/tasks/index.phtml:105
+#, fuzzy
+msgid "Completed By"
+msgstr "तक पूरा"
+
+#: Tasks/view/tasks/tasks/index.phtml:57 Tasks/view/tasks/tasks/index.phtml:106
+#, fuzzy
+msgid "Date Completed"
+msgstr "पूर्ण"
+
+#: Tasks/view/tasks/tasks/index.phtml:58 Tasks/view/tasks/tasks/index.phtml:107
+msgid "Assigned to"
+msgstr "असाइन किया गया"
+
+#: User/view/user/auth/login.phtml:26 User/view/user/user/reset-password.phtml:23
+msgid "Sign into your connectCRM account"
+msgstr "अपने कनेक्ट सीआरएम  खाते में साइन इन करें"
+
+#: User/view/user/auth/login.phtml:49
+#, fuzzy
+msgid "Incorrect login and/or password. "
+msgstr "गलत उपयोक्ता- नाम या पासवर्ड"
+
+#: User/view/user/auth/login.phtml:50
+#, fuzzy
+msgid "Forgot password?"
+msgstr "पासवर्ड भूल गये?"
+
+#: User/view/user/auth/login.phtml:60
+#, fuzzy
+msgid "Keep Me Signed in"
+msgstr "मुझे साइन इन रखें"
+
+#: User/view/user/auth/login.phtml:79
+msgid "2017 All Rights Reserved. ConnectCRM v1.0. Privacy and Terms"
+msgstr "२०१७ सर्वाधिकार सुरक्षित । कनेक्ट सीआरएम v 1.0 । गोपनीयता और शर्तें"
+
+#: User/view/user/auth/not-authorized.phtml:2
+msgid "Not Authorized"
+msgstr "अनुमति नहीं "
+
+#: User/view/user/auth/not-authorized.phtml:10
+msgid "Sorry but we couldnt find this page"
+msgstr "क्षमा करें, लेकिन हम इस पृष्ठ को नहीं ढूंढ सके "
+
+#: User/view/user/auth/not-authorized.phtml:11
+#, fuzzy
+msgid ""
+"We track these errors automatically, but if the problem persists feel free to contact us. "
+"In the meantime, try refreshing."
+msgstr ""
+"हम इन त्रुटियों को स्वचालित रूप से ट्रैक, लेकिन अगर समस्या बनी रहती है बेझिझक हमसे संपर्क करें । इस बीच, "
+"ताज़ा करने का प्रयास करें ।"
+
+#: User/view/user/auth/not-authorized.phtml:11
+#, fuzzy
+msgid "Report this"
+msgstr "रिपोर्ट"
+
+#: User/view/user/auth/not-authorized.phtml:18
+#, fuzzy
+msgid "Search"
+msgstr "ढूंढें"
+
+#: User/view/user/permission/add.phtml:2 User/view/user/permission/add.phtml:10
+#: User/view/user/permission/edit.phtml:10
+#, fuzzy
+msgid "Add Permission"
+msgstr "अनुमति"
+
+#: User/view/user/permission/edit.phtml:2
+#, fuzzy
+msgid "Edit Permission"
+msgstr "अनुमति"
+
+#: User/view/user/permission/index.phtml:2 User/view/user/role/view.phtml:65
+#, fuzzy
+msgid "Permissions"
+msgstr "अनुमतियां"
+
+#: User/view/user/permission/index.phtml:36 User/view/user/permission/view.phtml:42
+#: User/view/user/role/edit-permissions.phtml:41 User/view/user/role/index.phtml:37
+#: User/view/user/role/view.phtml:40 User/view/user/role/view.phtml:78
+#, fuzzy
+msgid "Description"
+msgstr "विवरण"
+
+#: User/view/user/permission/index.phtml:38 User/view/user/role/index.phtml:39
+#: User/view/user/user/index.phtml:36
+#, fuzzy
+msgid "Actions"
+msgstr "कार्यकलाप"
+
+#: User/view/user/permission/view.phtml:2 User/view/user/user/add.phtml:2
+#: User/view/user/user/add.phtml:10 User/view/user/user/edit.phtml:2
+#: User/view/user/user/edit.phtml:11
+#, fuzzy
+msgid "Add User"
+msgstr "उपयोगकर्ता"
+
+#: User/view/user/permission/view.phtml:11
+#, fuzzy
+msgid "View Permission"
+msgstr "अनुमति"
+
+#: User/view/user/role/add.phtml:2 User/view/user/role/add.phtml:10
+#, fuzzy
+msgid "Add Role"
+msgstr "भूमिका जोड़ें"
+
+#: User/view/user/role/edit-permissions.phtml:2
+#, fuzzy
+msgid "Edit Role Permissions"
+msgstr "रोल संपादत करो"
+
+#: User/view/user/role/edit-permissions.phtml:10 User/view/user/role/edit.phtml:2
+#: User/view/user/role/edit.phtml:10
+#, fuzzy
+msgid "Edit Role"
+msgstr "रोल संपादत करो"
+
+#: User/view/user/role/index.phtml:2 User/view/user/user/view.phtml:70
+#, fuzzy
+msgid "Roles"
+msgstr "भूमिकाएं"
+
+#: User/view/user/role/view.phtml:2 User/view/user/role/view.phtml:11
+#, fuzzy
+msgid "View Role"
+msgstr "भूमिका देखें"
+
+#: User/view/user/user/change-password.phtml:2 User/view/user/user/change-password.phtml:10
+#, fuzzy
+msgid "Change Password"
+msgstr "पासवर्ड बदलें"
+
+#: User/view/user/user/change-password.phtml:50
+#, fuzzy
+msgid "Change Password for "
+msgstr "पासवर्ड बदलें"
+
+#: User/view/user/user/index.phtml:33
+msgid "Role(s)"
+msgstr "भूमिका"
+
+#: User/view/user/user/message.phtml:2
+#, fuzzy
+msgid "Thank You"
+msgstr "धन्यवाद"
+
+#: User/view/user/user/message.phtml:22 User/view/user/user/reset-password.phtml:2
+#: User/view/user/user/reset-password.phtml:27
+#, fuzzy
+msgid "Reset Password"
+msgstr "पासवर्ड  फिर से बनाये"
+
+#: User/view/user/user/message.phtml:26
+#, fuzzy
+msgid "A password reset link has been sent to your email address"
+msgstr "पासवर्ड रीसेट लिंक आपके ईमेल पते पर भेज दिया गया है"
+
+#: User/view/user/user/message.phtml:30
+#, fuzzy
+msgid "There is no user with such an email"
+msgstr "उपयोगकर्ता"
+
+#: User/view/user/user/message.phtml:34
+#, fuzzy
+msgid "Your new password has been set successfully"
+msgstr "आपका नया पासवर्ड सफलतापूर्वक सेट किया जा चुका है"
+
+#: User/view/user/user/message.phtml:37
+msgid "Return to"
+msgstr "वापसी"
+
+#: User/view/user/user/message.phtml:37
+#, fuzzy
+msgid "login page"
+msgstr "लॉग इन"
+
+#: User/view/user/user/message.phtml:41
+msgid "Invalid reset key or it may have expired. Please return"
+msgstr "अमांय रीसेट कुंजी या इसकी समयसीमा समाप्त हो सकती है । "
+
+#: User/view/user/user/message.phtml:42
+#, fuzzy
+msgid "here"
+msgstr "यहाँ"
+
+#: User/view/user/user/message.phtml:42
+#, fuzzy
+msgid "and try reset your password again"
+msgstr "और अपना पासवर्ड पुन: रीसेट करने का प्रयास करें"
+
+#: User/view/user/user/reset-password.phtml:29
+#, fuzzy
+msgid "Enter your e-mail address below to reset your password"
+msgstr "अपना पासवर्ड रीसेट करने के लिए नीचे अपना ई-मेल पता दर्ज करें"
+
+#: User/view/user/user/reset-password.phtml:36
+msgid "Enter the letters above as you see them."
+msgstr "अक्षरों को लिखें "
+
+#: User/view/user/user/reset-password.phtml:51
+msgid "All Rights Reserved. ConnectCRM v1.0. Privacy and Terms"
+msgstr "सर्वाधिकार सुरक्षित । कनेक्ट सीआरएम v 1.0 । गोपनीयता और शर्तें"
+
+#: User/view/user/user/set-password.phtml:2 User/view/user/user/set-password.phtml:23
+#, fuzzy
+msgid "Set New Password"
+msgstr "नया पासवर्ड"
+
+#: User/view/user/user/set-password.phtml:25
+#, fuzzy
+msgid "Enter your new password in the form below"
+msgstr "नीचे दिए गए फ़ॉर्म में अपना नया पासवर्ड डालें"
+
+#: User/view/user/user/view.phtml:2 User/view/user/user/view.phtml:11
+msgid "View User"
+msgstr "उपयोगकर्ता देखें"
+
+#: User/view/user/user/view.phtml:58
+msgid "User Type"
+msgstr "उपयोगकर्ता प्रकार"

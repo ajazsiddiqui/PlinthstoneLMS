@@ -1,0 +1,67 @@
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+
+	<?php
+	$title = 'PlinthstoneLMS';
+	echo $this->headTitle($title)->setSeparator(' - ')->setAutoEscape(false)
+	?>
+
+	<?php echo $this->headMeta()
+			->appendName('keywords', 'PlinthstoneLMS')
+			->appendName('description', 'Complete LMS Solution')
+            ->appendName('viewport', 'width=device-width, initial-scale=1.0')
+            ->appendHttpEquiv('X-UA-Compatible', 'IE=edge')
+    ?>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="<?=$this->basePath();?>/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="<?=$this->basePath();?>/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="<?=$this->basePath();?>/favicons/favicon-16x16.png">
+	<link rel="manifest" href="<?=$this->basePath();?>/favicons/site.webmanifest">
+	<link rel="mask-icon" href="<?=$this->basePath();?>/favicons/safari-pinned-tab.svg" color="#31539f">
+	<link rel="shortcut icon" href="<?=$this->basePath();?>/favicons/favicon.ico">
+	<meta name="apple-mobile-web-app-title" content="PlinthstoneLMS">
+	<meta name="application-name" content="PlinthstoneLMS">
+	<meta name="msapplication-TileColor" content="#31539f">
+	<meta name="msapplication-config" content="<?=$this->basePath();?>/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+
+        <!--styles -->
+        <?php echo $this->headLink(array('rel' => 'shortcut icon', 'type' => 'image/vnd.microsoft.icon', 'href' => $this->basePath() . '/uploads/favicon.ico?v=1'))
+                        ->prependStylesheet($this->basePath() . '/plugins/pace/pace-theme-flash.css')
+                        ->prependStylesheet($this->basePath() . '/plugins/bootstrap/css/bootstrap.min.css')
+                        ->prependStylesheet($this->basePath() . '/plugins/font-awesome/css/all.css')
+                         ->prependStylesheet($this->basePath() . '/plugins/jquery-scrollbar/jquery.scrollbar.css')
+                        ->prependStylesheet($this->basePath() . '/plugins/select2/css/select2.min.css')
+						->prependStylesheet($this->basePath() . '/plugins/dropzone/css/dropzone.css')
+                        ->prependStylesheet($this->basePath() . '/plugins/switchery/css/switchery.min.css')
+                        //->prependStylesheet($this->basePath() . '/plugins/nvd3/nv.d3.min.css')
+                        //->prependStylesheet($this->basePath() . '/plugins/mapplic/css/mapplic.css')
+                        //->prependStylesheet($this->basePath() . '/plugins/rickshaw/rickshaw.min.css')
+                        ->prependStylesheet($this->basePath() . '/plugins/bootstrap-datepicker/css/datepicker3.css')
+                        ->prependStylesheet($this->basePath() . '/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css')
+                        // ->prependStylesheet($this->basePath() . '/plugins/jquery-datatable/media/css/dataTables.bootstrap.min.css')
+                        // ->prependStylesheet($this->basePath() . '/plugins/jquery-datatable/extensions/FixedColumns/css/dataTables.fixedColumns.min.css')
+                        ->prependStylesheet($this->basePath() . '/plugins/datatables-responsive/css/datatables.responsive.css')
+                        ->prependStylesheet($this->basePath() . '/css/dashboard.widgets.css')
+                      //  ->prependStylesheet($this->basePath() . '/plugins/owl-carousel/assets/owl.carousel.css')
+						// ->prependStylesheet($this->basePath() . '/plugins/simple-line-icons/simple-line-icons.css')
+                        // ->prependStylesheet($this->basePath() . '/css/pages-icons.css')
+						->appendStylesheet($this->basePath() . '/css/styles.css')
+						 ?>
+
+<?php if ($this->currentRoute()->getController() == 'leadsourcecontroller' && $this->currentRoute()->getAction() == 'add' || $this->currentRoute()->getController() == 'leadsourcecontroller' && $this->currentRoute()->getAction() == 'edit'){ ?>
+
+<link href="<?=$this->basePath();?>/plugins/bootstrap-iconpicker/fontawesome-iconpicker.min.css"  media="screen" rel="stylesheet" type="text/css">
+
+<?php } ?>
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "45502e03-bf0b-454e-80f3-9de5baa49fb6",
+    });
+  });
+</script>
+  </head>

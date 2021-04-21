@@ -1,0 +1,80 @@
+{
+    "name": "zendframework/skeleton-application",
+    "description": "Skeleton Application for Zend Framework zend-mvc applications",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "framework",
+        "mvc",
+        "zf3"
+    ],
+    "homepage": "http://www.websolite.com",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "ext-gd": "*",
+        "ext-intl": "*",
+        "zendframework/zend-component-installer": "^1.0 || ^0.5 || ^1.0.0-dev@dev",
+        "zendframework/zend-mvc": "^3.0.1",
+        "zendframework/zend-mvc-form": "^1.0",
+        "zendframework/zend-mvc-plugins": "^1.0.1",
+        "zendframework/zend-session": "^2.7.1",
+        "zendframework/zend-authentication": "^2.5",
+        "doctrine/migrations": "^1.4",
+        "zendframework/zend-math": "^3.0",
+        "zendframework/zend-crypt": "^3.1",
+        "zendframework/zend-captcha": "^2.6",
+        "doctrine/doctrine-orm-module": "^1.1",
+        "zendframework/zend-cache": "^2.7",
+        "zendframework/zend-serializer": "^2.8",
+        "zendframework/zend-permissions-rbac": "^2.5",
+        "zendframework/zend-mvc-plugin-flashmessenger": "^1.0",
+        "zendframework/zend-log": "^2.9",
+        "phpoffice/phpspreadsheet": "^1.0@beta",
+        "phpmailer/phpmailer": "^6.0",
+        "zfr/zfr-cors": "1.*",
+        "zendframework/zend-paginator": "^2.8",
+        "tasmaniski/zend-current-route": "^2.0",
+        "zendframework/zend-mvc-i18n": "^1.0",
+        "zendframework/zend-i18n": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Application\\": "module/Application/src/",
+            "User\\": "module/User/src/",
+            "FileManager\\": "module/FileManager/src/",
+            "Masters\\": "module/Masters/src/",
+            "Projects\\": "module/Projects/src/",
+            "Status\\": "module/Status/src/",
+            "Leads\\": "module/Leads/src/",
+            "Campaigns\\": "module/Campaigns/src/",
+            "Followups\\": "module/Followups/src/",
+            "Walkins\\": "module/Walkins/src/",
+            "Settings\\": "module/Settings/src/",
+            "Notifications\\": "module/Notifications/src/",
+            "Reports\\": "module/Reports/src/",
+            "Telephony\\": "module/Telephony/src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ApplicationTest\\": "module/Application/test/",
+            "UserTest\\": "module/User/test/"
+        }
+    },
+    "scripts": {
+        "development-disable": "zf-development-mode disable",
+        "development-enable": "zf-development-mode enable",
+        "development-status": "zf-development-mode status",
+        "serve": "php -S 0.0.0.0:8080 -t public/ public/index.php"
+    },
+    "authors": [
+        {
+            "name": "Ajaz Siddiqui",
+            "email": "mail@ajazsiddiqui.me",
+            "homepage": "http://www.ajazsiddiqui.me",
+            "role": "Developer"
+        }
+    ]
+}

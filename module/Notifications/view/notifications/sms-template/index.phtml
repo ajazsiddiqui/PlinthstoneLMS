@@ -1,0 +1,115 @@
+<?php
+$title = $this->translate('SMS Templates');
+$this->headTitle($title);
+$this->pageBreadcrumbs()->setItems([
+            $this->translate('SMS Templates')=>$this->url('smstemplates')
+            ]);
+$this->pageBreadcrumbs()->setIcon('fal fa-comment-alt  ');			
+$this->actionButtons()->setItems([
+           $this->translate('Add SMS Templates')=>$this->url('smstemplates',['action'=>'add']),
+            ]);
+$this->mainMenu()->setActiveItemId('settings');
+
+$form->setAttribute('action', $this->url('smstemplates', array('action' => 'add')));
+$form->get('title')->setAttributes([
+    'class'=>'form-control',
+    'placeholder'=>'Title'
+    ]);
+$form->get('status')->setAttributes([
+    'class'=>'form-control' ,'data-init-plugin' => 'switchery'
+    ]);
+$form->get('content')->setAttributes([
+    'class'=>'form-control'
+    ]);
+$form->get('submit')
+        ->setAttributes(['class'=>'btn btn-primary'])
+        ->setValue($this->translate('Save'));
+$form->prepare();
+?>
+
+<div class="row">
+  <div class="col-xl-12 col-lg-12 ">
+   
+<div class="clearfix"></div><br/>
+<?= $this->flashMessenger()->render('error', ['alert', 'alert-danger']); ?>
+<?= $this->flashMessenger()->render('success', ['alert', 'alert-success']); ?>
+<?= $this->flashMessenger()->render('info', ['alert', 'alert-info']); ?>
+<div class="clearfix"></div>
+
+<div class="table-responsive">
+<table class="table table-hover  table-responsive-block">
+<thead>
+<tr>
+<th></th>
+<th><?php echo $this->translate('Title') ?></th>
+	<th><?php echo $this->translate('Status') ?></th>
+    <th><?php echo $this->translate('Date Created') ?></th>
+	<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<?php foreach ($templates as $template) : ?>
+<tr>
+<td><?php echo $template->getID();?></td>
+    <td><?php echo $template->getTitle();?></td>
+	<td><?php echo $template->getStatus();?></a></td>
+    <td><?php echo $template->getDateCreated();?></td>
+	<td>
+		<div class="btn-group pull-right">
+	<a href="<?php echo $this->url('smstemplates', array('controller' => 'smstemplates', 'action'=>'edit','id' => $template->getId())); ?>" class="btn btn-success btn-xs"><i class="fal fa-edit"></i>  </a>
+	<a href="#" data-link="<?php echo $this->url('smstemplates', array('controller' => 'smstemplates', 'action'=>'delete','id' => $template->getId())); ?>" class="btn btn-danger btn-xs" data-toggle="modal" data-target="#confirmDelete"><i class="far fa-trash-alt"></i>  </a>
+</div>
+</td>
+</tr>
+<?php endforeach; ?>
+</tbody>
+</table>
+</div>
+    </div>
+</div>
+
+<div class="modal fade" id="crmmodal" tabindex="-1" role="dialog" aria-labelledby="flat_modalLabel">
+		<div class="modal-dialog" role="document">
+				<div class="modal-content">
+						<?= $this->form()->openTag($form); ?>
+						<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h4 class="modal-title" id="myModalLabel1"><?php echo $this->translate('Add SMS Template') ?></h4>
+						</div>
+						<div class="modal-body model_content_data">
+								<div class="col-md-12">
+
+									<div class="form-group form-group-default">
+					            <?= $this->formLabel($form->get('title')); ?>
+					            <?= $this->formElement($form->get('title')); ?>
+					            <?= $this->formElementErrors($form->get('title')); ?>
+					        </div>
+
+					        <div class="form-group form-group-default">
+					            <?= $this->formLabel($form->get('content')); ?>
+					            <?= $this->formElement($form->get('content')); ?>
+					            <?= $this->formElementErrors($form->get('content')); ?>
+					        </div>
+
+					        <div class="form-group form-group-default">
+					            <?= $this->formLabel($form->get('status')); ?>
+					            <?= $this->formElement($form->get('status')); ?>
+					            <?= $this->formElementErrors($form->get('status')); ?>
+					        </div>
+
+								</div>
+						</div>
+						<div class="modal-footer">
+								<?= $this->formElement($form->get('submit')); ?>
+								<button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $this->translate('Close') ?></button>
+						</div>
+						<?= $this->form()->closeTag(); ?>
+				</div>
+		</div>
+</div>
+<style>
+.select2{
+  width:100% !important;
+}
+</style>
+<?php echo $this->partial('application/index/delete'); ?>

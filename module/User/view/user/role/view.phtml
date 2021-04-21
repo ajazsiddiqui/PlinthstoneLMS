@@ -1,0 +1,74 @@
+<?php
+$title = $this->translate('View Role');
+$this->headTitle($title);
+
+
+$this->mainMenu()->setActiveItemId('settings');
+
+$this->pageBreadcrumbs()->setItems([
+           $this->translate('Roles')=>$this->url('roles'),
+           $this->translate('View')=>$this->url('roles', ['action'=>'view', 'id'=>$role->getId()])
+            ]);
+	$this->pageBreadcrumbs()->setIcon('fa fa-key');		
+$this->actionButtons()->setItems([
+           $this->translate('Edit Role')=>$this->url('roles', ['action'=>'edit', 'id'=>$role->getId()]),
+           $this->translate('Edit Permission')=>$this->url('roles', ['action'=>'editPermissions', 'id'=>$role->getId()])
+            ]);
+?>
+
+
+<div class="row">
+  <div class="col-xl-12 col-lg-12 no-padding">
+    <div class="clearfix"></div><br/>
+<?= $this->flashMessenger()->render('error', ['alert', 'alert-danger']); ?>
+<?= $this->flashMessenger()->render('success', ['alert', 'alert-success']); ?>
+<?= $this->flashMessenger()->render('info', ['alert', 'alert-info']); ?>
+<div class="clearfix"></div>
+
+ <div class="table-responsive">
+<table class="table table-hover  table-responsive-block">
+        <thead>       <tr>
+                <th><?php echo $this->translate('ID') ?>:</th>
+                <th><?php echo $this->translate('Name') ?>:</th>
+                <th><?php echo $this->translate('Description') ?>:</th>
+                  <th><?php echo $this->translate('Date Created') ?>:</th>
+            </tr>
+          </thead>
+            <tr>
+                <td><?= $this->escapeHtml($role->getId()) ?></td>
+                <td><?= $this->escapeHtml($role->getName()) ?></td>
+                <td><?= $this->escapeHtml($role->getDescription()) ?></td>
+                <td><?= $this->escapeHtml($role->getDateCreated()) ?></td>
+            </tr>
+        </table>
+      </div>
+</div>
+</div>
+
+<br/><br/>
+
+<div class="row">
+  <div class="col-xl-12 col-lg-12 no-padding">
+   <div class="table-responsive">
+<table class="table table-hover  table-responsive-block">
+      <thead>      <tr>
+                <th><?php echo $this->translate('Name') ?></th>
+                <th><?php echo $this->translate('Description') ?></th>
+            </tr>
+          </thead>
+            <?php foreach($allPermissions as $permission): ?>
+            <tr>
+                <td>
+                    <input type="checkbox" disabled <?php if (isset($effectivePermissions[$permission->getName()])) echo 'checked'; ?>>
+                    <?= $this->escapeHtml($permission->getName()) ?>
+                    <?php if (isset($effectivePermissions[$permission->getName()]) && $effectivePermissions[$permission->getName()]=='inherited'): ?>
+                    <em>(inherited)</em>
+                    <?php endif; ?>
+                </td>
+                <td><?= $this->escapeHtml($permission->getDescription()) ?></td>
+            </tr>
+            <?php endforeach; ?>
+        </table>
+      </div>
+    </div>
+</div>

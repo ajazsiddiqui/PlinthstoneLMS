@@ -1,0 +1,65 @@
+<?php
+$title = $this->translate('Campaigns');
+$this->headTitle($title);
+$this->pageBreadcrumbs()->setItems([
+		$this->translate('Campaigns')=>$this->url('campaign'),
+            ]);
+$this->pageBreadcrumbs()->setIcon('fab fa-twitter-square');
+$this->actionButtons()->setItems([
+		$this->translate('New Campaign')=>$this->url('campaign', ['action'=>'add']),
+            ]);
+$this->mainMenu()->setActiveItemId('campaigns');
+?>
+
+<div class="row">
+  <div class="col-xl-12 col-lg-12 ">
+  
+	<div class="clearfix"></div><br/>
+	<?= $this->flashMessenger()->render('error', ['alert', 'alert-danger']); ?>
+	<?= $this->flashMessenger()->render('success', ['alert', 'alert-success']); ?>
+	<?= $this->flashMessenger()->render('info', ['alert', 'alert-info']); ?>
+	<div class="clearfix"></div>
+
+  <div class="table-responsive">
+	<table class="table table-hover  table-responsive-block">
+		<thead>
+		<tr>
+		<th><?php echo $this->translate('Campaign Name') ?></th>
+			<th><?php echo $this->translate('Status') ?></th>
+			<th><?php echo $this->translate('Budget') ?></th>
+			<th><?php echo $this->translate('Spent') ?></th>
+			<th><?php echo $this->translate('Started') ?></th>
+			<th><?php echo $this->translate('Project') ?></th>
+			<th><?php echo $this->translate('Leads') ?></th>
+			<th><?php echo $this->translate('Site Visits') ?></th>
+			<th>&nbsp;</th>
+		</tr>
+		</thead>
+		<tbody>
+	<?php foreach ($campaigns as $campaign) : ?>
+		<tr>
+			<td><a href="<?php echo $this->url('campaign', ['action'=>'edit','id' => $campaign->getId()]); ?>"><?php echo $campaign->getCampaignName();?></a></td>
+			<td><i class="status fa fa-circle" style="color:<?php echo $campaign->getStatus()==1?'#4cbf9c':'#e22866';?>"></i></td>
+			<td><?php echo $campaign->getTotalBudget();?></td>
+			<td><?php echo $campaign->getTotalSpent();?></td>
+			<td><?php echo $campaign->getFromDate();?></td>
+			<td><?php echo $this->CampaignDetail()->getProjects($campaign->getID());?></td>
+			<td><?php echo $this->CampaignDetail()->getCampaignLeads($campaign->getID());?></td>
+			<td><?php echo $this->CampaignDetail()->getCampaignSiteVisits($campaign->getID());?></td>
+			<td>
+				<div class="btn-group pull-right">
+			<a href="<?php echo $this->url('campaign', ['action'=>'edit','id' => $campaign->getId()]); ?>" class="btn btn-success btn-xs"><i class="fal fa-edit"></i> </a>
+			<a href="#" data-link="<?php echo $this->url('campaign', ['action'=>'delete','id' => $campaign->getId()]); ?>" class="btn btn-danger btn-xs" data-toggle="modal" data-target="#confirmDelete"><i class="far fa-trash-alt"></i> </a>
+		</div>
+			</td>
+		</tr>
+	<?php endforeach; ?>
+		</tbody>
+	</table>
+</div>
+
+    </div>
+</div>
+
+
+<?php echo $this->partial('application/index/delete'); ?>

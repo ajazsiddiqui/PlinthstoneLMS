@@ -1,0 +1,27 @@
+<?php
+$title = $this->translate('Select SMS Templates');
+$this->mainMenu()->setActiveItemId('settings');
+$this->headTitle($title);
+?>
+
+
+<h1><?php echo $this->escapeHtml($title); ?></h1>
+
+<div class="col-md-6">
+<form name="sendsms_form" method="post" action="<?php echo $this->url('notifications', array('controller' => 'notifications', 'action'=>'sendsms')); ?>">
+<input type="text" name="contact" class="form-control" value="<?php echo $this->contact; ?>" readonly></input>
+<br/>
+<select id="smstemplate" name="smstemplate" class="form-control">
+<option value="">Select</option>
+<?php foreach ($templates as $template) : ?>
+<option value="<?php echo $template->getID();?>"><?php echo $template->getTitle();?></option>
+<?php endforeach; ?>
+</select>
+<br/>
+<textarea id="message" readonly name="message" class="form-control">
+
+</textarea>
+<br/>
+<input type="submit" value="Send SMS" class="btn btn-sm btn-success"/>
+</form>
+</div>

@@ -1,0 +1,74 @@
+<?php
+$title = $this->folder_name;
+$this->headTitle($title);
+$this->pageBreadcrumbs()->setItems([
+            $this->translate('File Manager')=>$this->url('folders'),
+            ]);
+$this->pageBreadcrumbs()->setIcon('far fa-folder-open');
+$this->mainMenu()->setActiveItemId('file_manager');
+?>
+
+<div class="row">
+<div class="col-xl-12 col-lg-12 no-padding">
+
+<?= $this->flashMessenger()->render('error', ['alert', 'alert-danger']); ?>
+<?= $this->flashMessenger()->render('success', ['alert', 'alert-success']); ?>
+<?= $this->flashMessenger()->render('info', ['alert', 'alert-info']); ?>
+
+<div class="col-md-5 pull-left">
+<div class="card card-default">
+<div class="card-header ">
+<div class="card-title">
+<?php echo $this->translate('Drag n drop uploader') ?>
+</div>
+<div class="tools">
+<a class="collapse" href="javascript:;"></a>
+<a class="config" data-toggle="modal" href="#grid-config"></a>
+<a class="reload" href="javascript:;"></a>
+<a class="remove" href="javascript:;"></a>
+</div>
+</div>
+<div class="card-block no-scroll no-padding">
+<form id="crm_uploader" action="<?php echo $this->url('folders'); ?>" class="dropzone no-margin">
+<div class="fallback">
+<input name="file" type="file" multiple />
+</div>
+</form>
+</div>
+</div>
+<button onclick="location.reload();" class="btn btn-primary"><?php echo $this->translate('Refresh') ?></button>
+</div>
+
+  <div class="col-md-7 pull-right">
+   <div class="table-responsive">
+		<table class="table table-hover  table-responsive-block">
+		<thead>
+		<tr>
+			<th><?php echo $this->translate('Name') ?></th>
+			<th><?php echo $this->translate('Size') ?></th>
+			<th><?php echo $this->translate('Type') ?></th>
+			<th></th>
+		</tr>
+		</thead>
+		<?php foreach ($files as $file) : ?>
+		<?php $realfile = $this->dir . DIRECTORY_SEPARATOR . 'Files'. DIRECTORY_SEPARATOR . $file->getName(); ?>
+		<tr>
+			<td><i class="<?php echo $this->FileFunctions()->get_file_icon($file->getName()); ?>"></i> <a href="<?php echo $this->url('folders', ['action'=>'download', 'file' => $file->getId()]); ?>"><?php echo $file->getName();?></a></td>
+			<td><?php echo $this->FileFunctions()->formatSizeUnits($realfile) ?></td>
+			<td><?php echo mime_content_type($realfile) ?></td>
+			<td>
+				<div class="btn-group pull-right">
+					<a href="<?php echo $this->url('folders', ['action'=>'download', 'file' => $file->getId()]); ?>" type="button" class="btn btn-primary btn-xs"><i class=" fa fa-download"></i>
+					</a>
+					<a href="<?php echo $this->url('folders', ['action'=>'delete','file' => $file->getId()]); ?>" type="button" class="btn btn-danger btn-xs"><i class="far fa-trash-alt"></i></a>
+
+
+				</div>
+			</td>
+		</tr>
+		<?php endforeach; ?>
+		</table>
+		</div>
+</div>
+</div>
+</div>

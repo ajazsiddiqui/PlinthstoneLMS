@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" manifest="lmscache.appcache">
+  <?php echo $this->render('layout/head') ?>
+  <body class="fixed-header horizontal-menu horizontal-app-menu">
+    <div class="header">
+      
+        <div class="header-inner justify-content-start header-height title-bar">
+		<div class="container">
+          <a href="#" class="btn-link toggle-sidebar hidden-lg-up pg pg-menu" data-toggle="horizontal-menu"><i class="fa fa-bars"></i>
+          </a>
+          <p class="page-title align-self-end">
+           PlinthstoneLMS | <?php echo $this->headTitle()->renderTitle() ?> V1.0
+          </p>
+          <?php echo $this->render('layout/usermenu') ?>
+        </div>
+        </div>
+		
+		<div class="container">
+        <?php echo $this->render('layout/topmenu') ?>
+</div>
+    </div>
+    <div class="page-container ">
+      <div class="page-content-wrapper ">
+        <div class="content">
+          <div class="container container-fixed-lg">
+			<div class="row br-ab">
+			<?php echo $this->pageBreadcrumbs()->render(); ?>
+			<?php echo $this->actionButtons()->render(); ?>
+			</div>
+            <?= $this->content; ?>
+          </div>
+        </div>
+
+		<?php echo $this->render('layout/footer') ?>
+
+      </div>
+    </div>
+
+    <?php echo $this->render('layout/scripts') ?>
+  </body>
+</html>

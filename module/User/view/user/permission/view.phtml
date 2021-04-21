@@ -1,0 +1,48 @@
+<?php
+$title = $this->translate('Add User');
+$this->headTitle($title);
+$this->headTitle('View Permission');
+
+$this->mainMenu()->setActiveItemId('settings');
+
+$this->pageBreadcrumbs()->setItems([
+           $this->translate('Permissions')=>$this->url('permissions'),
+           $this->translate('View')=>$this->url('permissions', ['action'=>'view', 'id'=>$permission->getId()])
+            ]);
+	$this->pageBreadcrumbs()->setIcon('fa fa-lock');		
+$this->actionButtons()->setItems([
+           $this->translate('Back to Permissions')=>$this->url('permissions')
+            ]);
+?>
+
+
+<div class="row">
+  <div class="col-xl-12 col-lg-12 ">
+   <div class="clearfix"></div><br/>
+<?= $this->flashMessenger()->render('error', ['alert', 'alert-danger']); ?>
+<?= $this->flashMessenger()->render('success', ['alert', 'alert-success']); ?>
+<?= $this->flashMessenger()->render('info', ['alert', 'alert-info']); ?>
+<div class="clearfix"></div>
+
+<div class="table-responsive">
+<table class="table table-hover  table-responsive-block">
+             <tr>
+                <td><?php echo $this->translate('ID') ?>:</td>
+                <td><?= $this->escapeHtml($permission->getId()) ?></td>
+            </tr>
+            <tr>
+                <td><?php echo $this->translate('Name') ?>:</td>
+                <td><?= $this->escapeHtml($permission->getName()) ?></td>
+            </tr>
+            <tr>
+                <td><?php echo $this->translate('Description') ?>:</td>
+                <td><?= $this->escapeHtml($permission->getDescription()) ?></td>
+            </tr>
+            <tr>
+                <td><?php echo $this->translate('Date Created') ?>:</td>
+                <td><?= $this->escapeHtml($permission->getDateCreated()) ?></td>
+            </tr>
+        </table>
+    </div>
+    </div>
+</div>

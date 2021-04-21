@@ -1,0 +1,2170 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-01-08 22:42+0530\n"
+"PO-Revision-Date: 2018-01-08 22:43+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ../../module/\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: translate\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Application/src/Service/NavManager - Copy.php:48
+#: Application/src/Service/NavManager.php:50
+#: Application/view/application/index/index.phtml:2
+#: Application/view/application/index/index.phtml:6
+msgid "Dashboard"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:57
+#: Application/src/Service/NavManager.php:59 User/view/user/auth/login.phtml:2
+#: User/view/user/auth/login.phtml:68
+msgid "Sign in"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:70
+#: Application/src/Service/NavManager.php:72
+msgid "Manage Folders"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:78
+#: Application/src/Service/NavManager.php:80
+msgid "Manage Attachments"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:86
+#: Application/src/Service/NavManager.php:88
+msgid "Manage Brochures"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:94
+#: Application/src/Service/NavManager.php:96
+msgid "Manage Layouts"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:102
+#: Application/src/Service/NavManager.php:104
+msgid "Folder Manager"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:116
+#: Application/src/Service/NavManager.php:118
+#: Projects/view/projects/inventory/index.phtml:2
+#: Projects/view/projects/inventory/index.phtml:5
+msgid "Inventory"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:124
+#: Application/src/Service/NavManager.php:126
+msgid "Projects Setup"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:132
+#: Application/src/Service/NavManager.php:134
+msgid "Building Setup"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:140
+#: Application/src/Service/NavManager.php:142
+msgid "Flats Setup"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:148
+#: Application/src/Service/NavManager.php:150
+#: Projects/view/projects/projects/add.phtml:5
+#: Projects/view/projects/projects/details.phtml:5
+#: Projects/view/projects/projects/edit.phtml:5
+#: Projects/view/projects/projects/index.phtml:2
+#: Projects/view/projects/projects/index.phtml:5
+#: Reports/view/reports/reports/index.phtml:20
+#: Reports/view/reports/reports/index.phtml:62
+#: Reports/view/reports/reports/index.phtml:99
+#: Reports/view/reports/reports/index.phtml:131
+#: Reports/view/reports/reports/index.phtml:165
+#: Reports/view/reports/reports/index.phtml:204
+msgid "Projects"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:159 Copy.php:191
+#: Application/src/Service/NavManager.php:161
+#: Application/src/Service/NavManager.php:193
+#: Campaigns/view/campaigns/campaign/index.phtml:36
+#: Leads/view/leads/leads/add.phtml:5 Leads/view/leads/leads/details.phtml:5
+#: Leads/view/leads/leads/edit.phtml:5 Leads/view/leads/leads/index.phtml:2
+#: Leads/view/leads/leads/index.phtml:5
+#: Leads/view/leads/leads/quicklead.phtml:5
+msgid "Leads"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:167
+#: Application/src/Service/NavManager.php:169
+msgid "FollowUps"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:175
+#: Application/src/Service/NavManager.php:177
+#: Application/view/application/index/index.phtml:368
+#: Bookings/view/bookings/bookings/edit.phtml:5
+#: Bookings/view/bookings/bookings/index.phtml:2
+#: Bookings/view/bookings/bookings/index.phtml:5
+#: Campaigns/view/campaigns/campaign/index.phtml:38
+msgid "Bookings"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:183
+#: Application/src/Service/NavManager.php:185
+#: Walkins/view/walkins/walkins/index.phtml:2
+#: Walkins/view/walkins/walkins/index.phtml:5
+msgid "Walkins"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:198
+#: Application/src/Service/NavManager.php:200
+#: Campaigns/view/campaigns/campaign/index.phtml:2
+#: Campaigns/view/campaigns/campaign/index.phtml:5
+msgid "Campaigns"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:207 Copy.php:223
+#: Application/src/Service/NavManager.php:209
+#: Application/src/Service/NavManager.php:225
+#: Customers/view/customers/customers/add.phtml:5
+#: Customers/view/customers/customers/edit.phtml:5
+#: Customers/view/customers/customers/index.phtml:2
+#: Customers/view/customers/customers/index.phtml:5
+msgid "Customers"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:215
+#: Application/src/Service/NavManager.php:217
+#: Customers/view/customers/partner-meeting/index.phtml:2
+msgid "Partners Meeting"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:235
+#: Application/src/Service/NavManager.php:237
+msgid "Manage Amenities"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:243
+#: Application/src/Service/NavManager.php:245
+#: Masters/view/masters/building-status/add.phtml:5
+#: Masters/view/masters/building-status/edit.phtml:5
+#: Masters/view/masters/building-status/index.phtml:2
+#: Masters/view/masters/building-status/index.phtml:5
+msgid "Building Status"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:251
+#: Application/src/Service/NavManager.php:253
+#: Masters/view/masters/customer-budget/add.phtml:5
+#: Masters/view/masters/customer-budget/edit.phtml:5
+#: Masters/view/masters/customer-budget/index.phtml:2
+#: Masters/view/masters/customer-budget/index.phtml:5
+msgid "Customer Budget"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:258
+#: Application/src/Service/NavManager.php:260
+#: Masters/view/masters/feedback-parameter/add.phtml:5
+#: Masters/view/masters/feedback-parameter/edit.phtml:5
+#: Masters/view/masters/feedback-parameter/index.phtml:2
+#: Masters/view/masters/feedback-parameter/index.phtml:5
+msgid "Feedback Parameter"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:266
+#: Application/src/Service/NavManager.php:268
+#: Masters/view/masters/flat-status/add.phtml:5
+#: Masters/view/masters/flat-status/edit.phtml:5
+#: Masters/view/masters/flat-status/index.phtml:2
+#: Masters/view/masters/flat-status/index.phtml:5
+msgid "Flat Status"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:274
+#: Application/src/Service/NavManager.php:276
+#: Masters/view/masters/flat-types/add.phtml:5
+#: Masters/view/masters/flat-types/edit.phtml:5
+#: Masters/view/masters/flat-types/index.phtml:2
+#: Masters/view/masters/flat-types/index.phtml:5
+msgid "Flat Types"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:281
+#: Application/src/Service/NavManager.php:283
+#: Masters/view/masters/lead-source/add.phtml:5
+#: Masters/view/masters/lead-source/edit.phtml:5
+#: Masters/view/masters/lead-source/index.phtml:2
+#: Masters/view/masters/lead-source/index.phtml:5
+msgid "Lead Source"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:289
+#: Application/src/Service/NavManager.php:291
+msgid "Lead Status Setup"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:297
+#: Application/src/Service/NavManager.php:299
+#: Masters/view/masters/parking-status/add.phtml:5
+#: Masters/view/masters/parking-status/edit.phtml:5
+#: Masters/view/masters/parking-status/index.phtml:2
+#: Masters/view/masters/parking-status/index.phtml:5
+msgid "Parking Status"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:304
+#: Application/src/Service/NavManager.php:306
+#: Masters/view/masters/preferred-location/add.phtml:5
+#: Masters/view/masters/preferred-location/edit.phtml:5
+#: Masters/view/masters/preferred-location/index.phtml:2
+#: Masters/view/masters/preferred-location/index.phtml:5
+msgid "Preferred Location"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:312
+#: Application/src/Service/NavManager.php:314
+msgid "System Usertype"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:320
+#: Application/src/Service/NavManager.php:322
+#: Masters/view/masters/transaction-interest/add.phtml:5
+#: Masters/view/masters/transaction-interest/edit.phtml:5
+#: Masters/view/masters/transaction-interest/index.phtml:2
+#: Masters/view/masters/transaction-interest/index.phtml:5
+msgid "Transaction Interest"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:327
+#: Application/src/Service/NavManager.php:329
+#: Campaigns/view/campaigns/campaign/edit.phtml:160
+#: Masters/view/masters/virtual-number/add.phtml:5
+#: Masters/view/masters/virtual-number/edit.phtml:5
+#: Masters/view/masters/virtual-number/index.phtml:2
+#: Masters/view/masters/virtual-number/index.phtml:5
+msgid "Virtual Number"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:334
+#: Application/src/Service/NavManager.php:336
+#: Masters/view/masters/touch-points/index.phtml:2
+#: Masters/view/masters/touch-points/index.phtml:5
+msgid "Touch Points"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:341
+#: Application/src/Service/NavManager.php:343
+#: Masters/view/masters/documents/add.phtml:5
+#: Masters/view/masters/documents/edit.phtml:5
+#: Masters/view/masters/documents/index.phtml:2
+#: Masters/view/masters/documents/index.phtml:5
+msgid "Documents"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:348
+#: Application/src/Service/NavManager.php:350
+msgid "Masters"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:360
+#: Application/src/Service/NavManager.php:362 User/view/user/user/add.phtml:9
+#: User/view/user/user/change-password.phtml:9
+#: User/view/user/user/edit.phtml:10 User/view/user/user/index.phtml:7
+#: User/view/user/user/view.phtml:10
+msgid "Manage Users"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:368
+#: Application/src/Service/NavManager.php:370
+#: User/view/user/permission/add.phtml:9
+#: User/view/user/permission/edit.phtml:9
+#: User/view/user/permission/index.phtml:9
+#: User/view/user/permission/view.phtml:10
+msgid "Manage Permissions"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:376
+#: Application/src/Service/NavManager.php:378 User/view/user/role/add.phtml:9
+#: User/view/user/role/edit-permissions.phtml:9
+#: User/view/user/role/edit.phtml:9 User/view/user/role/index.phtml:8
+#: User/view/user/role/view.phtml:10
+msgid "Manage Roles"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:384
+#: Application/src/Service/NavManager.php:386
+#: Notifications/view/notifications/email-template/index.phtml:2
+msgid "Email Templates"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:392
+#: Application/src/Service/NavManager.php:394
+#: Notifications/view/notifications/sms-template/index.phtml:2
+msgid "SMS Templates"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:400
+#: Application/src/Service/NavManager.php:402
+#: Settings/view/settings/settings/index.phtml:6
+msgid "Manage Settings"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:408
+#: Application/src/Service/NavManager.php:410
+msgid "System Logs"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:416 Copy.php:451
+#: Application/src/Service/NavManager.php:418
+#: Application/src/Service/NavManager.php:453
+#: Application/view/application/index/settings.phtml:2
+#: Application/view/application/index/settings.phtml:7
+#: Settings/view/settings/settings/index.phtml:2
+msgid "Settings"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:424
+#: Application/src/Service/NavManager.php:426
+#: Tasks/view/tasks/tasks/add.phtml:5 Tasks/view/tasks/tasks/edit.phtml:5
+#: Tasks/view/tasks/tasks/index.phtml:2 Tasks/view/tasks/tasks/index.phtml:5
+msgid "Tasks"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:432
+#: Application/src/Service/NavManager.php:434
+#: Reports/view/reports/reports/index.phtml:2
+#: Reports/view/reports/reports/index.phtml:5
+msgid "Reports"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:440
+#: Application/src/Service/NavManager.php:442
+#: Application/view/application/index/about.phtml:2
+#: Application/view/application/index/about.phtml:7
+msgid "About"
+msgstr ""
+
+#: Application/src/Service/NavManager - Copy.php:456
+#: Application/src/Service/NavManager.php:458
+msgid "Sign out"
+msgstr ""
+
+#: Application/view/application/index/about.phtml:6
+#: Application/view/application/index/settings.phtml:6
+#: Notifications/view/notifications/email-template/add.phtml:6
+#: Notifications/view/notifications/email-template/edit.phtml:6
+#: Notifications/view/notifications/email-template/index.phtml:6
+#: Notifications/view/notifications/sms-template/add.phtml:5
+#: Notifications/view/notifications/sms-template/edit.phtml:5
+#: Notifications/view/notifications/sms-template/index.phtml:5
+#: Settings/view/settings/settings/index.phtml:5
+#: User/view/user/permission/add.phtml:8
+#: User/view/user/permission/edit.phtml:8
+#: User/view/user/permission/index.phtml:8
+#: User/view/user/permission/view.phtml:9 User/view/user/role/add.phtml:8
+#: User/view/user/role/edit-permissions.phtml:8
+#: User/view/user/role/edit.phtml:8 User/view/user/role/index.phtml:7
+#: User/view/user/role/view.phtml:9 User/view/user/user/add.phtml:8
+#: User/view/user/user/change-password.phtml:8
+#: User/view/user/user/edit.phtml:9 User/view/user/user/index.phtml:6
+#: User/view/user/user/view.phtml:9
+msgid "Home"
+msgstr ""
+
+#: Application/view/application/index/delete.phtml:7
+msgid "Delete Permanently"
+msgstr ""
+
+#: Application/view/application/index/delete.phtml:10
+msgid "Are you sure about this?"
+msgstr ""
+
+#: Application/view/application/index/delete.phtml:13
+#: Customers/view/customers/customers/index.phtml:30
+#: FileManager/view/file-manager/brochures/index.phtml:34
+#: FileManager/view/file-manager/folders/explore.phtml:74
+#: FileManager/view/file-manager/folders/index.phtml:45
+#: FileManager/view/file-manager/layouts/index.phtml:36
+#: Leads/view/leads/leads/details.phtml:31
+#: Leads/view/leads/leads/details.phtml:142
+#: Masters/view/masters/amenities/index.phtml:37
+#: Masters/view/masters/building-status/index.phtml:36
+#: Masters/view/masters/customer-budget/index.phtml:36
+#: Masters/view/masters/documents/index.phtml:35
+#: Masters/view/masters/feedback-parameter/index.phtml:36
+#: Masters/view/masters/flat-status/index.phtml:36
+#: Masters/view/masters/flat-types/index.phtml:37
+#: Masters/view/masters/lead-source/index.phtml:38
+#: Masters/view/masters/lead-status/index.phtml:39
+#: Masters/view/masters/parking-status/index.phtml:35
+#: Masters/view/masters/preferred-location/index.phtml:35
+#: Masters/view/masters/system-usertype/index.phtml:40
+#: Masters/view/masters/touch-points/index.phtml:35
+#: Masters/view/masters/transaction-interest/index.phtml:36
+#: Masters/view/masters/virtual-number/index.phtml:37
+#: Projects/view/projects/projects/details.phtml:23
+#: Projects/view/projects/projects/index.phtml:28
+#: User/view/user/permission/index.phtml:35
+#: User/view/user/permission/view.phtml:38
+#: User/view/user/role/edit-permissions.phtml:40
+#: User/view/user/role/index.phtml:36 User/view/user/role/view.phtml:39
+#: User/view/user/role/view.phtml:77
+msgid "Name"
+msgstr ""
+
+#: Application/view/application/index/delete.phtml:14
+msgid "Delete"
+msgstr ""
+
+#: Application/view/application/index/index.phtml:18
+msgid "News"
+msgstr ""
+
+#: Application/view/application/index/index.phtml:42
+#: Application/view/application/index/index.phtml:282
+msgid "Total Leads"
+msgstr ""
+
+#: Application/view/application/index/index.phtml:58
+#: Application/view/application/index/index.phtml:98
+msgid "this week"
+msgstr ""
+
+#: Application/view/application/index/index.phtml:59
+#: Application/view/application/index/index.phtml:99
+msgid "this month"
+msgstr ""
+
+#: Application/view/application/index/index.phtml:82
+msgid "Total Converts"
+msgstr ""
+
+#: Application/view/application/index/index.phtml:120
+msgid "Quick Followup"
+msgstr ""
+
+#: Application/view/application/index/index.phtml:134
+#: Application/view/layout/footer.phtml:5
+msgid "by"
+msgstr ""
+
+#: Application/view/application/index/index.phtml:146
+msgid "Inventory Management"
+msgstr ""
+
+#: Application/view/application/index/index.phtml:160
+#: Application/view/application/index/index.phtml:333
+#: Projects/view/projects/flats/select-building.phtml:2
+#: Projects/view/projects/flats/select-building.phtml:40
+msgid "Select Building"
+msgstr ""
+
+#: Application/view/application/index/index.phtml:216
+msgid "Lead Sources"
+msgstr ""
+
+#: Application/view/application/index/index.phtml:217
+msgid "Leads, Site Visit &amp; Bookings"
+msgstr ""
+
+#: Application/view/application/index/index.phtml:281
+msgid "Pipeline Reports"
+msgstr ""
+
+#: Application/view/application/index/index.phtml:347
+msgid "Leader Board"
+msgstr ""
+
+#: Application/view/application/index/index.phtml:348
+msgid "Users Performance"
+msgstr ""
+
+#: Application/view/application/index/index.phtml:362
+msgid "Enquiry"
+msgstr ""
+
+#: Application/view/application/index/index.phtml:365
+msgid "Sitevisits"
+msgstr ""
+
+#: Application/view/application/index/index.phtml:393
+msgid "Show more details of FollowUps"
+msgstr ""
+
+#: Application/view/application/index/index.phtml:416
+msgid "Projects Prospect Chart"
+msgstr ""
+
+#: Application/view/application/index/index.phtml:417
+msgid "Leads, Site Visit & Bookings"
+msgstr ""
+
+#: Application/view/application/index/settings.phtml:22
+#: Projects/view/projects/buildings/payment-slabs.phtml:28
+#: User/view/user/permission/index.phtml:34
+#: User/view/user/permission/view.phtml:34 User/view/user/role/index.phtml:35
+#: User/view/user/role/view.phtml:38 User/view/user/user/index.phtml:30
+#: User/view/user/user/view.phtml:42
+msgid "ID"
+msgstr ""
+
+#: Application/view/application/index/settings.phtml:26
+#: User/view/user/user/index.phtml:31
+msgid "E-mail"
+msgstr ""
+
+#: Application/view/application/index/settings.phtml:30
+#: User/view/user/user/index.phtml:32 User/view/user/user/view.phtml:50
+msgid "Full Name"
+msgstr ""
+
+#: Application/view/application/index/settings.phtml:34
+#: Application/view/application/logs/index.phtml:45
+#: Customers/view/customers/customers/index.phtml:35
+#: Customers/view/customers/partner-meeting/index.phtml:38
+#: FileManager/view/file-manager/attachments/index.phtml:37
+#: FileManager/view/file-manager/brochures/index.phtml:38
+#: FileManager/view/file-manager/folders/index.phtml:46
+#: FileManager/view/file-manager/layouts/index.phtml:41
+#: Leads/view/leads/leads/details.phtml:106
+#: Masters/view/masters/amenities/index.phtml:40
+#: Masters/view/masters/building-status/index.phtml:38
+#: Masters/view/masters/customer-budget/index.phtml:38
+#: Masters/view/masters/documents/index.phtml:36
+#: Masters/view/masters/feedback-parameter/index.phtml:38
+#: Masters/view/masters/flat-status/index.phtml:38
+#: Masters/view/masters/flat-types/index.phtml:39
+#: Masters/view/masters/lead-source/index.phtml:41
+#: Masters/view/masters/lead-status/index.phtml:42
+#: Masters/view/masters/parking-status/index.phtml:37
+#: Masters/view/masters/preferred-location/index.phtml:37
+#: Masters/view/masters/system-usertype/index.phtml:46
+#: Masters/view/masters/touch-points/index.phtml:37
+#: Masters/view/masters/transaction-interest/index.phtml:38
+#: Masters/view/masters/virtual-number/index.phtml:40
+#: Notifications/view/notifications/email-template/index.phtml:56
+#: Notifications/view/notifications/sms-template/index.phtml:47
+#: Projects/view/projects/buildings/index.phtml:34
+#: Projects/view/projects/projects/index.phtml:34
+#: Tasks/view/tasks/tasks/index.phtml:55
+#: Tasks/view/tasks/tasks/index.phtml:104
+#: User/view/user/permission/index.phtml:37
+#: User/view/user/permission/view.phtml:46 User/view/user/role/index.phtml:38
+#: User/view/user/role/view.phtml:41 User/view/user/user/index.phtml:34
+#: User/view/user/user/view.phtml:62
+msgid "Date Created"
+msgstr ""
+
+#: Application/view/application/logs/index.phtml:2
+#: Application/view/application/logs/index.phtml:5
+msgid "Logs"
+msgstr ""
+
+#: Application/view/application/logs/index.phtml:6
+#: Bookings/view/bookings/bookings/index.phtml:6
+#: Campaigns/view/campaigns/campaign/index.phtml:6
+#: Customers/view/customers/customers/index.phtml:6
+#: Customers/view/customers/partner-meeting/index.phtml:6
+#: FileManager/view/file-manager/brochures/index.phtml:6
+#: FileManager/view/file-manager/folders/index.phtml:6
+#: FileManager/view/file-manager/layouts/index.phtml:6
+#: Followups/view/followups/followups/index.phtml:6
+#: Leads/view/leads/leads/index.phtml:6
+#: Masters/view/masters/amenities/index.phtml:6
+#: Masters/view/masters/building-status/add.phtml:6
+#: Masters/view/masters/building-status/index.phtml:6
+#: Masters/view/masters/customer-budget/add.phtml:6
+#: Masters/view/masters/customer-budget/index.phtml:6
+#: Masters/view/masters/documents/add.phtml:6
+#: Masters/view/masters/documents/index.phtml:6
+#: Masters/view/masters/feedback-parameter/add.phtml:6
+#: Masters/view/masters/feedback-parameter/index.phtml:6
+#: Masters/view/masters/flat-status/add.phtml:6
+#: Masters/view/masters/flat-status/index.phtml:6
+#: Masters/view/masters/flat-types/add.phtml:6
+#: Masters/view/masters/flat-types/index.phtml:6
+#: Masters/view/masters/lead-source/add.phtml:6
+#: Masters/view/masters/lead-source/index.phtml:6
+#: Masters/view/masters/lead-status/add.phtml:6
+#: Masters/view/masters/lead-status/index.phtml:6
+#: Masters/view/masters/parking-status/add.phtml:6
+#: Masters/view/masters/parking-status/index.phtml:6
+#: Masters/view/masters/preferred-location/add.phtml:6
+#: Masters/view/masters/preferred-location/index.phtml:6
+#: Masters/view/masters/system-usertype/add.phtml:6
+#: Masters/view/masters/system-usertype/index.phtml:6
+#: Masters/view/masters/touch-points/add.phtml:6
+#: Masters/view/masters/touch-points/index.phtml:6
+#: Masters/view/masters/transaction-interest/add.phtml:6
+#: Masters/view/masters/transaction-interest/index.phtml:6
+#: Masters/view/masters/virtual-number/add.phtml:6
+#: Masters/view/masters/virtual-number/index.phtml:6
+#: Projects/view/projects/buildings/index.phtml:6
+#: Projects/view/projects/flats/index.phtml:6
+#: Projects/view/projects/inventory/index.phtml:6
+#: Projects/view/projects/projects/index.phtml:6
+#: Reports/view/reports/reports/index.phtml:6
+#: Tasks/view/tasks/tasks/index.phtml:6
+#: Walkins/view/walkins/walkins/index.phtml:6
+msgid "Listings"
+msgstr ""
+
+#: Application/view/application/logs/index.phtml:31
+#: Bookings/view/bookings/bookings/index.phtml:111
+#: Followups/view/followups/followups/index.phtml:111
+#: Leads/view/leads/leads/index.phtml:118
+msgid "Filter"
+msgstr ""
+
+#: Application/view/application/logs/index.phtml:42
+#: Leads/view/leads/leads/details.phtml:103
+msgid "Action"
+msgstr ""
+
+#: Application/view/application/logs/index.phtml:43
+msgid "Action Name"
+msgstr ""
+
+#: Application/view/application/logs/index.phtml:44
+msgid "User"
+msgstr ""
+
+#: Application/view/error/404.phtml:1
+msgid "A 404 error occurred"
+msgstr ""
+
+#: Application/view/error/404.phtml:34
+msgid "Controller"
+msgstr ""
+
+#: Application/view/error/404.phtml:53 Application/view/error/index.phtml:8
+msgid "Additional information"
+msgstr ""
+
+#: Application/view/error/404.phtml:56 Application/view/error/404.phtml:81
+#: Application/view/error/index.phtml:11 Application/view/error/index.phtml:36
+#: FileManager/view/file-manager/brochures/index.phtml:35
+#: FileManager/view/file-manager/layouts/index.phtml:37
+msgid "File"
+msgstr ""
+
+#: Application/view/error/404.phtml:60 Application/view/error/404.phtml:85
+#: Application/view/error/index.phtml:15 Application/view/error/index.phtml:40
+msgid "Message"
+msgstr ""
+
+#: Application/view/error/404.phtml:64 Application/view/error/404.phtml:89
+#: Application/view/error/index.phtml:19 Application/view/error/index.phtml:44
+msgid "Stack trace"
+msgstr ""
+
+#: Application/view/error/404.phtml:75 Application/view/error/index.phtml:30
+msgid "Previous exceptions"
+msgstr ""
+
+#: Application/view/error/404.phtml:109 Application/view/error/index.phtml:64
+msgid "No Exception available"
+msgstr ""
+
+#: Application/view/error/index.phtml:1
+msgid "An error occurred"
+msgstr ""
+
+#: Application/view/layout/footer.phtml:5
+msgid "crafted with"
+msgstr ""
+
+#: Application/view/layout/footer.phtml:5
+msgid "ajazsiddiqui"
+msgstr ""
+
+#: Application/view/layout/footer.phtml:8
+msgid "All rights reserved."
+msgstr ""
+
+#: Application/view/layout/footer.phtml:11
+msgid "Supports best on Google Chrome, Safari and Firefox."
+msgstr ""
+
+#: Application/view/layout/login-layout.phtml:14
+msgid "Welcome to ConnectCRM"
+msgstr ""
+
+#: Application/view/layout/login-layout.phtml:15
+msgid ""
+"We, introduce you to our Lead Management System. Now you can customize, "
+"extend and evaluate your campaigns like never before. ConnectCRM with its "
+"CMS enables you to cater to your target audience in a niche, defined and a "
+"profitable maneuver."
+msgstr ""
+
+#: Bookings/view/bookings/bookings/edit.phtml:2
+#: Leads/view/leads/leads/details.phtml:130
+msgid "Booking Details"
+msgstr ""
+
+#: Bookings/view/bookings/bookings/edit.phtml:6
+#: Campaigns/view/campaigns/campaign/edit.phtml:6
+#: Customers/view/customers/customers/edit.phtml:6
+#: Customers/view/customers/partner-meeting/edit.phtml:6
+#: Leads/view/leads/leads/edit.phtml:6
+#: Masters/view/masters/amenities/edit.phtml:6
+#: Masters/view/masters/building-status/edit.phtml:6
+#: Masters/view/masters/customer-budget/edit.phtml:6
+#: Masters/view/masters/documents/edit.phtml:6
+#: Masters/view/masters/feedback-parameter/edit.phtml:6
+#: Masters/view/masters/flat-status/edit.phtml:6
+#: Masters/view/masters/flat-types/edit.phtml:6
+#: Masters/view/masters/lead-source/edit.phtml:6
+#: Masters/view/masters/lead-status/edit.phtml:6
+#: Masters/view/masters/parking-status/edit.phtml:6
+#: Masters/view/masters/preferred-location/edit.phtml:6
+#: Masters/view/masters/system-usertype/edit.phtml:6
+#: Masters/view/masters/touch-points/edit.phtml:6
+#: Masters/view/masters/transaction-interest/edit.phtml:6
+#: Masters/view/masters/virtual-number/edit.phtml:6
+#: Projects/view/projects/buildings/edit.phtml:6
+#: Projects/view/projects/flats/edit.phtml:6
+#: Projects/view/projects/projects/edit.phtml:6
+#: Tasks/view/tasks/tasks/edit.phtml:6
+msgid "Edit"
+msgstr ""
+
+#: Bookings/view/bookings/bookings/edit.phtml:67
+#: Campaigns/view/campaigns/campaign/add.phtml:24
+#: Campaigns/view/campaigns/campaign/edit.phtml:17
+#: Campaigns/view/campaigns/campaign/edit.phtml:43
+#: Customers/view/customers/customers/add.phtml:31
+#: Customers/view/customers/customers/edit.phtml:31
+#: Customers/view/customers/partner-meeting/add.phtml:22
+#: Customers/view/customers/partner-meeting/edit.phtml:22
+#: FileManager/view/file-manager/brochures/add.phtml:12
+#: FileManager/view/file-manager/brochures/index.phtml:10
+#: Leads/view/leads/leads/add.phtml:66 Leads/view/leads/leads/edit.phtml:66
+#: Leads/view/leads/leads/quicklead.phtml:37
+#: Masters/view/masters/amenities/add.phtml:14
+#: Masters/view/masters/amenities/edit.phtml:14
+#: Masters/view/masters/amenities/index.phtml:13
+#: Masters/view/masters/building-status/add.phtml:13
+#: Masters/view/masters/building-status/edit.phtml:22
+#: Masters/view/masters/building-status/index.phtml:12
+#: Masters/view/masters/customer-budget/add.phtml:13
+#: Masters/view/masters/customer-budget/edit.phtml:13
+#: Masters/view/masters/customer-budget/index.phtml:11
+#: Masters/view/masters/documents/add.phtml:12
+#: Masters/view/masters/documents/edit.phtml:12
+#: Masters/view/masters/documents/index.phtml:10
+#: Masters/view/masters/feedback-parameter/add.phtml:13
+#: Masters/view/masters/feedback-parameter/edit.phtml:13
+#: Masters/view/masters/feedback-parameter/index.phtml:11
+#: Masters/view/masters/flat-status/add.phtml:13
+#: Masters/view/masters/flat-status/edit.phtml:13
+#: Masters/view/masters/flat-status/index.phtml:11
+#: Masters/view/masters/flat-types/add.phtml:13
+#: Masters/view/masters/flat-types/edit.phtml:13
+#: Masters/view/masters/flat-types/index.phtml:11
+#: Masters/view/masters/lead-source/add.phtml:15
+#: Masters/view/masters/lead-source/edit.phtml:15
+#: Masters/view/masters/lead-source/index.phtml:13
+#: Masters/view/masters/lead-status/add.phtml:16
+#: Masters/view/masters/lead-status/edit.phtml:16
+#: Masters/view/masters/lead-status/index.phtml:14
+#: Masters/view/masters/parking-status/add.phtml:13
+#: Masters/view/masters/parking-status/edit.phtml:13
+#: Masters/view/masters/parking-status/index.phtml:11
+#: Masters/view/masters/preferred-location/add.phtml:13
+#: Masters/view/masters/preferred-location/edit.phtml:13
+#: Masters/view/masters/preferred-location/index.phtml:11
+#: Masters/view/masters/system-usertype/add.phtml:17
+#: Masters/view/masters/system-usertype/edit.phtml:17
+#: Masters/view/masters/system-usertype/index.phtml:15
+#: Masters/view/masters/touch-points/add.phtml:13
+#: Masters/view/masters/touch-points/edit.phtml:13
+#: Masters/view/masters/touch-points/index.phtml:11
+#: Masters/view/masters/transaction-interest/add.phtml:13
+#: Masters/view/masters/transaction-interest/edit.phtml:13
+#: Masters/view/masters/transaction-interest/index.phtml:11
+#: Masters/view/masters/virtual-number/add.phtml:14
+#: Masters/view/masters/virtual-number/edit.phtml:14
+#: Masters/view/masters/virtual-number/index.phtml:12
+#: Notifications/view/notifications/email-template/add.phtml:29
+#: Notifications/view/notifications/email-template/edit.phtml:29
+#: Notifications/view/notifications/email-template/index.phtml:29
+#: Notifications/view/notifications/sms-template/add.phtml:22
+#: Notifications/view/notifications/sms-template/edit.phtml:22
+#: Notifications/view/notifications/sms-template/index.phtml:21
+#: Projects/view/projects/buildings/add.phtml:32
+#: Projects/view/projects/buildings/edit.phtml:32
+#: Projects/view/projects/flats/add.phtml:18
+#: Projects/view/projects/flats/edit.phtml:16
+#: Projects/view/projects/projects/add.phtml:23
+#: Projects/view/projects/projects/edit.phtml:23
+#: Settings/view/settings/settings/index.phtml:28
+#: Tasks/view/tasks/tasks/add.phtml:23 Tasks/view/tasks/tasks/edit.phtml:23
+#: User/view/user/permission/edit.phtml:25
+#: User/view/user/role/edit-permissions.phtml:15
+#: User/view/user/role/edit.phtml:27 User/view/user/user/edit.phtml:44
+msgid "Save"
+msgstr ""
+
+#: Bookings/view/bookings/bookings/edit.phtml:94
+#: Leads/view/leads/leads/add.phtml:90 Leads/view/leads/leads/edit.phtml:90
+#: Leads/view/leads/leads/quicklead.phtml:61
+msgid "CUSTOMER DETAILS"
+msgstr ""
+
+#: Bookings/view/bookings/bookings/edit.phtml:97
+msgid "BOOKING DETAILS"
+msgstr ""
+
+#: Bookings/view/bookings/bookings/edit.phtml:100
+msgid "REGISTRATION DETAILS"
+msgstr ""
+
+#: Bookings/view/bookings/bookings/edit.phtml:103
+msgid "PAYMENT INFORMATION"
+msgstr ""
+
+#: Bookings/view/bookings/bookings/edit.phtml:106
+msgid "OPERATOR REMARKS"
+msgstr ""
+
+#: Bookings/view/bookings/bookings/index.phtml:122
+msgid "Lead Id"
+msgstr ""
+
+#: Bookings/view/bookings/bookings/index.phtml:123
+#: Followups/view/followups/followups/index.phtml:123
+#: Leads/view/leads/leads/index.phtml:130
+#: Walkins/view/walkins/walkins/index.phtml:48
+msgid "Customer Name"
+msgstr ""
+
+#: Bookings/view/bookings/bookings/index.phtml:124
+#: Followups/view/followups/followups/index.phtml:124
+#: Leads/view/leads/leads/index.phtml:131 User/view/user/user/view.phtml:54
+#: Walkins/view/walkins/walkins/index.phtml:49
+msgid "Contact No"
+msgstr ""
+
+#: Bookings/view/bookings/bookings/index.phtml:125
+#: Campaigns/view/campaigns/campaign/index.phtml:35
+#: Customers/view/customers/partner-meeting/index.phtml:34
+#: Leads/view/leads/leads/details.phtml:59
+#: Projects/view/projects/flats/edit.phtml:39
+#: Projects/view/projects/flats/index.phtml:67
+msgid "Project"
+msgstr ""
+
+#: Bookings/view/bookings/bookings/index.phtml:126
+#: Leads/view/leads/leads/details.phtml:63
+#: Projects/view/projects/flats/edit.phtml:43
+#: Projects/view/projects/flats/index.phtml:68
+#: Projects/view/projects/flats/select-building.phtml:5
+msgid "Building"
+msgstr ""
+
+#: Bookings/view/bookings/bookings/index.phtml:127
+msgid "Flat no."
+msgstr ""
+
+#: Bookings/view/bookings/bookings/index.phtml:128
+msgid "Booking Date"
+msgstr ""
+
+#: Bookings/view/bookings/bookings/index.phtml:129
+msgid "Booking User"
+msgstr ""
+
+#: Bookings/view/bookings/bookings/index.phtml:183
+#: Leads/view/leads/leads/index.phtml:216
+#: Walkins/view/walkins/walkins/index.phtml:107
+msgid "Send SMS"
+msgstr ""
+
+#: Bookings/view/bookings/bookings/index.phtml:205
+#: Bookings/view/bookings/bookings/index.phtml:243
+#: Followups/view/followups/followups/index.phtml:205
+#: Followups/view/followups/followups/index.phtml:243
+#: Leads/view/leads/leads/index.phtml:201
+#: Leads/view/leads/leads/index.phtml:238
+#: Leads/view/leads/leads/index.phtml:276
+#: Projects/view/projects/flats/index.phtml:56
+#: Projects/view/projects/flats/index.phtml:183
+#: Walkins/view/walkins/walkins/index.phtml:129
+#: Walkins/view/walkins/walkins/index.phtml:167
+msgid "Submit"
+msgstr ""
+
+#: Bookings/view/bookings/bookings/index.phtml:221
+#: Followups/view/followups/followups/index.phtml:221
+#: Leads/view/leads/leads/index.phtml:254
+#: Walkins/view/walkins/walkins/index.phtml:145
+msgid "Send Email"
+msgstr ""
+
+#: Campaigns/view/campaigns/campaign/add.phtml:2
+msgid "Add Campaign"
+msgstr ""
+
+#: Campaigns/view/campaigns/campaign/add.phtml:5
+#: Campaigns/view/campaigns/campaign/edit.phtml:5
+#: Reports/view/reports/reports/index.phtml:181
+msgid "Campaign"
+msgstr ""
+
+#: Campaigns/view/campaigns/campaign/add.phtml:6
+#: Customers/view/customers/customers/add.phtml:6
+#: Customers/view/customers/partner-meeting/add.phtml:6
+#: FileManager/view/file-manager/brochures/add.phtml:6
+#: FileManager/view/file-manager/layouts/add.phtml:6
+#: Leads/view/leads/leads/add.phtml:6
+#: Masters/view/masters/amenities/add.phtml:6
+#: Projects/view/projects/buildings/add.phtml:6
+#: Projects/view/projects/flats/add.phtml:6
+#: Projects/view/projects/projects/add.phtml:6
+#: Tasks/view/tasks/tasks/add.phtml:6
+msgid "Add"
+msgstr ""
+
+#: Campaigns/view/campaigns/campaign/edit.phtml:2
+msgid "Edit Campaign"
+msgstr ""
+
+#: Campaigns/view/campaigns/campaign/edit.phtml:55
+msgid "Add Campaign Medium"
+msgstr ""
+
+#: Campaigns/view/campaigns/campaign/edit.phtml:71
+msgid "Campaign Details"
+msgstr ""
+
+#: Campaigns/view/campaigns/campaign/edit.phtml:74
+msgid "Campaign Mediums"
+msgstr ""
+
+#: Campaigns/view/campaigns/campaign/edit.phtml:158
+#: Followups/view/followups/followups/index.phtml:79
+#: Leads/view/leads/leads/details.phtml:67
+#: Leads/view/leads/leads/details.phtml:178
+msgid "Primary Source"
+msgstr ""
+
+#: Campaigns/view/campaigns/campaign/edit.phtml:159
+#: Leads/view/leads/leads/details.phtml:71
+#: Leads/view/leads/leads/details.phtml:182
+#: Leads/view/leads/leads/index.phtml:133
+msgid "Secondary Source"
+msgstr ""
+
+#: Campaigns/view/campaigns/campaign/edit.phtml:161
+#: Campaigns/view/campaigns/campaign/index.phtml:32
+msgid "Budget"
+msgstr ""
+
+#: Campaigns/view/campaigns/campaign/edit.phtml:162
+#: Campaigns/view/campaigns/campaign/index.phtml:33
+msgid "Spent"
+msgstr ""
+
+#: Campaigns/view/campaigns/campaign/edit.phtml:208
+msgid "Campaign Medium Form"
+msgstr ""
+
+#: Campaigns/view/campaigns/campaign/index.phtml:30
+msgid "Campaign Name"
+msgstr ""
+
+#: Campaigns/view/campaigns/campaign/index.phtml:31
+#: Masters/view/masters/amenities/index.phtml:39
+#: Masters/view/masters/building-status/index.phtml:37
+#: Masters/view/masters/customer-budget/index.phtml:37
+#: Masters/view/masters/feedback-parameter/index.phtml:37
+#: Masters/view/masters/flat-status/index.phtml:37
+#: Masters/view/masters/flat-types/index.phtml:38
+#: Masters/view/masters/lead-source/index.phtml:40
+#: Masters/view/masters/lead-status/index.phtml:41
+#: Masters/view/masters/parking-status/index.phtml:36
+#: Masters/view/masters/preferred-location/index.phtml:36
+#: Masters/view/masters/system-usertype/index.phtml:45
+#: Masters/view/masters/touch-points/index.phtml:36
+#: Masters/view/masters/transaction-interest/index.phtml:37
+#: Masters/view/masters/virtual-number/index.phtml:39
+#: Notifications/view/notifications/email-template/index.phtml:55
+#: Notifications/view/notifications/sms-template/index.phtml:46
+#: Projects/view/projects/buildings/payment-slabs.phtml:33
+#: Projects/view/projects/flats/index.phtml:71
+#: Projects/view/projects/projects/index.phtml:33
+#: Reports/view/reports/reports/index.phtml:174
+#: Tasks/view/tasks/tasks/index.phtml:59
+#: Tasks/view/tasks/tasks/index.phtml:108 User/view/user/user/index.phtml:35
+#: User/view/user/user/view.phtml:66
+msgid "Status"
+msgstr ""
+
+#: Campaigns/view/campaigns/campaign/index.phtml:34
+msgid "Duration"
+msgstr ""
+
+#: Campaigns/view/campaigns/campaign/index.phtml:37
+msgid "Site Visits"
+msgstr ""
+
+#: Customers/view/customers/customers/add.phtml:2
+msgid "Add Customers"
+msgstr ""
+
+#: Customers/view/customers/customers/edit.phtml:2
+msgid "Edit Customers"
+msgstr ""
+
+#: Customers/view/customers/customers/index.phtml:31
+#: Leads/view/leads/leads/details.phtml:39
+#: Leads/view/leads/leads/details.phtml:150 User/view/user/user/view.phtml:46
+msgid "Email"
+msgstr ""
+
+#: Customers/view/customers/customers/index.phtml:32
+msgid "Contact No."
+msgstr ""
+
+#: Customers/view/customers/customers/index.phtml:33
+#: Leads/view/leads/leads/index.phtml:138
+msgid "Customer Type"
+msgstr ""
+
+#: Customers/view/customers/customers/index.phtml:34
+#: Customers/view/customers/partner-meeting/index.phtml:37
+#: Masters/view/masters/virtual-number/index.phtml:38
+msgid "Remark"
+msgstr ""
+
+#: Customers/view/customers/partner-meeting/add.phtml:2
+#: Customers/view/customers/partner-meeting/edit.phtml:2
+msgid "Add Meeting"
+msgstr ""
+
+#: Customers/view/customers/partner-meeting/add.phtml:5
+#: Customers/view/customers/partner-meeting/edit.phtml:5
+#: Customers/view/customers/partner-meeting/index.phtml:5
+msgid "Meetings"
+msgstr ""
+
+#: Customers/view/customers/partner-meeting/index.phtml:30
+msgid "Meeting Date"
+msgstr ""
+
+#: Customers/view/customers/partner-meeting/index.phtml:31
+msgid "CP ID"
+msgstr ""
+
+#: Customers/view/customers/partner-meeting/index.phtml:32
+msgid "Company Name"
+msgstr ""
+
+#: Customers/view/customers/partner-meeting/index.phtml:33
+msgid "Concerned Person"
+msgstr ""
+
+#: Customers/view/customers/partner-meeting/index.phtml:35
+#: FileManager/view/file-manager/attachments/index.phtml:36
+#: FileManager/view/file-manager/brochures/index.phtml:37
+#: FileManager/view/file-manager/folders/explore.phtml:76
+#: FileManager/view/file-manager/layouts/index.phtml:40
+#: Masters/view/masters/amenities/index.phtml:38
+msgid "Type"
+msgstr ""
+
+#: Customers/view/customers/partner-meeting/index.phtml:36
+#: Projects/view/projects/projects/index.phtml:30
+msgid "Location"
+msgstr ""
+
+#: FileManager/view/file-manager/attachments/index.phtml:2
+#: FileManager/view/file-manager/attachments/index.phtml:6
+msgid "Attachments"
+msgstr ""
+
+#: FileManager/view/file-manager/attachments/index.phtml:5
+#: FileManager/view/file-manager/folders/explore.phtml:5
+#: FileManager/view/file-manager/folders/index.phtml:5
+msgid "Folders"
+msgstr ""
+
+#: FileManager/view/file-manager/attachments/index.phtml:33
+msgid "Attachment"
+msgstr ""
+
+#: FileManager/view/file-manager/attachments/index.phtml:34
+msgid "Folder"
+msgstr ""
+
+#: FileManager/view/file-manager/attachments/index.phtml:35
+#: FileManager/view/file-manager/brochures/index.phtml:36
+#: FileManager/view/file-manager/folders/explore.phtml:75
+#: FileManager/view/file-manager/layouts/index.phtml:39
+msgid "Size"
+msgstr ""
+
+#: FileManager/view/file-manager/brochures/add.phtml:2
+msgid "Add Brochure"
+msgstr ""
+
+#: FileManager/view/file-manager/brochures/add.phtml:5
+#: FileManager/view/file-manager/brochures/index.phtml:5
+msgid "Brochures"
+msgstr ""
+
+#: FileManager/view/file-manager/brochures/index.phtml:2
+msgid "All"
+msgstr ""
+
+#: FileManager/view/file-manager/brochures/index.phtml:2
+msgid " Brochures"
+msgstr ""
+
+#: FileManager/view/file-manager/brochures/index.phtml:80
+msgid "Upload Brochure"
+msgstr ""
+
+#: FileManager/view/file-manager/folders/explore.phtml:6
+msgid "Explorer"
+msgstr ""
+
+#: FileManager/view/file-manager/folders/explore.phtml:21
+msgid "Drag n drop uploader"
+msgstr ""
+
+#: FileManager/view/file-manager/folders/explore.phtml:38
+msgid "Refresh"
+msgstr ""
+
+#: FileManager/view/file-manager/folders/index.phtml:2
+msgid "Project Folders"
+msgstr ""
+
+#: FileManager/view/file-manager/folders/index.phtml:32
+msgid "Create"
+msgstr ""
+
+#: FileManager/view/file-manager/folders/index.phtml:47
+msgid "Files"
+msgstr ""
+
+#: FileManager/view/file-manager/layouts/add.phtml:2
+msgid "Add Layout"
+msgstr ""
+
+#: FileManager/view/file-manager/layouts/add.phtml:5
+#: FileManager/view/file-manager/layouts/index.phtml:2
+#: FileManager/view/file-manager/layouts/index.phtml:5
+msgid "Layouts"
+msgstr ""
+
+#: FileManager/view/file-manager/layouts/add.phtml:13
+msgid "Upload"
+msgstr ""
+
+#: FileManager/view/file-manager/layouts/index.phtml:38
+msgid "Layout Type"
+msgstr ""
+
+#: FileManager/view/file-manager/layouts/index.phtml:87
+msgid "Upload Layout"
+msgstr ""
+
+#: Followups/view/followups/followups/index.phtml:2
+#: Followups/view/followups/followups/index.phtml:5
+msgid "Followups"
+msgstr ""
+
+#: Followups/view/followups/followups/index.phtml:34
+msgid "Select Customer"
+msgstr ""
+
+#: Followups/view/followups/followups/index.phtml:43
+msgid "Select Mode"
+msgstr ""
+
+#: Followups/view/followups/followups/index.phtml:52
+#: Projects/view/projects/flats/select-building.phtml:30
+msgid "Select Project"
+msgstr ""
+
+#: Followups/view/followups/followups/index.phtml:61
+msgid "Select Campaign"
+msgstr ""
+
+#: Followups/view/followups/followups/index.phtml:70
+#: Followups/view/followups/followups/index.phtml:125
+#: Leads/view/leads/leads/details.phtml:75
+#: Leads/view/leads/leads/details.phtml:186
+#: Leads/view/leads/leads/index.phtml:134
+#: Walkins/view/walkins/walkins/index.phtml:50
+msgid "Primary Status"
+msgstr ""
+
+#: Followups/view/followups/followups/index.phtml:88
+msgid "Select Customer Type"
+msgstr ""
+
+#: Followups/view/followups/followups/index.phtml:97
+msgid "Select Lead Owner"
+msgstr ""
+
+#: Followups/view/followups/followups/index.phtml:122
+#: Leads/view/leads/leads/index.phtml:129
+#: Walkins/view/walkins/walkins/index.phtml:47
+msgid "Legacy Id"
+msgstr ""
+
+#: Followups/view/followups/followups/index.phtml:126
+#: Leads/view/leads/leads/details.phtml:79
+#: Leads/view/leads/leads/index.phtml:135
+#: Walkins/view/walkins/walkins/index.phtml:51
+msgid "Secondary Status"
+msgstr ""
+
+#: Followups/view/followups/followups/index.phtml:127
+#: Leads/view/leads/leads/index.phtml:136
+#: Walkins/view/walkins/walkins/index.phtml:52
+msgid "Project/Phase"
+msgstr ""
+
+#: Followups/view/followups/followups/index.phtml:128
+#: Walkins/view/walkins/walkins/index.phtml:53
+msgid "Followup Type"
+msgstr ""
+
+#: Followups/view/followups/followups/index.phtml:129
+#: Walkins/view/walkins/walkins/index.phtml:54
+msgid "Followup Date"
+msgstr ""
+
+#: Followups/view/followups/followups/index.phtml:130
+#: Leads/view/leads/leads/index.phtml:137
+#: Walkins/view/walkins/walkins/index.phtml:55
+msgid "Lead Owner(s)"
+msgstr ""
+
+#: Leads/view/leads/leads/add.phtml:2
+msgid "Add Lead"
+msgstr ""
+
+#: Leads/view/leads/leads/add.phtml:93 Leads/view/leads/leads/edit.phtml:93
+#: Leads/view/leads/leads/quicklead.phtml:64
+msgid "CUSTOMER INTEREST"
+msgstr ""
+
+#: Leads/view/leads/leads/add.phtml:96 Leads/view/leads/leads/edit.phtml:96
+#: Leads/view/leads/leads/quicklead.phtml:67
+msgid "SPECIFIC PROJECT REQUIREMENTS"
+msgstr ""
+
+#: Leads/view/leads/leads/add.phtml:99 Leads/view/leads/leads/edit.phtml:99
+#: Leads/view/leads/leads/quicklead.phtml:70
+msgid "TOUCHPOINTS"
+msgstr ""
+
+#: Leads/view/leads/leads/add.phtml:102 Leads/view/leads/leads/edit.phtml:102
+#: Leads/view/leads/leads/quicklead.phtml:73
+msgid "REMARKS"
+msgstr ""
+
+#: Leads/view/leads/leads/details.phtml:2
+msgid "Leads Details"
+msgstr ""
+
+#: Leads/view/leads/leads/details.phtml:6
+#: Projects/view/projects/projects/details.phtml:6
+msgid "Details"
+msgstr ""
+
+#: Leads/view/leads/leads/details.phtml:15
+msgid "Lead Details"
+msgstr ""
+
+#: Leads/view/leads/leads/details.phtml:27
+#: Leads/view/leads/leads/details.phtml:138
+msgid "Id"
+msgstr ""
+
+#: Leads/view/leads/leads/details.phtml:35
+#: Leads/view/leads/leads/details.phtml:146
+msgid "Mobile"
+msgstr ""
+
+#: Leads/view/leads/leads/details.phtml:43
+msgid "Lead Owner"
+msgstr ""
+
+#: Leads/view/leads/leads/details.phtml:47
+#: Leads/view/leads/leads/details.phtml:158
+msgid "Created at"
+msgstr ""
+
+#: Leads/view/leads/leads/details.phtml:95
+msgid "Followup Details"
+msgstr ""
+
+#: Leads/view/leads/leads/details.phtml:102
+msgid "Touchpoint"
+msgstr ""
+
+#: Leads/view/leads/leads/details.phtml:104
+msgid "Action Date"
+msgstr ""
+
+#: Leads/view/leads/leads/details.phtml:105
+msgid "Remarks"
+msgstr ""
+
+#: Leads/view/leads/leads/details.phtml:154
+msgid "Broker"
+msgstr ""
+
+#: Leads/view/leads/leads/details.phtml:170
+msgid "Booking Status"
+msgstr ""
+
+#: Leads/view/leads/leads/details.phtml:174
+msgid "Flat"
+msgstr ""
+
+#: Leads/view/leads/leads/details.phtml:190
+msgid "Total Amount"
+msgstr ""
+
+#: Leads/view/leads/leads/edit.phtml:2
+msgid "Edit Lead"
+msgstr ""
+
+#: Leads/view/leads/leads/index.phtml:18
+#: Leads/view/leads/leads/quicklead.phtml:2
+msgid "Quick Lead"
+msgstr ""
+
+#: Leads/view/leads/leads/index.phtml:132
+msgid "Mode"
+msgstr ""
+
+#: Leads/view/leads/leads/index.phtml:191
+msgid "Upload Leads"
+msgstr ""
+
+#: Leads/view/leads/leads/quicklead.phtml:6
+msgid "Quicklead"
+msgstr ""
+
+#: Masters/view/masters/amenities/add.phtml:2
+#: Masters/view/masters/amenities/edit.phtml:2
+#: Masters/view/masters/amenities/index.phtml:75
+#: Masters/view/masters/building-status/index.phtml:71
+msgid "Add Amenities"
+msgstr ""
+
+#: Masters/view/masters/amenities/add.phtml:5
+#: Masters/view/masters/amenities/edit.phtml:5
+#: Masters/view/masters/amenities/index.phtml:2
+#: Masters/view/masters/amenities/index.phtml:5
+msgid "Amenities"
+msgstr ""
+
+#: Masters/view/masters/amenities/index.phtml:100
+#: Masters/view/masters/building-status/index.phtml:92
+#: Masters/view/masters/customer-budget/index.phtml:93
+#: Masters/view/masters/documents/index.phtml:83
+#: Masters/view/masters/feedback-parameter/index.phtml:91
+#: Masters/view/masters/flat-status/index.phtml:92
+#: Masters/view/masters/flat-types/index.phtml:92
+#: Masters/view/masters/lead-source/index.phtml:108
+#: Masters/view/masters/lead-status/index.phtml:115
+#: Masters/view/masters/parking-status/index.phtml:91
+#: Masters/view/masters/preferred-location/index.phtml:91
+#: Masters/view/masters/system-usertype/index.phtml:127
+#: Masters/view/masters/touch-points/index.phtml:91
+#: Masters/view/masters/transaction-interest/index.phtml:92
+#: Masters/view/masters/virtual-number/index.phtml:101
+#: Notifications/view/notifications/email-template/index.phtml:124
+#: Notifications/view/notifications/sms-template/index.phtml:107
+#: Projects/view/projects/flats/index.phtml:228
+#: Projects/view/projects/inventory/index.phtml:152
+#: Projects/view/projects/projects/index.phtml:81
+msgid "Close"
+msgstr ""
+
+#: Masters/view/masters/building-status/add.phtml:2
+msgid "Add Building Status"
+msgstr ""
+
+#: Masters/view/masters/building-status/edit.phtml:2
+msgid "Edit Building Status"
+msgstr ""
+
+#: Masters/view/masters/customer-budget/add.phtml:2
+#: Masters/view/masters/customer-budget/index.phtml:72
+msgid "Add Customer Budget"
+msgstr ""
+
+#: Masters/view/masters/customer-budget/edit.phtml:2
+msgid "Edit Customer Budget"
+msgstr ""
+
+#: Masters/view/masters/documents/add.phtml:2
+msgid "Add Document"
+msgstr ""
+
+#: Masters/view/masters/documents/edit.phtml:2
+msgid "Edit Documents"
+msgstr ""
+
+#: Masters/view/masters/documents/index.phtml:68
+msgid "Add Documents"
+msgstr ""
+
+#: Masters/view/masters/feedback-parameter/add.phtml:2
+msgid "Add Feedback Parameter"
+msgstr ""
+
+#: Masters/view/masters/feedback-parameter/edit.phtml:2
+msgid "Edit Feedback Parameter"
+msgstr ""
+
+#: Masters/view/masters/feedback-parameter/index.phtml:70
+msgid "Add Feedback Parameter"
+msgstr ""
+
+#: Masters/view/masters/flat-status/add.phtml:2
+#: Masters/view/masters/flat-status/index.phtml:71
+msgid "Add Flat Status"
+msgstr ""
+
+#: Masters/view/masters/flat-status/edit.phtml:2
+msgid "Edit Flat Status"
+msgstr ""
+
+#: Masters/view/masters/flat-types/add.phtml:2
+#: Masters/view/masters/flat-types/index.phtml:71
+msgid "Add Flat Types"
+msgstr ""
+
+#: Masters/view/masters/flat-types/edit.phtml:2
+msgid "Edit Flat Types"
+msgstr ""
+
+#: Masters/view/masters/lead-source/add.phtml:2
+#: Masters/view/masters/lead-source/index.phtml:75
+msgid "Add Lead Source"
+msgstr ""
+
+#: Masters/view/masters/lead-source/edit.phtml:2
+msgid "Edit Lead Source"
+msgstr ""
+
+#: Masters/view/masters/lead-source/index.phtml:39
+msgid "Parent"
+msgstr ""
+
+#: Masters/view/masters/lead-status/add.phtml:2
+#: Masters/view/masters/lead-status/index.phtml:76
+msgid "Add Lead Status"
+msgstr ""
+
+#: Masters/view/masters/lead-status/add.phtml:5
+#: Masters/view/masters/lead-status/edit.phtml:5
+#: Masters/view/masters/lead-status/index.phtml:2
+#: Masters/view/masters/lead-status/index.phtml:5
+msgid "Lead Status"
+msgstr ""
+
+#: Masters/view/masters/lead-status/edit.phtml:2
+msgid "Edit Lead Status"
+msgstr ""
+
+#: Masters/view/masters/lead-status/index.phtml:40
+msgid "Parents"
+msgstr ""
+
+#: Masters/view/masters/parking-status/add.phtml:2
+#: Masters/view/masters/parking-status/index.phtml:70
+msgid "Add Parking Status"
+msgstr ""
+
+#: Masters/view/masters/parking-status/edit.phtml:2
+msgid "Edit Parking Status"
+msgstr ""
+
+#: Masters/view/masters/preferred-location/add.phtml:2
+#: Masters/view/masters/preferred-location/index.phtml:70
+msgid "Add Preferred Location"
+msgstr ""
+
+#: Masters/view/masters/preferred-location/edit.phtml:2
+msgid "Edit Preferred Location"
+msgstr ""
+
+#: Masters/view/masters/system-usertype/add.phtml:2
+#: Masters/view/masters/system-usertype/index.phtml:82
+msgid "Add System UserType"
+msgstr ""
+
+#: Masters/view/masters/system-usertype/add.phtml:5
+#: Masters/view/masters/system-usertype/edit.phtml:5
+#: Masters/view/masters/system-usertype/index.phtml:2
+#: Masters/view/masters/system-usertype/index.phtml:5
+msgid "System UserType"
+msgstr ""
+
+#: Masters/view/masters/system-usertype/edit.phtml:2
+msgid "Edit System UserType"
+msgstr ""
+
+#: Masters/view/masters/system-usertype/index.phtml:41
+msgid "Negotiation Percent"
+msgstr ""
+
+#: Masters/view/masters/system-usertype/index.phtml:42
+msgid "Mask Numbers"
+msgstr ""
+
+#: Masters/view/masters/system-usertype/index.phtml:43
+msgid "EOD Status"
+msgstr ""
+
+#: Masters/view/masters/system-usertype/index.phtml:44
+msgid "Confidential Data"
+msgstr ""
+
+#: Masters/view/masters/touch-points/add.phtml:2
+msgid "Add TouchPoints"
+msgstr ""
+
+#: Masters/view/masters/touch-points/add.phtml:5
+#: Masters/view/masters/touch-points/edit.phtml:5
+msgid "TouchPoints"
+msgstr ""
+
+#: Masters/view/masters/touch-points/edit.phtml:2
+msgid "Edit TouchPoints"
+msgstr ""
+
+#: Masters/view/masters/touch-points/index.phtml:70
+msgid "Add Touchpoints"
+msgstr ""
+
+#: Masters/view/masters/transaction-interest/add.phtml:2
+#: Masters/view/masters/transaction-interest/index.phtml:71
+msgid "Add Transaction Interest"
+msgstr ""
+
+#: Masters/view/masters/transaction-interest/edit.phtml:2
+msgid "Edit Transaction Interest"
+msgstr ""
+
+#: Masters/view/masters/virtual-number/add.phtml:2
+#: Masters/view/masters/virtual-number/index.phtml:74
+msgid "Add Virtual Number"
+msgstr ""
+
+#: Masters/view/masters/virtual-number/edit.phtml:2
+msgid "Edit Virtual Number"
+msgstr ""
+
+#: Notifications/view/notifications/email-template/add.phtml:3
+#: Notifications/view/notifications/email-template/index.phtml:91
+msgid "Add Email Template"
+msgstr ""
+
+#: Notifications/view/notifications/email-template/add.phtml:7
+#: Notifications/view/notifications/email-template/edit.phtml:7
+msgid "Add Email Templates"
+msgstr ""
+
+#: Notifications/view/notifications/email-template/add.phtml:80
+#: Notifications/view/notifications/email-template/edit.phtml:80
+#: Notifications/view/notifications/sms-template/add.phtml:66
+#: Notifications/view/notifications/sms-template/edit.phtml:66
+msgid ""
+"Note: You can use system generated fields like First Name, Last Name as "
+"{first_name}. Do not forget to include { } around them. Fields that can be "
+"used are: {first_name}, {last_name}, {project_name}, {building_name}, "
+"{system_user_name}."
+msgstr ""
+
+#: Notifications/view/notifications/email-template/edit.phtml:3
+msgid "Edit Email Template"
+msgstr ""
+
+#: Notifications/view/notifications/email-template/index.phtml:7
+#: Notifications/view/notifications/sms-template/index.phtml:6
+msgid "Manage Email Templates"
+msgstr ""
+
+#: Notifications/view/notifications/email-template/index.phtml:53
+#: Notifications/view/notifications/sms-template/index.phtml:45
+#: Tasks/view/tasks/tasks/index.phtml:51
+#: Tasks/view/tasks/tasks/index.phtml:100
+msgid "Title"
+msgstr ""
+
+#: Notifications/view/notifications/email-template/index.phtml:54
+msgid "Subject"
+msgstr ""
+
+#: Notifications/view/notifications/notifications/sendemail.phtml:2
+msgid "Select Email Templates"
+msgstr ""
+
+#: Notifications/view/notifications/notifications/sendsms.phtml:2
+msgid "Select SMS Templates"
+msgstr ""
+
+#: Notifications/view/notifications/sms-template/add.phtml:2
+#: Notifications/view/notifications/sms-template/index.phtml:80
+msgid "Add SMS Template"
+msgstr ""
+
+#: Notifications/view/notifications/sms-template/add.phtml:6
+msgid "Add SMS Templates"
+msgstr ""
+
+#: Notifications/view/notifications/sms-template/edit.phtml:2
+msgid "Edit SMS Template"
+msgstr ""
+
+#: Notifications/view/notifications/sms-template/edit.phtml:6
+msgid "Edit SMS Templates"
+msgstr ""
+
+#: Projects/view/projects/buildings/add.phtml:2
+msgid "Add Building"
+msgstr ""
+
+#: Projects/view/projects/buildings/add.phtml:5
+#: Projects/view/projects/buildings/edit.phtml:5
+#: Projects/view/projects/buildings/index.phtml:2
+#: Projects/view/projects/buildings/index.phtml:5
+#: Projects/view/projects/buildings/payment-slabs.phtml:5
+msgid "Buildings"
+msgstr ""
+
+#: Projects/view/projects/buildings/edit.phtml:2
+msgid "Edit Building"
+msgstr ""
+
+#: Projects/view/projects/buildings/edit.phtml:55
+msgid "CURRENT ELEVATION"
+msgstr ""
+
+#: Projects/view/projects/buildings/index.phtml:29
+msgid "Project Name"
+msgstr ""
+
+#: Projects/view/projects/buildings/index.phtml:30
+msgid "Building Name"
+msgstr ""
+
+#: Projects/view/projects/buildings/index.phtml:31
+msgid "Total Flats"
+msgstr ""
+
+#: Projects/view/projects/buildings/index.phtml:32
+msgid "Manage Flats"
+msgstr ""
+
+#: Projects/view/projects/buildings/index.phtml:33
+msgid "Manage Payment"
+msgstr ""
+
+#: Projects/view/projects/buildings/payment-slabs.phtml:2
+#: Projects/view/projects/buildings/payment-slabs.phtml:6
+msgid "Payment Slabs"
+msgstr ""
+
+#: Projects/view/projects/buildings/payment-slabs.phtml:29
+msgid "Slab Title"
+msgstr ""
+
+#: Projects/view/projects/buildings/payment-slabs.phtml:30
+msgid "Expected Completion Date"
+msgstr ""
+
+#: Projects/view/projects/buildings/payment-slabs.phtml:31
+msgid "Actual Completion Date"
+msgstr ""
+
+#: Projects/view/projects/buildings/payment-slabs.phtml:32
+msgid "Completion %"
+msgstr ""
+
+#: Projects/view/projects/buildings/payment-slabs.phtml:99
+msgid "Total Completion"
+msgstr ""
+
+#: Projects/view/projects/flats/add.phtml:2
+msgid "Add Flat"
+msgstr ""
+
+#: Projects/view/projects/flats/add.phtml:5
+#: Projects/view/projects/flats/edit.phtml:5
+#: Projects/view/projects/flats/index.phtml:2
+#: Projects/view/projects/flats/index.phtml:5
+msgid "Flats"
+msgstr ""
+
+#: Projects/view/projects/flats/edit.phtml:2
+msgid "Edit Flat"
+msgstr ""
+
+#: Projects/view/projects/flats/index.phtml:70
+msgid "Flat No."
+msgstr ""
+
+#: Projects/view/projects/flats/index.phtml:72
+msgid "Flat Type"
+msgstr ""
+
+#: Projects/view/projects/flats/index.phtml:73
+msgid "Flat Area"
+msgstr ""
+
+#: Projects/view/projects/flats/index.phtml:74
+msgid "Current Rate"
+msgstr ""
+
+#: Projects/view/projects/flats/index.phtml:75
+msgid "Floor Rise"
+msgstr ""
+
+#: Projects/view/projects/flats/index.phtml:76
+msgid "Dev Charges"
+msgstr ""
+
+#: Projects/view/projects/flats/index.phtml:77
+msgid "Club Mem. Charges"
+msgstr ""
+
+#: Projects/view/projects/flats/index.phtml:78
+msgid "Adv Maintanace"
+msgstr ""
+
+#: Projects/view/projects/flats/index.phtml:79
+msgid "PLC"
+msgstr ""
+
+#: Projects/view/projects/flats/index.phtml:80
+msgid "Total"
+msgstr ""
+
+#: Projects/view/projects/flats/index.phtml:159
+msgid "Note: charges and rates are per square feet basis."
+msgstr ""
+
+#: Projects/view/projects/flats/index.phtml:173
+msgid "Upload Flats"
+msgstr ""
+
+#: Projects/view/projects/flats/index.phtml:197
+#: Projects/view/projects/inventory/index.phtml:121
+msgid "Mail Flat Detail"
+msgstr ""
+
+#: Projects/view/projects/flats/index.phtml:202
+#: Projects/view/projects/inventory/index.phtml:126
+msgid "Email ID"
+msgstr ""
+
+#: Projects/view/projects/flats/index.phtml:208
+#: Projects/view/projects/inventory/index.phtml:132
+msgid "Send"
+msgstr ""
+
+#: Projects/view/projects/flats/index.phtml:220
+#: Projects/view/projects/inventory/index.phtml:144
+msgid "Flat Detail"
+msgstr ""
+
+#: Projects/view/projects/flats/index.phtml:227
+#: Projects/view/projects/inventory/index.phtml:151
+msgid "Mail"
+msgstr ""
+
+#: Projects/view/projects/flats/select-building.phtml:6
+msgid "Select"
+msgstr ""
+
+#: Projects/view/projects/flats/select-building.phtml:47
+msgid "Manage"
+msgstr ""
+
+#: Projects/view/projects/inventory/index.phtml:31
+msgid "Project name"
+msgstr ""
+
+#: Projects/view/projects/inventory/index.phtml:41
+msgid "Building name"
+msgstr ""
+
+#: Projects/view/projects/inventory/index.phtml:46
+msgid "View Inventory"
+msgstr ""
+
+#: Projects/view/projects/inventory/index.phtml:150
+msgid "Print"
+msgstr ""
+
+#: Projects/view/projects/projects/add.phtml:2
+msgid "Add Project"
+msgstr ""
+
+#: Projects/view/projects/projects/details.phtml:2
+msgid "Projects Details"
+msgstr ""
+
+#: Projects/view/projects/projects/details.phtml:27
+msgid "Progress"
+msgstr ""
+
+#: Projects/view/projects/projects/details.phtml:31
+msgid "Internal Amenities"
+msgstr ""
+
+#: Projects/view/projects/projects/details.phtml:39
+msgid "External Amenities"
+msgstr ""
+
+#: Projects/view/projects/projects/details.phtml:49
+msgid "Start Date"
+msgstr ""
+
+#: Projects/view/projects/projects/details.phtml:53
+msgid "Completion Date"
+msgstr ""
+
+#: Projects/view/projects/projects/details.phtml:57
+msgid "Project Location"
+msgstr ""
+
+#: Projects/view/projects/projects/details.phtml:61
+msgid "Project Address"
+msgstr ""
+
+#: Projects/view/projects/projects/edit.phtml:2
+msgid "Edit Project"
+msgstr ""
+
+#: Projects/view/projects/projects/index.phtml:29
+msgid "Project Status"
+msgstr ""
+
+#: Projects/view/projects/projects/index.phtml:31
+msgid "Brochure"
+msgstr ""
+
+#: Projects/view/projects/projects/index.phtml:32
+msgid "Contact Form"
+msgstr ""
+
+#: Projects/view/projects/projects/index.phtml:46
+msgid "Get Form"
+msgstr ""
+
+#: Projects/view/projects/projects/index.phtml:73
+msgid "Copy Script"
+msgstr ""
+
+#: Projects/view/projects/projects/index.phtml:76
+msgid ""
+"Just paste below mentioned script onto either header or footer of your Micro "
+"site. Subsequently all Enquiries sent from the website page will be auto-"
+"created in the CRM! Its a plain bootstrap form, you can change the look-n-"
+"feel of it as per your Company standards."
+msgstr ""
+
+#: Projects/view/projects/projects/index.phtml:80
+msgid "Copy to clipboard"
+msgstr ""
+
+#: Reports/view/reports/reports/index.phtml:15
+msgid "DETAILED LEAD REPORT"
+msgstr ""
+
+#: Reports/view/reports/reports/index.phtml:29
+#: User/view/user/user/index.phtml:2
+msgid "Users"
+msgstr ""
+
+#: Reports/view/reports/reports/index.phtml:38
+#: Reports/view/reports/reports/index.phtml:71
+#: Reports/view/reports/reports/index.phtml:108
+#: Reports/view/reports/reports/index.phtml:140
+#: Reports/view/reports/reports/index.phtml:213
+msgid "Date Range"
+msgstr ""
+
+#: Reports/view/reports/reports/index.phtml:57
+msgid "FOLLOWUP REPORT"
+msgstr ""
+
+#: Reports/view/reports/reports/index.phtml:94
+msgid "PROJECT WISE REPORT"
+msgstr ""
+
+#: Reports/view/reports/reports/index.phtml:126
+msgid "SOURCE WISE REPORT"
+msgstr ""
+
+#: Reports/view/reports/reports/index.phtml:160
+msgid "CAMPAIGN REPORT"
+msgstr ""
+
+#: Reports/view/reports/reports/index.phtml:199
+msgid "BOOKING REPORT"
+msgstr ""
+
+#: Settings/view/settings/settings/index.phtml:149
+msgid "Current Logo"
+msgstr ""
+
+#: Settings/view/settings/settings/index.phtml:166
+msgid "Current Favicon"
+msgstr ""
+
+#: Tasks/view/tasks/tasks/add.phtml:2
+msgid "Add Task"
+msgstr ""
+
+#: Tasks/view/tasks/tasks/edit.phtml:2
+msgid "Edit Task"
+msgstr ""
+
+#: Tasks/view/tasks/tasks/index.phtml:33
+msgid "Tasks Assigned by me"
+msgstr ""
+
+#: Tasks/view/tasks/tasks/index.phtml:36
+msgid "Tasks Assigned to me"
+msgstr ""
+
+#: Tasks/view/tasks/tasks/index.phtml:52
+#: Tasks/view/tasks/tasks/index.phtml:101
+msgid "Expected Date"
+msgstr ""
+
+#: Tasks/view/tasks/tasks/index.phtml:53
+#: Tasks/view/tasks/tasks/index.phtml:102
+msgid "Priority"
+msgstr ""
+
+#: Tasks/view/tasks/tasks/index.phtml:54
+#: Tasks/view/tasks/tasks/index.phtml:103
+msgid "Created By"
+msgstr ""
+
+#: Tasks/view/tasks/tasks/index.phtml:56
+#: Tasks/view/tasks/tasks/index.phtml:105
+msgid "Completed By"
+msgstr ""
+
+#: Tasks/view/tasks/tasks/index.phtml:57
+#: Tasks/view/tasks/tasks/index.phtml:106
+msgid "Date Completed"
+msgstr ""
+
+#: Tasks/view/tasks/tasks/index.phtml:58
+#: Tasks/view/tasks/tasks/index.phtml:107
+msgid "Assigned to"
+msgstr ""
+
+#: User/view/user/auth/login.phtml:26
+#: User/view/user/user/reset-password.phtml:23
+msgid "Sign into your connectCRM account"
+msgstr ""
+
+#: User/view/user/auth/login.phtml:49
+msgid "Incorrect login and/or password. "
+msgstr ""
+
+#: User/view/user/auth/login.phtml:50
+msgid "Forgot password?"
+msgstr ""
+
+#: User/view/user/auth/login.phtml:60
+msgid "Keep Me Signed in"
+msgstr ""
+
+#: User/view/user/auth/login.phtml:79
+msgid "2017 All Rights Reserved. ConnectCRM v1.0. Privacy and Terms"
+msgstr ""
+
+#: User/view/user/auth/not-authorized.phtml:2
+msgid "Not Authorized"
+msgstr ""
+
+#: User/view/user/auth/not-authorized.phtml:10
+msgid "Sorry but we couldnt find this page"
+msgstr ""
+
+#: User/view/user/auth/not-authorized.phtml:11
+msgid ""
+"We track these errors automatically, but if the problem persists feel free "
+"to contact us. In the meantime, try refreshing."
+msgstr ""
+
+#: User/view/user/auth/not-authorized.phtml:11
+msgid "Report this"
+msgstr ""
+
+#: User/view/user/auth/not-authorized.phtml:18
+msgid "Search"
+msgstr ""
+
+#: User/view/user/permission/add.phtml:2
+#: User/view/user/permission/add.phtml:10
+#: User/view/user/permission/edit.phtml:10
+msgid "Add Permission"
+msgstr ""
+
+#: User/view/user/permission/edit.phtml:2
+msgid "Edit Permission"
+msgstr ""
+
+#: User/view/user/permission/index.phtml:2 User/view/user/role/view.phtml:65
+msgid "Permissions"
+msgstr ""
+
+#: User/view/user/permission/index.phtml:36
+#: User/view/user/permission/view.phtml:42
+#: User/view/user/role/edit-permissions.phtml:41
+#: User/view/user/role/index.phtml:37 User/view/user/role/view.phtml:40
+#: User/view/user/role/view.phtml:78
+msgid "Description"
+msgstr ""
+
+#: User/view/user/permission/index.phtml:38 User/view/user/role/index.phtml:39
+#: User/view/user/user/index.phtml:36
+msgid "Actions"
+msgstr ""
+
+#: User/view/user/permission/view.phtml:2 User/view/user/user/add.phtml:2
+#: User/view/user/user/add.phtml:10 User/view/user/user/edit.phtml:2
+#: User/view/user/user/edit.phtml:11
+msgid "Add User"
+msgstr ""
+
+#: User/view/user/permission/view.phtml:11
+msgid "View Permission"
+msgstr ""
+
+#: User/view/user/role/add.phtml:2 User/view/user/role/add.phtml:10
+msgid "Add Role"
+msgstr ""
+
+#: User/view/user/role/edit-permissions.phtml:2
+msgid "Edit Role Permissions"
+msgstr ""
+
+#: User/view/user/role/edit-permissions.phtml:10
+#: User/view/user/role/edit.phtml:2 User/view/user/role/edit.phtml:10
+msgid "Edit Role"
+msgstr ""
+
+#: User/view/user/role/index.phtml:2 User/view/user/user/view.phtml:70
+msgid "Roles"
+msgstr ""
+
+#: User/view/user/role/view.phtml:2 User/view/user/role/view.phtml:11
+msgid "View Role"
+msgstr ""
+
+#: User/view/user/user/change-password.phtml:2
+#: User/view/user/user/change-password.phtml:10
+msgid "Change Password"
+msgstr ""
+
+#: User/view/user/user/change-password.phtml:50
+msgid "Change Password for "
+msgstr ""
+
+#: User/view/user/user/index.phtml:33
+msgid "Role(s)"
+msgstr ""
+
+#: User/view/user/user/message.phtml:2
+msgid "Thank You"
+msgstr ""
+
+#: User/view/user/user/message.phtml:22
+#: User/view/user/user/reset-password.phtml:2
+#: User/view/user/user/reset-password.phtml:27
+msgid "Reset Password"
+msgstr ""
+
+#: User/view/user/user/message.phtml:26
+msgid "A password reset link has been sent to your email address"
+msgstr ""
+
+#: User/view/user/user/message.phtml:30
+msgid "There is no user with such an email"
+msgstr ""
+
+#: User/view/user/user/message.phtml:34
+msgid "Your new password has been set successfully"
+msgstr ""
+
+#: User/view/user/user/message.phtml:37
+msgid "Return to"
+msgstr ""
+
+#: User/view/user/user/message.phtml:37
+msgid "login page"
+msgstr ""
+
+#: User/view/user/user/message.phtml:41
+msgid "Invalid reset key or it may have expired. Please return"
+msgstr ""
+
+#: User/view/user/user/message.phtml:42
+msgid "here"
+msgstr ""
+
+#: User/view/user/user/message.phtml:42
+msgid "and try reset your password again"
+msgstr ""
+
+#: User/view/user/user/reset-password.phtml:29
+msgid "Enter your e-mail address below to reset your password"
+msgstr ""
+
+#: User/view/user/user/reset-password.phtml:36
+msgid "Enter the letters above as you see them."
+msgstr ""
+
+#: User/view/user/user/reset-password.phtml:51
+msgid "All Rights Reserved. ConnectCRM v1.0. Privacy and Terms"
+msgstr ""
+
+#: User/view/user/user/set-password.phtml:2
+#: User/view/user/user/set-password.phtml:23
+msgid "Set New Password"
+msgstr ""
+
+#: User/view/user/user/set-password.phtml:25
+msgid "Enter your new password in the form below"
+msgstr ""
+
+#: User/view/user/user/view.phtml:2 User/view/user/user/view.phtml:11
+msgid "View User"
+msgstr ""
+
+#: User/view/user/user/view.phtml:58
+msgid "User Type"
+msgstr ""

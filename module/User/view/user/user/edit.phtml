@@ -1,0 +1,127 @@
+<?php
+$title = $this->translate('Edit User');
+$this->headTitle($title);
+
+
+$this->mainMenu()->setActiveItemId('settings');
+
+$this->pageBreadcrumbs()->setItems([
+           $this->translate('User')=>$this->url('users'),
+           $this->translate('Edit')=>$this->url('users', ['action'=>'edit'])
+            ]);
+$this->pageBreadcrumbs()->setIcon('fa fa-user ');
+$this->actionButtons()->setItems([
+	   $this->translate('Back to Users')=>$this->url('users')
+		]);
+			
+$this->actionButtons()->setItems([
+           $this->translate('Back to Users')=>$this->url('users')
+            ]);
+
+$form->get('email')->setAttributes([
+    'class'=>'form-control',
+    'placeholder'=>'name@example.com'
+    ]);
+
+$form->get('full_name')->setAttributes([
+    'class'=>'form-control',
+    'placeholder'=>'Ajaz Siddiqui'
+    ]);
+
+$form->get('contact_no')->setAttributes([
+    'class'=>'form-control',
+    'placeholder'=>'Contact No.'
+    ]);
+
+$form->get('user_type')->setAttributes([
+    'class'=>'form-control',
+    'placeholder'=>'User Type','data-init-plugin' => 'select2'
+    ]);
+
+$form->get('status')->setAttributes([
+    'class'=>'form-control','data-init-plugin' => 'select2'
+    ]);
+
+
+$form->get('roles')->setAttributes([
+    'class'=>'form-control','data-init-plugin' => 'select2'
+    ]);
+
+$form->get('submit')->setAttributes(['class'=>'btn btn-primary'])
+        ->setValue($this->translate('Save'));
+$form->prepare();
+?>
+
+
+<div class="row">
+  <div class="col-xl-8 col-lg-8 col-sm-12 no-padding">
+<div class="clearfix"></div><br/>
+<?= $this->flashMessenger()->render('error', ['alert', 'alert-danger']); ?>
+<?= $this->flashMessenger()->render('success', ['alert', 'alert-success']); ?>
+<?= $this->flashMessenger()->render('info', ['alert', 'alert-info']); ?>
+<div class="clearfix"></div>
+
+ <div class="col-md-4 pull-left"> 
+ <?php if(!empty($this->user->getProfilePic())){ ?>
+ <img style="margin-bottom:20px; max-width:150px"  src="<?php echo $this->basePath(); ?>/uploads/profile_pics/<?php echo $this->user->getProfilePic(); ?>" />
+ <?php } else{
+				echo '<div id="no_logo">No Image</div>'; 
+				}
+			?>
+ 
+
+ </div>
+ 
+<div class="col-md-8 pull-right">
+    <?= $this->form()->openTag($form); ?>
+	
+    <div class="form-group form-group-default">
+        <?= $this->formLabel($form->get('profile_pic')); ?>
+        <?= $this->formElement($form->get('profile_pic')); ?>
+        <?= $this->formElementErrors($form->get('profile_pic')); ?>
+    </div>
+
+    <div class="form-group form-group-default">
+        <?= $this->formLabel($form->get('email')); ?>
+        <?= $this->formElement($form->get('email')); ?>
+        <?= $this->formElementErrors($form->get('email')); ?>
+    </div>
+
+    <div class="form-group form-group-default">
+        <?= $this->formLabel($form->get('full_name')); ?>
+        <?= $this->formElement($form->get('full_name')); ?>
+        <?= $this->formElementErrors($form->get('full_name')); ?>
+    </div>
+
+<div class="form-group form-group-default">
+        <?= $this->formLabel($form->get('contact_no')); ?>
+        <?= $this->formElement($form->get('contact_no')); ?>
+        <?= $this->formElementErrors($form->get('contact_no')); ?>
+    </div>
+
+<div class="form-group form-group-default form-group-default-select2">
+        <?= $this->formLabel($form->get('user_type')); ?>
+        <?= $this->formElement($form->get('user_type')); ?>
+        <?= $this->formElementErrors($form->get('user_type')); ?>
+    </div>
+
+
+    <div class="form-group form-group-default form-group-default-select2">
+        <?= $this->formLabel($form->get('status')); ?>
+        <?= $this->formElement($form->get('status')); ?>
+        <?= $this->formElementErrors($form->get('status')); ?>
+    </div>
+
+    <div class="form-group form-group-default form-group-default-select2">
+        <?= $this->formLabel($form->get('roles')); ?>
+        <?= $this->formElement($form->get('roles')); ?>
+        <?= $this->formElementErrors($form->get('roles')); ?>
+    </div>
+
+    <?= $this->formElement($form->get('submit')); ?>
+
+    <?= $this->form()->closeTag(); ?>
+</div>
+
+    </div>
+</div>

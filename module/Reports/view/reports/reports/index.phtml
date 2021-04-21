@@ -1,0 +1,200 @@
+<?php
+$title = $this->translate('Reports');
+$this->headTitle($title);
+$this->pageBreadcrumbs()->setItems([
+           $this->translate('Reports') =>$this->url('reports')
+            ]);
+$this->pageBreadcrumbs()->setIcon('fab fa-stack-overflow');
+$this->mainMenu()->setActiveItemId('reports');
+?>
+
+<div class="row">
+  <div class="col-md-4">
+    <div class="card card-default">
+      <div class="card-block">
+        <div class="card-header ">
+          <div class="card-title"><?php echo $this->translate('DETAILED LEAD REPORT') ?></div>
+        </div>
+
+<form action="<?php echo $this->url('reports', array('action' => 'leadsreport')); ?>" method="post" >
+  <div class="form-group form-group-default form-group-default-select2">
+      <label><?php echo $this->translate('Projects') ?></label>
+      <select class="form-control" name="project" data-init-plugin = "select2">
+<option value="">Select</option>
+<?php foreach($this->projects as $project){ ?>
+  <option value="<?php echo $project->getId(); ?>"><?php echo $project->getName(); ?></option>
+  <?php } ?>
+      </select>
+  </div>
+  <div class="form-group form-group-default form-group-default-select2">
+      <label><?php echo $this->translate('Users') ?></label>
+      <select class="form-control" name="users" data-init-plugin = "select2">
+      <option value="">Select</option>
+        <?php foreach($this->users as $user){ ?>
+          <option value="<?php echo $user->getId(); ?>"><?php echo $user->getFullName(); ?></option>
+          <?php } ?>
+      </select>
+  </div>
+  <div class="form-group form-group-default">
+      <label><?php echo $this->translate('Date Range') ?></label>
+      <div class="input-prepend input-group">
+
+  <input type="text" style="width: 100%" name="daterange" id="daterangepicker" class="form-control" value="01/01/2018 - <?php echo date("d/m/Y"); ?>" />
+  </div>
+  </div>
+  <div class="form-group">
+      <input class="btn btn-primary" type="submit" value="submit" />
+  </div>
+</form>
+      </div>
+   </div>
+ </div>
+
+
+ <div class="col-md-4">
+   <div class="card card-default">
+     <div class="card-block">
+       <div class="card-header ">
+         <div class="card-title"><?php echo $this->translate('FOLLOWUP REPORT') ?></div>
+       </div>
+
+<form action="<?php echo $this->url('reports', array('action' => 'followupreport')); ?>" method="post" >
+ <div class="form-group form-group-default form-group-default-select2">
+     <label><?php echo $this->translate('Projects') ?></label>
+     <select class="form-control" name="project" data-init-plugin = "select2">
+ <option value="">Select</option>
+ <?php foreach($this->projects as $project){ ?>
+ <option value="<?php echo $project->getId(); ?>"><?php echo $project->getName(); ?></option>
+ <?php } ?>
+     </select>
+ </div>
+ <div class="form-group form-group-default">
+     <label><?php echo $this->translate('Date Range') ?></label>
+     <div class="input-prepend input-group">
+
+ <input type="text" style="width: 100%" name="daterange" id="daterangepicker2" class="form-control" value="01/01/2018 - <?php echo date("d/m/Y"); ?>" />
+ </div>
+ </div>
+ <div class="form-group">
+     <input class="btn btn-primary" type="submit" value="submit" />
+ </div>
+</form>
+     </div>
+  </div>
+   </div>
+
+  <div class="col-md-4">
+    <div class="card card-default">
+      <div class="card-block">
+        <div class="card-header ">
+          <div class="card-title"><?php echo $this->translate('PROJECT WISE REPORT') ?></div>
+        </div>
+
+<form action="<?php echo $this->url('reports', array('action' => 'projectreport')); ?>" method="post" >
+  <div class="form-group form-group-default form-group-default-select2">
+      <label><?php echo $this->translate('Projects') ?></label>
+      <select class="form-control" name="project" data-init-plugin = "select2">
+  <option value="">Select</option>
+  <?php foreach($this->projects as $project){ ?>
+  <option value="<?php echo $project->getId(); ?>"><?php echo $project->getName(); ?></option>
+  <?php } ?>
+      </select>
+  </div>
+  <div class="form-group form-group-default">
+      <label><?php echo $this->translate('Date Range') ?></label>
+      <div class="input-prepend input-group">
+
+  <input type="text" style="width: 100%" name="daterange" id="daterangepicker3" class="form-control" value="01/01/2018 - <?php echo date("d/m/Y"); ?>" />
+  </div>
+  </div>
+  <div class="form-group">
+      <input class="btn btn-primary" type="submit" value="submit" />
+  </div>
+</form>
+      </div>
+   </div>
+ </div>
+
+ <div class="col-md-4">
+   <div class="card card-default">
+     <div class="card-block">
+       <div class="card-header ">
+         <div class="card-title"><?php echo $this->translate('SOURCE WISE REPORT') ?></div>
+       </div>
+
+<form action="<?php echo $this->url('reports', array('action' => 'sourcereport')); ?>" method="post" >
+ <div class="form-group form-group-default form-group-default-select2">
+     <label><?php echo $this->translate('Projects') ?></label>
+     <select class="form-control" name="project" data-init-plugin = "select2">
+<option value="">Select</option>
+<?php foreach($this->projects as $project){ ?>
+ <option value="<?php echo $project->getId(); ?>"><?php echo $project->getName(); ?></option>
+ <?php } ?>
+     </select>
+ </div>
+ <div class="form-group form-group-default">
+     <label><?php echo $this->translate('Date Range') ?></label>
+     <div class="input-prepend input-group">
+
+ <input type="text" style="width: 100%" name="daterange" id="daterangepicker4" class="form-control" value="01/01/2018 - <?php echo date("d/m/Y"); ?>" />
+ </div>
+ </div>
+ <div class="form-group">
+     <input class="btn btn-primary" type="submit" value="submit" />
+ </div>
+</form>
+     </div>
+  </div>
+</div>
+
+  <div class="col-md-4">
+    <div class="card card-default">
+      <div class="card-block">
+        <div class="card-header ">
+          <div class="card-title"><?php echo $this->translate('CAMPAIGN REPORT') ?></div>
+        </div>
+
+<form action="<?php echo $this->url('reports', array('action' => 'campaignreport')); ?>" method="post" >
+  <div class="form-group form-group-default form-group-default-select2">
+      <label><?php echo $this->translate('Projects') ?></label>
+      <select id="project_campaign" class="form-control" name="project" data-init-plugin = "select2">
+  <option value="">Select</option>
+  <?php foreach($this->projects as $project){ ?>
+  <option value="<?php echo $project->getId(); ?>"><?php echo $project->getName(); ?></option>
+  <?php } ?>
+      </select>
+  </div>
+      <div class="form-group form-group-default form-group-default-select2">
+      <label><?php echo $this->translate('Status') ?></label>
+      <select id="projectStatus" class="form-control" name="status" data-init-plugin = "select2">
+  <option value="1">Active</option>
+  <option value="0">Inactive</option>
+      </select>
+  </div>
+  <div class="form-group form-group-default form-group-default-select2">
+      <label><?php echo $this->translate('Campaign') ?></label>
+      <select id="campaign_list" class="form-control" name="campaign" data-init-plugin = "select2">
+  <option value="">Select</option>
+
+      </select>
+  </div>
+  <div class="form-group">
+      <input class="btn btn-primary" type="submit" value="submit" />
+  </div>
+</form>
+      </div>
+   </div>
+ </div>
+
+</div>
+
+
+<style>
+.card .card-block {
+    padding: 20px;
+    background: #f2f2f2;
+}
+.card .card-header {
+    padding: 20px 20px 7px 5px;
+}
+</style>

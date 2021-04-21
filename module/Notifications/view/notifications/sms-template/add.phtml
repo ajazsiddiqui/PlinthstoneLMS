@@ -1,0 +1,78 @@
+<?php
+$title = $this->translate('Add SMS Template');
+$this->headTitle($title);
+$this->pageBreadcrumbs()->setItems([
+            $this->translate('SMS Templates')=>$this->url('smstemplates'),
+           $this->translate('Add')=>$this->url('smstemplates', ['action'=>'add']),
+            ]);
+$this->pageBreadcrumbs()->setIcon('fal fa-comment-alt  ');
+$this->actionButtons()->setItems([
+           $this->translate('Back to SMS Templates')=>$this->url('smstemplates'),
+            ]);
+$this->mainMenu()->setActiveItemId('settings');
+
+$form->get('title')->setAttributes([
+    'class'=>'form-control',
+    'placeholder'=>'Title'
+    ]);
+$form->get('status')->setAttributes([
+    'class'=>'form-control' ,'data-init-plugin' => 'switchery'
+    ]);
+$form->get('content')->setAttributes([
+    'class'=>'form-control'
+    ]);
+$form->get('submit')
+        ->setAttributes(['class'=>'btn btn-primary'])->setValue($this->translate('Create'));
+$form->prepare();
+?>
+
+<div class="row">
+  <div class="col-xl-12 col-lg-12 no-padding">
+   
+<div class="clearfix"></div><br/>
+<?= $this->flashMessenger()->render('error', ['alert', 'alert-danger']); ?>
+<?= $this->flashMessenger()->render('success', ['alert', 'alert-success']); ?>
+<?= $this->flashMessenger()->render('info', ['alert', 'alert-info']); ?>
+<div class="clearfix"></div>
+
+<div class="col-md-6">
+    <?= $this->form()->openTag($form); ?>
+
+    <div class="form-group form-group-default">
+        <?= $this->formLabel($form->get('title')); ?>
+        <?= $this->formElement($form->get('title')); ?>
+        <?= $this->formElementErrors($form->get('title')); ?>
+    </div>
+
+    <div class="form-group form-group-default">
+        <?= $this->formLabel($form->get('content')); ?>
+        <?= $this->formElement($form->get('content')); ?>
+        <?= $this->formElementErrors($form->get('content')); ?>
+    </div>
+
+    <div class="form-group form-group-default switchery_holder">
+        <?= $this->formLabel($form->get('status')); ?>
+        <?= $this->formElement($form->get('status')); ?>
+        <?= $this->formElementErrors($form->get('status')); ?>
+    </div>
+
+    <?= $this->formElement($form->get('submit')); ?>
+
+    <?= $this->form()->closeTag(); ?>
+<br/>
+<p><?php echo $this->translate('Note: You can use system generated fields like First Name, Last Name as {first_name}. Do not forget to include { } around them. Fields that can be used are: {first_name}, {last_name}, {project_name}, {building_name}, {system_user_name}.') ?> </p>
+
+
+</div>
+    </div>
+</div>
+
+
+<script src="<?php echo $this->basePath(); ?>/js/ckeditor.js"></script>
+<script>
+    ClassicEditor
+        .create( document.querySelector( '#editor' ) )
+        .catch( error => {
+            console.error( error );
+        } );
+</script>

@@ -1,0 +1,152 @@
+<?php
+$title = $this->translate('Edit Lead');
+$this->headTitle($title);
+$this->pageBreadcrumbs()->setItems([
+            $this->translate('Leads')=>$this->url('leads'),
+            $this->translate('Edit')=>$this->url('leads', ['action'=>'edit']),
+            ]);
+$this->pageBreadcrumbs()->setIcon('fas fa-user-friends');
+$this->actionButtons()->setItems([
+            $this->translate('Back to Leads')=>$this->url('leads'),
+            ]);
+$this->mainMenu()->setActiveItemId('leads');
+
+$form->get('first_name')->setAttributes(['class'=>'form-control', 'required'=>'required', 'placeholder'=>'First Name']);
+$form->get('last_name')->setAttributes(['class'=>'form-control', 'required'=>'required', 'placeholder'=>'Last Name']);
+$form->get('contact')->setAttributes(['class'=>'form-control', 'required'=>'required', 'placeholder'=>'Contact']);
+$form->get('email')->setAttributes(['class'=>'form-control', 'placeholder'=>'Email']);
+$form->get('state')->setAttributes(['id'=>'state','class'=>'form-control', 'placeholder'=>'State','data-init-plugin' => 'select2']);
+$form->get('city')->setAttributes(['id'=>'city','class'=>'form-control', 'placeholder'=>'City','data-init-plugin' => 'select2']);
+$form->get('location')->setAttributes(['class'=>'form-control', 'placeholder'=>'Preferred Location','data-init-plugin' => 'select2']);
+$form->get('configuration')->setAttributes(['class'=>'form-control', 'placeholder'=>'Interested Flat Configuration','data-init-plugin' => 'select2']);
+$form->get('project')->setAttributes(['id'=>'project', 'required'=>'required','class'=>'form-control', 'placeholder'=>'Project Name','data-init-plugin' => 'select2']);
+$form->get('campaign')->setAttributes(['class'=>'form-control', 'required'=>'required', 'placeholder'=>'Project Campaign','data-init-plugin' => 'select2']);
+$form->get('source')->setAttributes(['id'=>'source', 'required'=>'required','class'=>'form-control', 'placeholder'=>'Source','data-init-plugin' => 'select2']);
+$form->get('interested')->setAttributes(['id'=>'interested','class'=>'form-control', 'placeholder'=>'Interested','data-init-plugin' => 'switchery']);
+$form->get('followup_type')->setAttributes(['id'=>'followup_type','class'=>'form-control', 'placeholder'=>'Followup Type','data-init-plugin' => 'select2','disabled'=>true]);
+$form->get('follow_date')->setAttributes(['id'=>'follow_date','class'=>'form-control datepicker', 'placeholder'=>'Followup Date','disabled'=>true]);
+$form->get('remarks')->setAttributes(['class'=>'form-control', 'placeholder'=>'Remarks']);
+$form->get('status')->setAttributes(['id'=>'status', 'required'=>'required','class'=>'form-control', 'placeholder'=>'Status','data-init-plugin' => 'select2']);
+$form->get('submit')->setAttributes(['class'=>'btn btn-primary'])->setValue($this->translate('Save'));
+$form->prepare();
+?>
+<div class="row">
+  <div class="col-xl-12 col-lg-12 no-padding">
+<div class="clearfix"></div><br/>
+<?= $this->flashMessenger()->render('error', ['alert', 'alert-danger']); ?>
+<?= $this->flashMessenger()->render('success', ['alert', 'alert-success']); ?>
+<?= $this->flashMessenger()->render('info', ['alert', 'alert-info']); ?>        
+<div class="clearfix"></div>
+<div class="container container-fixed-lg">
+		<?= $this->form()->openTag($form); ?>
+				<div class="col-md-4 pull-left no-padding">
+					<div class="form-group form-group-default">
+					<?= $this->formLabel($form->get('first_name')); ?>
+					<?= $this->formElement($form->get('first_name')); ?>
+					<?= $this->formElementErrors($form->get('first_name')); ?>
+					</div>
+					<div class="form-group form-group-default">
+					<?= $this->formLabel($form->get('last_name')); ?>
+					<?= $this->formElement($form->get('last_name')); ?>
+					<?= $this->formElementErrors($form->get('last_name')); ?>
+					</div>
+					<div class="form-group form-group-default">
+					<?= $this->formLabel($form->get('contact')); ?>
+					<?= $this->formElement($form->get('contact')); ?>
+					<?= $this->formElementErrors($form->get('contact')); ?>
+					</div>					
+					<div class="form-group form-group-default">
+					<?= $this->formLabel($form->get('email')); ?>
+					<?= $this->formElement($form->get('email')); ?>
+					<?= $this->formElementErrors($form->get('email')); ?>
+					</div>
+					<div class="form-group form-group-default form-group-default-select2">
+					<?= $this->formLabel($form->get('state')); ?>
+					<?= $this->formElement($form->get('state')); ?>
+					<?= $this->formElementErrors($form->get('state')); ?>
+					</div>
+					<div class="form-group form-group-default form-group-default-select2">
+					<?= $this->formLabel($form->get('city')); ?>
+					<?= $this->formElement($form->get('city')); ?>
+					<?= $this->formElementErrors($form->get('city')); ?>
+					</div>	
+				</div>
+				<div class="col-md-4 pull-left">
+					<div class="form-group form-group-default form-group-default-select2">
+					<?= $this->formLabel($form->get('location')); ?>
+					<?= $this->formElement($form->get('location')); ?>
+					<?= $this->formElementErrors($form->get('location')); ?>
+					</div>
+					<div class="form-group form-group-default form-group-default-select2">
+					<?= $this->formLabel($form->get('configuration')); ?>
+					<?= $this->formElement($form->get('configuration')); ?>
+					<?= $this->formElementErrors($form->get('configuration')); ?>
+					</div>
+					<div class="form-group form-group-default form-group-default-select2">
+					<?= $this->formLabel($form->get('campaign')); ?>
+					<?= $this->formElement($form->get('campaign')); ?>
+					<?= $this->formElementErrors($form->get('campaign')); ?>
+					</div>
+					<div class="form-group form-group-default form-group-default-select2">
+					<?= $this->formLabel($form->get('project')); ?>
+					<?= $this->formElement($form->get('project')); ?>
+					<?= $this->formElementErrors($form->get('project')); ?>
+					</div>
+					<div class="form-group form-group-default form-group-default-select2">
+					<?= $this->formLabel($form->get('status')); ?>
+					<?= $this->formElement($form->get('status')); ?>
+					<?= $this->formElementErrors($form->get('status')); ?>
+					</div>
+					<div class="form-group form-group-default form-group-default-select2">
+					<?= $this->formLabel($form->get('source')); ?>
+					<?= $this->formElement($form->get('source')); ?>
+					<?= $this->formElementErrors($form->get('source')); ?>
+					</div>
+				</div>
+				<div class="col-md-4 pull-left interested_holder">
+					<div class="form-group form-group-default switchery_holder">
+					<?= $this->formLabel($form->get('interested')); ?>
+					<?= $this->formElement($form->get('interested')); ?>
+					<?= $this->formElementErrors($form->get('interested')); ?>
+					</div>
+					<div class="form-group form-group-default form-group-default-select2">
+					<?= $this->formLabel($form->get('followup_type')); ?>
+					<?= $this->formElement($form->get('followup_type')); ?>
+					<?= $this->formElementErrors($form->get('followup_type')); ?>
+					</div>
+					<div class="form-group form-group-default">
+					<?= $this->formLabel($form->get('follow_date')); ?>
+					<?= $this->formElement($form->get('follow_date')); ?>
+					<?= $this->formElementErrors($form->get('follow_date')); ?>
+					</div>
+					<div class="form-group form-group-default">
+					<?= $this->formLabel($form->get('remarks')); ?>
+					<?= $this->formElement($form->get('remarks')); ?>
+					<?= $this->formElementErrors($form->get('remarks')); ?>
+					</div>
+				 </div>
+	    <?= $this->formElement($form->get('submit')); ?>
+		<!--<a href="<?php echo $this->url('leads',['action'=>'close','id'=>$id]); ?>" type="button" class="btn btn-info">Close this Lead</a>-->
+		<a href="<?php echo $this->url('leads',['action'=>'visited','id'=>$id]); ?>" type="button" class="btn btn-info">Mark as Visited</a>
+		<a href="<?php echo $this->url('leads',['action'=>'junk','id'=>$id]); ?>" type="button" class="btn btn-info">Mark as Junk</a>
+	   <?= $this->form()->closeTag(); ?>
+    </div>
+</div>
+</div>
+<style>
+.select2{
+	width: 100% !important;
+}
+.interested_holder{
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px;
+	border-color: #dddddd #dddddd #dadada;
+	background: #f2f2f2;
+	box-shadow: 0 2px 0 rgba(175, 175, 175, 0.12);
+	padding: 20px !important;
+}
+.switchery_holder.form-group-default {
+    background-color: transparent;
+}
+</style>

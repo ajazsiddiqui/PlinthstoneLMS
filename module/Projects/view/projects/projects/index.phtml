@@ -1,0 +1,91 @@
+<?php
+$title = $this->translate('Projects');
+$this->headTitle($title);
+$this->pageBreadcrumbs()->setItems([
+            $this->translate('Projects')=>$this->url('folders', ['action'=>'index']),
+            ]);
+$this->pageBreadcrumbs()->setIcon('fa fa-university');
+$this->actionButtons()->setItems([
+            $this->translate('Add Project')=>$this->url('projects', ['action'=>'add']),
+            ]);
+$this->mainMenu()->setActiveItemId('projects');
+?>
+
+<div class="row">
+  <div class="col-xl-12 col-lg-12 ">
+  
+	<?= $this->flashMessenger()->render('error', ['alert', 'alert-danger']); ?>
+	<?= $this->flashMessenger()->render('success', ['alert', 'alert-success']); ?>
+	<?= $this->flashMessenger()->render('info', ['alert', 'alert-info']); ?>
+
+<div class="table-responsive">
+	<table class="table table-hover  table-responsive-block">
+		<thead>
+		<tr>
+		<th></th>
+		<th><?php echo $this->translate('ID') ?></th>
+		<th><?php echo $this->translate('Name') ?></th>
+		<th><?php echo $this->translate('Developer') ?></th>
+			<th><?php echo $this->translate('Location') ?></th>
+			<th><?php echo $this->translate('Contact Form') ?></th>
+			<!--<th><?php echo $this->translate('Status') ?></th>
+			<th><?php echo $this->translate('Date Created') ?></th>-->
+			<th>&nbsp;</th>
+		</tr>
+		</thead>
+		<tbody>
+			<?php foreach ($projects as $project) : ?>
+			<tr>
+				<td width="90"><img style="width:50px; height:50px; border-radius:50%; border:1px solid #dadada" src="<?= $this->basePath().'/uploads/logos/'.$project->getLogo() ?>" /></td>
+				<td><?= $project->getId(); ?></td>
+				<td><a href="<?php echo $this->url('projects', ['action'=>'details','id' => $project->getId()]); ?>"><?php echo $project->getName();?></a></td>
+				<td><?php echo $project->getDeveloper();?></td>
+				<td><?php echo $this->ProjectDetails()->getLocation($project->getCity());?></a></td>
+				<td><a href="#"  data-toggle="modal" data-id="<?php echo $project->getId(); ?>" data-target=".form_script"><i class="fa fa-download"></i> <?php echo $this->translate('Get Form') ?></a</td>
+
+				<td>
+
+			<div class="btn-group pull-right">
+				<a href="<?php echo $this->url('projects', ['action'=>'details','id' => $project->getId()]); ?>" class="btn btn-info btn-xs"><i class="fa fa-list"></i></a>
+				<a href="<?php echo $this->url('projects', array('controller' => 'projects', 'action'=>'edit','id' => $project->getId())); ?>" class="btn btn-success btn-xs"><i class="fal fa-edit"></i></a>
+				<a href="#" data-link="<?php echo $this->url('projects', array('controller' => 'projects', 'action'=>'delete','id' => $project->getId())); ?>" class="btn btn-danger btn-xs"  data-toggle="modal" data-target="#confirmDelete"><i class="far fa-trash-alt"></i></a>
+
+				<?php echo $this->partial('application/index/delete'); ?>
+			</div>
+
+				</td>
+			</tr>
+			<?php endforeach; ?>
+		</tbody>
+	</table>
+</div>
+
+	  <!-- modal -->
+	  <div class="modal fade bs-example-modal-md form_script" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-md">
+		  <div class="modal-content">
+
+			<div class="modal-header">
+			  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+			  </button>
+			  <h4 class="modal-title" id="myModalLabel2"><?php echo $this->translate('Copy Script') ?></h4>
+			</div>
+			<div class="modal-body">
+			  <p><?php echo $this->translate('Just paste below mentioned script onto either header or footer of your Micro site. Subsequently all Enquiries sent from the website page will be auto-created in the LMS.') ?></p>
+			 <textarea id="form_script" class="form-control" id="post-shortlink" rows="6" readonly="">&lt;script type="text/javascript" src="<?php echo $this->basePath(); ?>/js/widget_scripts.js"&gt;&lt;/script&gt;&lt;div class="floating-form" id="contact_form"&gt;&lt;div class="contact-opener"&gt;&lt;/div&gt;&lt;div id="ConnectCRM"&gt;&lt;/div&gt;&lt;/div&gt;</textarea>
+			</div>
+			<div class="modal-footer">
+			<button class="btn btn-default clipboard_btn" data-clipboard-demo="" data-clipboard-action="copy" data-clipboard-target="#form_script"><?php echo $this->translate('Copy to clipboard') ?></button>
+			  <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $this->translate('Close') ?></button>
+			</div>
+
+		  </div>
+		</div>
+	  </div>
+	  <!-- /modals -->
+	  
+	<?php echo $this->partial('application/partial/paginator', ['paginator'=>$this->paginator]); ?>
+
+</div>
+</div>
+
