@@ -1,0 +1,652 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>Plinthstone</title>
+	<style type="text/css">
+	/*////// RESET STYLES //////*/
+	
+	body {
+		height: 100% !important;
+		margin: 0;
+		padding: 0;
+		width: 100% !important;
+	}
+	
+	table {
+		border-collapse: separate;
+	}
+	
+	img,
+	a img {
+		border: 0;
+		outline: none;
+		text-decoration: none;
+	}
+	
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		margin: 0;
+		padding: 0;
+	}
+	
+	p {
+		margin: 1em 0;
+	}
+	/*////// CLIENT-SPECIFIC STYLES //////*/
+	
+	.ReadMsgBody {
+		width: 100%;
+	}
+	
+	.ExternalClass {
+		width: 100%;
+	}
+	
+	.ExternalClass,
+	.ExternalClass p,
+	.ExternalClass span,
+	.ExternalClass font,
+	.ExternalClass td,
+	.ExternalClass div {
+		line-height: 100%;
+	}
+	
+	table,
+	td {
+		mso-table-lspace: 0pt;
+		mso-table-rspace: 0pt;
+	}
+	
+	#outlook a {
+		padding: 0;
+	}
+	
+	img {
+		-ms-interpolation-mode: bicubic;
+	}
+	
+	body,
+	table,
+	td,
+	p,
+	a,
+	li,
+	blockquote {
+		-ms-text-size-adjust: 100%;
+		-webkit-text-size-adjust: 100%;
+	}
+	/*////// GENERAL STYLES //////*/
+	
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+	/*////// TABLET STYLES //////*/
+	
+	@media only screen and (max-width: 620px) {
+		.shrink_font {
+			font-size: 62px;
+		}
+		/*////// GENERAL STYLES //////*/
+		#foxeslab-email .table1 {
+			width: 90% !important;
+		}
+		#foxeslab-email .table1-2 {
+			width: 98% !important;
+			margin-left: 1%;
+			margin-right: 1%;
+		}
+		#foxeslab-email .table1-3 {
+			width: 98% !important;
+			margin-left: 1%;
+			margin-right: 1%;
+		}
+		#foxeslab-email .table1-4 {
+			width: 98% !important;
+			margin-left: 1%;
+			margin-right: 1%;
+		}
+		#foxeslab-email .table1-5 {
+			width: 90% !important;
+			margin-left: 5%;
+			margin-right: 5%;
+		}
+		#foxeslab-email .tablet_no_float {
+			clear: both;
+			width: 100% !important;
+			margin: 0 auto !important;
+			text-align: center !important;
+		}
+		#foxeslab-email .tablet_wise_float {
+			clear: both;
+			float: none !important;
+			width: auto !important;
+			margin: 0 auto !important;
+			text-align: center !important;
+		}
+		#foxeslab-email .tablet_hide {
+			display: none !important;
+		}
+		#foxeslab-email .image1 {
+			width: 98% !important;
+		}
+		#foxeslab-email .image1-290 {
+			width: 100% !important;
+			max-width: 290px !important;
+		}
+		.center_content {
+			text-align: center !important;
+		}
+		.center_image {
+			margin: 0 auto !important;
+		}
+		.center_button {
+			width: 50% !important;
+			margin-left: 25% !important;
+			max-width: 250px !important;
+		}
+		.centerize {
+			margin: 0 auto !important;
+		}
+	}
+	/*////// MOBILE STYLES //////*/
+	
+	@media only screen and (max-width: 480px) {
+		.shrink_font {
+			font-size: 48px;
+		}
+		/*////// CLIENT-SPECIFIC STYLES //////*/
+		body {
+			width: 100% !important;
+			min-width: 100% !important;
+		}
+		/* Force iOS Mail to render the email at full width. */
+		table[class="flexibleContainer"] {
+			width: 100% !important;
+		}
+		/* to prevent Yahoo Mail from rendering media query styles on desktop */
+		/*////// GENERAL STYLES //////*/
+		img[class="flexibleImage"] {
+			height: auto !important;
+			width: 100% !important;
+		}
+		#foxeslab-email .table1 {
+			width: 98% !important;
+		}
+		#foxeslab-email .no_float {
+			clear: both;
+			width: 100% !important;
+			margin: 0 auto !important;
+			text-align: center !important;
+		}
+		#foxeslab-email .wise_float {
+			clear: both;
+			float: none !important;
+			width: auto !important;
+			margin: 0 auto !important;
+			text-align: center !important;
+		}
+		#foxeslab-email .mobile_hide {
+			display: none !important;
+		}
+		.auto_height {
+			height: auto !important;
+		}
+	}
+	</style>
+</head>
+
+<body>
+	<table style="background-image: url(#); background-position: top center; background-repeat: no-repeat; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#f9f9f9" background="#" align="center">
+		<tbody>
+			<tr>
+				<td>
+					<table style="margin: 0 auto;" width="600" cellspacing="0" cellpadding="0" border="0" align="center">
+						<tbody>
+							<tr>
+								<td height="20"></td>
+							</tr>
+							<tr>
+								<td>
+									<table width="260" cellspacing="0" cellpadding="0" border="0" align="left">
+										<tbody>
+											<tr>
+												<td>
+													<a href="#"> <img src="http://plinthstonerema.co.in/public/mailer/logo.png" style="display:block; line-height:0; font-size:0; border:0; max-width:180px;" alt="image" border="0"> </a>
+												</td>
+											</tr>
+											<tr>
+												<td height="20"></td>
+											</tr>
+										</tbody>
+									</table>
+									<table width="130" cellspacing="0" cellpadding="0" border="0" align="right">
+										<tbody>
+											<tr>
+												<td align="center">
+													<table style="max-width: 200px; border-radius:25px;border-collapse:separate;" width="130" height="30" cellspacing="0" cellpadding="0" border="0" bgcolor="#2f3c84" align="center">
+														<tbody>
+															<tr>
+																<td style="color: #fff; font-size: 14px; font-weight: 600; font-family: 'Open Sans', Helvetica, sans-serif; mso-line-height-rule: exactly;" valign="middle" align="center">
+																<span>
+														<a href="http://plinthstonerema.co.in/public/mailer/mailer.html" class="text_color_846200" style="text-decoration: none; color: #fff;">View on Web</a>
+													</span> 
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td height="20"></td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+			<tr style="height:2px">
+				<td style="background-image: url(http://plinthstonerema.co.in/public/mailer/01-border-bottom.jpg); background-repeat: no-repeat; background-size: 100% 2px; height:2px;" height="2"></td>
+			</tr>
+		</tbody>
+	</table>
+	<table style="border-bottom: 1px solid #ececec;background-position: center left; background-size: cover; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff" align="center">
+		<tbody>
+			<tr>
+				<td>
+					<table width="600" cellspacing="0" cellpadding="0" border="0" align="center">
+						<tbody>
+							<tr>
+								<td height="80"></td>
+							</tr>
+							<tr>
+								<td>
+									<table width="100%" cellspacing="0" cellpadding="0" border="0" align="left">
+										<tbody>
+											<tr>
+												<td style="color: #282828;letter-spacing: 2px; font-size: 15px;font-weight: 500; font-family: 'Open Sans', verdana, Helvetica, sans-serif; mso-line-height-rule: exactly;" align="left">
+													<span>Dear Astha,</span>
+												</td>
+											</tr>
+											<tr>
+												<td height="10"></td>
+											</tr>
+											<tr>
+												<td style="color: #282828;line-height: 1.5;letter-spacing: 1px; font-size: 24px;font-weight: 800; font-family: Raleway, verdana, Helvetica, sans-serif; mso-line-height-rule: exactly;" align="left">
+													<span>Congratulations on your decision to join Plinthstone!</span>
+												</td>
+											</tr>
+											<tr>
+												<td height="20"></td>
+											</tr>
+											<tr>
+												<td style="color: #282828;line-height: 2; font-size: 13px;font-weight: 500; font-family: 'Open Sans', verdana, Helvetica, sans-serif; mso-line-height-rule: exactly;" align="left">
+													<span>You are about to embark on an exciting phase in your career with Plinthstone and we are thrilled to have you join us.
+
+To commence your journey with us, we require a scanned copy of the following documents by ______________ <br/><em>(yes, we can hear the groan but what has to be done has to be done)</em>. You can save the scanned copy of the below documents <a target="_new" href="https://plinthstone-my.sharepoint.com/:f:/p/people/EuVq_OQkn_xDrP8GJRdV20kBWHSmxMiWy5pPrLTekGvvTg?e=6B0Y9j" style="text-decoration: none;">here</a>
+ </span>
+												</td>
+											</tr>
+											<tr>
+												<td height="50"></td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<table style="border-bottom:1px solid #ebebeb;background-image: url(#); background-position: top center; background-repeat: no-repeat; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#f9f9f9" background="#" align="center">
+		<tbody>
+			<tr>
+				<td>
+					<table style="margin: 0 auto;" width="600" cellspacing="0" cellpadding="0" border="0" align="center">
+						<tbody>
+							<tr>
+								<td height="60"></td>
+							</tr>
+							<tr>
+								<td style="color: #242a33; font-size: 18px;line-height: 1.8; font-weight: 700; font-family: Raleway, Helvetica, sans-serif; mso-line-height-rule: exactly;" align="left">
+									<span>Please remember to carry the original documents for cross-verification on your date of joining.</span>
+										<br/>
+										<br/>
+										<br/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<table width="286" cellspacing="0" cellpadding="0" border="0" align="left">
+										<tbody>
+											<tr>
+												<td>
+													<table style="max-width: 286px;" cellspacing="0" cellpadding="0" border="0" align="center">
+														<tbody>
+															<tr>
+																<td align="left">
+																	<img src="http://plinthstonerema.co.in/public/mailer/address.png" style="display:block; line-height:0; font-size:0; border:0; width:42px;" alt="" border="0">
+																</td>
+															</tr>
+															<tr>
+																<td height="15"></td>
+															</tr>
+															<tr>
+																<td style="color: #242a33; font-size: 18px; font-weight: 700; font-family: 'Open Sans', Helvetica, sans-serif; mso-line-height-rule: exactly;" align="left">
+																	<table cellpadding="0" cellspacing="0" border="0">
+																		<tr>
+																			<td> <span>Identity and Address Proof  </span>
+																				<br>
+																				<table cellpadding="0" cellspacing="0" border="0">
+																					<tr>
+																						<td style="color: #242a33; font-size: 13px; font-weight: 500; font-family: 'Open Sans', Helvetica, sans-serif; mso-line-height-rule: exactly; margin:0; padding-left: 5px; margin-top: 10px; line-height:1.8"> 1. Photograph
+																							<br> 2. Pan Card
+																							<br> 3. Aadhar Card
+																							<br> 4. Address Proof (If address on Aadhar is different)
+																							<br> </td>
+																					</tr>
+																				</table>
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td height="30"></td>
+											</tr>
+										</tbody>
+									</table>
+									<table width="20" cellspacing="0" cellpadding="0" border="0" align="left">
+										<tbody>
+											<tr>
+												<td height="1"></td>
+											</tr>
+										</tbody>
+									</table>
+									<table width="286" cellspacing="0" cellpadding="0" border="0" align="right">
+										<tbody>
+											<tr>
+												<td>
+													<table style="max-width: 286px;" cellspacing="0" cellpadding="0" border="0" align="center">
+														<tbody>
+															<tr>
+																<td align="left">
+																	<img src="http://plinthstonerema.co.in/public/mailer/education.png" style="display:block; line-height:0; font-size:0; border:0; width:42px;" alt="" border="0">
+																</td>
+															</tr>
+															<tr>
+																<td height="15"></td>
+															</tr>
+															<tr>
+																<td style="color: #242a33; font-size: 18px; font-weight: 700; font-family: 'Open Sans', Helvetica, sans-serif; mso-line-height-rule: exactly;" align="left">
+																	<table cellpadding="0" cellspacing="0" border="0">
+																		<tr>
+																			<td> <span>Qualification Proof  </span>
+																				<br>
+																				<table cellpadding="0" cellspacing="0" border="0">
+																					<tr>
+																						<td style="color: #242a33; font-size: 13px; font-weight: 500; font-family: 'Open Sans', Helvetica, sans-serif; mso-line-height-rule: exactly; margin:0; padding-left: 5px; margin-top: 10px; line-height:1.8"> 1. Std X Marksheet
+																							<br> 2. Std X Certificate
+																							<br> 3. HSC Marksheet
+																							<br> 4. HSC Certificate
+																							<br> 5. Graduation All Marksheets (in 1 pdf file)
+																							<br> 6. Graduation Passing Certificate
+																							<br> 7. Post-Graduation All Marksheets, if applicable (in 1 pdf file)
+																							<br> 8. Post-Graduation Passing Certificate, if applicable
+																							<br> 9. Additional Qualification, if any
+																							<br> </td>
+																					</tr>
+																				</table>
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td height="30"></td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<table width="286" cellspacing="0" cellpadding="0" border="0" align="left">
+										<tbody>
+											<tr>
+												<td>
+													<table style="max-width: 286px;" cellspacing="0" cellpadding="0" border="0" align="center">
+														<tbody>
+															<tr>
+																<td align="left">
+																	<img src="http://plinthstonerema.co.in/public/mailer/employment.png" style="display:block; line-height:0; font-size:0; border:0; width:42px;" alt="" border="0">
+																</td>
+															</tr>
+															<tr>
+																<td height="15"></td>
+															</tr>
+															<tr>
+																<td style="color: #242a33; font-size: 18px; font-weight: 700; font-family: 'Open Sans', Helvetica, sans-serif; mso-line-height-rule: exactly;" align="left">
+																	<table cellpadding="0" cellspacing="0" border="0">
+																		<tr>
+																			<td><span>Employment Proof</span>
+																				<br>
+																				<table cellpadding="0" cellspacing="0" border="0">
+																					<tr>
+																						<td style="color: #242a33; font-size: 13px; font-weight: 500; font-family: 'Open Sans', Helvetica, sans-serif; mso-line-height-rule: exactly; margin:0; padding-left: 5px; margin-top: 10px; line-height:1.8"> 1. Relieving Letter from Previous/ Last Employer
+																							<br> 2. Latest 3 months Salary Slips (Previous Employer) or Bank Statements reflecting salary credits for last 3 months
+																							<br> 3. Appointment Letter of Last Employer or Latest Appraisal Letter of Last Employer
+																							<br> 4. Relieving Letter of Second Last Employer
+																							<br> </td>
+																					</tr>
+																				</table>
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td height="30"></td>
+											</tr>
+										</tbody>
+									</table>
+									<table width="20" cellspacing="0" cellpadding="0" border="0" align="left">
+										<tbody>
+											<tr>
+												<td height="1"></td>
+											</tr>
+										</tbody>
+									</table>
+									<table width="286" cellspacing="0" cellpadding="0" border="0" align="right">
+										<tbody>
+											<tr>
+												<td>
+													<table style="max-width: 286px;" cellspacing="0" cellpadding="0" border="0" align="center">
+														<tbody>
+															<tr>
+																<td align="left">
+																	<table cellpadding="0" cellspacing="0" border="0">
+																		<tr>
+																			<td style="border-style: none !important; display: block; border: 0 !important;"><img src="http://plinthstonerema.co.in/public/mailer/miscellaneous.png" style="display:block; line-height:0; font-size:0; border:0; width:42px;" alt="" border="0"></td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+															<tr>
+																<td height="15"></td>
+															</tr>
+															<tr>
+																<td style="color: #242a33; font-size: 18px; font-weight: 700; font-family: 'Open Sans', Helvetica, sans-serif; mso-line-height-rule: exactly;" align="left">
+																	<table cellpadding="0" cellspacing="0" border="0">
+																		<tr>
+																			<td> <span>Miscellaneous</span>
+																				<br>
+																				<table cellpadding="0" cellspacing="0" border="0">
+																					<tr>
+																						<td style="color: #242a33; font-size: 13px; font-weight: 500; font-family: 'Open Sans', Helvetica, sans-serif; mso-line-height-rule: exactly; margin:0; padding-left: 5px; margin-top: 10px; line-height:1.8"> 1. Updated Resume
+																							<br> 2. Existing HDFC Bank Account Cheque Copy
+																							<br> 3. Kindly fill in your details in the excel file (excel file will be found in the miscellaneous folder)
+																							<br> </td>
+																					</tr>
+																				</table>
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td height="30"></td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td height="30"></td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<table style="border-bottom: 1px solid #ebebeb;background-image: url(#); background-position: top center; background-repeat: no-repeat; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#f3f2f2" background="#" align="center">
+		<tbody>
+			<tr>
+				<td>
+					<table style="margin: 0 auto;" width="600" cellspacing="0" cellpadding="0" border="0" align="center">
+						<tbody>
+							<tr>
+								<td height="40"></td>
+							</tr>
+							<tr>
+								<td>
+									<table width="370" cellspacing="0" cellpadding="0" border="0" align="left">
+										<tbody>
+											<tr>
+												<td style="color: #282828; font-size: 24px; font-weight: 800; font-family: 'Open Sans', Helvetica, sans-serif; mso-line-height-rule: exactly;" align="left">
+													<span>In case of any queries</span>
+												</td>
+											</tr>
+											<tr>
+												<td height="10"></td>
+											</tr>
+											<tr>
+												<td style="color: #282828; font-size: 14px; font-weight: 400; font-family: 'Open Sans', Helvetica, sans-serif; mso-line-height-rule: exactly;" align="left">
+													<span>Please feel free to write to <a href="mailto:people@plinthstone.com">people@plinthstone.com</a> or call on <a href="tel:+918779480279">8779480279</a>.
+</span>
+												</td>
+											</tr>
+											<tr>
+												<td height="30"></td>
+											</tr>
+										</tbody>
+									</table>
+									<table width="106" cellspacing="0" cellpadding="0" border="0" align="left">
+										<tbody>
+											<tr>
+												<td height="1"></td>
+											</tr>
+										</tbody>
+									</table>
+									<table width="200" cellspacing="0" cellpadding="0" border="0" align="right">
+										<tbody>
+											<tr>
+												<td height="20"></td>
+											</tr>
+											<tr>
+												<td>
+													<table style="border:1px solid #ebebeb;border-radius:25px; border-collapse: separate" width="124" height="35" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff" align="center">
+														<tbody>
+															<tr>
+																<td style="color: #b7b7b7; font-size: 12px; font-weight: 600; font-family: 'Open Sans', Helvetica, sans-serif; mso-line-height-rule: exactly;" valign="middle" align="center">
+																	<span>
+														<a href="#"  style="text-decoration: none; color: #b7b7b7;">VISIT WEBSITE</a>
+													</span>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td height="30"></td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td height="10"></td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<table style="background-image: url(#); background-position: top center; background-repeat: no-repeat; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#1c1c1c" background="#" align="center">
+		<tbody>
+			<tr>
+				<td>
+					<table style="margin: 0 auto;" width="600" cellspacing="0" cellpadding="0" border="0" align="center">
+						<tbody>
+							<tr>
+								<td height="30"></td>
+							</tr>
+							<tr>
+								<td>
+									<table style="margin: 0 auto;" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+										<tbody>
+											<tr>
+												<td style="color: #ffffff; font-size: 11px; font-weight: 400; font-family: 'Open Sans', Helvetica, sans-serif; mso-line-height-rule: exactly;" align="left">
+													<span> Copyright 2021</span>
+												</td>
+												<td style="color: #ffffff; font-size: 11px; font-weight: 400; font-family: 'Open Sans', Helvetica, sans-serif; mso-line-height-rule: exactly;" align="right">
+													<span><a href="#"  style="color: #ffffff; text-decoration: none;">Unsubscribe</a></span>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td height="30"></td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+
+</html>

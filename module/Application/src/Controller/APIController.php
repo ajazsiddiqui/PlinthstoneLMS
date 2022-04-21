@@ -23,6 +23,46 @@ class APIController extends AbstractActionController
         $this->entityManager = $entityManager;
         $this->LMSUtilities = $LMSUtilities;
     }
+	
+	public function submitLeadsAction(){
+		$array =[];
+		$get = $_GET;
+		$name = $get['name'] ?? '';
+		$property = $get['property'] ?? '';
+		$email = $get['email'] ?? '';
+		$phone = $get['phone'] ?? '';
+		$configuration = $get['configuration'] ?? '';
+		
+		if(empty($name) || empty($email)){
+			$array['message'] = 'error';
+			return new JsonModel($array);
+		}
+		
+		$lead = new Leads();
+		$lead->setFirstName($name);
+		$lead->setLastName('');
+		$lead->setContact($phone);
+		$lead->setEmail($email);
+		$lead->setState(0);
+		$lead->setCity(0);
+		$lead->setLocation(0);
+		$lead->setConfiguration($configuration);
+		$lead->setProject(25);
+		$lead->setCampaign(10);
+		$lead->setSource(10);
+		$lead->setStatus(1);
+		$lead->setInterested(1);
+		$lead->setRemarks('');
+		$lead->setCreatedBy(1);
+		$this->entityManager->persist($lead);
+		$this->entityManager->flush();
+		
+		$array['message'] = 'sent';
+		
+		return $this->redirect()->toUrl('https://shatrunjay.com/thank-you');
+		
+		//return new JsonModel($array);
+	}
 
 	public function citiesAction(){
 		$id = $this->params()->fromRoute('id');
@@ -70,7 +110,7 @@ class APIController extends AbstractActionController
                   ->setParameter('id', $id);
 		}
 		$leads = $query->getQuery()->getResult();
-		
+	
 		$array =[];
 		$i = 0;
 		foreach ($leads as $lead){
@@ -86,8 +126,10 @@ class APIController extends AbstractActionController
 			$array[$i]['project'] = (int) $lead->getProject();
 			$array[$i]['date_created'] = $lead->getDateCreated();
 			$i++;
+			
+			
 		}
-		
+	
 		return new JsonModel($array);
 	}
     public function facebookAction()

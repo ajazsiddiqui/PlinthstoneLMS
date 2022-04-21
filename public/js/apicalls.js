@@ -2,7 +2,7 @@
   $('#state').change(function() {
       state = $("#state option:selected").val();
       $.ajax({
-          url: 'http://plinthstonerema.co.in/public/api/cities/'+state,
+          url: 'https://plinthstonerema.co.in/public/api/cities/'+state,
           type: 'GET',
           dataType: 'json',
           error: {},
@@ -25,7 +25,7 @@
   $('#smstemplate').change(function(){
 	  id = $(this).val();
 	  $.ajax({
-		  url: 'http://plinthstonerema.co.in/public/api/smstemplates/'+ id,
+		  url: 'https://plinthstonerema.co.in/public/api/smstemplates/'+ id,
 		  type: 'GET',
 		  dataType: 'json',
 		  error:{},
@@ -40,7 +40,7 @@
   $('#emailtemplate').change(function(){
 	  id = $(this).val();
 	  $.ajax({
-		  url: 'http://plinthstonerema.co.in/public/api/emailtemplates/'+id,
+		  url: 'https://plinthstonerema.co.in/public/api/emailtemplates/'+id,
 		  type: 'GET',
 		  dataType: 'json',
 		  error:{},

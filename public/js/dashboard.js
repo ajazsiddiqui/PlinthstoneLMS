@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-	var chart = "http://plinthstonerema.co.in/public/charts/pipeline";
+	var chart = "https://plinthstonerema.co.in/public/charts/pipeline";
 	$.getJSON(chart)
 	  .done(function(data2) {
 
@@ -47,7 +47,7 @@ $(document).ready(function() {
 		var p = '/' + currentp
 	}
 	
-	var chart = "http://plinthstonerema.co.in/public/charts/chart" + p;
+	var chart = "https://plinthstonerema.co.in/public/charts/chart" + p;
 	
 	$.getJSON( chart)
 	.done(function( data2 ) {
@@ -117,7 +117,7 @@ $(document).ready(function() {
 			 });
 	});
 
-	var chart = "http://plinthstonerema.co.in/public/charts/projectchart";
+	var chart = "https://plinthstonerema.co.in/public/charts/projectchart";
 	$.getJSON( chart)
 	.done(function( data) {
 	projectProspectChart = Highcharts.chart('barProjectContainer', {

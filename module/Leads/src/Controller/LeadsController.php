@@ -162,7 +162,7 @@ class LeadsController extends AbstractActionController
             }
 
             $this->flashMessenger()->addSuccessMessage('Lead Added '. $lead_id);
-           return $this->redirect()->toRoute('leads', ['action' => 'index']);
+           //return $this->redirect()->toRoute('leads', ['action' => 'index']);
         }
 
         return new ViewModel(['form' => $form]);

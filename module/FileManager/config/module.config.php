@@ -34,7 +34,7 @@ return [
     'service_manager' => [
         'services' => [
     'file_manager' => [
-        'logger' => "/home/akhuoki2fuyh/public_html/public/error_log.txt",
+        'logger' => "C:/wamp64/www/lms/public/error_log.txt",
     ],
         ],
          ],

@@ -79,7 +79,7 @@ return array(
 	'service_manager' => [
         'services' => [
 	'file_manager' => [
-		'upload_dir' => "/home/akhuoki2fuyh/public_html/public/uploads",
+		'upload_dir' => "C:/wamp64/www/lms/public/uploads",
 	],
         ],
 		 ],

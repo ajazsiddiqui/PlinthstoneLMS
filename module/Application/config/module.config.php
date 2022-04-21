@@ -147,7 +147,7 @@ return [
                 ['actions' => ['chart','projectchart','pipeline'], 'allow' => '*'],
             ],
             Controller\APIController::class => [
-                ['actions' => ['smstemplates','emailtemplates','cities','leads','facebook', 'web'], 'allow' => '*'],
+                ['actions' => ['smstemplates','emailtemplates','cities','leads','facebook', 'web','submitLeads'], 'allow' => '*'],
             ],
             Controller\PrintController::class => [
                 ['actions' => ['flat'], 'allow' => '*'],

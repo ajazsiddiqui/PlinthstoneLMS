@@ -46,7 +46,7 @@ class PasswordResetForm extends Form
                 'label' => 'Human check',
                 'captcha' => [
                     'class' => 'Image',
-                    'imgDir' => '/home/akhuoki2fuyh/public_html/public/img/captcha',
+                    'imgDir' => 'C:/wamp64/www/lms/public/img/captcha',
                     'suffix' => '.png',
                     'imgUrl' => '/public/img/captcha/',
                     'imgAlt' => 'CAPTCHA Image',

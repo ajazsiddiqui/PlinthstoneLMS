@@ -277,7 +277,7 @@ class LMSUtilities
 
     public function flatConfigurationList()
     {
-        $flat_list = ['1'=>'1 BHK','2'=>'2 BHK','3'=>'3 BHK','4'=>'4 BHK',];
+        $flat_list = ['1'=>'1 BHK','10'=>'1.5 BHK','2'=>'2 BHK','3'=>'3 BHK','9'=>'2.5 BHK','4'=>'4 BHK'];
 
         return $flat_list;
     }
