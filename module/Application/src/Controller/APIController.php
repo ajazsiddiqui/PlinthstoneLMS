@@ -28,10 +28,24 @@ class APIController extends AbstractActionController
 		$array =[];
 		$get = $_GET;
 		$name = $get['name'] ?? '';
-		$property = $get['property'] ?? '';
 		$email = $get['email'] ?? '';
 		$phone = $get['phone'] ?? '';
 		$configuration = $get['configuration'] ?? '';
+		$property = $get['property'] ?? 25;
+		
+		switch ($property) {
+		  case 25:
+			$url = 'https://shatrunjay.com/thank-you';
+			break;
+		  case 26:
+			$url = 'https://estado.life/thank-you';
+			break;
+		  case 27:
+			$url = 'https://supernest.co.in/thank-you';
+			break;
+		  default:
+			echo "";
+		}
 		
 		if(empty($name) || empty($email)){
 			$array['message'] = 'error';
@@ -47,7 +61,7 @@ class APIController extends AbstractActionController
 		$lead->setCity(0);
 		$lead->setLocation(0);
 		$lead->setConfiguration($configuration);
-		$lead->setProject(25);
+		$lead->setProject($property);
 		$lead->setCampaign(10);
 		$lead->setSource(10);
 		$lead->setStatus(1);
@@ -59,7 +73,7 @@ class APIController extends AbstractActionController
 		
 		$array['message'] = 'sent';
 		
-		return $this->redirect()->toUrl('https://shatrunjay.com/thank-you');
+		return $this->redirect()->toUrl($url);
 		
 		//return new JsonModel($array);
 	}

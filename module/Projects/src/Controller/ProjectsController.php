@@ -81,7 +81,7 @@ class ProjectsController extends AbstractActionController
                 $logo = (empty($data['logo']['name'])? 0 : $data['logo']['name']);
 
                 if (!empty($data['logo']['name'])) {
-                    $this->setFileNames($data, $this->_dir. DIRECTORY_SEPARATOR);
+                    $this->setFileNames($data, $this->dir. DIRECTORY_SEPARATOR);
                 }
 
                 try {
