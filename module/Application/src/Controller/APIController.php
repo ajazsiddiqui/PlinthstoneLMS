@@ -41,7 +41,7 @@ class APIController extends AbstractActionController
 			$url = 'https://estado.life/thank-you';
 			break;
 		  case 27:
-			$url = 'https://supernest.co.in/thank-you';
+			$url = 'https://codename-superlife.com/thank-you';
 			break;
 		  default:
 			echo "";
