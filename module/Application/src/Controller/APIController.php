@@ -73,9 +73,69 @@ class APIController extends AbstractActionController
 		
 		$array['message'] = 'sent';
 		
+		if((int)$lead->getProject() == 26){
+			$this->sendToBLOX($lead);
+		}
 		return $this->redirect()->toUrl($url);
 		
 		//return new JsonModel($array);
+	}
+	
+	public function sendToBLOX($lead){
+
+		$post_fields = [
+			'first_name'=>$lead->getFirstName(),
+			'last_name'=>'',
+			'contact'=>$lead->getContact(),
+			'email'=>$lead->getEmail(),
+			'configuration'=>$lead->getConfiguration(),
+			'project'=>720,
+			'source'=>'microsite',
+			'utm_source'=>'google',
+			'utm_medium'=>'',
+			'utm_campaign'=>'',
+			'utm_term'=>'',
+			'utm_content'=>'',
+			'referer'=>'',
+			'email_verified'=>'',
+			'contact_verified'=>'',
+			'city'=>'',
+			'budget_min'=>'',
+			'budget_max'=>'',
+			'pincode'=>'',
+			'comment'=>''
+		];
+
+		$curl = curl_init();
+			$ua = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/0.A.B.C Safari/525.13';
+			curl_setopt_array($curl, array(
+			CURLOPT_URL => "https://blox.xyz/webhooks/marketingleads",
+			CURLOPT_RETURNTRANSFER => true,
+			CURLOPT_ENCODING => '',
+			CURLOPT_MAXREDIRS => 10,
+			CURLOPT_VERBOSE => true,
+			CURLOPT_USERAGENT => $ua,
+			CURLOPT_TIMEOUT => 0,
+			CURLOPT_FOLLOWLOCATION => true,
+			CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+			CURLOPT_CUSTOMREQUEST => 'POST',
+			CURLOPT_POSTFIELDS => $post_fields,
+			CURLOPT_SSL_VERIFYHOST => 0,
+			CURLOPT_SSL_VERIFYPEER => 0,
+		  CURLOPT_HTTPHEADER => array(
+			'Authorization: Bearer 8|8UAJrSC5tzOWHDMH0Od2Ilj7ioXgyBaFAmbuu0rX',
+		  )
+		));
+
+		$response = curl_exec($curl);
+		
+//		if(curl_errno($curl))
+	//		echo 'Curl error: '.curl_error($curl);
+
+		//print_r($response);die();
+		curl_close($curl);
+		
+		return;
 	}
 
 	public function citiesAction(){
