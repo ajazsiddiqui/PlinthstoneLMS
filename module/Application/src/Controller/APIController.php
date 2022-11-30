@@ -32,7 +32,7 @@ class APIController extends AbstractActionController
 		$phone = $get['phone'] ?? '';
 		$configuration = $get['configuration'] ?? '';
 		$property = $get['property'] ?? 25;
-		
+	
 		switch ($property) {
 		  case 25:
 			$url = 'https://shatrunjay.com/thank-you';
@@ -42,6 +42,9 @@ class APIController extends AbstractActionController
 			break;
 		  case 27:
 			$url = 'https://codename-superlife.com/thank-you';
+			break;
+		case 719:
+			$url = 'https://passcodebiglife.com/thank-you';
 			break;
 		  default:
 			echo "";
@@ -73,15 +76,15 @@ class APIController extends AbstractActionController
 		
 		$array['message'] = 'sent';
 		
-		if((int)$lead->getProject() == 26){
-			$this->sendToBLOX($lead);
+		if((int)$lead->getProject() == 719){
+			$this->sendToBLOX($lead,$get);
 		}
 		return $this->redirect()->toUrl($url);
 		
 		//return new JsonModel($array);
 	}
 	
-	public function sendToBLOX($lead){
+	public function sendToBLOX($lead, $get){
 
 		$post_fields = [
 			'first_name'=>$lead->getFirstName(),
@@ -89,12 +92,14 @@ class APIController extends AbstractActionController
 			'contact'=>$lead->getContact(),
 			'email'=>$lead->getEmail(),
 			'configuration'=>$lead->getConfiguration(),
-			'project'=>720,
+			'project'=>719,
 			'source'=>'microsite',
-			'utm_source'=>'google',
-			'utm_medium'=>'',
-			'utm_campaign'=>'',
-			'utm_term'=>'',
+			'utm_source'=>$get['utm_source'] ?? '',
+			'utm_medium'=>$get['utm_medium'] ?? '',
+			'utm_campaign'=>$get['utm_campaign'] ?? '',
+			'utm_term'=>$get['utm_term'] ?? '',
+			'utm_adgroup'=>$get['utm_adgroup'] ?? '',
+			'placement'=>$get['placement'] ?? '',
 			'utm_content'=>'',
 			'referer'=>'',
 			'email_verified'=>'',
@@ -123,7 +128,7 @@ class APIController extends AbstractActionController
 			CURLOPT_SSL_VERIFYHOST => 0,
 			CURLOPT_SSL_VERIFYPEER => 0,
 		  CURLOPT_HTTPHEADER => array(
-			'Authorization: Bearer 8|8UAJrSC5tzOWHDMH0Od2Ilj7ioXgyBaFAmbuu0rX',
+			'Authorization: Bearer 40|RVDStNmH4O7A2BIpGGeasavhv9EttSdrQZvOjhMD',
 		  )
 		));
 
