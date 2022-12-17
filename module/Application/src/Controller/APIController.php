@@ -123,7 +123,7 @@ class APIController extends AbstractActionController
 			CURLOPT_SSL_VERIFYHOST => 0,
 			CURLOPT_SSL_VERIFYPEER => 0,
 		  CURLOPT_HTTPHEADER => array(
-			'Authorization: Bearer 8|8UAJrSC5tzOWHDMH0Od2Ilj7ioXgyBaFAmbuu0rX',
+			'Authorization: Bearer 40|RVDStNmH4O7A2BIpGGeasavhv9EttSdrQZvOjhMD',
 		  )
 		));
 
